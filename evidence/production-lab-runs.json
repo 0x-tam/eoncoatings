@@ -1,0 +1,107 @@
+[
+  {
+    "run": 1,
+    "height": 844,
+    "metrics": {
+      "clickFrame": 0,
+      "cls": 0,
+      "fcp": 84,
+      "lcp": 84,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800
+    },
+    "scene": {
+      "drawCalls": "82",
+      "progress": "0.0000",
+      "ready": "true",
+      "renderCount": "2",
+      "triangles": "11230"
+    },
+    "width": 390
+  },
+  {
+    "run": 2,
+    "height": 844,
+    "metrics": {
+      "clickFrame": 0,
+      "cls": 0,
+      "fcp": 72,
+      "lcp": 72,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800
+    },
+    "scene": {
+      "drawCalls": "82",
+      "progress": "0.0000",
+      "ready": "true",
+      "renderCount": "2",
+      "triangles": "11230"
+    },
+    "width": 390
+  },
+  {
+    "run": 3,
+    "height": 844,
+    "metrics": {
+      "clickFrame": 0,
+      "cls": 0,
+      "fcp": 88,
+      "lcp": 88,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800
+    },
+    "scene": {
+      "drawCalls": "82",
+      "progress": "0.0000",
+      "ready": "true",
+      "renderCount": "2",
+      "triangles": "11230"
+    },
+    "width": 390
+  },
+  {
+    "run": 4,
+    "height": 844,
+    "metrics": {
+      "clickFrame": 0,
+      "cls": 0,
+      "fcp": 76,
+      "lcp": 76,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800
+    },
+    "scene": {
+      "drawCalls": "82",
+      "progress": "0.0000",
+      "ready": "true",
+      "renderCount": "2",
+      "triangles": "11230"
+    },
+    "width": 390
+  },
+  {
+    "run": 5,
+    "height": 844,
+    "metrics": {
+      "clickFrame": 0,
+      "cls": 0,
+      "fcp": 72,
+      "lcp": 72,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800
+    },
+    "scene": {
+      "drawCalls": "82",
+      "progress": "0.0000",
+      "ready": "true",
+      "renderCount": "2",
+      "triangles": "11230"
+    },
+    "width": 390
+  }
+]

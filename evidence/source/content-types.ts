@@ -1,0 +1,2 @@
+export interface Category { id:number; slug:string; name:string }
+export interface ContentRecord { id:number; kind:string; slug:string; url:string; title:string; date:string; modified:string; author:{id:number;name:string;url:string}|null; categories:Category[]; excerptHtml:string; contentHtml:string; contentText:string; featuredMedia:{id:number;url:string;alt:string}|null; headings:{level:number;text:string}[]; links:string[]; images:Record<string,string>[] }

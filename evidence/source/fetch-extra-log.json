@@ -1,0 +1,80 @@
+[
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-posts-post-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-post-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-posts-page-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-page-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-posts-elementor-hf-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-elementor-hf-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-posts-service-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-service-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-posts-industry-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-industry-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-taxonomies-category-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-taxonomies-category-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-taxonomies-post_tag-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-taxonomies-post_tag-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/wp-sitemap-users-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-users-1.xml",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/types.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/types?per_page=100",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/service.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/service?per_page=100",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/industry.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/industry?per_page=100",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/../assets/header-logo.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/eon_logo_original1-01-scaled.png",
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "file": "/private/tmp/eon-research/raw/../assets/footer-logo.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/footer_logo.png",
+    "exit": 0,
+    "error": ""
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "A01",
+    "name": "duct-hero",
+    "prompt": "Use case: product-mockup. Create an original photoreal architectural product photograph for an EON website hero. Landscape 16:10. A realistic rectangular galvanised HVAC duct segment approximately 1.6m long x .72m wide x .56m high, thin folded sheet steel seams, believable bolted end flanges, one closed access hatch and subtle fasteners. Three-quarter view slightly above front, visible open rectangular end showing dark clean inner sheet metal. Object occupies center and right, substantial clean negative space left. Warm chalk seamless studio backdrop near #F3F1EA, broad neutral soft light, subtle grounded shadow. Restrained silver, warm chalk and dark navy shadow palette, fine zinc spangle and slight realistic material imperfections. Sophisticated editorial product photography, physically believable lightweight sheet metal construction, not a concrete box, not an industrial machine. No people, logos, signs, text, branding, glowing effects, watermarks.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-d01d3941-d1eb-43e6-8d1a-a3fd7e6a9abf.png",
+    "master": "/private/tmp/eon-images/masters/A01-duct-hero.png",
+    "webp": "/private/tmp/eon-images/webp/A01-duct-hero.webp",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 99740
+  },
+  {
+    "id": "T01",
+    "name": "desktop-target",
+    "prompt": "Use case: ui-mockup. Create ONE finished desktop website visual target, 1440x900 composition, for EON. Reference image 1 is the hero object reference: preserve this believable rectangular galvanised steel HVAC duct, open end, access hatch, thin sheet construction, proportions. Warm chalk #F3F1EA seamless page. Top left simple EON text, top right small teal rounded 'Book a consultation' button and 'Menu'. Main headline in ink navy elegant contemporary sans serif, large but restrained on left third: 'A closer look at your air.' with three clean lines. Below it small readable copy 'Care for the spaces you live in.' and small 'Explore air care' text link. The reference duct dominates center right 60 percent, softly grounded photograph smoothly integrated into page, no image boundary. At bottom subtle thin hairline and small chapter navigation '01 Air care' '02 Surface protection' '03 Our approach'. Warm quiet high end architectural editorial art direction, generous whitespace, refined typography. No decorative blobs, no invented logo, no other text, no em dash. This is a visual design reference, not code.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-6d6a0df8-02d1-41c8-b9b5-78c069496bc2.png",
+    "master": "/private/tmp/eon-images/masters/T01-desktop-target.png",
+    "webp": "/private/tmp/eon-images/webp/T01-desktop-target.webp",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "viewport_export": "/private/tmp/eon-images/targets/T01-desktop-target.png",
+    "viewport_dimensions": [
+      1440,
+      900
+    ],
+    "webp_bytes": 130130
+  },
+  {
+    "id": "A02",
+    "name": "duct-interior",
+    "prompt": "Use case: photorealistic-natural. Original editorial architectural photograph for EON air care, landscape 4:3. View into a real rectangular galvanised HVAC duct at human inspection scale. Detailed moderate accumulated grey dust on inner bottom surface and folded metal seams, fine particles and soft streaks, no mould or theatrical contamination. Straight believable rectangular sheet steel interior with natural perspective, darkening softly into depth. Soft neutral inspection light from opening, restrained silver warm grey palette matching warm chalk architectural photography. Physically accurate thin folded metal, tiny imperfections. No people, tools, text, logos, signs, glow, watermarks.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-a3ac0c25-8bfd-4f49-8eae-9401f802b8c5.png",
+    "master": "/private/tmp/eon-images/masters/A02-duct-interior.png",
+    "webp": "/private/tmp/eon-images/webp/A02-duct-interior.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 272322
+  },
+  {
+    "id": "A03",
+    "name": "residential-room",
+    "prompt": "Use case: photorealistic-natural. Original architectural editorial photograph for EON, landscape 16:9. Calm contemporary UAE residential living room, modest refined scale, warm chalk walls, pale stone floor, natural oak details, low cream woven sofa, minimal coffee table. Clear realistic slim linear AC diffuser integrated along upper wall near ceiling with physically plausible grille proportions. Soft neutral natural daylight through sheer curtains, slight fabric imperfections, restrained warm chalk, stone, timber, silver palette. Actual inviting lived-in architectural photography, beautiful composition, realistic furniture and construction, no palace opulence. No people, logos, signs, text, branding, invented client, glowing effects, watermark.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-b2c2b407-3a40-4b58-934b-916b1acdcf0f.png",
+    "master": "/private/tmp/eon-images/masters/A03-residential-room.png",
+    "webp": "/private/tmp/eon-images/webp/A03-residential-room.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 227758
+  },
+  {
+    "id": "A04",
+    "name": "commercial-lounge",
+    "prompt": "Use case: photorealistic-natural. Original architectural editorial photograph for EON, landscape 16:9. A modest premium contemporary UAE commercial lounge with two refined lounge chairs and a sofa in natural neutral fabric, simple oak side tables, pale stone floor, warm chalk walls, shaded full height windows. Realistic slim linear ventilation grille integrated into the ceiling clearly visible and sensibly located. Soft neutral daylight, balanced architectural perspective, subtle material imperfections, restrained warm chalk stone timber silver palette. Understated believable business interior without hotel grandeur. No people, logos, signage, text, watermarks, branding or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-6cabc8d1-c6b9-4082-8cac-feb4c6e362cb.png",
+    "master": "/private/tmp/eon-images/masters/A04-commercial-lounge.png",
+    "webp": "/private/tmp/eon-images/webp/A04-commercial-lounge.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 222250
+  },
+  {
+    "id": "A06",
+    "name": "metal-handle",
+    "prompt": "Use case: photorealistic-natural. Original architectural material photograph for EON surface protection, landscape 4:3. Close detail of one beautiful simple brushed stainless steel lever door handle, realistically mounted on a round rose on a pale natural oak door, visible fine horizontal brushed grain, believable geometry and subtle touch wear. Three-quarter intimate eye level editorial detail, soft neutral side daylight, quiet warm chalk blurred wall background, refined restrained silver and timber palette. Crisp tactile material at realistic scale, gentle depth of field. No people, hands, logos, text, signs, branding, watermarks or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-ce4470fb-efc0-4cfc-aadc-4e12a3ea4410.png",
+    "master": "/private/tmp/eon-images/masters/A06-metal-handle.png",
+    "webp": "/private/tmp/eon-images/webp/A06-metal-handle.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 111386
+  },
+  {
+    "id": "A07",
+    "name": "woven-upholstery",
+    "prompt": "Use case: photorealistic-natural. Original architectural material editorial photograph for EON, landscape 4:3. Close tactile study of warm ivory woven linen blend upholstery on a contemporary sofa arm and cushion corner, weave at realistic scale, finely sewn seam and soft slight creases. Enough sofa context to identify furniture, blurred warm chalk living room with pale timber in background. Soft neutral daylight across textile, gentle depth of field, refined material detail with believable imperfections, restrained warm chalk stone and timber palette. No people, logos, signs, text, branding, watermarks or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-883b8a00-d0e8-46e5-88f5-de3eb0e9397e.png",
+    "master": "/private/tmp/eon-images/masters/A07-woven-upholstery.png",
+    "webp": "/private/tmp/eon-images/webp/A07-woven-upholstery.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 307178
+  },
+  {
+    "id": "A08",
+    "name": "marble-countertop",
+    "prompt": "Use case: photorealistic-natural. Original architectural editorial material photograph for EON, landscape 4:3. Elegant close view of a warm white marble kitchen countertop edge, subtle organic grey beige veining, honed finish, realistic 30mm thickness with softly eased edge. Surface and front edge visible at gentle three-quarter angle, light oak cabinetry beneath, blurred warm chalk kitchen beyond. Soft neutral daylight, realistic stone grain and tiny imperfections, restrained warm chalk stone timber palette, credible joinery and material scale. No people, logos, signs, text, branding, watermarks, spills, treatment demonstrations or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-e8fedba2-8f7b-420c-9ba5-3780e9fd995f.png",
+    "master": "/private/tmp/eon-images/masters/A08-marble-countertop.png",
+    "webp": "/private/tmp/eon-images/webp/A08-marble-countertop.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 118018
+  },
+  {
+    "id": "A09",
+    "name": "carpet-interior",
+    "prompt": "Use case: photorealistic-natural. Original architectural interior photograph for EON, landscape 4:3. Low editorial viewpoint in a clean believable contemporary residential living room, beautiful light taupe wool carpet in foreground with authentic fine pile texture, lower portion of cream upholstered sofa and an understated natural oak lounge chair visible for context. Warm chalk walls, sheer daylight from side window, soft neutral light, gentle realistic shadows. Calm maintained interior with subtle natural fabric imperfections and believable scale. Restrained warm chalk stone timber palette. No people, logos, signs, text, branding, watermarks, cleaning equipment or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-e113dc26-269c-41af-a3f8-cc3918e8363c.png",
+    "master": "/private/tmp/eon-images/masters/A09-carpet-interior.png",
+    "webp": "/private/tmp/eon-images/webp/A09-carpet-interior.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 282596
+  },
+  {
+    "id": "A10",
+    "name": "mattress-bedroom",
+    "prompt": "Use case: photorealistic-natural. Original architectural editorial photograph for EON mattress care, landscape 4:3. Calm contemporary bedroom detail focused on a clean off-white mattress corner, fine realistic quilted cotton texture and neatly piped edge visible, duvet folded back naturally to reveal mattress at foot of bed. Pale oak bed frame, muted upholstered headboard and simple bedside table in background. Soft neutral natural daylight through sheer curtain, warm chalk walls, realistic fabric creases, believable ordinary premium bedroom scale. Restrained warm chalk timber stone palette. No people, logos, labels, signs, text, branding, watermarks, cleaning equipment or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-f940a456-657f-4590-9862-6744019a136d.png",
+    "master": "/private/tmp/eon-images/masters/A10-mattress-bedroom.png",
+    "webp": "/private/tmp/eon-images/webp/A10-mattress-bedroom.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 195448
+  },
+  {
+    "id": "A11",
+    "name": "stone-facade",
+    "prompt": "Use case: photorealistic-natural. Original architectural editorial photograph for EON exterior surface protection, landscape 4:3. Detail of contemporary UAE residential exterior facade built in pale warm limestone panels, fine natural stone pores and restrained subtle veining, precise believable panel joints and a recessed shadow reveal beside a dark bronze framed window. Partial palm shadow lightly falls across wall, soft neutral daylight with realistic desert brightness but no orange cast. Intimate architectural material framing, slight natural surface imperfections, warm chalk and stone palette. No people, logos, signs, text, branding, watermarks, landmark imitation or glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-bd7ea87c-5eae-4df0-8b1e-897f9b39b273.png",
+    "master": "/private/tmp/eon-images/masters/A11-stone-facade.png",
+    "webp": "/private/tmp/eon-images/webp/A11-stone-facade.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 212608
+  },
+  {
+    "id": "A12",
+    "name": "ceiling-diffuser",
+    "prompt": "Use case: photorealistic-natural. Original quiet architectural editorial photograph for EON air care, landscape 3:2. Close upward composition showing a realistic white slim linear AC ceiling diffuser with three narrow dark slots inset neatly in an off-white plaster ceiling close to the wall junction. Short portion of pale oak vertical wall panel and sheer curtain at edge provide interior context. Actual believable ventilation construction, precise straight slots, delicate material texture and tiny natural imperfections. Soft neutral daylight, warm chalk, pale timber and silver palette, quiet geometric composition with substantial negative space. No people, logos, text, signs, branding, watermarks or visual airflow glow.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-dd82b7f4-da5c-4baa-865f-c29e1d8fc6e5.png",
+    "master": "/private/tmp/eon-images/masters/A12-ceiling-diffuser.png",
+    "webp": "/private/tmp/eon-images/webp/A12-ceiling-diffuser.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 87506
+  },
+  {
+    "id": "T02",
+    "name": "mobile-target",
+    "prompt": "Use case: ui-mockup. Create ONE mobile website composition for EON, portrait aspect ratio 390:844, designed as a 390x844 CSS pixel viewport without phone frame. Reference image 1 is the selected desktop visual direction. Translate faithfully for narrow mobile: warm chalk #F3F1EA page, ink navy contemporary sans serif. Simple EON text top left, 'Menu' top right. Headline upper area left aligned with generous margins reading exactly 'A closer look at your air.' across three lines. Small sentence 'Care for the spaces you live in.' then teal button 'Book a consultation'. Below this, a large realistic rectangular galvanised HVAC duct from the reference, open front end, thin steel flanges and access hatch, three-quarter view, elegantly spanning mobile width with clear breathing room. Bottom small chapter navigation '01 Air care' '02 Surfaces' '03 Approach'. All fits viewport with clean readable text, small header, quiet high end architectural editorial layout. No invented logo, no device, no extra text, no em dash.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-86b17389-3ae0-445b-a34a-976caaaa42a6.png",
+    "master": "/private/tmp/eon-images/masters/T02-mobile-target.png",
+    "webp": "/private/tmp/eon-images/webp/T02-mobile-target.webp",
+    "dimensions": [
+      853,
+      1844
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "viewport_export": "/private/tmp/eon-images/targets/T02-mobile-target.png",
+    "viewport_dimensions": [
+      390,
+      844
+    ],
+    "webp_bytes": 120714
+  },
+  {
+    "id": "T03",
+    "name": "exploded-duct-target",
+    "prompt": "Use case: product-mockup. Original architectural product image for EON, landscape 16:10, reference image 1 defines exact rectangular galvanised HVAC duct hero construction and lighting. Produce an exploded view target of this SAME duct: top rectangular sheet metal panel with closed hatch is lifted straight upward a short clear distance, left long side panel moved slightly outwards to reveal the plain hollow clean sheet metal interior and folded seams. Preserve front and rear end flange rectangular shape, correct thin sheet metal thickness and consistent three-quarter perspective. Exploded components remain aligned along assembly axes, three main components only, no fan, filter or invented equipment. Broad soft neutral studio lighting, seamless warm chalk #F3F1EA backdrop, restrained zinc silver with grounded diffuse shadows. Photoreal tangible material, fine zinc spangle, subtle imperfections. No labels, text, arrows, logos, people, watermarks, glowing effects.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-f58f54c3-a6f2-4eb7-8573-824f9b05bb81.png",
+    "master": "/private/tmp/eon-images/masters/T03-exploded-duct-target.png",
+    "webp": "/private/tmp/eon-images/webp/T03-exploded-duct-target.webp",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated image. Not documentary evidence of client work.",
+    "inspected": true,
+    "webp_bytes": 141374
+  }
+]

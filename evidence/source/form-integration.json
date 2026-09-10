@@ -1,0 +1,28 @@
+{
+  "provider": "Contact Form 7",
+  "version": "6.1.7",
+  "formId": 6101,
+  "sourceUrl": "https://eoncoatings.com/contact-us/",
+  "sourceAction": "/contact-us/#wpcf7-f6101-p6096-o1",
+  "apiRoot": "https://eoncoatings.com/wp-json/",
+  "namespace": "contact-form-7/v1",
+  "inferredFeedbackEndpoint": "https://eoncoatings.com/wp-json/contact-form-7/v1/contact-forms/6101/feedback",
+  "fields": {
+    "name": "text-239",
+    "type": "radio-86",
+    "company": "text-216",
+    "phone": "tel-22",
+    "email": "email-929",
+    "message": "textarea-756"
+  },
+  "antiBot": [
+    "Contact Form 7 Image CAPTCHA: dynamic human-selected icon challenge",
+    "kc_honeypot"
+  ],
+  "companyCondition": "radio-86 equals Business",
+  "verifiedDelivery": false,
+  "ownerConfigurationRequired": [
+    "Preserve a live WordPress Contact Form 7 backend, form 6101, its mail recipient/SMTP and anti-bot plugins, or configure a replacement verified server endpoint.",
+    "Cross-origin permissions and live delivery require owner validation. Do not copy the observed captcha answer or claim email sent without verified successful backend response."
+  ]
+}
