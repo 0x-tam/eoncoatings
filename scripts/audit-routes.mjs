@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 const data=JSON.parse(fs.readFileSync('lib/eon/source-content.json','utf8'));
-const paths=['/',...['posts','pages','services','industries'].flatMap(k=>data[k].filter(r=>r.slug!=='home').map(r=>new URL(r.url).pathname)),...data.categories.map(c=>`/category/${c.slug}/`),'/contact-us-1/'];
+const paths=['/','/inside-the-air/',...['posts','pages','services','industries'].flatMap(k=>data[k].filter(r=>r.slug!=='home').map(r=>new URL(r.url).pathname)),...data.categories.map(c=>`/category/${c.slug}/`),'/contact-us-1/'];
 const origin=process.argv[2]||'http://localhost:5173';const results=[];const seenAssets=new Set();
 for(let i=0;i<paths.length;i+=4){await Promise.all(paths.slice(i,i+4).map(async path=>{const res=await fetch(origin+path);const html=await res.text();const h1s=(html.match(/<h1[ >]/g)||[]).length;const badPunctuation=/\u2014|&mdash;|&#8212;|&#x2014;/i.test(html);for(const m of html.matchAll(/(?:src|href)="(\/(?:images|model|fonts)\/[^"?#]+)"/g))seenAssets.add(m[1]);results.push({path,status:res.status,finalUrl:res.url,h1s,badPunctuation,title:html.match(/<title>(.*?)<\/title>/)?.[1],canonical:html.match(/rel="canonical" href="([^"]+)"/)?.[1],bytes:Buffer.byteLength(html)});}));}
 const assetResults=[];for(const path of seenAssets){const res=await fetch(origin+path,{method:'HEAD'});assetResults.push({path,status:res.status});}

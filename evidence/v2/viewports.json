@@ -1,0 +1,58 @@
+[
+  {
+    "canvas": 0,
+    "height": 900,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "canvas": 0,
+    "height": 1080,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 1920
+  },
+  {
+    "canvas": 0,
+    "height": 800,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 1280
+  },
+  {
+    "canvas": 0,
+    "height": 768,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "canvas": 0,
+    "height": 1024,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "canvas": 0,
+    "height": 844,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "canvas": 0,
+    "height": 800,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 360
+  },
+  {
+    "canvas": 0,
+    "height": 390,
+    "heroCopyOverflow": false,
+    "overflow": false,
+    "width": 844
+  }
+]

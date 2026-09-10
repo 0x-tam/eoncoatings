@@ -60,3 +60,7 @@ Seven service and four industry detail pages are public. Their complete body HTM
 - [Hospitality](https://eoncoatings.com/industries/hospitality/)
 
 Source privacy policy is unedited WordPress Suggested text boilerplate; the owner should supply an applicable policy. /sitemap_index.xml returns 404; /wp-sitemap.xml returns 200. Posts page=2 returns HTTP 400 invalid page, confirming all 20 published articles were retrieved.
+
+## Redesign route and presentation changes
+
+The catalogue retains all seven established categories and a distinct AC cleaning/sanitisation pathway. The homepage presents all categories visually, with protection and cleaning filters. Every service detail now includes an original illustrative use case, material detail, relevant settings and treatment questions. Four sector routes now lead with curated sector-specific introductions and relevant service links, retaining original company copy in a disclosure. The interactive duct study moves to /inside-the-air/; the homepage links to it without loading WebGL. Total route audit: 48 routes including aliases and category redirects. Source archive content remains preserved.

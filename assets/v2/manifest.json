@@ -1,0 +1,116 @@
+[
+  {
+    "id": "V201",
+    "name": "residential-hero",
+    "prompt": "Use case: photorealistic-natural. Original sophisticated editorial architectural photography for EON website, 2400x1400 landscape composition. Cinematic premium contemporary Abu Dhabi living space at golden hour, sculptural honed travertine coffee table and stone elements, dark walnut joinery, long richly textured linen sofa, tactile woven rug, restrained bronze accents, tall glass overlooking palms. Strong sculptural natural light and elongated shadows, rich warm olive, ochre and caramel tones with tonal depth. Livable, intentional interior with a few thoughtfully placed books and ceramics, not an empty beige showroom. Broad room demonstrates stone, textile, glass and air care, discreet realistic linear ventilation integrated into architecture. Main visual interest center and right, left third darker and visually quiet to support a large white editorial headline added later. Authentic premium architectural photography with physically believable furnishings, natural texture, subtle imperfections and coherent lighting. No people, text, logos, signs, watermarks, oversaturated orange filter, sterile generic beige styling or surreal geometry. Illustrative invented space, no actual client project claim.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-99d794b8-e2bc-48e9-ad3a-b673790bab20.png",
+    "master": "/private/tmp/eon-v2-images/masters/V201-residential-hero.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V201-residential-hero.webp",
+    "dimensions": [
+      1642,
+      958
+    ],
+    "webp_bytes": 309312,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  },
+  {
+    "id": "V202",
+    "name": "stone-water-detail",
+    "prompt": "Use case: photorealistic-natural. Original sophisticated editorial material photograph for EON protection story. Landscape 1600x1200 composition, 4:3. Exquisite honed green-gray and ivory marble counter macro, sculptural materially rich closeup with real pores, organic mineral veins and a precisely finished edge visible. Several clear ordinary water droplets resting on stone, realistic varied droplets and small damp traces, no exaggerated hydrophobic effect or performance demonstration. Warm side lighting rakes across surface to reveal tactile grain, deep olive gray mineral accents with ivory stone and subtle caramel reflections, rich tonal contrast. Premium photographic optics and selective depth of field, physically real material scale, quiet blurred architectural context. No people, text, logos, watermark, before-and-after comparison, magical beading, miracle claim or glowing effects. Explicitly illustrative original scene.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-9fc912e6-9929-4d05-bad3-f7fa994ae51e.png",
+    "master": "/private/tmp/eon-v2-images/masters/V202-stone-water-detail.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V202-stone-water-detail.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 228832,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  },
+  {
+    "id": "V203",
+    "name": "hospitality-lounge",
+    "prompt": "Use case: photorealistic-natural. Original sophisticated editorial architectural photograph for EON, 1600x1200 landscape 4:3 composition. Refined contemporary UAE hotel lounge, visibly a hospitality space rather than a residence. Deep cognac leather seating grouped in intimate clusters, sculptural pale stone reception desk in middle distance, restrained brushed bronze touchpoints and screens, tall double height windows cast patterned late afternoon sunlight across an olive-gray stone floor. Rich warm caramel, walnut and bronze tones balanced by natural cool stone shadows. Subtle hotel circulation and durable furniture detail, premium yet believable scale, distinctive architecture with lived-in material texture and small imperfections. Professional magazine photograph, physically coherent furnishings and rich tonal depth. No people, text, logos, signs, watermarks, empty generic beige showroom or surreal geometry. Illustrative invented space, not an actual EON project claim.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-aeb982e1-2a94-4277-887a-ed4f41217288.png",
+    "master": "/private/tmp/eon-v2-images/masters/V203-hospitality-lounge.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V203-hospitality-lounge.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 322146,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  },
+  {
+    "id": "V204",
+    "name": "coffee-spill",
+    "prompt": "Use case: photorealistic-natural. Original illustrative editorial photograph showing an everyday upholstery care need, 1600x1200 landscape 4:3 composition. Intimate closeup of a small fresh coffee spill soaking naturally into the cream woven linen seat cushion of a sophisticated contemporary sofa. Irregular modest brown damp patch with real textile absorption and sharp detailed weave, not a giant stain. Ceramic coffee cup sits on adjacent dark walnut side table within the composition. Warm rich side daylight, olive and caramel room accents softly out of focus, tactile threads and believable stitched seams, strong but natural tonal depth. Authentic magazine photography, material realism. No people, text, logos, watermark, miraculous liquid beading, before-and-after comparison, performance guarantee or cleaning graphics. Explicitly illustrative scene, not an actual service result.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-f858d8c7-ad64-467e-9a82-9ce599b28153.png",
+    "master": "/private/tmp/eon-v2-images/masters/V204-coffee-spill.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V204-coffee-spill.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 331736,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  },
+  {
+    "id": "V205",
+    "name": "bronze-touchpoint",
+    "prompt": "Use case: photorealistic-natural. Original illustrative editorial photograph of an everyday high-touch surface use case for EON, 1600x1200 landscape 4:3 composition. Closeup of one anatomically natural adult hand gently gripping a vertically mounted brushed bronze office door pull. Show physically correct fingers wrapping around handle with realistic skin and contact, forearm partly visible, no face or full person. Refined contemporary glass office softly blurred behind, dark walnut and warm olive-gray stone details, late afternoon side daylight creates beautiful bronze reflections and tactile fine brushed finish. Sophisticated warm rich editorial photography, caramel and bronze tones with realistic shadow depth, credible scale and hardware mounting. No text, logos, signs, watermarks, germ graphics, glow, hygiene guarantees or before-and-after effect. Explicitly illustrative scene.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-14cffb45-8948-4f24-bbc3-304ac04eb587.png",
+    "master": "/private/tmp/eon-v2-images/masters/V205-bronze-touchpoint.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V205-bronze-touchpoint.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 184708,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  },
+  {
+    "id": "V206",
+    "name": "carpet-extraction",
+    "prompt": "Use case: photorealistic-natural. Original illustrative editorial service photograph for EON, 1600x1200 landscape 4:3 composition. Low closeup of a realistic unbranded professional compact upholstery extractor nozzle being used to clean patterned hotel corridor carpet. Transparent extraction head with a flat wide suction lip held firmly flush against carpet pile, connected to a plausible corrugated vacuum hose and narrow solution tube. Only operator's anatomically correct gloved hands and a little forearm visible; one hand holds the handle naturally. Exact nozzle contact point crisply visible, physically plausible working position. Rich patterned olive-gray and caramel corridor carpet, dark walnut door frames softly blurred in background. Warm natural side light and refined professional editorial photographic detail, believable fibres and subtle dampness, no dramatic clean stripe. No faces, text, logos, branding, watermark, floating tool, excessive foam, steam, before-and-after split or miracle effects. Illustrative scene, not a recorded EON service.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-52e7aa5d-25a7-486c-8e32-0a789634e51e.png",
+    "master": "/private/tmp/eon-v2-images/masters/V206-carpet-extraction-final.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V206-carpet-extraction.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 255060,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted.",
+    "first_master": "/private/tmp/eon-v2-images/masters/V206-carpet-extraction.png",
+    "edit_prompt": "Precise object edit. Preserve this editorial carpet extraction photograph, tool geometry, nozzle flat contact on carpet, gloved hands, forearms, hose, warm lighting, patterned carpet and corridor. Remove ONLY the visible black-clothed knees/body behind the hands at upper left and replace with continuous plausible patterned carpet and corridor background. Crop framing remains 4:3, only gloved hands and short forearms of operator may be visible, no other body parts. Preserve all other details and do not add text or branding."
+  },
+  {
+    "id": "V207",
+    "name": "mattress-care",
+    "prompt": "Use case: photorealistic-natural. Original illustrative editorial photograph for EON mattress care, 1600x1200 landscape 4:3 composition. Premium bedroom intimate detail of a clean off-white mattress corner with realistic fine quilted texture and piped edge. Two anatomically correct adult hands gently peel and fold back the elastic corner of a cream fitted sheet to reveal the mattress; hands and short forearms only, no face or body. Fabric tension and folds physically plausible, tactile cotton fibres sharply resolved. Dark walnut bed frame and bedside table with sculptural ceramic lamp in soft background, warm olive linen cushion and caramel textile accents. Warm rich side daylight, sophisticated editorial photography with dimensional shadows and authentic material imperfections. No logos, labels, text, watermarks, miracle-cleaning comparison, glowing effects, stains or misleading hygiene guarantees. Illustrative original scene, not a recorded EON service.",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d56-e18a-7512-b892-9ae474be06b4/exec-5ff6a0e4-d4a4-4fb8-a0b7-c444dcfe4714.png",
+    "master": "/private/tmp/eon-v2-images/masters/V207-mattress-care.png",
+    "webp": "/private/tmp/eon-v2-images/webp/V207-mattress-care.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "webp_bytes": 275798,
+    "method": "Built-in image_gen",
+    "provenance": "Original AI-generated illustrative scene. Not an actual EON project or recorded service result.",
+    "inspection": "Visually inspected: composition, material detail, geometry and visible anatomy accepted."
+  }
+]

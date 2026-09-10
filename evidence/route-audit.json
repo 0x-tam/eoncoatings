@@ -1,16 +1,16 @@
 {
   "origin": "http://127.0.0.1:5174",
-  "at": "2026-09-10T22:48:25.219Z",
+  "at": "2026-09-10T23:24:46.014Z",
   "routes": [
     {
-      "path": "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "path": "/inside-the-air/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "finalUrl": "http://127.0.0.1:5174/inside-the-air/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi | EON Coatings",
-      "canonical": "https://eoncoatings.com/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
-      "bytes": 35742
+      "title": "Inside the Air | Interactive Duct Study | EON Coatings",
+      "canonical": "https://eoncoatings.com/",
+      "bytes": 22185
     },
     {
       "path": "/why-is-regular-ac-sanitisation-important-in-the-uae/",
@@ -20,7 +20,17 @@
       "badPunctuation": false,
       "title": "Why is Regular AC Sanitisation Important in the UAE? | EON Coatings",
       "canonical": "https://eoncoatings.com/why-is-regular-ac-sanitisation-important-in-the-uae/",
-      "bytes": 33775
+      "bytes": 34849
+    },
+    {
+      "path": "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi | EON Coatings",
+      "canonical": "https://eoncoatings.com/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "bytes": 36734
     },
     {
       "path": "/",
@@ -28,9 +38,9 @@
       "finalUrl": "http://127.0.0.1:5174/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "EON Coatings | AC Duct Cleaning &amp; Surface Protection",
+      "title": "EON Coatings | Surface Protection That Performs",
       "canonical": "https://eoncoatings.com/",
-      "bytes": 43021
+      "bytes": 58718
     },
     {
       "path": "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
@@ -40,37 +50,7 @@
       "badPunctuation": false,
       "title": "How Regular AC Sanitisation Improves Indoor Air Quality in UAE | EON Coatings",
       "canonical": "https://eoncoatings.com/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
-      "bytes": 37813
-    },
-    {
-      "path": "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Top Benefits of Professional AC Sanitisation Service in UAE | EON Coatings",
-      "canonical": "https://eoncoatings.com/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
-      "bytes": 36281
-    },
-    {
-      "path": "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Best AC Sanitisation Service in UAE for Clean and Healthy Air | EON Coatings",
-      "canonical": "https://eoncoatings.com/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
-      "bytes": 36386
-    },
-    {
-      "path": "/complete-guide-to-ac-sanitisation-service-in-uae/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/complete-guide-to-ac-sanitisation-service-in-uae/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Complete Guide to AC Sanitisation Service in UAE | EON Coatings",
-      "canonical": "https://eoncoatings.com/complete-guide-to-ac-sanitisation-service-in-uae/",
-      "bytes": 36312
+      "bytes": 38769
     },
     {
       "path": "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
@@ -80,37 +60,37 @@
       "badPunctuation": false,
       "title": "AC Duct Cleaning vs Mold-Resistant Coating: Which One Do You Need? | EON Coatings",
       "canonical": "https://eoncoatings.com/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
-      "bytes": 35206
+      "bytes": 36168
     },
     {
-      "path": "/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+      "path": "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+      "finalUrl": "http://127.0.0.1:5174/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "What Are Antimicrobial Surface Coatings and Why Are They Important? | EON Coatings",
-      "canonical": "https://eoncoatings.com/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
-      "bytes": 32696
+      "title": "Top Benefits of Professional AC Sanitisation Service in UAE | EON Coatings",
+      "canonical": "https://eoncoatings.com/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "bytes": 37225
     },
     {
-      "path": "/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+      "path": "/complete-guide-to-ac-sanitisation-service-in-uae/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+      "finalUrl": "http://127.0.0.1:5174/complete-guide-to-ac-sanitisation-service-in-uae/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "How Surface Protection Coatings Help Hotels Maintain Hygiene Standards | EON Coatings",
-      "canonical": "https://eoncoatings.com/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
-      "bytes": 33431
+      "title": "Complete Guide to AC Sanitisation Service in UAE | EON Coatings",
+      "canonical": "https://eoncoatings.com/complete-guide-to-ac-sanitisation-service-in-uae/",
+      "bytes": 37226
     },
     {
-      "path": "/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+      "path": "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+      "finalUrl": "http://127.0.0.1:5174/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Signs Your Facility Needs Professional Antimicrobial Coating Services | EON Coatings",
-      "canonical": "https://eoncoatings.com/signs-your-facility-needs-professional-antimicrobial-coating-services/",
-      "bytes": 32316
+      "title": "Best AC Sanitisation Service in UAE for Clean and Healthy Air | EON Coatings",
+      "canonical": "https://eoncoatings.com/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+      "bytes": 37336
     },
     {
       "path": "/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
@@ -120,37 +100,37 @@
       "badPunctuation": false,
       "title": "Why AC Duct Mold-Resistant Coating Is Essential in the UAE Climate | EON Coatings",
       "canonical": "https://eoncoatings.com/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
-      "bytes": 33631
+      "bytes": 34596
     },
     {
-      "path": "/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+      "path": "/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+      "finalUrl": "http://127.0.0.1:5174/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Are Antimicrobial Coatings Safe for Homes, Offices and Hospitals? | EON Coatings",
-      "canonical": "https://eoncoatings.com/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
-      "bytes": 33553
+      "title": "What Are Antimicrobial Surface Coatings and Why Are They Important? | EON Coatings",
+      "canonical": "https://eoncoatings.com/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+      "bytes": 33661
     },
     {
-      "path": "/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+      "path": "/signs-your-facility-needs-professional-antimicrobial-coating-services/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+      "finalUrl": "http://127.0.0.1:5174/signs-your-facility-needs-professional-antimicrobial-coating-services/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Why Hospitals and Clinics Need Antimicrobial Surface Coatings | EON Coatings",
-      "canonical": "https://eoncoatings.com/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
-      "bytes": 33109
+      "title": "Signs Your Facility Needs Professional Antimicrobial Coating Services | EON Coatings",
+      "canonical": "https://eoncoatings.com/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+      "bytes": 33293
     },
     {
-      "path": "/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+      "path": "/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+      "finalUrl": "http://127.0.0.1:5174/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "What Is Stain-Resistant Furniture Coating and How Does It Work? | EON Coatings",
-      "canonical": "https://eoncoatings.com/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
-      "bytes": 33963
+      "title": "How Surface Protection Coatings Help Hotels Maintain Hygiene Standards | EON Coatings",
+      "canonical": "https://eoncoatings.com/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+      "bytes": 34411
     },
     {
       "path": "/antimicrobial-coatings-for-schools-educational-institutions/",
@@ -160,37 +140,37 @@
       "badPunctuation": false,
       "title": "Antimicrobial Coatings for Schools &amp; Educational Institutions | EON Coatings",
       "canonical": "https://eoncoatings.com/antimicrobial-coatings-for-schools-educational-institutions/",
-      "bytes": 32878
+      "bytes": 33822
     },
     {
-      "path": "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "path": "/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "finalUrl": "http://127.0.0.1:5174/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings | EON Coatings",
-      "canonical": "https://eoncoatings.com/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
-      "bytes": 25261
+      "title": "Are Antimicrobial Coatings Safe for Homes, Offices and Hospitals? | EON Coatings",
+      "canonical": "https://eoncoatings.com/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+      "bytes": 34509
     },
     {
-      "path": "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "path": "/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "finalUrl": "http://127.0.0.1:5174/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "The ROI of Duct Cleaning in Commercial Buildings | EON Coatings",
-      "canonical": "https://eoncoatings.com/the-roi-of-duct-cleaning-in-commercial-buildings/",
-      "bytes": 24813
+      "title": "What Is Stain-Resistant Furniture Coating and How Does It Work? | EON Coatings",
+      "canonical": "https://eoncoatings.com/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+      "bytes": 34919
     },
     {
-      "path": "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "path": "/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "finalUrl": "http://127.0.0.1:5174/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves | EON Coatings",
-      "canonical": "https://eoncoatings.com/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
-      "bytes": 25241
+      "title": "Why Hospitals and Clinics Need Antimicrobial Surface Coatings | EON Coatings",
+      "canonical": "https://eoncoatings.com/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+      "bytes": 34059
     },
     {
       "path": "/choosing-the-right-fabric-protection-for-hospitality/",
@@ -200,7 +180,37 @@
       "badPunctuation": false,
       "title": "Choosing the Right Fabric Protection for Hospitality | EON Coatings",
       "canonical": "https://eoncoatings.com/choosing-the-right-fabric-protection-for-hospitality/",
-      "bytes": 24971
+      "bytes": 25897
+    },
+    {
+      "path": "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings | EON Coatings",
+      "canonical": "https://eoncoatings.com/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "bytes": 26214
+    },
+    {
+      "path": "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves | EON Coatings",
+      "canonical": "https://eoncoatings.com/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "bytes": 26191
+    },
+    {
+      "path": "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "The ROI of Duct Cleaning in Commercial Buildings | EON Coatings",
+      "canonical": "https://eoncoatings.com/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "bytes": 25724
     },
     {
       "path": "/how-antimicrobial-coatings-improve-health-safety-in-offices/",
@@ -210,27 +220,7 @@
       "badPunctuation": false,
       "title": "How Antimicrobial Coatings Improve Health Safety in Offices | EON Coatings",
       "canonical": "https://eoncoatings.com/how-antimicrobial-coatings-improve-health-safety-in-offices/",
-      "bytes": 25211
-    },
-    {
-      "path": "/about-us/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/about-us/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "About EON | EON Coatings",
-      "canonical": "https://eoncoatings.com/about-us/",
-      "bytes": 25477
-    },
-    {
-      "path": "/contact-us/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/contact-us/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Contact EON | EON Coatings",
-      "canonical": "https://eoncoatings.com/contact-us/",
-      "bytes": 23265
+      "bytes": 26158
     },
     {
       "path": "/hgpp-certification/",
@@ -240,37 +230,27 @@
       "badPunctuation": false,
       "title": "HealthGuard Protection Program | EON Coatings",
       "canonical": "https://eoncoatings.com/hgpp-certification/",
-      "bytes": 46923
+      "bytes": 47744
     },
     {
-      "path": "/industry/",
+      "path": "/contact-us/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/industry/",
+      "finalUrl": "http://127.0.0.1:5174/contact-us/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Industries | EON Coatings",
-      "canonical": "https://eoncoatings.com/industry/",
-      "bytes": 28822
+      "title": "Contact EON | EON Coatings",
+      "canonical": "https://eoncoatings.com/contact-us/",
+      "bytes": 24722
     },
     {
-      "path": "/service/",
+      "path": "/about-us/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/service/",
+      "finalUrl": "http://127.0.0.1:5174/about-us/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "AC Care &amp; Surface Protection Services | EON Coatings",
-      "canonical": "https://eoncoatings.com/service/",
-      "bytes": 33937
-    },
-    {
-      "path": "/success-stories-client-results/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/success-stories-client-results/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Success Stories &amp; Client Results | EON Coatings",
-      "canonical": "https://eoncoatings.com/success-stories-client-results/",
-      "bytes": 28744
+      "title": "About EON | EON Coatings",
+      "canonical": "https://eoncoatings.com/about-us/",
+      "bytes": 26298
     },
     {
       "path": "/hospitality/",
@@ -280,7 +260,37 @@
       "badPunctuation": false,
       "title": "Hospitality | EON Coatings",
       "canonical": "https://eoncoatings.com/hospitality/",
-      "bytes": 35888
+      "bytes": 36691
+    },
+    {
+      "path": "/industry/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/industry/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Industries | EON Coatings",
+      "canonical": "https://eoncoatings.com/industry/",
+      "bytes": 29613
+    },
+    {
+      "path": "/success-stories-client-results/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/success-stories-client-results/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Success Stories &amp; Client Results | EON Coatings",
+      "canonical": "https://eoncoatings.com/success-stories-client-results/",
+      "bytes": 29601
+    },
+    {
+      "path": "/service/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/service/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Surface Protection, Cleaning &amp; AC Care | EON Coatings",
+      "canonical": "https://eoncoatings.com/service/",
+      "bytes": 38595
     },
     {
       "path": "/media/",
@@ -290,17 +300,7 @@
       "badPunctuation": false,
       "title": "Journal &amp; Company Updates | EON Coatings",
       "canonical": "https://eoncoatings.com/media/",
-      "bytes": 209748
-    },
-    {
-      "path": "/services/specialty-coatings/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/services/specialty-coatings/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Specialty Coatings | EON Coatings",
-      "canonical": "https://eoncoatings.com/services/specialty-coatings/",
-      "bytes": 29863
+      "bytes": 210620
     },
     {
       "path": "/privacy-policy/",
@@ -310,7 +310,7 @@
       "badPunctuation": false,
       "title": "Privacy Policy | EON Coatings",
       "canonical": "https://eoncoatings.com/privacy-policy/",
-      "bytes": 29590
+      "bytes": 30399
     },
     {
       "path": "/services/mattress-cleaning-and-sanitization/",
@@ -320,37 +320,17 @@
       "badPunctuation": false,
       "title": "Mattress Cleaning and Sanitization | EON Coatings",
       "canonical": "https://eoncoatings.com/services/mattress-cleaning-and-sanitization/",
-      "bytes": 30055
+      "bytes": 41966
     },
     {
-      "path": "/services/deep-cleaning-of-carpets-furniture/",
+      "path": "/services/specialty-coatings/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/services/deep-cleaning-of-carpets-furniture/",
+      "finalUrl": "http://127.0.0.1:5174/services/specialty-coatings/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Deep cleaning of carpets &amp; furniture | EON Coatings",
-      "canonical": "https://eoncoatings.com/services/deep-cleaning-of-carpets-furniture/",
-      "bytes": 30558
-    },
-    {
-      "path": "/services/ac-duct-mold-resistant-coating/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/services/ac-duct-mold-resistant-coating/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "AC Duct Mold-Resistant Coating | EON Coatings",
-      "canonical": "https://eoncoatings.com/services/ac-duct-mold-resistant-coating/",
-      "bytes": 30377
-    },
-    {
-      "path": "/services/marble-protective-coatings/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/services/marble-protective-coatings/",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Marble Protective Coatings | EON Coatings",
-      "canonical": "https://eoncoatings.com/services/marble-protective-coatings/",
-      "bytes": 27826
+      "title": "Specialty Coatings | EON Coatings",
+      "canonical": "https://eoncoatings.com/services/specialty-coatings/",
+      "bytes": 41807
     },
     {
       "path": "/services/stain-resistant-furniture-coating/",
@@ -360,37 +340,37 @@
       "badPunctuation": false,
       "title": "Stain-Resistant Furniture Coating | EON Coatings",
       "canonical": "https://eoncoatings.com/services/stain-resistant-furniture-coating/",
-      "bytes": 30214
+      "bytes": 42544
     },
     {
-      "path": "/services/antimicrobial-surface-coating/",
+      "path": "/services/deep-cleaning-of-carpets-furniture/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/services/antimicrobial-surface-coating/",
+      "finalUrl": "http://127.0.0.1:5174/services/deep-cleaning-of-carpets-furniture/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Anti-microbial Surface Coating | EON Coatings",
-      "canonical": "https://eoncoatings.com/services/antimicrobial-surface-coating/",
-      "bytes": 29821
+      "title": "Deep cleaning of carpets &amp; furniture | EON Coatings",
+      "canonical": "https://eoncoatings.com/services/deep-cleaning-of-carpets-furniture/",
+      "bytes": 42893
     },
     {
-      "path": "/industries/education/",
+      "path": "/services/marble-protective-coatings/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/industries/education/",
+      "finalUrl": "http://127.0.0.1:5174/services/marble-protective-coatings/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Education | EON Coatings",
-      "canonical": "https://eoncoatings.com/industries/education/",
-      "bytes": 32175
+      "title": "Marble Protective Coatings | EON Coatings",
+      "canonical": "https://eoncoatings.com/services/marble-protective-coatings/",
+      "bytes": 38890
     },
     {
-      "path": "/industries/offices/",
+      "path": "/services/ac-duct-mold-resistant-coating/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/industries/offices/",
+      "finalUrl": "http://127.0.0.1:5174/services/ac-duct-mold-resistant-coating/",
       "h1s": 1,
       "badPunctuation": false,
-      "title": "Offices | EON Coatings",
-      "canonical": "https://eoncoatings.com/industries/offices/",
-      "bytes": 32305
+      "title": "AC Duct Mold-Resistant Coating | EON Coatings",
+      "canonical": "https://eoncoatings.com/services/ac-duct-mold-resistant-coating/",
+      "bytes": 42731
     },
     {
       "path": "/industries/healthcare/",
@@ -400,7 +380,37 @@
       "badPunctuation": false,
       "title": "Healthcare | EON Coatings",
       "canonical": "https://eoncoatings.com/industries/healthcare/",
-      "bytes": 29440
+      "bytes": 38371
+    },
+    {
+      "path": "/services/antimicrobial-surface-coating/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/services/antimicrobial-surface-coating/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Anti-microbial Surface Coating | EON Coatings",
+      "canonical": "https://eoncoatings.com/services/antimicrobial-surface-coating/",
+      "bytes": 41822
+    },
+    {
+      "path": "/industries/offices/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/industries/offices/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Offices | EON Coatings",
+      "canonical": "https://eoncoatings.com/industries/offices/",
+      "bytes": 44770
+    },
+    {
+      "path": "/industries/education/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/industries/education/",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Education | EON Coatings",
+      "canonical": "https://eoncoatings.com/industries/education/",
+      "bytes": 44577
     },
     {
       "path": "/industries/hospitality/",
@@ -410,27 +420,7 @@
       "badPunctuation": false,
       "title": "Hospitality | EON Coatings",
       "canonical": "https://eoncoatings.com/industries/hospitality/",
-      "bytes": 31979
-    },
-    {
-      "path": "/category/news/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/media/?category=News",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Journal &amp; Company Updates | EON Coatings",
-      "canonical": "https://eoncoatings.com/media/",
-      "bytes": 207747
-    },
-    {
-      "path": "/category/blog-articles/",
-      "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/media/?category=Blog%20Articles",
-      "h1s": 1,
-      "badPunctuation": false,
-      "title": "Journal &amp; Company Updates | EON Coatings",
-      "canonical": "https://eoncoatings.com/media/",
-      "bytes": 209822
+      "bytes": 44545
     },
     {
       "path": "/category/company-announcements/",
@@ -440,17 +430,27 @@
       "badPunctuation": false,
       "title": "Journal &amp; Company Updates | EON Coatings",
       "canonical": "https://eoncoatings.com/media/",
-      "bytes": 206114
+      "bytes": 206986
     },
     {
-      "path": "/category/tips-guide/",
+      "path": "/category/blog-articles/",
       "status": 200,
-      "finalUrl": "http://127.0.0.1:5174/media/?category=Tips%20and%20guide",
+      "finalUrl": "http://127.0.0.1:5174/media/?category=Blog%20Articles",
       "h1s": 1,
       "badPunctuation": false,
       "title": "Journal &amp; Company Updates | EON Coatings",
       "canonical": "https://eoncoatings.com/media/",
-      "bytes": 206518
+      "bytes": 210694
+    },
+    {
+      "path": "/category/news/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/media/?category=News",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Journal &amp; Company Updates | EON Coatings",
+      "canonical": "https://eoncoatings.com/media/",
+      "bytes": 208619
     },
     {
       "path": "/category/uncategorized/",
@@ -460,7 +460,17 @@
       "badPunctuation": false,
       "title": "Journal &amp; Company Updates | EON Coatings",
       "canonical": "https://eoncoatings.com/media/",
-      "bytes": 205816
+      "bytes": 206688
+    },
+    {
+      "path": "/category/tips-guide/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:5174/media/?category=Tips%20and%20guide",
+      "h1s": 1,
+      "badPunctuation": false,
+      "title": "Journal &amp; Company Updates | EON Coatings",
+      "canonical": "https://eoncoatings.com/media/",
+      "bytes": 207390
     },
     {
       "path": "/contact-us-1/",
@@ -470,20 +480,12 @@
       "badPunctuation": false,
       "title": "Contact EON | EON Coatings",
       "canonical": "https://eoncoatings.com/contact-us/",
-      "bytes": 23265
+      "bytes": 24722
     }
   ],
   "assets": [
     {
-      "path": "/images/source/4ef19166b3dc.png",
-      "status": 200
-    },
-    {
       "path": "/images/eon-logo.png",
-      "status": 200
-    },
-    {
-      "path": "/images/source/7f4f4922bae2.png",
       "status": 200
     },
     {
@@ -507,15 +509,51 @@
       "status": 200
     },
     {
-      "path": "/images/A03-residential-room.webp",
+      "path": "/images/source/7f4f4922bae2.png",
       "status": 200
     },
     {
-      "path": "/images/A06-metal-handle.webp",
+      "path": "/images/source/4ef19166b3dc.png",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V201-residential-hero.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V205-bronze-touchpoint.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V204-coffee-spill.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V202-stone-water-detail.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/A11-stone-facade.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V206-carpet-extraction.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/v2/V207-mattress-care.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/A02-duct-interior.webp",
       "status": 200
     },
     {
       "path": "/images/A12-ceiling-diffuser.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/A03-residential-room.webp",
       "status": 200
     },
     {
@@ -527,11 +565,11 @@
       "status": 200
     },
     {
-      "path": "/images/source/2154f7bcafc9.png",
+      "path": "/images/source/32ba4cea545d.png",
       "status": 200
     },
     {
-      "path": "/images/source/2a22e05ae581.png",
+      "path": "/images/source/2154f7bcafc9.png",
       "status": 200
     },
     {
@@ -539,19 +577,7 @@
       "status": 200
     },
     {
-      "path": "/images/source/32ba4cea545d.png",
-      "status": 200
-    },
-    {
-      "path": "/images/source/7f0af3fdb4cc.png",
-      "status": 200
-    },
-    {
-      "path": "/images/source/d8edb1672f4a.png",
-      "status": 200
-    },
-    {
-      "path": "/images/source/9956587f9c23.png",
+      "path": "/images/source/2a22e05ae581.png",
       "status": 200
     },
     {
@@ -559,15 +585,15 @@
       "status": 200
     },
     {
-      "path": "/images/source/a5531267b197.png",
+      "path": "/images/source/7f0af3fdb4cc.png",
       "status": 200
     },
     {
-      "path": "/images/source/7af43f40715d.png",
+      "path": "/images/source/9956587f9c23.png",
       "status": 200
     },
     {
-      "path": "/images/source/fcd0e83ab9b4.png",
+      "path": "/images/source/d8edb1672f4a.png",
       "status": 200
     },
     {
@@ -575,11 +601,23 @@
       "status": 200
     },
     {
-      "path": "/images/source/07e0366536ae.png",
+      "path": "/images/source/a5531267b197.png",
+      "status": 200
+    },
+    {
+      "path": "/images/source/fcd0e83ab9b4.png",
+      "status": 200
+    },
+    {
+      "path": "/images/source/7af43f40715d.png",
       "status": 200
     },
     {
       "path": "/images/source/6bad2e2c2d23.jpg",
+      "status": 200
+    },
+    {
+      "path": "/images/source/07e0366536ae.png",
       "status": 200
     },
     {
@@ -607,7 +645,7 @@
       "status": 200
     },
     {
-      "path": "/images/A11-stone-facade.webp",
+      "path": "/images/v2/V203-hospitality-lounge.webp",
       "status": 200
     },
     {
@@ -615,11 +653,11 @@
       "status": 200
     },
     {
-      "path": "/images/A09-carpet-interior.webp",
+      "path": "/images/A07-woven-upholstery.webp",
       "status": 200
     },
     {
-      "path": "/images/A02-duct-interior.webp",
+      "path": "/images/A09-carpet-interior.webp",
       "status": 200
     },
     {
@@ -627,7 +665,7 @@
       "status": 200
     },
     {
-      "path": "/images/A07-woven-upholstery.webp",
+      "path": "/images/A06-metal-handle.webp",
       "status": 200
     }
   ],

@@ -1,6 +1,6 @@
-# EON Coatings: Inside the Air
+# EON Coatings: Surface Protection That Performs
 
-A responsive EON website with an original procedural Three.js duct, native scroll story, eleven generated editorial assets, complete public content migration and a validated email-draft enquiry flow.
+A responsive, image-led EON website covering specialist surface coatings, interior cleaning and AC care. Includes 18 generated illustrative assets, detailed service scenarios, a separate original Three.js study, complete source content and an honest email-draft enquiry flow.
 
 ## Run locally
 
@@ -30,10 +30,13 @@ node scripts/check-content.mjs
 node scripts/audit-routes.mjs http://localhost:5173
 ```
 
-Use a running production preview origin for the route audit when checking a release. The audit records all 47 routes and redirects, local assets, title/H1 presence, forbidden punctuation and the 404 response. Tests cover deterministic timeline reconstruction and CF7 response semantics using local fixtures only.
+Use a running production preview origin for the route audit when checking a release. The audit records all 48 routes and redirects, local assets, title/H1 presence, forbidden punctuation and the 404 response. Tests cover deterministic timeline reconstruction and CF7 response semantics using local fixtures only.
 
 ## Editing
 
+- `lib/eon/service-stories.ts`: service-specific use cases, materials and applications.
+- `components/eon/SurfaceExplorer.tsx`: visual catalogue, filters and setting selector.
+- `app/inside-the-air/page.tsx`: optional interactive duct study.
 - `lib/eon/content.ts`: seven-service editorial descriptions and coating FAQs.
 - `lib/eon/source-content.json`: sanitized public archive and retained company content.
 - `app/[...slug]/page.tsx`: detail, company, legal, article and category routes.
@@ -48,7 +51,7 @@ Use a running production preview origin for the route audit when checking a rele
 
 The source crawl is immutable under `evidence/source`. `scripts/prepare-content.py` sanitizes its HTML and normalizes punctuation. `scripts/cache-source-media.py` downloads referenced public archive images and rewrites their local paths. Run these in that order when deliberately refreshing the saved snapshot. They do not crawl a new article archive themselves.
 
-To update model stills, capture the actual canvas at each chapter with the in-app browser, save full viewport PNGs and canvas rectangle records in `evidence`, then run `scripts/export-posters.py` with Python and Pillow. Do not replace the posters with a different generated duct. Geometry source is the model deliverable; no external mesh download is required.
+To update model stills, open `/inside-the-air/?capture=model` to hide interface overlays, then capture the actual canvas at each chapter with the in-app browser, save full viewport PNGs and canvas rectangle records in `evidence`, then run `scripts/export-posters.py` with Python and Pillow. Do not replace the posters with a different generated duct. Geometry source is the model deliverable; no external mesh download is required.
 
 ## Enquiry integration and launch dependencies
 

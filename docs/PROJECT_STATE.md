@@ -11,3 +11,5 @@ Required scope: homepage, about, seven new service details, service index, HGPP,
 Use existing React/TypeScript Vinext starter. Three.js procedural model source with deterministic normalized state, only homepage loads runtime. Native scroll, reduced-motion static sequence from same model. Research and generated asset results pending.
 
 Implementation complete: seven services, all 20 articles, four original industry routes, company and legal content, HGPP, contact draft workflow, original reversible Three.js assembly and 11 generated image assets. Full source research and media are retained under evidence/source and public/source. Final QA and launch dependencies are documented in QA_REPORT.md. Owner-only Sites publication is the delivery target.
+
+Revision 2 replaces the original opening and service presentation after explicit user rejection. Seven new scenario images, interactive material hotspots, visual service filters, four setting selectors and full service detail use cases are implemented. Duct study moved to its own route, with revised studio lighting and native scrubbing. Latest verification is in evidence/v2.

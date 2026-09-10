@@ -1,5 +1,21 @@
 # Verification report
 
+## Revision 2, current design
+
+The first visual design was rejected by the user. Revision 2 replaces the opening, navigation, service catalogue, all service detail presentations and sector introductions. Seven new original scenario images complement the existing collection. The homepage has no WebGL canvas. The revised interactive duct study is at /inside-the-air/.
+
+Current evidence is in evidence/v2. The homepage passed overflow and hero-content-fit checks at eight viewport sizes, from 360x800 to 1920x1080, including short landscape. All seven service pages were checked at 360x800: no horizontal overflow, clipped hero content or broken images. Service filters, direct cleaning navigation, hospitality selection, its mattress-service link, mobile menu Escape/focus return and keyboard range scrubbing were verified. New service images have responsive derivatives.
+
+The route audit now covers 48 routes and 46 directly referenced assets, with no failures and a real 404. TypeScript, production build and six fixture/timeline tests pass. Lint has zero errors and 21 intentional static-image optimization advisories. Image derivatives and lazy loading are explicit. Independent visual review found no P1/P2 issues in the new opening, catalogue and hospitality captures.
+
+The lighter-view check uncovered an empty canvas container obscuring the poster. Disposal now clears its ready flag, and the repaired view was visually verified with zero canvases and four static panels. Model-only export mode hides interface overlays; fresh stills were inspected and do not include captions. Use /inside-the-air/?capture=model when regenerating the model frames.
+
+Current unthrottled local production homepage observations at 390x844: initial LCP 148 ms, CLS 0.00163 and 671,166 bytes transferred in the sampled initial window. Five warm reloads recorded LCP 84, 64, 68, 80 and 60 ms, median 68 ms, with zero sampled CLS and long tasks. These are local lab observations, not mobile-network or field benchmarks. Raw records: evidence/v2/production-lab.json.
+
+External validation and form integration limitations below still apply. Older screenshots and metrics below describe revision 1 and must not be used as evidence of the current visual design.
+
+## Revision 1, historical checks
+
 Verified 11 September 2026 in the Codex in-app Chromium browser on the local Mac. This is a private review build. It is not a claim of live EON enquiry delivery or universal device certification.
 
 ## Automated checks

@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "initial-local",
+    "metrics": {
+      "lcp": 148,
+      "cls": 0.0016283640131796058,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 671166,
+      "fcp": 148,
+      "clickFrame": 0
+    }
+  },
+  {
+    "kind": "warm-local",
+    "metrics": {
+      "lcp": 84,
+      "cls": 0,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800,
+      "fcp": 84,
+      "clickFrame": 0
+    }
+  },
+  {
+    "kind": "warm-local",
+    "metrics": {
+      "lcp": 64,
+      "cls": 0,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800,
+      "fcp": 64,
+      "clickFrame": 0
+    }
+  },
+  {
+    "kind": "warm-local",
+    "metrics": {
+      "lcp": 68,
+      "cls": 0,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800,
+      "fcp": 68,
+      "clickFrame": 0
+    }
+  },
+  {
+    "kind": "warm-local",
+    "metrics": {
+      "lcp": 80,
+      "cls": 0,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800,
+      "fcp": 80,
+      "clickFrame": 0
+    }
+  },
+  {
+    "kind": "warm-local",
+    "metrics": {
+      "lcp": 60,
+      "cls": 0,
+      "longTasks": 0,
+      "maxLongTask": 0,
+      "transfer": 1800,
+      "fcp": 60,
+      "clickFrame": 0
+    }
+  }
+]

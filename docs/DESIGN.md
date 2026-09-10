@@ -1,19 +1,8 @@
-# Inside the Air
+# Revised design direction
 
-The selected direction is an architectural product study, with editorial text on the left and a diagonal galvanized duct on the right. The opening explicitly names AC duct cleaning and sanitisation in Abu Dhabi and the UAE. The full business remains visible in the service directory.
+The user rejected the initial duct-led design as generic and lifeless. The revised site leads with the complete business: specialist coatings, interior cleaning and AC care. An architectural room introduces the material scope through photography and two linked material hotspots. Eight visible service choices cover the seven established categories plus the distinct AC cleaning pathway. Four interactive setting scenarios connect specific spaces to relevant services.
 
-## Visual targets
+The palette is deep forest #18332f, ivory #f8f7f2, pale sage #eceee5 and restrained pale citrus #e4f28c. Manrope remains the primary family, with Georgia italic for short material-led emphasis. The header exposes desktop navigation and retains a mobile menu. Photography alternates full-room context, tactile detail and everyday use. Scenario imagery is identified as illustrative. The optional 3D study is deliberately separate from the opening.
 
-Original generated targets are preserved in assets/targets: desktop 1440 x 900, mobile 390 x 844, and an exploded composition. Original A01 is a material and construction target, not a runtime fallback. The actual procedural model supplies all final fallback images.
+Current visual evidence: evidence/v2/home-1440x900.png, evidence/v2/services-desktop.png and evidence/v2/hospitality-desktop.png. Each service has a distinctive image pair and use-case story. The prior design and target images remain available in Git history and assets for provenance, not as the current acceptance target.
 
-## Tokens
-
-Chalk #f3f1ea, ink #202c34, quiet surface #e6e7df, rule #cccec7, teal #376d76. Teal is sampled by visual comparison with the authentic logo, not asserted as an official brand specification. Manrope regular is locally hosted, with its open font licence. Display tracking is restrained on mobile. Main body 16 to 20 pixels; metadata 12 pixels where practical.
-
-Margins use clamp(24px,4.45vw,72px). Desktop headline and scene occupy separate layout zones. Mobile uses vertical composition, native scroll and a shorter scene. Internal pages share rules, type, material photography and consultation styling.
-
-The composition intentionally changes from the source site's navy banner and decorative organisms. No fabricated client work, awards, reviews or health metrics are introduced. Source performance statements remain scoped to existing company information.
-
-## Image review
-
-Eleven original images, plus three targets, were generated independently as one coherent collection. The asset agent inspected each master. The owner reviewed the contact sheet and in-page crops. A05 was unnecessary because no technician photograph is used. The images are architectural context, never claimed as completed EON projects.

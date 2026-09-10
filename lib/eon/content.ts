@@ -7,11 +7,11 @@ export const industries=data.industries as ContentRecord[];
 export const categories=data.categories;
 export const services=[
  {slug:'ac-duct-mold-resistant-coating',title:'AC duct mold-resistant coating',short:'A separate protective treatment for internal duct surfaces. Ask about cleaning, sanitisation and coating as distinct services.',image:'A02-duct-interior.webp',label:'Air systems'},
- {slug:'antimicrobial-surface-coating',title:'Anti-microbial surface coating',short:'Surface protection for high-touch environments, from homes and offices to hospitality and healthcare.',image:'A06-metal-handle.webp',label:'High-touch surfaces'},
- {slug:'stain-resistant-furniture-coating',title:'Stain-resistant furniture coating',short:'Protection against spills and stains for sofas, chairs and upholstery.',image:'A07-woven-upholstery.webp',label:'Fabric & upholstery'},
- {slug:'marble-protective-coatings',title:'Marble protective coatings',short:'Protective treatment with the natural character of your marble in mind.',image:'A08-marble-countertop.webp',label:'Stone surfaces'},
- {slug:'deep-cleaning-of-carpets-furniture',title:'Deep cleaning of carpets & furniture',short:'Cleaning care for carpets and upholstered furniture in the spaces you use every day.',image:'A09-carpet-interior.webp',label:'Carpets & furniture'},
- {slug:'mattress-cleaning-and-sanitization',title:'Mattress cleaning and sanitization',short:'Dedicated mattress cleaning and sanitisation for your bedroom.',image:'A10-mattress-bedroom.webp',label:'Mattresses'},
+ {slug:'antimicrobial-surface-coating',title:'Anti-microbial surface coating',short:'Surface protection for high-touch environments, from homes and offices to hospitality and healthcare.',image:'v2/V205-bronze-touchpoint.webp',label:'High-touch surfaces'},
+ {slug:'stain-resistant-furniture-coating',title:'Stain-resistant furniture coating',short:'Protection against spills and stains for sofas, chairs and upholstery.',image:'v2/V204-coffee-spill.webp',label:'Fabric & upholstery'},
+ {slug:'marble-protective-coatings',title:'Marble protective coatings',short:'Protective treatment with the natural character of your marble in mind.',image:'v2/V202-stone-water-detail.webp',label:'Stone surfaces'},
+ {slug:'deep-cleaning-of-carpets-furniture',title:'Deep cleaning of carpets & furniture',short:'Cleaning care for carpets and upholstered furniture in the spaces you use every day.',image:'v2/V206-carpet-extraction.webp',label:'Carpets & furniture'},
+ {slug:'mattress-cleaning-and-sanitization',title:'Mattress cleaning and sanitization',short:'Dedicated mattress cleaning and sanitisation for your bedroom.',image:'v2/V207-mattress-care.webp',label:'Mattresses'},
  {slug:'specialty-coatings',title:'Specialty coatings',short:'Exterior surface protection against weathering and deterioration.',image:'A11-stone-facade.webp',label:'Exterior materials'},
 ];
 export function cleanText(s:string){return s.replace(/\u2014|&mdash;|&#8212;|&#x2014;/gi,',').replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&#8217;/g,'’').replace(/&#8211;/g,'–').replace(/&nbsp;/g,' ').trim();}

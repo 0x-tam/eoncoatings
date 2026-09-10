@@ -9,16 +9,16 @@ export function createDuct() {
  const top=new T.Group(), side=new T.Group(), hatch=new T.Group(), fixed=new T.Group();
  top.name='virtual_upper_cutaway'; side.name='virtual_side_cutaway'; hatch.name='manufactured_access_hatch'; fixed.name='fixed_lower_channel';
  root.add(fixed,top,side,hatch);
- const metal=new T.MeshStandardMaterial({color:0xa2a9a8,metalness:.88,roughness:.43});
+ const metal=new T.MeshStandardMaterial({color:0xa1acae,metalness:.92,roughness:.32});
  metal.onBeforeCompile=(s)=>{
   s.vertexShader=s.vertexShader.replace('#include <common>','#include <common>\nvarying vec3 vMetalPosition;').replace('#include <begin_vertex>','#include <begin_vertex>\nvMetalPosition = position;');
   s.fragmentShader=s.fragmentShader.replace('#include <common>',`#include <common>
   varying vec3 vMetalPosition;
   float grain(vec3 p){return fract(sin(dot(p,vec3(127.1,311.7,74.7)))*43758.5453);}
   float zinc(vec3 p){vec3 i=floor(p);vec3 f=fract(p);f=f*f*(3.-2.*f);return mix(mix(mix(grain(i),grain(i+vec3(1,0,0)),f.x),mix(grain(i+vec3(0,1,0)),grain(i+vec3(1,1,0)),f.x),f.y),mix(mix(grain(i+vec3(0,0,1)),grain(i+vec3(1,0,1)),f.x),mix(grain(i+vec3(0,1,1)),grain(i+vec3(1,1,1)),f.x),f.y),f.z);}
-  `).replace('#include <color_fragment>','#include <color_fragment>\nfloat pat=zinc(vMetalPosition*120.); diffuseColor.rgb *= .90 + pat*.18;').replace('#include <roughnessmap_fragment>','#include <roughnessmap_fragment>\nroughnessFactor=clamp(roughnessFactor+(pat-.5)*.16,.3,.7);');
+  `).replace('#include <color_fragment>','#include <color_fragment>\nfloat pat=zinc(vMetalPosition*120.); diffuseColor.rgb *= .985 + pat*.03;').replace('#include <roughnessmap_fragment>','#include <roughnessmap_fragment>\nroughnessFactor=clamp(roughnessFactor+(pat-.5)*.025,.26,.45);');
  };
- const edge=new T.MeshStandardMaterial({color:0x999f9d,metalness:.88,roughness:.35});
+ const edge=new T.MeshStandardMaterial({color:0xaeb8bb,metalness:.94,roughness:.21});
  const rubber=new T.MeshStandardMaterial({color:0x303432,roughness:.9});
  const groups=new Map<T.Group,T.BufferGeometry[]>();
  function part(parent:T.Group,name:string,size:number[],pos:number[],mat=metal,bevel=.0012){
@@ -88,7 +88,7 @@ export function createDuct() {
  grains.name='settled_corner_deposits';const matrix=new T.Matrix4(),q=new T.Quaternion();const positions:T.Vector3[]=[];
  for(let i=0;i<160;i++){const x=random()*1.54-.77,z=(random()>.5?1:-1)*(.22+random()*.12);positions.push(new T.Vector3(x,-.273,z));matrix.compose(positions[i],q,new T.Vector3(.0015+random()*.003,.0008,.0015+random()*.003));grains.setMatrixAt(i,matrix);}fixed.add(grains);
  let lastFront=-2;
- return {root, update(progress:number,mobile=false){const s=storyState(progress);top.position.y=s.open*(mobile?.29:.43);side.position.z=s.open*(mobile?.24:.4);side.position.y=s.open*-.04;hatch.position.y=s.open*(mobile?.29:.43)+s.hatch*.16;cleaning.value=-.85+s.cleaning*1.7;
+ return {root, update(progress:number,mobile=false){const s=storyState(progress);top.position.y=s.open*(mobile?.29:.43);side.position.z=s.open*(mobile?.24:.4);side.position.y=s.open*-.28;hatch.position.y=s.open*(mobile?.29:.43)+s.hatch*.16;cleaning.value=-.85+s.cleaning*1.7;
  if(Math.abs(lastFront-cleaning.value)>.0001){for(let i=0;i<160;i++){grains.getMatrixAt(i,matrix);const visible=positions[i].x>cleaning.value;matrix.setPosition(positions[i].x,visible?-.273:-.29,positions[i].z);grains.setMatrixAt(i,matrix);}grains.instanceMatrix.needsUpdate=true;lastFront=cleaning.value;}
  root.rotation.y=s.orbit;return s;}, dispose(){const geometries=new Set<T.BufferGeometry>(),materials=new Set<T.Material>();root.traverse(o=>{if(o instanceof T.Mesh){geometries.add(o.geometry);(Array.isArray(o.material)?o.material:[o.material]).forEach(m=>materials.add(m));}});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());} };
 }

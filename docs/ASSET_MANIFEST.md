@@ -13,3 +13,7 @@ The authentic EON logo comes from the source header media file and is rendered w
 public/model contains assembled, dirty, cleaning, clean and reassembled WebP images, each with a mobile sibling. They are cropped from actual browser-rendered canvas bounds, using matching geometry, material, lighting and camera code. The WebP source images are 7 to 23 KB at the recorded export sizes, well below the starting poster limits. Full screenshots and export bounds are in evidence; scripts/export-posters.py reproduces the crops and compression.
 
 Images have explicit layout dimensions, contextual alt text, and below-fold lazy loading. WebP is the optimized delivery format. No AVIF duplicate is needed for the measured budget. Source article media remain documentary archive material, separate from the generated collection.
+
+## Revised scenario collection
+
+Seven additional originals are retained in assets/v2, with exact generation and edit records in assets/v2/manifest.json. They cover a residential architectural hero, stone and water detail, hospitality lounge, upholstery coffee spill, hand on a bronze touchpoint, carpet extraction and mattress preparation. These are illustrative scenarios. None is represented as an EON project, employee or demonstrated treatment result. Optimized web images are in public/images/v2; responsive 480 and 800 pixel variants for service cards are in public/images/responsive.
