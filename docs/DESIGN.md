@@ -1,3 +1,5 @@
+Current direction: see ROOM_REVISION.md for the brighter room and AC-first follow-up. The document below records the previous campaign decision.
+
 # Life, well kept.
 
 Creative reset, 11 September 2026. This document replaces previous duct and photographic-wipe directions.

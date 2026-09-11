@@ -1,3 +1,5 @@
+Latest revision: bright photographic room hero, AC duct cleaning first, matching fabric/stone/duct inspection images. See docs/ROOM_REVISION.md and assets/room/PROMPTS.md. Local production preview: http://127.0.0.1:5176/. Public publication remains unchanged.
+
 # EON Coatings: Life, well kept.
 
 Complete campaign website with original photography, a material explorer, seven service pages and the source article/archive library. Current campaign source is this life-well-kept worktree. Older concepts in the parent folder were left intact.

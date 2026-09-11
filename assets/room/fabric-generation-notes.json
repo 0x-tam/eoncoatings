@@ -1,0 +1,46 @@
+{
+  "tool": "Built-in image_gen",
+  "task": "Bright room blue sofa fabric and illustrative magnification",
+  "sourceRoom": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-6a7f9aad-2466-48d6-a056-a919c4a87c7f.png",
+  "sourceInspected": true,
+  "generationCalls": 2,
+  "requestedNativeResolution": [
+    3072,
+    2048
+  ],
+  "actualNativeResolution": [
+    1536,
+    1024
+  ],
+  "upscaled": false,
+  "assets": [
+    {
+      "file": "sofa-fabric-macro.png",
+      "prompt": "sofa-fabric-prompt.txt",
+      "input": "source room",
+      "sourceFocusNormalized": [
+        0.86,
+        0.78
+      ],
+      "output": "exec-2832c1da-96b0-45c0-9972-567878123b82.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "notes": "Newly generated close photographic view. Cobalt blue, dense manufactured chenille weave, piping and warm left window light matched visually. Not a pixel crop of original room. Crisp seat seam and fiber detail inspected."
+    },
+    {
+      "file": "fabric-illustrative-microscopy.png",
+      "prompt": "fabric-microscopy-prompt.txt",
+      "input": "sofa-fabric-macro.png",
+      "output": "exec-bc66df99-ef96-46c1-93dd-c05cdc1dba03.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "notes": "Illustrative educational microscopy aesthetic with blue yarn/fibrils and muted generic rod/coccus-like forms. No species, exact magnification or quantitative relative scale is validated. Not evidence of organisms present in this room. No actual microscope sample was used.",
+      "requiredCaption": "Illustrative magnification"
+    }
+  ],
+  "limits": "No CGI scene, WebGL, video or 3D renderer used. These are generated raster assets. No checkout edits, Site calls, git operations or subagents. Original native PNG outputs preserved."
+}

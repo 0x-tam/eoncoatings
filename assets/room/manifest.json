@@ -1,0 +1,47 @@
+[
+  {
+    "name": "stone",
+    "nativeWidth": 1672,
+    "nativeHeight": 941,
+    "master": "assets/room/stone-master.png",
+    "webp": "public/images/room/stone.webp",
+    "generated": true,
+    "upscaled": false
+  },
+  {
+    "name": "fabric",
+    "nativeWidth": 1536,
+    "nativeHeight": 1024,
+    "master": "assets/room/fabric-master.png",
+    "webp": "public/images/room/fabric.webp",
+    "generated": true,
+    "upscaled": false
+  },
+  {
+    "name": "microbes",
+    "nativeWidth": 1536,
+    "nativeHeight": 1024,
+    "master": "assets/room/microbes-master.png",
+    "webp": "public/images/room/microbes.webp",
+    "generated": true,
+    "upscaled": false
+  },
+  {
+    "name": "duct",
+    "nativeWidth": 1672,
+    "nativeHeight": 941,
+    "master": "assets/room/duct-master.png",
+    "webp": "public/images/room/duct.webp",
+    "generated": true,
+    "upscaled": false
+  },
+  {
+    "name": "room",
+    "nativeWidth": 1672,
+    "nativeHeight": 941,
+    "master": "assets/room/room-master.png",
+    "webp": "public/images/room/room.webp",
+    "generated": true,
+    "upscaled": false
+  }
+]
