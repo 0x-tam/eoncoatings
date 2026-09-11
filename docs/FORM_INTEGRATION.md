@@ -1,15 +1,26 @@
 # Enquiry delivery
 
-The preview provides a validated email-draft journey with the original visible fields, conditional optional company field, phone/email links, and a link to EON's existing protected form. Preparing a draft does not send anything. The visitor reviews and sends through their email application. No live enquiry was submitted during development.
+The current preview provides a functional email-draft journey, telephone and email links, and a link to EON's existing protected form. It does not claim to send mail. Validation preserves input; the visitor reviews and sends the draft in their email application.
 
-The original Contact Form 7 form is 6101, observed version 6.1.7. Visible fields: text-239, radio-86, text-216, tel-22, email-929, textarea-756. It uses an icon CAPTCHA and kc_honeypot. A copied hidden challenge is not a supported integration. Raw form markup and the discovery record are in evidence/source.
+The current EON contact page uses Contact Form 7 form 6101 with a human-selected icon challenge and honeypot. Its public schema requires phone length 6 to 12, even though its own example is longer. Name, email and enquiry type are required. Company is optional. The preview asks for a message to make the email useful and limits it to the live 2000-character bound.
 
-## Owner setup before replacing the live domain
+## Implemented server adapter
 
-Keep WordPress on a separate stable HTTPS backend origin. Set EON_FORM_BACKEND_ORIGIN and EON_FRONTEND_ORIGIN server-side in the eventual form endpoint configuration. Preserve CF7, the mail recipient/SMTP, its conditional-field plugin, CAPTCHA and honeypot. Integrate the live challenge using its supported flow, validate required fields against the actual backend, and add hosting-supported rate limiting. Confirm the phone-field length mismatch before release. The existing original-form link must then point to the stable backend, not to the replaced frontend domain.
+app/api/enquiry/route.ts is a server-only endpoint. GET reports enabled:false while unconfigured. POST then returns 503 and never reports success or sends a request. When explicitly configured, it issues a genuine challenge through the owner gateway, validates origin and field bounds, consumes a one-use challenge, applies the gateway's rate-limit decision, and posts mapped fields to CF7. Only mail_sent is accepted as backend success. Timeouts are not retried.
 
-lib/eon/cf7-adapter.ts is a typed integration seam, not a deployed mail endpoint. It refuses a same-origin backend loop, requires live verification input, times out, and recognizes only mail_sent as confirmed delivery. Fixture tests cover validation, spam, failed/unknown status, HTTP failure, missing challenge and timeout. These tests never contact EON and do not prove real delivery.
+Required runtime values:
 
-Remaining dependency: owner-authorised staging recipient and backend/anti-bot configuration. Until that is available, direct delivery from the redesigned form is unverified. The private design preview is usable through the email and phone alternatives.
+- EON_WP_BACKEND_ORIGIN: stable HTTPS WordPress origin that remains separate from the new public frontend.
+- EON_FRONTEND_ORIGIN: exact allowed frontend origin.
+- EON_CHALLENGE_GATEWAY: HTTPS gateway base URL ending in a slash.
+- EON_CHALLENGE_SECRET: server-only Bearer credential for that gateway.
 
-WhatsApp's original public URL retains the domestic zero after the country code. Account availability could not be verified without messaging, so the preview uses confirmed phone and email paths instead. The displayed phone is preserved; tel:+97125639468 follows UAE international numbering.
+Gateway contract, authenticated server-to-server JSON POST:
+
+- issue: returns sessionId, instructions and options [{id,label,image?}]. Images must be HTTPS. Issue a genuine backend verification challenge, not a copied static answer.
+- allow: accepts clientKey and returns {allowed:boolean}. Apply durable atomic rate limits.
+- consume: accepts sessionId and the visitor's answer, atomically consumes the session and returns {valid:true,challenge:{formFields,cookieHeader?}} only for a valid live session. Preserve real CF7 identity and plugin fields. It must not override enquiry fields.
+
+The gateway and stable WordPress backend are owner dependencies, not services provisioned by this website. Current secrets are deliberately unset. Verify CF7 recipient, sender domain, mail transport and anti-bot settings, then authorize a staging receipt test before enabling direct delivery. No live enquiry was submitted during development. Fixture success is not inbox delivery proof.
+
+Evidence: assets/source-2026-09-11/FORM_ADAPTER_REQUIREMENTS.md and raw source responses. Seven adapter fixtures cover field mapping, exact acceptance, bounds, origin, missing configuration, verification/rate gates, field injection and timeout. Production endpoint checks are recorded separately in QA_REPORT.md.

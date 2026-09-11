@@ -1,0 +1,17 @@
+[
+  {
+    "passes": 25,
+    "route": "/services/marble-protective-coatings/",
+    "violations": []
+  },
+  {
+    "passes": 24,
+    "route": "/media/",
+    "violations": []
+  },
+  {
+    "passes": 24,
+    "route": "/hgpp-certification/",
+    "violations": []
+  }
+]

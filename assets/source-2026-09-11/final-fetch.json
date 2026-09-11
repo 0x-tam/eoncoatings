@@ -1,0 +1,34 @@
+[
+  {
+    "file": "raw/extra--tag--healthcare-facilities-in-abu-dhabi.html",
+    "url": "https://eoncoatings.com/tag/healthcare-facilities-in-abu-dhabi/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "f8f6ce6213f907944e0a807d2ea2edc4d59be7d15925b0115f314c95710083d7"
+  },
+  {
+    "file": "raw/extra--tag--weather-guard.html",
+    "url": "https://eoncoatings.com/tag/weather-guard/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "2b21883d2c42958dd88d6043b01ab6375af86b85f42b0d470c917adba4ed1b76"
+  },
+  {
+    "file": "raw/../assets/footer_logo.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/footer_logo.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d73000e3f7e86268fa0cf90e9e9f3bbb110d7bd3d1cd8ff6a9b16dee895f8762"
+  },
+  {
+    "file": "raw/../assets/eon_logo_original1-01-scaled.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/eon_logo_original1-01-scaled.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "778d819ea890d9d33b3baf080291db6120232535f5963a5ef23c6053a12dc1ca"
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "file": "hero-landscape-768.webp",
+    "source": "hero-landscape-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 47496,
+    "format": "webp"
+  },
+  {
+    "file": "hero-landscape-768.avif",
+    "source": "hero-landscape-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 33206,
+    "format": "avif"
+  },
+  {
+    "file": "hero-landscape-768.jpg",
+    "source": "hero-landscape-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 55159,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-landscape-1280.webp",
+    "source": "hero-landscape-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 136458,
+    "format": "webp"
+  },
+  {
+    "file": "hero-landscape-1280.avif",
+    "source": "hero-landscape-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 91352,
+    "format": "avif"
+  },
+  {
+    "file": "hero-landscape-1280.jpg",
+    "source": "hero-landscape-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 156601,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-landscape-1536.webp",
+    "source": "hero-landscape-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 193076,
+    "format": "webp"
+  },
+  {
+    "file": "hero-landscape-1536.avif",
+    "source": "hero-landscape-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 125142,
+    "format": "avif"
+  },
+  {
+    "file": "hero-landscape-1536.jpg",
+    "source": "hero-landscape-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 220754,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-480.webp",
+    "source": "hero-portrait-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 38514,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-480.avif",
+    "source": "hero-portrait-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 25039,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-480.jpg",
+    "source": "hero-portrait-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 46434,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-768.webp",
+    "source": "hero-portrait-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 103254,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-768.avif",
+    "source": "hero-portrait-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 70398,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-768.jpg",
+    "source": "hero-portrait-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 118203,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-1024.webp",
+    "source": "hero-portrait-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 177568,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-1024.avif",
+    "source": "hero-portrait-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 114244,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-1024.jpg",
+    "source": "hero-portrait-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 206013,
+    "format": "jpg"
+  },
+  {
+    "file": "stone-detail-640.webp",
+    "source": "stone-detail-exact.png",
+    "width": 640,
+    "height": 256,
+    "bytes": 36234,
+    "format": "webp"
+  },
+  {
+    "file": "stone-detail-640.avif",
+    "source": "stone-detail-exact.png",
+    "width": 640,
+    "height": 256,
+    "bytes": 26581,
+    "format": "avif"
+  },
+  {
+    "file": "stone-detail-640.jpg",
+    "source": "stone-detail-exact.png",
+    "width": 640,
+    "height": 256,
+    "bytes": 35364,
+    "format": "jpg"
+  },
+  {
+    "file": "stone-detail-1100.webp",
+    "source": "stone-detail-exact.png",
+    "width": 1100,
+    "height": 440,
+    "bytes": 88904,
+    "format": "webp"
+  },
+  {
+    "file": "stone-detail-1100.avif",
+    "source": "stone-detail-exact.png",
+    "width": 1100,
+    "height": 440,
+    "bytes": 61695,
+    "format": "avif"
+  },
+  {
+    "file": "stone-detail-1100.jpg",
+    "source": "stone-detail-exact.png",
+    "width": 1100,
+    "height": 440,
+    "bytes": 98190,
+    "format": "jpg"
+  },
+  {
+    "file": "fabric-detail-480.webp",
+    "source": "fabric-detail-exact.png",
+    "width": 480,
+    "height": 191,
+    "bytes": 22130,
+    "format": "webp"
+  },
+  {
+    "file": "fabric-detail-480.avif",
+    "source": "fabric-detail-exact.png",
+    "width": 480,
+    "height": 191,
+    "bytes": 15841,
+    "format": "avif"
+  },
+  {
+    "file": "fabric-detail-480.jpg",
+    "source": "fabric-detail-exact.png",
+    "width": 480,
+    "height": 191,
+    "bytes": 21413,
+    "format": "jpg"
+  },
+  {
+    "file": "fabric-detail-765.webp",
+    "source": "fabric-detail-exact.png",
+    "width": 765,
+    "height": 305,
+    "bytes": 61610,
+    "format": "webp"
+  },
+  {
+    "file": "fabric-detail-765.avif",
+    "source": "fabric-detail-exact.png",
+    "width": 765,
+    "height": 305,
+    "bytes": 41291,
+    "format": "avif"
+  },
+  {
+    "file": "fabric-detail-765.jpg",
+    "source": "fabric-detail-exact.png",
+    "width": 765,
+    "height": 305,
+    "bytes": 59264,
+    "format": "jpg"
+  },
+  {
+    "file": "air-architectural-768.webp",
+    "source": "air-architectural-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 21906,
+    "format": "webp"
+  },
+  {
+    "file": "air-architectural-768.avif",
+    "source": "air-architectural-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 10089,
+    "format": "avif"
+  },
+  {
+    "file": "air-architectural-768.jpg",
+    "source": "air-architectural-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 35636,
+    "format": "jpg"
+  },
+  {
+    "file": "air-architectural-1280.webp",
+    "source": "air-architectural-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 49466,
+    "format": "webp"
+  },
+  {
+    "file": "air-architectural-1280.avif",
+    "source": "air-architectural-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 20140,
+    "format": "avif"
+  },
+  {
+    "file": "air-architectural-1280.jpg",
+    "source": "air-architectural-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 85041,
+    "format": "jpg"
+  },
+  {
+    "file": "air-architectural-1536.webp",
+    "source": "air-architectural-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 66990,
+    "format": "webp"
+  },
+  {
+    "file": "air-architectural-1536.avif",
+    "source": "air-architectural-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 26672,
+    "format": "avif"
+  },
+  {
+    "file": "air-architectural-1536.jpg",
+    "source": "air-architectural-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 115885,
+    "format": "jpg"
+  },
+  {
+    "file": "surface-touch-768.webp",
+    "source": "surface-touch-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 23592,
+    "format": "webp"
+  },
+  {
+    "file": "surface-touch-768.avif",
+    "source": "surface-touch-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 13603,
+    "format": "avif"
+  },
+  {
+    "file": "surface-touch-768.jpg",
+    "source": "surface-touch-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 33084,
+    "format": "jpg"
+  },
+  {
+    "file": "surface-touch-1280.webp",
+    "source": "surface-touch-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 57218,
+    "format": "webp"
+  },
+  {
+    "file": "surface-touch-1280.avif",
+    "source": "surface-touch-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 29757,
+    "format": "avif"
+  },
+  {
+    "file": "surface-touch-1280.jpg",
+    "source": "surface-touch-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 83396,
+    "format": "jpg"
+  },
+  {
+    "file": "surface-touch-1536.webp",
+    "source": "surface-touch-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 75200,
+    "format": "webp"
+  },
+  {
+    "file": "surface-touch-1536.avif",
+    "source": "surface-touch-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 38912,
+    "format": "avif"
+  },
+  {
+    "file": "surface-touch-1536.jpg",
+    "source": "surface-touch-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 113551,
+    "format": "jpg"
+  },
+  {
+    "file": "mattress-768.webp",
+    "source": "mattress-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 76732,
+    "format": "webp"
+  },
+  {
+    "file": "mattress-768.avif",
+    "source": "mattress-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 50192,
+    "format": "avif"
+  },
+  {
+    "file": "mattress-768.jpg",
+    "source": "mattress-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 76410,
+    "format": "jpg"
+  },
+  {
+    "file": "mattress-1280.webp",
+    "source": "mattress-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 190334,
+    "format": "webp"
+  },
+  {
+    "file": "mattress-1280.avif",
+    "source": "mattress-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 116487,
+    "format": "avif"
+  },
+  {
+    "file": "mattress-1280.jpg",
+    "source": "mattress-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 196225,
+    "format": "jpg"
+  },
+  {
+    "file": "mattress-1536.webp",
+    "source": "mattress-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 258110,
+    "format": "webp"
+  },
+  {
+    "file": "mattress-1536.avif",
+    "source": "mattress-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 150602,
+    "format": "avif"
+  },
+  {
+    "file": "mattress-1536.jpg",
+    "source": "mattress-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 266091,
+    "format": "jpg"
+  },
+  {
+    "file": "carpet-upholstery-768.webp",
+    "source": "carpet-upholstery-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 108028,
+    "format": "webp"
+  },
+  {
+    "file": "carpet-upholstery-768.avif",
+    "source": "carpet-upholstery-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 73647,
+    "format": "avif"
+  },
+  {
+    "file": "carpet-upholstery-768.jpg",
+    "source": "carpet-upholstery-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 100755,
+    "format": "jpg"
+  },
+  {
+    "file": "carpet-upholstery-1280.webp",
+    "source": "carpet-upholstery-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 242668,
+    "format": "webp"
+  },
+  {
+    "file": "carpet-upholstery-1280.avif",
+    "source": "carpet-upholstery-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 150431,
+    "format": "avif"
+  },
+  {
+    "file": "carpet-upholstery-1280.jpg",
+    "source": "carpet-upholstery-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 239983,
+    "format": "jpg"
+  },
+  {
+    "file": "carpet-upholstery-1536.webp",
+    "source": "carpet-upholstery-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 317364,
+    "format": "webp"
+  },
+  {
+    "file": "carpet-upholstery-1536.avif",
+    "source": "carpet-upholstery-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 192034,
+    "format": "avif"
+  },
+  {
+    "file": "carpet-upholstery-1536.jpg",
+    "source": "carpet-upholstery-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 321700,
+    "format": "jpg"
+  },
+  {
+    "file": "exterior-materials-768.webp",
+    "source": "exterior-materials-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 70816,
+    "format": "webp"
+  },
+  {
+    "file": "exterior-materials-768.avif",
+    "source": "exterior-materials-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 47569,
+    "format": "avif"
+  },
+  {
+    "file": "exterior-materials-768.jpg",
+    "source": "exterior-materials-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 74719,
+    "format": "jpg"
+  },
+  {
+    "file": "exterior-materials-1280.webp",
+    "source": "exterior-materials-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 185152,
+    "format": "webp"
+  },
+  {
+    "file": "exterior-materials-1280.avif",
+    "source": "exterior-materials-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 119925,
+    "format": "avif"
+  },
+  {
+    "file": "exterior-materials-1280.jpg",
+    "source": "exterior-materials-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 196336,
+    "format": "jpg"
+  },
+  {
+    "file": "exterior-materials-1536.webp",
+    "source": "exterior-materials-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 261774,
+    "format": "webp"
+  },
+  {
+    "file": "exterior-materials-1536.avif",
+    "source": "exterior-materials-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 164010,
+    "format": "avif"
+  },
+  {
+    "file": "exterior-materials-1536.jpg",
+    "source": "exterior-materials-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 274040,
+    "format": "jpg"
+  },
+  {
+    "file": "marble-counter-768.webp",
+    "source": "marble-counter-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 26144,
+    "format": "webp"
+  },
+  {
+    "file": "marble-counter-768.avif",
+    "source": "marble-counter-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 15042,
+    "format": "avif"
+  },
+  {
+    "file": "marble-counter-768.jpg",
+    "source": "marble-counter-master.png",
+    "width": 768,
+    "height": 512,
+    "bytes": 40160,
+    "format": "jpg"
+  },
+  {
+    "file": "marble-counter-1280.webp",
+    "source": "marble-counter-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 56572,
+    "format": "webp"
+  },
+  {
+    "file": "marble-counter-1280.avif",
+    "source": "marble-counter-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 29613,
+    "format": "avif"
+  },
+  {
+    "file": "marble-counter-1280.jpg",
+    "source": "marble-counter-master.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 92986,
+    "format": "jpg"
+  },
+  {
+    "file": "marble-counter-1536.webp",
+    "source": "marble-counter-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 74042,
+    "format": "webp"
+  },
+  {
+    "file": "marble-counter-1536.avif",
+    "source": "marble-counter-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 37710,
+    "format": "avif"
+  },
+  {
+    "file": "marble-counter-1536.jpg",
+    "source": "marble-counter-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 123534,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-v2-480.webp",
+    "source": "hero-portrait-v2-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 22940,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-v2-480.avif",
+    "source": "hero-portrait-v2-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 14180,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-v2-480.jpg",
+    "source": "hero-portrait-v2-master.png",
+    "width": 480,
+    "height": 720,
+    "bytes": 30704,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-v2-768.webp",
+    "source": "hero-portrait-v2-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 57662,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-v2-768.avif",
+    "source": "hero-portrait-v2-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 36391,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-v2-768.jpg",
+    "source": "hero-portrait-v2-master.png",
+    "width": 768,
+    "height": 1152,
+    "bytes": 73659,
+    "format": "jpg"
+  },
+  {
+    "file": "hero-portrait-v2-1024.webp",
+    "source": "hero-portrait-v2-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 101148,
+    "format": "webp"
+  },
+  {
+    "file": "hero-portrait-v2-1024.avif",
+    "source": "hero-portrait-v2-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 60642,
+    "format": "avif"
+  },
+  {
+    "file": "hero-portrait-v2-1024.jpg",
+    "source": "hero-portrait-v2-master.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 127452,
+    "format": "jpg"
+  }
+]

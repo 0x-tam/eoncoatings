@@ -1,0 +1,346 @@
+[
+  {
+    "file": "raw/extra--author--eon-coating--page--2.html",
+    "url": "https://eoncoatings.com/author/eon-coating/page/2/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "1c53bfe688a91224f6d5f7d14fc9796b6c0d85a19a624bdca431ed28c6646b40"
+  },
+  {
+    "file": "raw/extra--category--blog-articles--page--2.html",
+    "url": "https://eoncoatings.com/category/blog-articles/page/2/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "dd11112dbb32cf84e7fbdbbc7fef7e3ddc788a9dd0adc02b8f761728d62b15ae"
+  },
+  {
+    "file": "raw/extra--elementor-hf--footer.html",
+    "url": "https://eoncoatings.com/elementor-hf/footer/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d00b0637751b5ae8c86cb2b5228d2c9a748fcfc9f942f6ade12c5f5c62de2da1"
+  },
+  {
+    "file": "raw/extra--elementor-hf--header.html",
+    "url": "https://eoncoatings.com/elementor-hf/header/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d00b0637751b5ae8c86cb2b5228d2c9a748fcfc9f942f6ade12c5f5c62de2da1"
+  },
+  {
+    "file": "raw/extra--tag--ac-cleaning-service-in-uae.html",
+    "url": "https://eoncoatings.com/tag/ac-cleaning-service-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d15c4adfc6696611f57cf5f6b117d6e20ab654fd578af391bc237429cd0914a2"
+  },
+  {
+    "file": "raw/extra--tag--ac-duct-cleaning.html",
+    "url": "https://eoncoatings.com/tag/ac-duct-cleaning/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "053079ca17334f34be3d6cbd3969eec3f66e7cb76fe44002efd19c894ff8b54c"
+  },
+  {
+    "file": "raw/extra--tag--ac-duct-mold-resistant-coating.html",
+    "url": "https://eoncoatings.com/tag/ac-duct-mold-resistant-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "6557f98a1d6f0c1b6502f2993b1a4d224d6b86f0631caddfbef4e8951bc3494d"
+  },
+  {
+    "file": "raw/extra--tag--ac-sanitisation-service-in-uae.html",
+    "url": "https://eoncoatings.com/tag/ac-sanitisation-service-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "9eb7b2f3b86c9b2ef713b463c5a1f0c12e2118529aab57c510fded4459275dd0"
+  },
+  {
+    "file": "raw/extra--tag--ac-sanitisation-service.html",
+    "url": "https://eoncoatings.com/tag/ac-sanitisation-service/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "895af2f78e72faed6004d7e1de04e9830b2bfbe610647ce2e26552380d08ec1c"
+  },
+  {
+    "file": "raw/extra--tag--ac-sanitisation.html",
+    "url": "https://eoncoatings.com/tag/ac-sanitisation/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "8c2f0f3f206fcf11ced0b8ee3304b102eaf13bfbf809975e126f8119bb35f333"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-ac-duct-coatings.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-ac-duct-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "5c88c23e5d691ddeb52350958d357a74ef7768dfe3dff9599e91227d7c47e946"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-coating-services.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-coating-services/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "cd88816e13ab6e20b534839bbb473398c8d68608e4589bf01089c84c97ec5fc0"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-coating-solution.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-coating-solution/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "b76f87bde235a511c0572aa91e8624f98fbc4a9b7ec180fb3b256b09af80da11"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-coatings-safe-abu-dhabi.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-coatings-safe-abu-dhabi/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "a9742853761fb752d7a24eaad3c41c405166d7b2a725e79b2335b6e3d421be59"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-coatings-safe.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-coatings-safe/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "43c1155a7347453dd52df60ba5129bb20a9ea5827fa0edea86a1d883b80a1a2b"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-coatings.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "93e40afb4faaffee8e903a142b8aefaf92ad802ffe12693276f0e7129553b9eb"
+  },
+  {
+    "file": "raw/extra--tag--antimicrobial-surface-coatings.html",
+    "url": "https://eoncoatings.com/tag/antimicrobial-surface-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "44f451dce69d1a1574af0beca495c5f7bab7aae1a2cdd2a15c68c7de2270954c"
+  },
+  {
+    "file": "raw/extra--tag--cleaning.html",
+    "url": "https://eoncoatings.com/tag/cleaning/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "41005723876d3fdec5106a909ed5fec03b5ab5d560f82f9cb3aa525787c70e88"
+  },
+  {
+    "file": "raw/extra--tag--duct-cleaning-service-in-uae.html",
+    "url": "https://eoncoatings.com/tag/duct-cleaning-service-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d6e30b36ec3566bb7009b66a43fff216fdc0cf2b4b212b60f0a34c585b6f64a2"
+  },
+  {
+    "file": "raw/extra--tag--duct-cleaning-service.html",
+    "url": "https://eoncoatings.com/tag/duct-cleaning-service/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3ebe68e520ab1917a368cbbd91cda82931038d2291bc6020904a4d3641958300"
+  },
+  {
+    "file": "raw/extra--tag--furniture-coating.html",
+    "url": "https://eoncoatings.com/tag/furniture-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "c1ccaf9ba8b2eb6ca70721bba228976742cb22256a9a0d0d4c60f8144c39c8f5"
+  },
+  {
+    "file": "raw/extra--tag--health.html",
+    "url": "https://eoncoatings.com/tag/health/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "5aa002de7d720fcad86dcb66a2924d6df2c3ebfcead8f4a9fabdb6e1153b9eb2"
+  },
+  {
+    "file": "raw/extra--tag--mold-resistant-coating.html",
+    "url": "https://eoncoatings.com/tag/mold-resistant-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "0846f3b6bed1354c2391944ec31c770a57734df348f0466abfc5d7ddf5e018b6"
+  },
+  {
+    "file": "raw/extra--tag--mold-resistant-duct-coating.html",
+    "url": "https://eoncoatings.com/tag/mold-resistant-duct-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "babae8addd3300d34a4f42b91bab0c612fc38044c3079fbeab0a45255862a761"
+  },
+  {
+    "file": "raw/extra--tag--professional-ac-sanitisation.html",
+    "url": "https://eoncoatings.com/tag/professional-ac-sanitisation/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "7512521a4921cd10ca42a17862180cdc9fd8975a344764db9bfc5fc179c0dbb6"
+  },
+  {
+    "file": "raw/extra--tag--regular-ac-sanitisation.html",
+    "url": "https://eoncoatings.com/tag/regular-ac-sanitisation/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "284da2564bba791c1e7a023743ca2eaade2037c49e48228a20cd9dfca0de430a"
+  },
+  {
+    "file": "raw/extra--tag--stain-guard-protection.html",
+    "url": "https://eoncoatings.com/tag/stain-guard-protection/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "a142fd97894201e720f11eec43de4c9f952fdf6100c88c08845fc114b91951c8"
+  },
+  {
+    "file": "raw/extra--tag--stain-resistant-furniture-coating.html",
+    "url": "https://eoncoatings.com/tag/stain-resistant-furniture-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "dfc774d226df713312ecb8a25b1f5a0f29f447ee5bb232215c590584c793ce1c"
+  },
+  {
+    "file": "raw/extra--tag--surface-coatings-abu-dhabi.html",
+    "url": "https://eoncoatings.com/tag/surface-coatings-abu-dhabi/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "ad33849fcb4e3315eb0047967dd438d8a6477fa9b07e0799bbbe99ed4812e4bf"
+  },
+  {
+    "file": "raw/extra--tag--surface-coatings.html",
+    "url": "https://eoncoatings.com/tag/surface-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "aa18b029f98c92f16af1d7d3a34f25c73f2f6a05da7129a30c3b2d220d995298"
+  },
+  {
+    "file": "raw/extra--tag--surface-protection-coatings-abu-dhabi.html",
+    "url": "https://eoncoatings.com/tag/surface-protection-coatings-abu-dhabi/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "434e971394eefbfb4ebb6d6a398006670cc45e1358700e5ebc54f66dd8897f10"
+  },
+  {
+    "file": "raw/extra--tag--surface-protection-coatings.html",
+    "url": "https://eoncoatings.com/tag/surface-protection-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3f4291fa13a9b5e3d6a8b9a269d64114b55603bc85e676abb57e066931f20c9e"
+  },
+  {
+    "file": "raw/extra--tag--surface-protection-solutions.html",
+    "url": "https://eoncoatings.com/tag/surface-protection-solutions/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "a8e666873e868b28984208b1ae70a338b45ccd0646b85277774474dd707f2d32"
+  },
+  {
+    "file": "raw/tags.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/tags?per_page=100",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "989395b21caf5851e8ea9b1ea8b4f745880eb7178231c89738aa239f05f09175"
+  },
+  {
+    "file": "raw/tags-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/tags?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "raw/../assets/1825-Certification.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/Certification.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d0c96b946762266f851957e0e8dc9500d03ef52a52df7c03234461997d6cd63a"
+  },
+  {
+    "file": "raw/../assets/1749-hgpp.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/hgpp.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "db06b0d8e8b988e82a9e3e2421bc3f7b19b35b79d2510a94cc638f350792eb57"
+  },
+  {
+    "file": "raw/../assets/3507-hgpp-1.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/08/hgpp-1.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3266a4a2b03620797eb4d1eda8c7e424852e87a683a67cd603dd9c77d91d3851"
+  },
+  {
+    "file": "raw/../assets/6310-hgpp-icon-3.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/10/hgpp-icon-3.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "9c511c725116bfa76e0691f8dd0941cf5a5aa0106554df9859b2ad7ad69255b1"
+  },
+  {
+    "file": "raw/../assets/6309-hgpp-icon-2.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/10/hgpp-icon-2.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "4478cb3fc165af2a1f0716ff6c67dec5f569344086be03a1634834cdfcee1513"
+  },
+  {
+    "file": "raw/../assets/6305-hgpp-icon-1.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/10/hgpp-icon-1.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "36fbae9e88f7acf987934dc99a19258d12937f84f244fa6fcebe391c1db5183d"
+  },
+  {
+    "file": "raw/../assets/6067-health-certificate.png",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/10/health-certificate.png",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "85daf6431893dd99156c47c019474d7fe37f478fab3bf8301fd031f9e15fdbe3"
+  },
+  {
+    "file": "raw/../assets/5846-health-certificate.jpg",
+    "url": "https://eoncoatings.com/wp-content/uploads/2025/10/health-certificate.jpg",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "1ffdfa9fa6e1302c1d6ffbfc621f278f1b826add8f450f84e2b3f50d8ee43eec"
+  }
+]

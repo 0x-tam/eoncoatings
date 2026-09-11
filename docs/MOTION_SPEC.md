@@ -1,19 +1,9 @@
-# Duct motion and construction
+# Material attention and scale
 
-Model source: lib/eon/duct-assembly.ts. Renderer: lib/eon/duct-renderer.ts. Timeline: lib/eon/story-state.ts. HTML owner: components/eon/DuctStory.tsx.
+The campaign uses ordinary CSS image transforms and React selection state. It contains no 3D, scroll-controlled cleaning effect, slider, video dependency or pinned sequence.
 
-Procedural dimensions are illustrative metres: 1.6 long, .72 wide, .56 high, with a .25 continuation. Thin folded plates, end flanges, longitudinal seams, captive hexagonal fasteners, four roof panels surrounding a real hatch aperture, hatch handle, gasket, fixed lower channel and internal dust are separate named parts. Repeated fasteners merge by parent. Deposits use seeded instancing.
+Overview, Stone, Fabric and Air are explicit states. A 1050ms interruptible ease moves the same full raster into Stone/Fabric. Source-specific pixel registration accounts for responsive cover dimensions and crops. Translation is bounded to prevent empty edges. Air loads and decodes on selection, then cuts to an architectural image. Its textual service links work even when the photograph fails.
 
-A single p in [0,1] controls every transform. 0 to .12 assembled; .12 to .30 hatch and virtual shells separate; .30 to .44 dirty hold; .44 to .66 cleaning front moves along local x; .66 to .79 clean hold; .79 to .92 close; .92 to 1 assembled. The dust shader is surface-bound and leaves the underlying metal unchanged. It is not a measured EON result. Coating is not added to this sequence.
+Keyboard activation focuses the Back control at the beginning of the revealed content. Returning restores material-navigation focus. CSS prefers-reduced-motion eliminates transitions and animations. The QA-only reduced-motion override exercises that same no-motion presentation without changing system settings.
 
-Native scroll uses 340svh desktop and 290svh mobile. No wheel interception, orbit controls or smooth-scroll library. Chapter buttons move directly to normalized states; the skip link moves to the three treatment explanations. Motion is reversible and independent of callback order. Camera framing projects cached component geometry bounds into camera space to fit both assembled and exploded states. Mobile reduces separation distance.
-
-The study lives at /inside-the-air/. The homepage has no canvas and does not load the duct runtime. A native range slider supports scrubbing and keyboard input alongside scroll and chapter buttons. One renderer, deferred import, no idle loop. Scroll state owns visibility from cached section bounds; resize refreshes dimensions. Frames run only after an input or size change and stop when hidden or offscreen. All resources and listeners are disposed on unmount. WebGL context loss restores the lighter presentation.
-
-Reduced motion, save-data and user-selected lighter view use the model's own static sequence. Scripts disabled also exposes static content through noscript CSS. Poster states are exported from the same model and camera calculations. Desktop and mobile stills use their own compositions.
-
-Actual scene budget in the first browser review: 11,230 visible triangles and 82 calls. This is below both stated triangle caps and below the mobile 100-call cap. Performance and final measurements belong in QA_REPORT.md.
-
-The redesign uses a dark forest studio, five rectangular softbox reflections, quieter zinc variation and lower side-panel displacement to expose the interior. Header navigation remains available. Fresh desktop and mobile fallback stills were exported from the revised scene.
-
-Export-only query capture=model hides interface copy and captions without changing the camera or geometry. Renderer disposal removes the ready marker so the fallback remains visible.
+Ordinary forward and reverse page scrolling remains native. The live interaction evidence consists of browser actions and saved state captures, not a fabricated video. See QA_REPORT.md for the actual tested sequence and limits.

@@ -1,0 +1,14 @@
+{
+  "height": 1000,
+  "metrics": {
+    "clickFrame": 0,
+    "cls": 0.002118946337287809,
+    "fcp": 104,
+    "lcp": 136,
+    "longTasks": 0,
+    "maxLongTask": 0,
+    "transfer": 713309
+  },
+  "url": "http://127.0.0.1:5176/",
+  "width": 1440
+}

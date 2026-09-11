@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import {cleanText,dateLabel,recordPath} from '@/lib/eon/content';
+import {cleanText,dateLabel,recordPath} from '@/lib/eon/public-format';
 import type {ContentRecord} from '@/lib/eon/content-types';
 export default function MediaIndex({articles,initialQuery="",initialCategory="All",initialLimit=9}:{articles:ContentRecord[];initialQuery?:string;initialCategory?:string;initialLimit?:number}){
  const [query,setQuery]=useState(initialQuery),[category,setCategory]=useState(initialCategory),[limit,setLimit]=useState(initialLimit);

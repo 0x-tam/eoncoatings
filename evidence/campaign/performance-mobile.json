@@ -1,0 +1,15 @@
+{
+  "conditions": "Local production, 390x844 settled viewport, unthrottled, warm browser assets, no QA checker",
+  "failedLoadedImages": [],
+  "metrics": {
+    "clickFrame": 0,
+    "cls": 0.00743980647781312,
+    "fcp": 144,
+    "lcp": 144,
+    "longTasks": 0,
+    "maxLongTask": 0,
+    "transfer": 558446
+  },
+  "overflow": 0,
+  "width": 390
+}

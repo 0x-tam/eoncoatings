@@ -1,0 +1,8 @@
+HTTP/2 200 
+x-powered-by: PHP/8.3.32
+link: <https://eoncoatings.com/wp-json/>; rel="https://api.w.org/", <https://eoncoatings.com/wp-json/wp/v2/pages/6>; rel="alternate"; title="JSON"; type="application/json", <https://eoncoatings.com/>; rel=shortlink
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+date: Fri, 11 Sep 2026 12:56:47 GMT
+server: Apache
+

@@ -1,15 +1,5 @@
-# EON Inside the Air
+# Current commission
 
-Brief read fully including appendices A to D. New starter, no earlier product implementation. Existing private Sites project reused. User chose Inside the Air, requests autonomous delivery and selective agents.
+Life, well kept. replaces the prior duct and wipe directions. Current source lives in the life-well-kept worktree on codex/life-well-kept. Earlier concepts in the parent checkout were preserved and are not this deliverable.
 
-Owner handles design, original procedural Three.js model, timeline, integration and QA. source_inventory agent owns /private/tmp/eon-research only. image_collection owns /private/tmp/eon-images only.
-
-Visual thesis: warm architectural product study, left editorial type with an oversized diagonal galvanized duct on right. Warm chalk #f3f1ea, ink #202b34, logo teal. Thin metal construction, calm physical light, no glowing cleaning effects. Full source content retained separately from authored positioning.
-
-Required scope: homepage, about, seven new service details, service index, HGPP, archive and all public articles, contact, legal, 404. Form must never claim delivery without confirmed backend response. Do not submit live test enquiries. Zero em dashes in delivered text; raw evidence exempt.
-
-Use existing React/TypeScript Vinext starter. Three.js procedural model source with deterministic normalized state, only homepage loads runtime. Native scroll, reduced-motion static sequence from same model. Research and generated asset results pending.
-
-Implementation complete: seven services, all 20 articles, four original industry routes, company and legal content, HGPP, contact draft workflow, original reversible Three.js assembly and 11 generated image assets. Full source research and media are retained under evidence/source and public/source. Final QA and launch dependencies are documented in QA_REPORT.md. Owner-only Sites publication is the delivery target.
-
-Revision 2 replaces the original opening and service presentation after explicit user rejection. Seven new scenario images, interactive material hotspots, visual service filters, four setting selectors and full service detail use cases are implemented. Duct study moved to its own route, with revised studio lighting and native scrubbing. Latest verification is in evidence/v2.
+The site includes the full homepage, material explorer, seven service pages, company, HGPP, sectors, journal, full source article bodies, taxonomy/author archives, contact and existing legal page. Review QA_REPORT.md for actual validation and remaining owner dependencies. No older test or deployment claim applies to this campaign.

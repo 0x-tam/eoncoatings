@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const origin=process.argv[2]||'http://localhost:5175';
+const routes=JSON.parse(fs.readFileSync('lib/eon/required-routes.json','utf8'));const results=[];const assets=new Set();
+for(const route of routes){try{const response=await fetch(origin+route.path);const html=await response.text();for(const m of html.matchAll(/(?:src|href)="(\/(?:images|fonts|_next)\/[^"?]+)"/g))assets.add(m[1]);results.push({path:route.path,status:response.status,h1:(html.match(/<h1(?:\s|>)/g)||[]).length,title:html.match(/<title>(.*?)<\/title>/s)?.[1],emDash:html.includes('\u2014'),redirected:response.redirected});}catch(e){results.push({path:route.path,error:String(e)})}}
+const failedAssets=[];for(const path of assets){const r=await fetch(origin+path,{method:'HEAD'});if(!r.ok)failedAssets.push({path,status:r.status});}
+const failed=results.filter(r=>r.status!==200||r.h1!==1||r.emDash||r.title?.includes('Page not found'));const output={origin,checkedAt:new Date().toISOString(),routes:results.length,assets:assets.size,failed,failedAssets,results};fs.writeFileSync('evidence/campaign/route-audit.json',JSON.stringify(output,null,2));console.log(JSON.stringify({routes:results.length,assets:assets.size,failed,failedAssets},null,2));if(failed.length||failedAssets.length)process.exitCode=1;

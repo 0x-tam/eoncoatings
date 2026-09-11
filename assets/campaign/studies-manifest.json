@@ -1,0 +1,38 @@
+{
+  "campaign": "Life, well kept.",
+  "tool": "Built-in image_gen",
+  "stage": "Three internal composition studies, owner selection pending",
+  "nativeDimensions": [
+    1536,
+    1024
+  ],
+  "studies": [
+    {
+      "file": "study-01-low-oblique.png",
+      "prompt": "study-01-prompt.txt",
+      "source": [],
+      "output": "exec-5124661f-bef0-4405-8aa0-c6b766ebd813.png",
+      "critique": "Strong close texture and table weight. Cup far right, cropped chair, unrequested bowl and book props. Splash looks too stylized."
+    },
+    {
+      "file": "study-02-raised-oblique.png",
+      "prompt": "study-02-prompt.txt",
+      "source": [
+        "study-01-low-oblique.png"
+      ],
+      "output": "exec-79165cb9-9267-4e61-976e-2c2bf69dd737.png",
+      "critique": "Strong mineral surface. Raised camera flattens composition and crops chair. Removed unnecessary props. Splash remains spoon-like."
+    },
+    {
+      "file": "study-03-balanced.png",
+      "prompt": "study-03-prompt.txt",
+      "source": [
+        "study-02-raised-oblique.png"
+      ],
+      "output": "exec-83fe4e27-d584-44c6-b306-fbcbf1e0acf2.png",
+      "critique": "Recommended. Recognizable full chair construction, tactile stone foreground and leg, usable upper-left negative space. Remove contrived splash before final."
+    }
+  ],
+  "generationOutputDirectory": "/Users/Tamam/.codex/generated_images/01a08f25-5941-74e1-81ff-0b952386ce2d",
+  "review": "All three inspected at original size. No final asset family generated yet."
+}

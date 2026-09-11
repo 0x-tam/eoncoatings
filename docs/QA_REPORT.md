@@ -1,43 +1,54 @@
-# Verification report
+# Life, well kept: verified delivery report
 
-## Revision 2, current design
+Verified 11 September 2026 in the isolated life-well-kept checkout. This replaces the inherited 3D report. The current campaign renders no 3D scene, comparison slider, simulated coating effect or pinned scroll.
 
-The first visual design was rejected by the user. Revision 2 replaces the opening, navigation, service catalogue, all service detail presentations and sector introductions. Seven new original scenario images complement the existing collection. The homepage has no WebGL canvas. The revised interactive duct study is at /inside-the-air/.
+## Build and source
 
-Current evidence is in evidence/v2. The homepage passed overflow and hero-content-fit checks at eight viewport sizes, from 360x800 to 1920x1080, including short landscape. All seven service pages were checked at 360x800: no horizontal overflow, clipped hero content or broken images. Service filters, direct cleaning navigation, hospitality selection, its mattress-service link, mobile menu Escape/focus return and keyboard range scrubbing were verified. New service images have responsive derivatives.
+- Production build passed all five vinext stages with Node 24.
+- TypeScript no-emit check passed.
+- Seven offline contact-adapter fixtures passed: explicit success, bounds, configuration/origin, challenge and rate gates, wire fields, injection rejection, and timeout handling.
+- Authored source and published content punctuation check passed. Immutable source archives retain original punctuation.
+- Final production audit: 82 routes, 61 referenced local image/font/script/style assets, zero failures. Every audited route has one H1 and a valid title. Elementor template URLs redirect home. Archives and both second pages render.
 
-The route audit now covers 48 routes and 46 directly referenced assets, with no failures and a real 404. TypeScript, production build and six fixture/timeline tests pass. Lint has zero errors and 21 intentional static-image optimization advisories. Image derivatives and lazy loading are explicit. Independent visual review found no P1/P2 issues in the new opening, catalogue and hospitality captures.
+## Actual browser verification
 
-The lighter-view check uncovered an empty canvas container obscuring the poster. Disposal now clears its ready flag, and the repaired view was visually verified with zero canvases and four static panels. Model-only export mode hides interface overlays; fresh stills were inspected and do not include captions. Use /inside-the-air/?capture=model when regenerating the model frames.
+| Check | Outcome |
+| --- | --- |
+| 1440 desktop, 1024, 768, 390 and 360 widths | Inspected, readable, no horizontal overflow in measured states |
+| Stone and Fabric | Actual source photograph magnifies to its material; relevant service links remain usable |
+| Air | Separate architectural photograph, distinct cleaning/sanitisation/coating service information |
+| Keyboard and focus | Activation focuses Back and reveals the selected panel; return restores initiating control |
+| Rapid material changes | Seven changes settle to Fabric, one image, Back focus, no overflow |
+| Resize during selection | 1440 to 768 Fabric remains readable and correctly selected |
+| Native forward and reverse scroll | Services, air feature, company, FAQ and enquiry remain reachable without trapping |
+| Mobile menu | Tab and Shift-Tab wrap; Escape closes and restores Menu focus |
+| Optional Air image failure | Visible unavailable message and functioning AC service link |
+| Reduced motion | QA override executes matching zero-duration styles; OS preference rule exists but OS emulation was unavailable |
+| Contact validation | Invalid phone shows error and retains values; corrected fixture creates encoded mailto draft explicitly marked unsent |
 
-Current unthrottled local production homepage observations at 390x844: initial LCP 148 ms, CLS 0.00163 and 671,166 bytes transferred in the sampled initial window. Five warm reloads recorded LCP 84, 64, 68, 80 and 60 ms, median 68 ms, with zero sampled CLS and long tasks. These are local lab observations, not mobile-network or field benchmarks. Raw records: evidence/v2/production-lab.json.
+No live enquiry, email application launch or customer message was sent. The current form is an email-draft journey, not verified direct delivery. See FORM_INTEGRATION.md for the owner gateway, challenge, rate limiting and WordPress mail configuration required to enable direct submission.
 
-External validation and form integration limitations below still apply. Older screenshots and metrics below describe revision 1 and must not be used as evidence of the current visual design.
+## Accessibility
 
-## Revision 1, historical checks
+Local axe-core 4.10.3 WCAG 2 A/AA and 2.1 AA checks reported zero violations on homepage, contact, marble service, media archive and HGPP pages. Mobile homepage also reported zero. These representative automated checks supplement keyboard and visual review; they are not certification of all 82 pages.
 
-Verified 11 September 2026 in the Codex in-app Chromium browser on the local Mac. This is a private review build. It is not a claim of live EON enquiry delivery or universal device certification.
+## Local performance
 
-## Automated checks
+Desktop 1440x1000, local production, unthrottled, warm server and first visit to the browser origin: LCP 136 ms, FCP 104 ms, CLS 0.0021, no long tasks, 713309 resource transfer bytes.
 
-Production build and TypeScript pass. Three deterministic timeline tests cover clamps, transitions, clean hold and reverse/interrupted progress. Three backend-adapter fixture tests verify failure handling without sending live requests. The route audit covers 47 source and new routes, including five category redirects and the obsolete contact alias. All expected destinations respond successfully with one h1, 39 referenced local assets resolve, and the unknown route returns a real 404. Authored content passes the zero em dash check. Immutable research snapshots retain source punctuation.
+Final mobile 390x844, settled viewport, local production, unthrottled, warm browser assets: LCP and FCP 144 ms, CLS 0.00744, no long tasks, 558446 resource transfer bytes. A previous mobile sample exposed a 0.75 image-sizing shift; reserving the full portrait raster in CSS before hydration corrected it. No failed loaded images or horizontal overflow in the final sample.
 
-## Interaction and visual evidence
+These are local lab observations, not Lighthouse, field Core Web Vitals, INP or a simulated slow network. A measured click-to-next-frame sample was 27.8 ms and is not presented as INP.
 
-The browser checks cover chapter jumps, reverse progress, desktop/mobile resizing, static lighter mode, actual WebGL context loss, offscreen rendering pause, navigation focus trapping, Escape and focus return, archive search, category state, load more, article navigation and back navigation. Contact checks cover required fields, conditional company field, phone validation and correctly encoded email draft. No live enquiry was sent.
+## Independent review and evidence
 
-Eight captured viewport sizes: 1440x900, 1920x1080, 1280x800, 1024x768, 768x1024, 390x844, 360x800 and 844x390. No horizontal overflow was found. Short landscape uses an unpinned layout. The five final model states are recaptured at desktop and mobile sizes in evidence/desktop-*.png and evidence/mobile-*.png. These exact renders generate the fallback WebP images, not AI illustrations of an unrelated object.
+The independent reviewer performed a direct browser first pass, identified three substantive issues, and subsequently inspected fresh owner browser captures because their browser became unavailable. All findings, including a final hotspot clipping issue, were closed. Scope and attribution are retained in campaign/INDEPENDENT_REVIEW.md.
 
-Independent content review findings were repaired: category redirects, contact alias, qualified industry claims and restored HGPP informational imagery. Visual review prompted a larger duct, quieter zinc texture, opaque header and descriptive active chapter labels on mobile. The duct remains an illustrative procedural model, not recorded service evidence.
+Evidence is under evidence/campaign. INTERACTION_SEQUENCE.md indexes actual captures and live-tested steps. This is equivalent live interaction evidence, not a video recording. Some testing captures include the deliberately enabled QA control.
 
-## Local performance observations
+## Remaining limits
 
-Five warm-cache production reloads at 390x844: LCP 84, 72, 88, 76 and 72 ms, median 76 ms. CLS was 0 in all five runs and no long tasks were observed in the sampled post-load window. One earlier initial load recorded LCP 156 ms, CLS 0.0013 and about 502 KB transferred. The scene reports 11,230 triangles and 82 draw calls. A chapter click reached the next frame in 3.6 ms. Rendering stayed unchanged while the story was offscreen.
-
-These are unthrottled local lab observations, not field INP, representative mobile-network LCP or sustained 60 fps proof. Raw measurements are in evidence/production-lab-runs.json. Local instrumentation transmits nothing.
-
-## Remaining external validation and launch dependencies
-
-Real iOS Safari, Android devices, Firefox, screen reader testing, OS reduced-motion and Save-Data emulation, browser 200 percent zoom, sustained frame-rate profiling and throttled network benchmarks were unavailable or not completed. Reduced-motion, Save-Data and no-JavaScript fallbacks are implemented, with explicit lighter-mode and context-loss fallback checked in the browser.
-
-Direct enquiry delivery requires owner-provided backend configuration, the protected CAPTCHA integration and a safe staging recipient. The review form explicitly prepares an email draft and links the existing protected EON form. The source privacy policy contains WordPress suggested language and needs owner review. WhatsApp account validity needs owner confirmation. Private preview remains noindex. EON production and DNS were not changed.
+- Generated masters are native 1536x1024 landscape and 1024x1536 portrait. Higher resolution was requested but the generator returned these sizes. No upscaled master is represented as native high resolution.
+- Actual OS reduced-motion emulation, field performance and live mail receipt were not verified.
+- Direct contact delivery requires owner backend configuration. Real phone, email draft and original protected enquiry link remain available.
+- The existing hosted Site is public. This reviewed version is prepared for saving; public deployment requires the audience decision specified by the Sites hosting workflow. The previous public publication has not been replaced during QA.

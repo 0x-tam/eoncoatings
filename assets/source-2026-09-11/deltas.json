@@ -1,0 +1,40 @@
+{
+  "posts": {
+    "count": 20,
+    "added": [],
+    "removed": [],
+    "changedFields": []
+  },
+  "pages": {
+    "count": 10,
+    "added": [],
+    "removed": [],
+    "changedFields": [
+      {
+        "id": 6096,
+        "fields": [
+          "content"
+        ]
+      }
+    ],
+    "explanation": "Only contact CAPTCHA widget markup changed. Contact content outside that widget is byte-identical to previous raw crawl."
+  },
+  "service": {
+    "count": 7,
+    "added": [],
+    "removed": [],
+    "changedFields": []
+  },
+  "industry": {
+    "count": 4,
+    "added": [],
+    "removed": [],
+    "changedFields": []
+  },
+  "categories": {
+    "count": 5,
+    "added": [],
+    "removed": [],
+    "changedFields": []
+  }
+}

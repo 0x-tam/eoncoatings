@@ -1,72 +1,38 @@
-# EON Coatings: Surface Protection That Performs
+# EON Coatings: Life, well kept.
 
-A responsive, image-led EON website covering specialist surface coatings, interior cleaning and AC care. Includes 18 generated illustrative assets, detailed service scenarios, a separate original Three.js study, complete source content and an honest email-draft enquiry flow.
+Complete campaign website with original photography, a material explorer, seven service pages and the source article/archive library. Current campaign source is this life-well-kept worktree. Older concepts in the parent folder were left intact.
 
-## Run locally
+## Run
 
-Use Node.js 22.13 or newer. The retained lockfile uses npm.
+Use Node 22.13 or later, preferably Node 24. Install the locked dependencies with npm ci. Run npm run dev for the development preview or npm run build for the Worker production output. This checkout currently uses a local node_modules symlink to the parent installation; a fresh checkout should run npm ci normally.
 
-```sh
-npm ci
-npm run dev
-```
+The current development preview runs at http://localhost:5175/. The default package script otherwise selects port 5173; pass --port 5175 when needed. Build output is Cloudflare-compatible Worker ESM in dist/server with client assets in dist/client. The local production command is npm run start with an explicit free port. Keep production and development previews separate.
 
-The development URL is http://localhost:5173/. On this workspace, a compatible bundled Node is available at `/Users/Tamam/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node`.
+## Design and content
 
-```sh
-npm run build
-npm start
-```
+- docs/DESIGN.md: campaign selection, typography, compositions and interaction storyboard.
+- assets/campaign: generated masters, prompts, rejected studies, exact detail crops, compressed variants and manifest.
+- assets/source-2026-09-11: fresh EON source archive, verified routes and contact schema.
+- docs/CONTENT_INVENTORY.md: complete content and migration decisions.
+- docs/QA_REPORT.md and evidence/campaign: actual checks, screenshots and limits.
 
-`npm start` serves the built Cloudflare Worker locally through Wrangler. The private Sites project is retained in `.openai/hosting.json`; no DNS or live EON production configuration was changed.
+All generated campaign imagery is illustrative. EON's genuine logo and published HGPP materials remain separate. The available image generator returned native 1536x1024 landscape images despite a higher-resolution request. That limitation is recorded in the manifest.
+
+## Contact configuration
+
+With no environment values, the contact form prepares an email draft and never claims to send it. Telephone and email links work independently. Direct online delivery requires EON's stable WordPress backend plus a genuine one-use verification/rate-limit gateway. The server endpoint and field adapter are implemented, but those owner services and secrets are not configured. See docs/FORM_INTEGRATION.md and .env.example for the exact contract. Never test by sending an unapproved live enquiry.
 
 ## Validation
 
-```sh
-npx tsc --noEmit
-npx eslint app components/eon lib/eon --ignore-pattern '*.json'
-node --test tests/*.test.mjs
-node scripts/check-content.mjs
-node scripts/audit-routes.mjs http://localhost:5173
-```
+- node --test tests/campaign-contact.test.mjs
+- node scripts/audit-campaign.mjs http://localhost:5175
+- node scripts/check-content.mjs
+- node node_modules/typescript/bin/tsc --noEmit
 
-Use a running production preview origin for the route audit when checking a release. The audit records all 48 routes and redirects, local assets, title/H1 presence, forbidden punctuation and the 404 response. Tests cover deterministic timeline reconstruction and CF7 response semantics using local fixtures only.
+A preview-only quality panel is available with ?qa=1. It runs local axe-core checks, and its reduced-motion button tests the motion-free CSS presentation without changing system preferences. ?qa=1&failAir=1 exercises the optional air-image failure path. These controls are absent on ordinary URLs.
 
-## Editing
+## Hosting
 
-- `lib/eon/service-stories.ts`: service-specific use cases, materials and applications.
-- `components/eon/SurfaceExplorer.tsx`: visual catalogue, filters and setting selector.
-- `app/inside-the-air/page.tsx`: optional interactive duct study.
-- `lib/eon/content.ts`: seven-service editorial descriptions and coating FAQs.
-- `lib/eon/source-content.json`: sanitized public archive and retained company content.
-- `app/[...slug]/page.tsx`: detail, company, legal, article and category routes.
-- `components/eon/`: shell, contact, media and reusable editorial components.
-- `app/globals.css`: design tokens and responsive layouts.
-- `lib/eon/duct-assembly.ts`: reproducible model geometry, materials and seeded dirt.
-- `lib/eon/story-state.ts`: deterministic normalized timeline.
-- `lib/eon/duct-renderer.ts`: lighting, camera fit, rendering and disposal.
-- `assets/`: generated masters, visual targets and exact provenance.
-- `public/model/`: runtime-matching WebP stills.
-- `evidence/`: raw public evidence, route audit, screenshots and lab measurements.
+Reuse the project_id in .openai/hosting.json. Validate, commit and push this exact worktree, then package production output with the current Sites helper. Do not publish the unrelated parent checkout. The existing hosted Site currently has public access, so replacing that public version requires the final audience-specific approval. No DNS change is part of this delivery. Canonicals target eoncoatings.com; preview robots remain noindex/nofollow.
 
-The source crawl is immutable under `evidence/source`. `scripts/prepare-content.py` sanitizes its HTML and normalizes punctuation. `scripts/cache-source-media.py` downloads referenced public archive images and rewrites their local paths. Run these in that order when deliberately refreshing the saved snapshot. They do not crawl a new article archive themselves.
-
-To update model stills, open `/inside-the-air/?capture=model` to hide interface overlays, then capture the actual canvas at each chapter with the in-app browser, save full viewport PNGs and canvas rectangle records in `evidence`, then run `scripts/export-posters.py` with Python and Pillow. Do not replace the posters with a different generated duct. Geometry source is the model deliverable; no external mesh download is required.
-
-## Enquiry integration and launch dependencies
-
-See `docs/FORM_INTEGRATION.md`. The preview prepares an email for visitor review and links to EON's current protected form. It does not submit an enquiry from this frontend or claim delivery. `lib/eon/cf7-adapter.ts` is an unconnected typed integration seam tested with fixtures.
-
-A direct form launch requires a stable separate WordPress backend, its live anti-bot flow, owner-configured recipient/SMTP and an authorised staging delivery test. Reserved configuration names are `EON_FORM_BACKEND_ORIGIN` and `EON_FRONTEND_ORIGIN`; they are not active preview secrets. No CAPTCHA solution is hardcoded. Do not point a future proxy back to the new frontend itself.
-
-The source privacy policy includes WordPress Suggested text. EON should supply its completed policy before a public launch. The original WhatsApp destination has a numbering defect and remains unverified; phone and email work as native links.
-
-## Deployment and search
-
-The current build is a private design preview and is noindex. Canonicals preserve EON's original public URLs. Before an authorised live-domain release, update robots metadata and robots.ts, confirm legal copy and form delivery, and review source claims with the owner. Private publishing does not change eoncoatings.com.
-
-Build output is packaged with the installed Sites `package-site.sh` helper and saved against the exact pushed source commit. Model, source, prompts and original imagery remain maintainable in this project.
-
-## Evidence and limits
-
-`docs/QA_REPORT.md` distinguishes implemented, verified and unverified work. Browser evidence is desktop emulation using the Codex in-app browser, not physical phone or human screen-reader certification. Performance figures are local lab observations, not field Core Web Vitals.
+Do not enable production indexing until the owner approves the final domain, policy text, contact backend and publication. The existing privacy policy contains source WordPress suggested text and remains marked for owner review.

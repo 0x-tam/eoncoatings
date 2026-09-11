@@ -1,0 +1,225 @@
+{
+  "campaign": "Life, well kept.",
+  "productionDate": "2026-09-11",
+  "generationTool": "Built-in image_gen",
+  "defaultOutputDirectory": "/Users/Tamam/.codex/generated_images/01a08f25-5941-74e1-81ff-0b952386ce2d",
+  "selection": {
+    "winner": "study-03-balanced.png",
+    "reason": "Balanced whole-chair construction, substantial pale stone foreground, central props and generous petrol negative space.",
+    "revisions": "Removed coffee splash and droplets because every study produced a spoon-like liquid tongue. Plain espresso improves physical credibility.",
+    "studiesRecord": "studies-manifest.json"
+  },
+  "resolution": {
+    "requestedHero": [
+      3072,
+      2048
+    ],
+    "actualLandscapeNative": [
+      1536,
+      1024
+    ],
+    "actualPortraitNative": [
+      1024,
+      1536
+    ],
+    "limitation": "Built-in image_gen returned 1536x1024 landscape despite explicit request for 3072x2048. No output is represented as native 2560px or artificially enlarged. Large viewport retina detail remains limited by native resolution."
+  },
+  "disclosure": "Illustrative campaign imagery. These pictures are not EON client sites, completed jobs, employees, tests or certification evidence.",
+  "assets": [
+    {
+      "file": "hero-landscape-master.png",
+      "prompt": "hero-landscape-prompt.txt",
+      "inputs": [
+        "study-03-balanced.png"
+      ],
+      "output": "exec-8c53f357-c741-4892-a2b7-817ed86b4a9e.png",
+      "role": "Homepage landscape overview",
+      "alt": "Terracotta upholstered chair and pale limestone table with a glass and espresso against a deep petrol backdrop.",
+      "review": "Splash removed. Complete furniture contact and credible glass/cup. Hero stone is porous limestone or travertine, not marble."
+    },
+    {
+      "file": "hero-portrait-master.png",
+      "prompt": "hero-portrait-prompt.txt",
+      "inputs": [
+        "hero-landscape-master.png"
+      ],
+      "output": "exec-c3fa8e1e-06f2-41a2-aa61-e69f919f4365.png",
+      "role": "Separately composed mobile hero",
+      "alt": "Portrait composition of the terracotta chair and pale stone coffee table with glass and espresso.",
+      "review": "Inspected. Same material palette and furniture language, top quarter quiet. This is a separately composed photograph, not exact continuous crop.",
+      "superseded": true,
+      "rejectionReason": "Integrated 390x844 mobile QA showed the original quiet upper quarter was insufficient: headline, descriptor and CTA overlapped the upper chair. Preserved for provenance."
+    },
+    {
+      "file": "stone-detail-exact.png",
+      "inputs": [
+        "hero-landscape-master.png"
+      ],
+      "role": "Exact hero stone detail for registered material transition",
+      "derivation": {
+        "method": "Lossless pixel crop with sharp",
+        "rect": [
+          420,
+          580,
+          1100,
+          440
+        ],
+        "resampled": false
+      },
+      "alt": "Close view of the hero table's pale limestone pores, rounded edge and espresso.",
+      "review": "Exact native crop, preserves mineral landmarks. Use for generic Stone exploration, not as marble evidence."
+    },
+    {
+      "file": "fabric-detail-exact.png",
+      "inputs": [
+        "hero-landscape-master.png"
+      ],
+      "role": "Exact hero fabric detail and furniture coating service",
+      "derivation": {
+        "method": "Lossless pixel crop with sharp",
+        "rect": [
+          685,
+          265,
+          765,
+          305
+        ],
+        "resampled": false
+      },
+      "alt": "Close view of terracotta upholstery weave, piped seat seams and timber chair frame.",
+      "review": "Exact native crop. Native detail width 765px, avoid excessive enlargement. Tiny strip of the stone table remains at lower edge."
+    },
+    {
+      "file": "air-architectural-master.png",
+      "prompt": "air-prompt.txt",
+      "inputs": [],
+      "output": "exec-acdc57e7-ae1a-4e81-a7ba-c8131701f73b.png",
+      "role": "Air material selection and AC care feature",
+      "alt": "Linear brushed metal ventilation grille inset in a pale architectural soffit beside a petrol wall.",
+      "review": "Inspected parallel fins, flush frame and credible soffit construction. Separate scene requires editorial cut, not a continuous furniture zoom."
+    },
+    {
+      "file": "surface-touch-master.png",
+      "prompt": "surface-touch-prompt.txt",
+      "inputs": [],
+      "output": "exec-bf5d62b6-d76f-46b1-ac34-951a497475f3.png",
+      "role": "Antimicrobial surface coating",
+      "alt": "Brushed metal lever handle on a dark petrol door beside a pale stone jamb.",
+      "review": "Inspected handle geometry, mounted rose and screws. Illustrative high-touch material."
+    },
+    {
+      "file": "mattress-master.png",
+      "prompt": "mattress-prompt.txt",
+      "inputs": [],
+      "output": "exec-ef99761c-4278-406e-aa66-a747f94eb3af.png",
+      "role": "Mattress cleaning and sanitization",
+      "alt": "Mattress corner showing white quilted ticking, stitched woven side panel and carrying handle.",
+      "review": "Inspected actual mattress construction, knitted quilted top, piping and side handle."
+    },
+    {
+      "file": "carpet-upholstery-master.png",
+      "prompt": "carpet-upholstery-prompt.txt",
+      "inputs": [
+        "hero-landscape-master.png"
+      ],
+      "output": "exec-4c790dfb-83d9-4d23-94cf-f970d8d3c1cd.png",
+      "role": "Deep cleaning of carpets and furniture",
+      "alt": "Wool carpet with a bound edge beneath the timber leg of a terracotta upholstered chair.",
+      "review": "Inspected small realistic tufts, bound edge and planted chair contact. Campaign-related separate editorial shot."
+    },
+    {
+      "file": "exterior-materials-master.png",
+      "prompt": "exterior-materials-prompt.txt",
+      "inputs": [],
+      "output": "exec-380a22fa-b507-4da2-8482-02c84eff3156.png",
+      "role": "Specialty exterior coatings",
+      "alt": "Sunlit building corner with mineral render, stone cladding, dark window framing and terracotta panels.",
+      "review": "Inspected credible joints, coping, glazing and scale. Plausible architectural materials, no invented futuristic construction."
+    },
+    {
+      "file": "marble-counter-master.png",
+      "prompt": "marble-counter-prompt.txt",
+      "inputs": [],
+      "output": "exec-d7dd2864-9c66-48bf-ae6d-e18ae26dfedf.png",
+      "role": "Marble protective coatings",
+      "alt": "Dense white marble counter with gray mineral veins and a thick edge over dark timber cabinetry.",
+      "review": "Inspected clear marble identity distinct from hero's porous limestone. Credible edge, dense veins, quiet light."
+    },
+    {
+      "file": "hero-portrait-v2-master.png",
+      "prompt": "hero-portrait-v2-prompt.txt",
+      "inputs": [
+        "hero-portrait-master.png"
+      ],
+      "output": "exec-03784315-e943-4570-be5c-1183af9b538f.png",
+      "role": "Revised active mobile hero with substantial text headroom",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alt": "Terracotta chair and pale limestone table with glass and espresso arranged below a quiet deep petrol backdrop.",
+      "review": "Inspected original1024x1536. Highest chair edge near y737, so top48percent is quiet petrol. Objects remain whole, correctly grounded and coherent. No fake upscaling. Browser integration still requires validation."
+    }
+  ],
+  "serviceMapping": {
+    "Anti-microbial Surface Coating": "surface-touch-master.png",
+    "AC Duct Mold-Resistant Coating": "air-architectural-master.png",
+    "Stain-Resistant Furniture Coating": "fabric-detail-exact.png",
+    "Marble Protective Coatings": "marble-counter-master.png",
+    "Deep cleaning of carpets & furniture": "carpet-upholstery-master.png",
+    "Mattress Cleaning and Sanitization": "mattress-master.png",
+    "Specialty Coatings": "exterior-materials-master.png"
+  },
+  "focalCoordinates": {
+    "heroSource": [
+      1536,
+      1024
+    ],
+    "stonePoint": [
+      1050,
+      800
+    ],
+    "fabricPoint": [
+      1060,
+      370
+    ],
+    "stoneCrop": [
+      420,
+      580,
+      1100,
+      440
+    ],
+    "fabricCrop": [
+      685,
+      265,
+      765,
+      305
+    ],
+    "airPoint": [
+      1050,
+      455
+    ],
+    "mobileSource": [
+      1024,
+      1536
+    ],
+    "mobileQuietArea": [
+      0,
+      0,
+      1024,
+      735
+    ]
+  },
+  "derivatives": {
+    "record": "responsive-derivatives.json",
+    "generator": "derive-responsive.cjs",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "noUpscaling": true,
+    "detailGenerator": "derive-exact-details.cjs"
+  },
+  "reviewBoundary": "Asset agent inspected all generated output images. Owner inspected studies, final hero, portrait and air. Final rendered service layouts and all responsive image placements still require site QA.",
+  "activePortrait": "hero-portrait-v2-master.png"
+}

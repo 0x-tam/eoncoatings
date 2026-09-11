@@ -1,0 +1,15 @@
+HTTP/2 200 
+x-powered-by: PHP/8.3.32
+x-robots-tag: noindex
+x-content-type-options: nosniff
+access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link
+access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+x-wp-total: 265
+x-wp-totalpages: 3
+link: <https://eoncoatings.com/wp-json/wp/v2/media?per_page=100&page=2>; rel="prev"
+allow: GET
+vary: Origin
+content-type: application/json; charset=UTF-8
+date: Fri, 11 Sep 2026 12:58:05 GMT
+server: Apache
+

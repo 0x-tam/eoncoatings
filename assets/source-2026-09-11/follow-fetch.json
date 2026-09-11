@@ -1,0 +1,514 @@
+[
+  {
+    "file": "raw/posts-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/posts?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 400,
+    "error": "",
+    "sha256": "b6714928c361e00376c3eda08eef1f4fcc3343bd71d9be2bde61ca1eee190c26"
+  },
+  {
+    "file": "raw/posts--how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi.html",
+    "url": "https://eoncoatings.com/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "febb4992f638a47a44861a7589ab6c14af823ad2cdb622baee2154273a3172d7"
+  },
+  {
+    "file": "raw/posts--why-is-regular-ac-sanitisation-important-in-the-uae.html",
+    "url": "https://eoncoatings.com/why-is-regular-ac-sanitisation-important-in-the-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "27b3363ed066302f204a419cb59678f2a72bd4aa66c0028cf0ac474241d6ee1e"
+  },
+  {
+    "file": "raw/posts--how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae.html",
+    "url": "https://eoncoatings.com/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "0e656bc5bb12e3a62f6ce2ac89d8c45df2234b4b9f0f46790e26850856106a10"
+  },
+  {
+    "file": "raw/posts--top-benefits-of-professional-ac-sanitisation-service-in-uae.html",
+    "url": "https://eoncoatings.com/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "6f7d39d8962ff2b636c065f7e5e1a61ac9ee4a55019d1a4e6db4ed49611e0f03"
+  },
+  {
+    "file": "raw/posts--complete-guide-to-ac-sanitisation-service-in-uae.html",
+    "url": "https://eoncoatings.com/complete-guide-to-ac-sanitisation-service-in-uae/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "73450a8a2a016b4aeaa7867f38f4c9dde6506900321f31086edb17017c52412a"
+  },
+  {
+    "file": "raw/posts--ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need.html",
+    "url": "https://eoncoatings.com/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "ac4e987a0c43efc13fcad3b1b8ecf009d927163a28b79298133c6e1668a035d6"
+  },
+  {
+    "file": "raw/posts--best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air.html",
+    "url": "https://eoncoatings.com/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "5ce2f701f7b380e701a418e835a2acd2fc00597987bd6532c512872a577e1943"
+  },
+  {
+    "file": "raw/posts--what-are-antimicrobial-surface-coatings-and-why-are-they-important.html",
+    "url": "https://eoncoatings.com/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "2f1b391ee7743c38c72f6fd0fe0496207f5ee68f308a063b396a33153612ce3d"
+  },
+  {
+    "file": "raw/posts--signs-your-facility-needs-professional-antimicrobial-coating-services.html",
+    "url": "https://eoncoatings.com/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "258d71e08a4aa3141556874bb2112deb54fcef2dd5475f3788dab0ab5a1f628a"
+  },
+  {
+    "file": "raw/posts--why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate.html",
+    "url": "https://eoncoatings.com/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "6877fdb1fd4e5d651feff24ee0ecbfe75d2bfbcc8dd50d64293dc811898598f6"
+  },
+  {
+    "file": "raw/posts--how-surface-protection-coatings-help-hotels-maintain-hygiene-standards.html",
+    "url": "https://eoncoatings.com/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "61784ef575065c52b271f0bfc6ca23cc5e5f7322918893bb11813c953ff2c0a7"
+  },
+  {
+    "file": "raw/posts--are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals.html",
+    "url": "https://eoncoatings.com/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "1ea350e7c4dfd0e03784513f51fc5eaa4b400bb1f74d79a0a45edf2caab19157"
+  },
+  {
+    "file": "raw/posts--what-is-stain-resistant-furniture-coating-and-how-does-it-work.html",
+    "url": "https://eoncoatings.com/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "720dceaf9e5d0c562d4114136ccca927792791d1ef0eba6db895d7364b9ebfba"
+  },
+  {
+    "file": "raw/posts--antimicrobial-coatings-for-schools-educational-institutions.html",
+    "url": "https://eoncoatings.com/antimicrobial-coatings-for-schools-educational-institutions/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3718917301e8f01077ea5dddd3f4e57743141fdecbb33144df4c5a7f7d3a82de"
+  },
+  {
+    "file": "raw/posts--why-hospitals-and-clinics-need-antimicrobial-surface-coatings.html",
+    "url": "https://eoncoatings.com/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "66f9f92e2657e7a2376205d1cba8b4c332cb173ae68a7ae1874dee0cee50e440"
+  },
+  {
+    "file": "raw/posts--how-hospitals-benefit-from-long-lasting-antimicrobial-coatings.html",
+    "url": "https://eoncoatings.com/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d1e512d0e755d18af804f5262f8a8104b7d6e16dc29b6515d94dc1e1d4b501e8"
+  },
+  {
+    "file": "raw/posts--weatherguard-coatings-outdoor-surfaces-that-clean-themselves.html",
+    "url": "https://eoncoatings.com/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "967d51c450eea0fff80524d6360b16de138852588fbef49cdabc9a970cb1fdf9"
+  },
+  {
+    "file": "raw/posts--choosing-the-right-fabric-protection-for-hospitality.html",
+    "url": "https://eoncoatings.com/choosing-the-right-fabric-protection-for-hospitality/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3924cb7aaed1fa14e6c90cefebb238560bb21e3c5ae8137763a12cf452c208dc"
+  },
+  {
+    "file": "raw/posts--the-roi-of-duct-cleaning-in-commercial-buildings.html",
+    "url": "https://eoncoatings.com/the-roi-of-duct-cleaning-in-commercial-buildings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "5864539302d1e762fc68a7829ad237a88692dfec59d44aadaa1cfc901a9c9ebb"
+  },
+  {
+    "file": "raw/posts--how-antimicrobial-coatings-improve-health-safety-in-offices.html",
+    "url": "https://eoncoatings.com/how-antimicrobial-coatings-improve-health-safety-in-offices/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "306e6c4df64fe5712924ee3a7d31fb99d7ec86f6e80d5e2116f70ee6c0832c26"
+  },
+  {
+    "file": "raw/pages-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/pages?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 400,
+    "error": "",
+    "sha256": "b6714928c361e00376c3eda08eef1f4fcc3343bd71d9be2bde61ca1eee190c26"
+  },
+  {
+    "file": "raw/pages--contact-us.html",
+    "url": "https://eoncoatings.com/contact-us/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d5d4af9cb4249489fd07b4b78e32a3c844627e5f222ae7a4a41249c73962c5b3"
+  },
+  {
+    "file": "raw/pages--hgpp-certification.html",
+    "url": "https://eoncoatings.com/hgpp-certification/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "e09619367daec40ff3ff3ac8fbcba5736ab818b59966328c628b34fa66268751"
+  },
+  {
+    "file": "raw/pages--about-us.html",
+    "url": "https://eoncoatings.com/about-us/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "228a1b396aa4028f7d8b2e3f0402b5cc998abac9f14500de72b1aee599055e47"
+  },
+  {
+    "file": "raw/pages--industry.html",
+    "url": "https://eoncoatings.com/industry/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "341172791cecc67283a803d452c49d1dea72676fd0d5286bdb28c2ffcec980f5"
+  },
+  {
+    "file": "raw/pages--success-stories-client-results.html",
+    "url": "https://eoncoatings.com/success-stories-client-results/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "5a6f8dd9a3ffa6ef1b10fe719b209167cada495a84c0b65b1d1b1978cdf87935"
+  },
+  {
+    "file": "raw/pages--hospitality.html",
+    "url": "https://eoncoatings.com/hospitality/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "597658dbd06d422ffaf145869bf7ee0c84adeceb578ad55ac6c3364b98989b41"
+  },
+  {
+    "file": "raw/pages--service.html",
+    "url": "https://eoncoatings.com/service/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3cc9de16c4c4ae937012aa387710fb4485aa5948f7938e0c94fd44f6bb738943"
+  },
+  {
+    "file": "raw/pages--media.html",
+    "url": "https://eoncoatings.com/media/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "db7d1084c0b8a41644e79a6b025b8b4437c79025c0796b06aa7690f9595ab34e"
+  },
+  {
+    "file": "raw/pages--home.html",
+    "url": "https://eoncoatings.com/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d00b0637751b5ae8c86cb2b5228d2c9a748fcfc9f942f6ade12c5f5c62de2da1"
+  },
+  {
+    "file": "raw/pages--privacy-policy.html",
+    "url": "https://eoncoatings.com/privacy-policy/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "3e4ae99713002df48f97e5e82295c06950370cbdad2c05c85d18371fdb7870d7"
+  },
+  {
+    "file": "raw/service-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/service?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 400,
+    "error": "",
+    "sha256": "b6714928c361e00376c3eda08eef1f4fcc3343bd71d9be2bde61ca1eee190c26"
+  },
+  {
+    "file": "raw/service--mattress-cleaning-and-sanitization.html",
+    "url": "https://eoncoatings.com/services/mattress-cleaning-and-sanitization/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "7e7cf4631499af2fd7249e4369234f0371144faf9edbd941ec6da16bee28e940"
+  },
+  {
+    "file": "raw/service--specialty-coatings.html",
+    "url": "https://eoncoatings.com/services/specialty-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "1cc7b3d4a5fb742fa46a50e98b45dc74c3311805ee0f1f5d1da22a57ef41a39c"
+  },
+  {
+    "file": "raw/service--deep-cleaning-of-carpets-furniture.html",
+    "url": "https://eoncoatings.com/services/deep-cleaning-of-carpets-furniture/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "73b120e95d15db88487a4b7cae1c9d68e6885868a5f325cc6cea0b56aac473dc"
+  },
+  {
+    "file": "raw/service--marble-protective-coatings.html",
+    "url": "https://eoncoatings.com/services/marble-protective-coatings/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "d3f0976f1af3d03d45be5e220c6f51de734b73cced103eb5a8a8af854e634048"
+  },
+  {
+    "file": "raw/service--stain-resistant-furniture-coating.html",
+    "url": "https://eoncoatings.com/services/stain-resistant-furniture-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "0123774d3011acb8e7bcf09fbe44ff942dd6a5e9e7391670ace3eda9e102880b"
+  },
+  {
+    "file": "raw/service--ac-duct-mold-resistant-coating.html",
+    "url": "https://eoncoatings.com/services/ac-duct-mold-resistant-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "20774ed40bca990ebaed491830e02c07556a9cad56875fbadc9f748f9f07ead2"
+  },
+  {
+    "file": "raw/service--antimicrobial-surface-coating.html",
+    "url": "https://eoncoatings.com/services/antimicrobial-surface-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "fbebdfa0e31a935cc11374fb1dfe7d63d333e05995d791c952dc0a51f8d752ff"
+  },
+  {
+    "file": "raw/industry-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/industry?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 400,
+    "error": "",
+    "sha256": "b6714928c361e00376c3eda08eef1f4fcc3343bd71d9be2bde61ca1eee190c26"
+  },
+  {
+    "file": "raw/industry--offices.html",
+    "url": "https://eoncoatings.com/industries/offices/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "4834894d80cd63ed8193c7aca3d07991a193da0899e5ea5e6da785b321c92103"
+  },
+  {
+    "file": "raw/industry--healthcare.html",
+    "url": "https://eoncoatings.com/industries/healthcare/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "c5fd84d4cc86e9ac1d2254c59ff0083f23ed007f7df1654418cf5a84fcd0d804"
+  },
+  {
+    "file": "raw/industry--education.html",
+    "url": "https://eoncoatings.com/industries/education/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "9ed14ca55fc54a79d600e574f63e00048fa78ff7f91b32c5fcd40253363b2daa"
+  },
+  {
+    "file": "raw/industry--hospitality.html",
+    "url": "https://eoncoatings.com/industries/hospitality/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "118a2dcc4493fb589a5e7ba56db0bd69acb509b6108af393e3d22b6c2117a839"
+  },
+  {
+    "file": "raw/categories-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/categories?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "raw/categories--blog-articles.html",
+    "url": "https://eoncoatings.com/category/blog-articles/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "26ecdd7a4c624ea2f017f755d69fd6a606f28e9402459a617bd8ee44736aa647"
+  },
+  {
+    "file": "raw/categories--company-announcements.html",
+    "url": "https://eoncoatings.com/category/company-announcements/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "2f1566d8ecd8753d96abd2e4aaa87ef36d78cef60345726ec6c44613003773a9"
+  },
+  {
+    "file": "raw/categories--news.html",
+    "url": "https://eoncoatings.com/category/news/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "69ccc39078e0e544581f1e66d55860a099008ca342be870069f5333651d1a45c"
+  },
+  {
+    "file": "raw/categories--tips-guide.html",
+    "url": "https://eoncoatings.com/category/tips-guide/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "787945cd7593d185ce72b1f192f50f16e9a95014af9d3ebd26073e1476794eb4"
+  },
+  {
+    "file": "raw/categories--uncategorized.html",
+    "url": "https://eoncoatings.com/category/uncategorized/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "a076ca1db162c8292fee6a8d23efa1ef41c469c81954d9dfe71a6a4fec107312"
+  },
+  {
+    "file": "raw/users-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/users?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "raw/users--eon-coating.html",
+    "url": "https://eoncoatings.com/author/eon-coating/",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "47a3c4feb4352f451f6051d6d82e6df69c480af71b09ab3829d44fd5c5376cf9"
+  },
+  {
+    "file": "raw/media-page-2.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/media?per_page=100&page=2",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "afde21c11073f494952c7dcfed1ff3ef5dbb6442c2eb9cc513ea805b51066d7e"
+  },
+  {
+    "file": "raw/media-page-3.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/media?per_page=100&page=3",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "e0b391e2ba6b420ec252a72506a7930b7a0929fee6496b1c1ff971b34986744c"
+  },
+  {
+    "file": "raw/media-page-4.json",
+    "url": "https://eoncoatings.com/wp-json/wp/v2/media?per_page=100&page=4",
+    "curlExit": 0,
+    "status": 400,
+    "error": "",
+    "sha256": "b6714928c361e00376c3eda08eef1f4fcc3343bd71d9be2bde61ca1eee190c26"
+  },
+  {
+    "file": "raw/wp-sitemap-posts-post-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-post-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "ea8a10874af14edc75935822356559a75ced63be337766d15eff681246505452"
+  },
+  {
+    "file": "raw/wp-sitemap-posts-page-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-page-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "fa509142a59b2c6ee5727147dcc455b240f99d121ff36fa2a7272e2025cc4dc5"
+  },
+  {
+    "file": "raw/wp-sitemap-posts-elementor-hf-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-elementor-hf-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "b5578ed939d40f50108149c05e20ab2a851e6e52a8311c9154c6055690b3211d"
+  },
+  {
+    "file": "raw/wp-sitemap-posts-service-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-service-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "ca7e41720e7660b8c141cfc9d769c7e7ad2eb6b043be43a2a09126e816d5976b"
+  },
+  {
+    "file": "raw/wp-sitemap-posts-industry-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-posts-industry-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "32eebab7d519e219995fd43ffe4256a193e721181a4466a0adba36400f7fa199"
+  },
+  {
+    "file": "raw/wp-sitemap-taxonomies-category-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-taxonomies-category-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "ce4e4eb9a8277eaea28334330c7f07cc4d61b4ecb61c288cda38ca1b6855dd17"
+  },
+  {
+    "file": "raw/wp-sitemap-taxonomies-post_tag-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-taxonomies-post_tag-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "2691a64c58d76a3023638c8f0a5fff455ea9a4b44a618fa2e2884664e92c84f4"
+  },
+  {
+    "file": "raw/wp-sitemap-users-1.xml",
+    "url": "https://eoncoatings.com/wp-sitemap-users-1.xml",
+    "curlExit": 0,
+    "status": 200,
+    "error": "",
+    "sha256": "871be7168226afe38feee8473555a95e61caff2ac24801adbcfc85847521d0a2"
+  }
+]

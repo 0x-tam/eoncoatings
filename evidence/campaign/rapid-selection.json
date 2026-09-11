@@ -1,0 +1,15 @@
+{
+  "focus": "← Back to the room",
+  "images": 1,
+  "metrics": {
+    "clickFrame": 27.799999952316284,
+    "cls": 0,
+    "fcp": 68,
+    "lcp": 68,
+    "longTasks": 1,
+    "maxLongTask": 92,
+    "transfer": 244167
+  },
+  "overflow": 0,
+  "state": "fabric"
+}

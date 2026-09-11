@@ -1,2 +1,2 @@
-import {posts,pages,sourceServices,industries,categories,recordPath} from '@/lib/eon/content';
-export default function sitemap(){return [{url:'https://eoncoatings.com/'},{url:'https://eoncoatings.com/inside-the-air/'},...categories.map(c=>({url:`https://eoncoatings.com/category/${c.slug}/`})),...[...posts,...pages,...sourceServices,...industries].filter(r=>r.slug!=='home').map(r=>({url:`https://eoncoatings.com${recordPath(r)}`,lastModified:r.modified||r.date}))];}
+import routes from '@/lib/eon/required-routes.json';
+export default function sitemap(){return routes.filter(r=>!r.path.startsWith('/elementor-hf/')).map(r=>({url:`https://eoncoatings.com${r.path}`}));}

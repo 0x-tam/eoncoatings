@@ -1,0 +1,7 @@
+HTTP/2 200 
+x-powered-by: PHP/8.3.32
+vary: Accept-Encoding
+content-type: application/xml; charset=UTF-8
+date: Fri, 11 Sep 2026 12:58:05 GMT
+server: Apache
+

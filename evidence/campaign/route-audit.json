@@ -1,0 +1,666 @@
+{
+  "origin": "http://127.0.0.1:5176",
+  "checkedAt": "2026-09-11T15:06:49.498Z",
+  "routes": 82,
+  "assets": 61,
+  "failed": [],
+  "failedAssets": [],
+  "results": [
+    {
+      "path": "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "status": 200,
+      "h1": 1,
+      "title": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "Why is Regular AC Sanitisation Important in the UAE? | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "How Regular AC Sanitisation Improves Indoor Air Quality in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "Top Benefits of Professional AC Sanitisation Service in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/complete-guide-to-ac-sanitisation-service-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "Complete Guide to AC Sanitisation Service in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Duct Cleaning vs Mold-Resistant Coating: Which One Do You Need? | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+      "status": 200,
+      "h1": 1,
+      "title": "Best AC Sanitisation Service in UAE for Clean and Healthy Air | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+      "status": 200,
+      "h1": 1,
+      "title": "What Are Antimicrobial Surface Coatings and Why Are They Important? | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+      "status": 200,
+      "h1": 1,
+      "title": "Signs Your Facility Needs Professional Antimicrobial Coating Services | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
+      "status": 200,
+      "h1": 1,
+      "title": "Why AC Duct Mold-Resistant Coating Is Essential in the UAE Climate | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+      "status": 200,
+      "h1": 1,
+      "title": "How Surface Protection Coatings Help Hotels Maintain Hygiene Standards | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+      "status": 200,
+      "h1": 1,
+      "title": "Are Antimicrobial Coatings Safe for Homes, Offices and Hospitals? | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+      "status": 200,
+      "h1": 1,
+      "title": "What Is Stain-Resistant Furniture Coating and How Does It Work? | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/antimicrobial-coatings-for-schools-educational-institutions/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coatings for Schools &amp; Educational Institutions | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Why Hospitals and Clinics Need Antimicrobial Surface Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "status": 200,
+      "h1": 1,
+      "title": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/choosing-the-right-fabric-protection-for-hospitality/",
+      "status": 200,
+      "h1": 1,
+      "title": "Choosing the Right Fabric Protection for Hospitality | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "status": 200,
+      "h1": 1,
+      "title": "The ROI of Duct Cleaning in Commercial Buildings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/how-antimicrobial-coatings-improve-health-safety-in-offices/",
+      "status": 200,
+      "h1": 1,
+      "title": "How Antimicrobial Coatings Improve Health Safety in Offices | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/contact-us/",
+      "status": 200,
+      "h1": 1,
+      "title": "Contact EON | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/hgpp-certification/",
+      "status": 200,
+      "h1": 1,
+      "title": "HealthGuard Protection Program | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/about-us/",
+      "status": 200,
+      "h1": 1,
+      "title": "About EON | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/industry/",
+      "status": 200,
+      "h1": 1,
+      "title": "Industries | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/success-stories-client-results/",
+      "status": 200,
+      "h1": 1,
+      "title": "Success Stories &amp; Client Results | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/hospitality/",
+      "status": 200,
+      "h1": 1,
+      "title": "Hospitality | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/service/",
+      "status": 200,
+      "h1": 1,
+      "title": "Surface Protection, Cleaning &amp; AC Care | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/media/",
+      "status": 200,
+      "h1": 1,
+      "title": "Journal &amp; Company Updates | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "h1": 1,
+      "title": "EON Coatings | Life, well kept.",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": 200,
+      "h1": 1,
+      "title": "Privacy Policy | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/mattress-cleaning-and-sanitization/",
+      "status": 200,
+      "h1": 1,
+      "title": "Mattress Cleaning and Sanitization | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/specialty-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Specialty Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/deep-cleaning-of-carpets-furniture/",
+      "status": 200,
+      "h1": 1,
+      "title": "Deep cleaning of carpets &amp; furniture | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/marble-protective-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Marble Protective Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/stain-resistant-furniture-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Stain-Resistant Furniture Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/ac-duct-mold-resistant-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Duct Mold-Resistant Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/services/antimicrobial-surface-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Anti-microbial Surface Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/industries/offices/",
+      "status": 200,
+      "h1": 1,
+      "title": "Offices | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/industries/healthcare/",
+      "status": 200,
+      "h1": 1,
+      "title": "Healthcare | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/industries/education/",
+      "status": 200,
+      "h1": 1,
+      "title": "Education | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/industries/hospitality/",
+      "status": 200,
+      "h1": 1,
+      "title": "Hospitality | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/blog-articles/",
+      "status": 200,
+      "h1": 1,
+      "title": "Blog Articles | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/company-announcements/",
+      "status": 200,
+      "h1": 1,
+      "title": "Company Announcements | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/news/",
+      "status": 200,
+      "h1": 1,
+      "title": "News | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/tips-guide/",
+      "status": 200,
+      "h1": 1,
+      "title": "Tips and guide | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/uncategorized/",
+      "status": 200,
+      "h1": 1,
+      "title": "Uncategorized | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-cleaning-service-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Cleaning Service in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-duct-cleaning/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Duct Cleaning | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-duct-mold-resistant-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Duct Mold-Resistant Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-sanitisation/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Sanitisation | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-sanitisation-service/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Sanitisation Service | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/ac-sanitisation-service-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "AC Sanitisation Service in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-ac-duct-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial AC Duct Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-coating-services/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coating Services | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-coating-solution/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coating Solution | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-coatings-safe/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coatings Safe | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-coatings-safe-abu-dhabi/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Coatings Safe Abu Dhabi | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/antimicrobial-surface-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Antimicrobial Surface Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/cleaning/",
+      "status": 200,
+      "h1": 1,
+      "title": "Cleaning | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/duct-cleaning-service/",
+      "status": 200,
+      "h1": 1,
+      "title": "Duct Cleaning Service | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/duct-cleaning-service-in-uae/",
+      "status": 200,
+      "h1": 1,
+      "title": "Duct Cleaning Service in UAE | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/furniture-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Furniture Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/health/",
+      "status": 200,
+      "h1": 1,
+      "title": "Health | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/healthcare-facilities-in-abu-dhabi/",
+      "status": 200,
+      "h1": 1,
+      "title": "Healthcare facilities in Abu Dhabi | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/mold-resistant-duct-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Mold Resistant Duct Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/mold-resistant-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Mold-Resistant Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/professional-ac-sanitisation/",
+      "status": 200,
+      "h1": 1,
+      "title": "Professional AC Sanitisation | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/regular-ac-sanitisation/",
+      "status": 200,
+      "h1": 1,
+      "title": "Regular AC Sanitisation | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/stain-guard-protection/",
+      "status": 200,
+      "h1": 1,
+      "title": "Stain Guard Protection | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/stain-resistant-furniture-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Stain-Resistant Furniture Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/surface-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Surface Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/surface-coatings-abu-dhabi/",
+      "status": 200,
+      "h1": 1,
+      "title": "Surface Coatings Abu Dhabi | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/surface-protection-coatings/",
+      "status": 200,
+      "h1": 1,
+      "title": "Surface Protection Coatings | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/surface-protection-coatings-abu-dhabi/",
+      "status": 200,
+      "h1": 1,
+      "title": "Surface Protection Coatings Abu Dhabi | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/surface-protection-solutions/",
+      "status": 200,
+      "h1": 1,
+      "title": "surface protection solutions | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/tag/weather-guard/",
+      "status": 200,
+      "h1": 1,
+      "title": "Weather Guard | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/author/eon-coating/",
+      "status": 200,
+      "h1": 1,
+      "title": "Eon Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/author/eon-coating/page/2/",
+      "status": 200,
+      "h1": 1,
+      "title": "Eon Coating | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/category/blog-articles/page/2/",
+      "status": 200,
+      "h1": 1,
+      "title": "Blog Articles | EON Coatings",
+      "emDash": false,
+      "redirected": false
+    },
+    {
+      "path": "/elementor-hf/footer/",
+      "status": 200,
+      "h1": 1,
+      "title": "EON Coatings | Life, well kept.",
+      "emDash": false,
+      "redirected": true
+    },
+    {
+      "path": "/elementor-hf/header/",
+      "status": 200,
+      "h1": 1,
+      "title": "EON Coatings | Life, well kept.",
+      "emDash": false,
+      "redirected": true
+    }
+  ]
+}

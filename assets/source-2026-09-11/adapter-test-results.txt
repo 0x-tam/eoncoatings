@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: fixture success is only CF7 mail_sent and reserved data are mapped intact
+ok 1 - fixture success is only CF7 mail_sent and reserved data are mapped intact
+  ---
+  duration_ms: 8.58975
+  ...
+# Subtest: unconfigured, missing challenge and origin rejection never fetch
+ok 2 - unconfigured, missing challenge and origin rejection never fetch
+  ---
+  duration_ms: 0.172167
+  ...
+# Subtest: schema phone length is enforced without stripping or losing digits
+ok 3 - schema phone length is enforced without stripping or losing digits
+  ---
+  duration_ms: 0.182625
+  ...
+# Subtest: rate limit and expired challenge refuse forwarding
+ok 4 - rate limit and expired challenge refuse forwarding
+  ---
+  duration_ms: 0.07925
+  ...
+# Subtest: challenge data cannot override enquiry fields
+ok 5 - challenge data cannot override enquiry fields
+  ---
+  duration_ms: 0.345375
+  ...
+# Subtest: spam, validation, unknown and HTTP failures never report sent
+ok 6 - spam, validation, unknown and HTTP failures never report sent
+  ---
+  duration_ms: 0.177084
+  ...
+# Subtest: timeout reports unconfirmed delivery without retry
+ok 7 - timeout reports unconfirmed delivery without retry
+  ---
+  duration_ms: 4.740083
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 50.651125
