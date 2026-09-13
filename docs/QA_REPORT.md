@@ -1,3 +1,5 @@
+Latest follow-up: [closed grille and detailed internal inspection](ZOOM_V2.md).
+
 Current follow-up: see [continuous photographic zoom verification](CONTINUOUS_ZOOM.md). Earlier results below remain historical.
 
 # Latest room revision

@@ -56,3 +56,13 @@ html[data-motion-test=reduced] .room-master,html[data-motion-test=reduced] .room
 /* Reintroduce room markers only when the return camera move has settled. */
 .room-points{animation:room-points-in 1900ms linear both}
 @keyframes room-points-in{0%,99%{opacity:0;pointer-events:none}100%{opacity:1;pointer-events:auto}}
+
+/* Responsive camera timing with the internal AC reveal gated by arrival. */
+.continuous-camera{transition:transform 760ms cubic-bezier(.22,.78,.18,1)}
+.room-hero[data-material=overview] .continuous-camera{transition-duration:520ms}
+.room-points{animation-duration:520ms}
+.room-overlays .duct-internal{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.025);transition:opacity 160ms ease,transform 240ms ease}
+.room-hero[data-settled=true] .duct-internal{opacity:1;transform:scale(1)}
+.material-observation{position:absolute;top:24px;left:24px;padding:10px 14px;background:#142858e8;color:#fffdf7;font-size:12px;letter-spacing:.06em;max-width:calc(100% - 48px)}
+@media(max-width:600px){.material-observation{top:12px;left:15px;font-size:10px;max-width:calc(100% - 30px);padding:8px 10px}}
+@media(prefers-reduced-motion:reduce){.duct-internal{transition:none!important}}

@@ -1,0 +1,68 @@
+{
+  "task": "Finer fabric and stone detail, preserved crop registration",
+  "generationTool": "Built-in image_gen",
+  "generations": 3,
+  "codeEdited": false,
+  "selection": {
+    "fabric": "Serve original photographic fabric at deeper 5.2x zoom. Generated fabric v2 is rejected because it looks embossed, overly regular and higher contrast.",
+    "stone": "Owner inspected and accepted generated stone v2."
+  },
+  "fabric": {
+    "source": "fabric-tile-master.png",
+    "sourceDimensions": [
+      1573,
+      1000
+    ],
+    "requestedNative": [
+      3146,
+      2000
+    ],
+    "actualNative": [
+      1573,
+      1000
+    ],
+    "servingWebP": "fabric-detail-v2.webp",
+    "servingWebPSource": "public/images/continuous-zoom/fabric-tile.webp",
+    "generatedCandidate": "fabric-detail-v2.png",
+    "generatedWebPArchive": "fabric-detail-v2-generated-rejected.webp",
+    "generatedCandidateStatus": "Rejected for serving",
+    "firstAttempt": "fabric-detail-v2-rejected.png",
+    "prompts": [
+      "fabric-detail-v2-rejected-prompt.txt",
+      "fabric-detail-v2-prompt.txt"
+    ],
+    "toolOutputs": [
+      "exec-eaad3469-a0f8-4497-b574-75a585884234.png",
+      "exec-4b8fab95-195e-4d2b-a654-2cd36aeb7116.png"
+    ],
+    "geometry": "Same1573x1000 ratio and broad crop, but regenerated fine weave is materially different. Original source selected to preserve photography."
+  },
+  "stone": {
+    "source": "stone-tile-master.png",
+    "sourceDimensions": [
+      1962,
+      801
+    ],
+    "requestedNative": [
+      3924,
+      1602
+    ],
+    "actualNative": [
+      1964,
+      801
+    ],
+    "nativeArchive": "stone-detail-v2-native.png",
+    "servingMaster": "stone-detail-v2.png",
+    "servingWebP": "stone-detail-v2.webp",
+    "servingDimensions": [
+      1962,
+      801
+    ],
+    "normalization": "Generated native image was downsampled horizontally by2pixels to restore original exact1962:801 aspect ratio. No upscaling.",
+    "prompt": "stone-detail-v2-prompt.txt",
+    "toolOutput": "exec-296a451f-5035-4e17-9a1f-b51a1adf8435.png",
+    "review": "Owner accepted. Same table silhouette, seams, objects, perspective and broad color; added pore detail is synthesized rather than recovered documentary evidence."
+  },
+  "paths": "Masters and sibling WebP files saved in assets/continuous-zoom and public/images/continuous-zoom. Rejected generation archives and prompts live under assets/continuous-zoom.",
+  "limitations": "The maximum native resolution requests were not delivered. No claim of greater native pixel count is made. Broad geometry inspected visually; final continuous-zoom browser review owned by integrator."
+}

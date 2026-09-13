@@ -4,41 +4,44 @@ import Link from 'next/link';
 type Material='air'|'fabric'|'stone';
 const order:Material[]=['air','fabric','stone'];
 const details={
- air:{title:'Start with the air.',label:'AC duct cleaning',copy:'A clean-looking room can hide dust inside its ductwork. Explore EON’s AC duct cleaning, sanitisation and specialist coating services.',image:'duct',caption:'Illustrative duct inspection. Conditions vary by system.',links:[['AC duct cleaning & sanitisation','ac-duct-mold-resistant-coating']]},
+ air:{title:'Start with the air.',label:'AC duct cleaning',copy:'Dust, debris and allergens can collect deep in ductwork. Moisture can support mold, fungi and bacteria. EON provides specialist cleaning, sanitisation and separate mold-resistant coating, tailored to your system.',image:'duct',caption:'Illustrative dust, moisture and mold-like growth. Actual conditions require inspection.',links:[['AC duct cleaning & sanitisation','ac-duct-mold-resistant-coating']]},
  fabric:{title:'Get closer to comfort.',label:'Sofas & soft furnishings',copy:'A closer look at the fabric you live with. Discover deep cleaning, sanitisation and stain-resistant protection for your furnishings.',image:'fabric',caption:'Magnification is illustrative, not a sample from this room.',links:[['Carpet & furniture deep cleaning','deep-cleaning-of-carpets-furniture'],['Stain-resistant furniture coating','stain-resistant-furniture-coating'],['Mattress cleaning & sanitisation','mattress-cleaning-and-sanitization']]},
  stone:{title:'Care for every surface.',label:'Stone & shared surfaces',copy:'Everyday contact leaves its mark. Find the right care for natural stone and the surfaces your household touches.',image:'stone',caption:'Illustrative surface detail. Treatment depends on the material.',links:[['Marble protective coatings','marble-protective-coatings'],['Anti-microbial surface coating','antimicrobial-surface-coating']]}
 };
 const points:Record<Material,[number,number]>={air:[.674,.095],fabric:[.88,.76],stone:[.515,.79]};
 export default function MaterialExplorer(){
- const [active,setActive]=useState<Material|null>(null),[ready,setReady]=useState(false),[failed,setFailed]=useState(false),[micro,setMicro]=useState(false);
+ const [active,setActive]=useState<Material|null>(null),[ready,setReady]=useState(false),[failed,setFailed]=useState(false),[micro,setMicro]=useState(false),[settled,setSettled]=useState(false);
  const field=useRef<HTMLDivElement>(null),backButton=useRef<HTMLButtonElement>(null),lastTrigger=useRef<string>('nav-air'),triggers=useRef<Record<string,HTMLButtonElement|null>>({});
+ const exitTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
+ useEffect(()=>()=>{if(exitTimer.current)clearTimeout(exitTimer.current)},[]);
  const [box,setBox]=useState({w:1440,h:810});
  useEffect(()=>{const el=field.current;if(!el)return;const update=()=>setBox({w:el.clientWidth,h:el.clientHeight});const observer=new ResizeObserver(update);observer.observe(el);update();return()=>observer.disconnect()},[]);
- useEffect(()=>{let cancelled=false;Promise.all(['room','air-tile','fabric-tile','stone-tile'].map(name=>{const image=new Image();image.src=`/images/continuous-zoom/${name}.webp`;return image.decode()})).then(()=>{if(!cancelled)setReady(true)}).catch(()=>{if(!cancelled){setFailed(true);setReady(true)}});return()=>{cancelled=true}},[]);
- useEffect(()=>setMicro(false),[active]);
+ useEffect(()=>{let cancelled=false;Promise.all(['/images/room/room.webp','/images/continuous-zoom/duct-internal-v2.webp','/images/continuous-zoom/fabric-detail-v2.webp','/images/continuous-zoom/stone-detail-v2.webp'].map(src=>{const image=new Image();image.src=src;return image.decode()})).then(()=>{if(!cancelled)setReady(true)}).catch(()=>{if(!cancelled){setFailed(true);setReady(true)}});return()=>{cancelled=true}},[]);
+ useEffect(()=>{setMicro(false);if(active&&(matchMedia('(prefers-reduced-motion: reduce)').matches||document.documentElement.dataset.motionTest==='reduced'))setSettled(true)},[active]);
  const scale=Math.max(box.w/1672,box.h/941),imageW=1672*scale,imageH=941*scale,left=(box.w-imageW)/2;
  const sourcePoint=(m:Material)=>({x:left+points[m][0]*imageW,y:points[m][1]*imageH});
  const position=(m:Material)=>{const p=sourcePoint(m);return{x:Math.max(30,Math.min(box.w-30,p.x)),y:Math.max(30,Math.min(box.h-30,p.y))}};
- const focus=active?sourcePoint(active):null,z=active==='air'?12:active==='stone'?4.4:3.8;
+ const focus=active?sourcePoint(active):null,z=active==='air'?8:active==='stone'?5.7:5.2;
  const clamp=(v:number,min:number,max:number)=>Math.max(min,Math.min(max,v));
  const targetX=box.w*(box.w<=600?.5:.70);
  const dx=focus?clamp(targetX-focus.x*z,box.w-(left+imageW)*z,-left*z):0;
  const dy=focus?clamp(box.h*.5-focus.y*z,box.h-imageH*z,0):0;
- function select(m:Material,trigger:HTMLButtonElement){lastTrigger.current=trigger.dataset.roomTrigger||`nav-${m}`;setActive(m);requestAnimationFrame(()=>backButton.current?.focus({preventScroll:true}));}
- function back(){setActive(null);requestAnimationFrame(()=>triggers.current[lastTrigger.current]?.focus({preventScroll:true}));}
+ function select(m:Material,trigger:HTMLButtonElement){if(active===m)return;if(exitTimer.current){clearTimeout(exitTimer.current);exitTimer.current=null}setSettled(false);lastTrigger.current=trigger.dataset.roomTrigger||`nav-${m}`;setActive(m);requestAnimationFrame(()=>backButton.current?.focus({preventScroll:true}));}
+ function back(){if(exitTimer.current)return;const revealWasOpen=active==='air'&&settled;setSettled(false);const finish=()=>{exitTimer.current=null;setActive(null);requestAnimationFrame(()=>triggers.current[lastTrigger.current]?.focus({preventScroll:true}))};if(revealWasOpen&&!matchMedia('(prefers-reduced-motion: reduce)').matches)exitTimer.current=setTimeout(finish,160);else finish();}
  const d=active?details[active]:null;
- return <section className="room-hero" data-material={active||'overview'} aria-label="Explore EON care in a real room">
+ return <section className="room-hero" data-material={active||'overview'} data-settled={settled} aria-label="Explore EON care in a real room">
   <div className="room-image-field" ref={field}>
-   <div className="room-master continuous-camera" style={{transform:focus?`translate(${dx}px,${dy}px) scale(${z})`:'translate(0px,0px) scale(1)',transformOrigin:'0 0'}}>
+   <div className="room-master continuous-camera" onTransitionEnd={e=>{if(e.target===e.currentTarget&&e.propertyName==='transform')setSettled(true)}} style={{transform:focus?`translate(${dx}px,${dy}px) scale(${z})`:'translate(0px,0px) scale(1)',transformOrigin:'0 0'}}>
     <div className="room-raster">
-     <img className="room-base" src="/images/continuous-zoom/room.webp" width="1672" height="941" fetchPriority="high" alt="Sunlit room with an open AC inspection section, cobalt L-shaped sofa and stone table"/>
-     <img onError={e=>{e.currentTarget.style.visibility='hidden';setFailed(true)}} className="registered-tile tile-air" src="/images/continuous-zoom/air-tile.webp" style={{left:`${976/1672*100}%`,top:`${44/941*100}%`,width:`${303/1672*100}%`,height:`${103/941*100}%`}} alt="" aria-hidden="true"/>
-     <img onError={e=>{e.currentTarget.style.visibility='hidden';setFailed(true)}} className="registered-tile tile-fabric" src="/images/continuous-zoom/fabric-tile.webp" style={{left:`${1160/1672*100}%`,top:`${580/941*100}%`,width:`${512/1672*100}%`,height:`${325/941*100}%`}} alt="" aria-hidden="true"/>
-     <img onError={e=>{e.currentTarget.style.visibility='hidden';setFailed(true)}} className="registered-tile tile-stone" src="/images/continuous-zoom/stone-tile.webp" style={{left:`${610/1672*100}%`,top:`${635/941*100}%`,width:`${490/1672*100}%`,height:`${200/941*100}%`}} alt="" aria-hidden="true"/>
+     <img className="room-base" src="/images/room/room.webp" width="1672" height="941" fetchPriority="high" alt="Sunlit room with a closed AC grille, cobalt L-shaped sofa and stone table"/>
+     <img onError={e=>{e.currentTarget.style.visibility='hidden';setFailed(true)}} className="registered-tile tile-fabric" src="/images/continuous-zoom/fabric-detail-v2.webp" style={{left:`${1160/1672*100}%`,top:`${580/941*100}%`,width:`${512/1672*100}%`,height:`${325/941*100}%`}} alt="" aria-hidden="true"/>
+     <img onError={e=>{e.currentTarget.style.visibility='hidden';setFailed(true)}} className="registered-tile tile-stone" src="/images/continuous-zoom/stone-detail-v2.webp" style={{left:`${610/1672*100}%`,top:`${635/941*100}%`,width:`${490/1672*100}%`,height:`${200/941*100}%`}} alt="" aria-hidden="true"/>
     </div>
    </div>
    {active&&<div className="room-overlays">
-    {active==='fabric'&&ready&&<button className={`micro-study ${micro?'is-expanded':''}`} onClick={()=>setMicro(!micro)} aria-expanded={micro} aria-label={micro?'Return to fabric detail':'Enlarge illustrative microscopic view'}><img src="/images/room/microbes.webp" width="1024" height="1024" alt="Illustrative magnification of microorganisms among blue textile fibers, not a diagnostic sample"/><span>Illustrative magnification <b>{micro?'−':'+'}</b></span></button>}
+    {active==='air'&&<img className="duct-internal" src="/images/continuous-zoom/duct-internal-v2.webp" alt="Illustrative specialist inspection inside concealed ductwork, with receding joints, dust, moisture staining and mold-like growth"/>}
+    {settled&&<div className="material-observation">{active==='air'?'DUST / MOISTURE / MICROBIAL GROWTH':active==='fabric'?'FIBER DETAIL / Woven texture & embedded particles':'SURFACE DETAIL / Natural pores & fine grain'}</div>}
+    {active==='fabric'&&ready&&settled&&<button className={`micro-study ${micro?'is-expanded':''}`} onClick={()=>setMicro(!micro)} aria-expanded={micro} aria-label={micro?'Return to fabric detail':'Enlarge illustrative microscopic view'}><img src="/images/room/microbes.webp" width="1024" height="1024" alt="Illustrative magnification of microorganisms among blue textile fibers, not a diagnostic sample"/><span>Illustrative magnification <b>{micro?'−':'+'}</b></span></button>}
     <p className="inspection-caption">{d!.caption}</p>
    </div>}
    {failed&&<p className="room-image-error">Some fine detail could not load. The room and service information remain available.</p>}
