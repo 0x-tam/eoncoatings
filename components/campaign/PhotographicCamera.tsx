@@ -11,35 +11,34 @@ type Props = {
 };
 type Rect = readonly [number, number, number, number];
 type Surface = HTMLCanvasElement | OffscreenCanvas;
-type Asset = HTMLImageElement | Surface;
+type Asset = HTMLImageElement | Surface | ImageBitmap;
 type Assets = Partial<Record<'room' | 'fabric' | 'stone' | 'macro' | 'grille' | 'deep', Asset>>;
 type Segment = { from: number; to: number; started: number; duration: number };
 
 const WORLD_WIDTH = 1672;
 const WORLD_HEIGHT = 941;
-const GRILLE: Rect = [976, 43, 303, 103.823];
-const GRILLE_SHEAR = -4.66;
+// Register the same photographic grille across the entire original 602px opening.
+const GRILLE: Rect = [787.742, 73.61, 738.795, 105];
+const GRILLE_SHEAR = -78.54;
 const FILES = [
   ['room', '/images/room/room.webp', 0],
   ['fabric', '/images/continuous-zoom/fabric-tile.webp', 0.06],
-  ['stone', '/images/continuous-zoom/stone-tile.webp', 0.20],
+  ['stone', '/images/zoom-v4/stone-traces.webp', 0.20],
   ['macro', '/images/zoom-v3/fabric-macro.webp', 0.18],
   ['grille', '/images/zoom-v3/duct-closed.webp', 0.02],
   ['deep', '/images/continuous-zoom/duct-internal-v2.webp', 0],
 ] as const;
 const FOCUS: Record<Material, readonly [number, number]> = {
   fabric: [0.88 * WORLD_WIDTH, 0.76 * WORLD_HEIGHT],
-  stone: [0.515 * WORLD_WIDTH, 0.79 * WORLD_HEIGHT],
-  air: [1127.57, 88.48],
+  stone: [930, 681],
+  air: [1163, 81.7],
 };
 const SLOT = [
   [215, 453.4], [1958, 198.9], [1958, 219.5], [215, 471.6],
 ] as const;
 const clamp = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value));
 const mix = (from: number, to: number, progress: number) => from + (to - from) * progress;
-const ease = (value: number) => value < 0.5
-  ? 4 * value * value * value
-  : 1 - Math.pow(-2 * value + 2, 3) / 2;
+const ease = (value: number) => (1 - Math.cos(Math.PI * value)) / 2;
 
 function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
@@ -126,6 +125,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     const ctx = context;
     const assets: Assets = {};
     const surfaces: Surface[] = [];
+    const bitmaps: ImageBitmap[] = [];
     const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
     let disposed = false;
     let loaded = false;
@@ -140,6 +140,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     let segment: Segment | null = null;
     let requestSerial = 0;
     let settledSerial = -1;
+    let lastFrameTime = 0;
+    let frameIntervals: number[] = [];
 
     const reportError = () => {
       if (!disposed && !errorReported) {
@@ -159,13 +161,10 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       let pan = 0;
       if (material === 'air') {
         const airProgress = assets.deep ? progress : Math.min(progress, 0.58);
-        if (airProgress <= 0.58) {
-          pan = airProgress / 0.58;
-          zoom = Math.exp(Math.log(4.8) * pan);
-        } else {
-          pan = 1;
-          zoom = 4.8 * Math.exp(Math.log(600 / 4.8) * ((airProgress - 0.58) / 0.42));
-        }
+        // One continuous optical acceleration instead of a speed discontinuity at the grille.
+        const approach = Math.min(1, airProgress / 0.58);
+        pan = approach * approach * (3 - 2 * approach);
+        zoom = Math.exp(Math.log(600) * airProgress);
       } else if (material) {
         pan = progress;
         zoom = Math.exp(Math.log(material === 'fabric' ? 3.2 : 3.6) * progress);
@@ -176,10 +175,10 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (material) {
         const [fx, fy] = FOCUS[material];
         const targetX = width * (width > 600 ? 0.7 : 0.5);
-        const endX = clamp(targetX - fx * scale, width - WORLD_WIDTH * scale, 0);
-        const endY = clamp(height * 0.5 - fy * scale, height - WORLD_HEIGHT * scale, 0);
-        x = mix(overviewLeft, endX, pan);
-        y = mix(0, endY, pan);
+        // Interpolate the subject's screen position, then apply the optical scale.
+        // Blending already-scaled translations made the subject race offscreen mid-zoom.
+        x = clamp(mix(overviewLeft + fx * base, targetX, pan) - fx * scale, width - WORLD_WIDTH * scale, 0);
+        y = clamp(mix(fy * base, height * 0.5, pan) - fy * scale, height - WORLD_HEIGHT * scale, 0);
       }
 
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -192,8 +191,23 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         const dy = y + rect[1] * scale;
         const dw = rect[2] * scale;
         const dh = rect[3] * scale;
-        if (dx >= width || dy >= height || dx + dw <= 0 || dy + dh <= 0) return;
-        if(asset===assets.grille){ctx.save();ctx.transform(1,GRILLE_SHEAR/GRILLE[2],0,1,dx,dy);ctx.drawImage(asset,0,0,dw,dh);ctx.restore()}else ctx.drawImage(asset, dx, dy, dw, dh);
+        const shear = asset === assets.grille ? GRILLE_SHEAR / GRILLE[2] : 0;
+        const sourceWidth = asset instanceof HTMLImageElement ? asset.naturalWidth : asset.width;
+        const sourceHeight = asset instanceof HTMLImageElement ? asset.naturalHeight : asset.height;
+        // Inverse-map viewport bounds into the source, including the grille's shear.
+        // Keep draw destinations bounded even during the final passage through the slot.
+        const left = clamp(-dx - 2, 0, dw);
+        const right = clamp(width - dx + 2, 0, dw);
+        const top = clamp(Math.min(-dy - shear * left, -dy - shear * right) - 2, 0, dh);
+        const bottom = clamp(Math.max(height - dy - shear * left, height - dy - shear * right) + 2, 0, dh);
+        if (right <= left || bottom <= top) return;
+        ctx.save();
+        ctx.transform(1, shear, 0, 1, dx, dy);
+        ctx.drawImage(asset,
+          left / dw * sourceWidth, top / dh * sourceHeight,
+          (right - left) / dw * sourceWidth, (bottom - top) / dh * sourceHeight,
+          left, top, right - left, bottom - top);
+        ctx.restore();
       };
       drawWorld(assets.room, [0, 0, WORLD_WIDTH, WORLD_HEIGHT]);
       drawWorld(assets.fabric, [1160, 580, 512, 325]);
@@ -201,7 +215,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       drawWorld(assets.macro, [1355.2956, 684, 162.7463, 130]);
       drawWorld(assets.grille, GRILLE);
 
-      if (material === 'air' && progress >= 0.58 && assets.deep && assets.grille) {
+      if (material === 'air' && progress >= 0.20 && assets.deep && assets.grille) {
         ctx.save();
         ctx.beginPath();
         SLOT.forEach(([sx, sy], index) => {
@@ -212,14 +226,16 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         });
         ctx.closePath();
         ctx.clip();
-        const deep = assets.deep as HTMLImageElement;
-        const rearProgress = clamp((progress - 0.58) / 0.42, 0, 1);
+        const deep = assets.deep!;
+        const nativeWidth = deep instanceof HTMLImageElement ? deep.naturalWidth : deep.width;
+        const nativeHeight = deep instanceof HTMLImageElement ? deep.naturalHeight : deep.height;
+        const rearProgress = clamp((progress - 0.20) / 0.80, 0, 1);
         const rearZoom = mix(1.06, 1, rearProgress);
         const viewLeft = width <= 600 ? 0 : width * (width <= 1100 ? 0.42 : 0.36);
         const viewWidth = width - viewLeft;
-        const deepScale = Math.max(viewWidth / deep.naturalWidth, height / deep.naturalHeight) * rearZoom;
-        const deepWidth = deep.naturalWidth * deepScale;
-        const deepHeight = deep.naturalHeight * deepScale;
+        const deepScale = Math.max(viewWidth / nativeWidth, height / nativeHeight) * rearZoom;
+        const deepWidth = nativeWidth * deepScale;
+        const deepHeight = nativeHeight * deepScale;
         ctx.drawImage(deep, viewLeft + (viewWidth - deepWidth) / 2, (height - deepHeight) / 2, deepWidth, deepHeight);
         ctx.restore();
       }
@@ -243,14 +259,18 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     function settled() {
       if (settledSerial === requestSerial) return;
       settledSerial = requestSerial;
+      if (frameIntervals.length) {
+        const sorted = [...frameIntervals].sort((a, b) => a - b);
+        canvas.dataset.frameTiming = JSON.stringify({frames: sorted.length, medianMs: +sorted[Math.floor(sorted.length / 2)].toFixed(1), p95Ms: +sorted[Math.floor(sorted.length * .95)].toFixed(1), over34Ms: sorted.filter(n => n > 34).length});
+      }
       callbacks.current.onSettled();
     }
 
     function animate(to: number) {
       const forward = to > progress;
       const fullDuration = material === 'air'
-        ? (forward ? 1100 : 750)
-        : (forward ? 650 : 450);
+        ? (forward ? 1550 : 1250)
+        : (forward ? 1050 : 900);
       segment = {
         from: progress,
         to,
@@ -290,6 +310,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     function tick(now: number) {
       frame = 0;
       if (disposed) return;
+      if (lastFrameTime) frameIntervals.push(now - lastFrameTime);
+      lastFrameTime = now;
       const finished = sample(now);
       draw();
       if (finished) plan();
@@ -300,6 +322,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (disposed) return;
       desired = next;
       requestSerial += 1;
+      lastFrameTime = 0;
+      frameIntervals = [];
       sample(performance.now());
       if (frame) cancelAnimationFrame(frame);
       frame = 0;
@@ -337,11 +361,22 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     void Promise.allSettled(FILES.map(async ([key, src, edge]) => {
       const image = await loadImage(src);
       if (disposed) return;
+      let source: Asset = image;
       if (edge) {
         const surface = feather(image, edge, key === 'grille');
         surfaces.push(surface);
-        assets[key] = surface;
-      } else assets[key] = image;
+        source = surface;
+      }
+      // Immutable decoded sources avoid re-uploading mutable canvas textures each frame.
+      if (typeof createImageBitmap === 'function') {
+        try {
+          const bitmap = await createImageBitmap(source);
+          if (disposed) { bitmap.close(); return; }
+          bitmaps.push(bitmap);
+          source = bitmap;
+        } catch { /* Keep the decoded image fallback on unsupported browsers. */ }
+      }
+      assets[key] = source;
     })).then(results => {
       if (disposed) return;
       if (results.some(result => result.status === 'rejected')) reportError();
@@ -362,6 +397,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       motionObserver.disconnect();
       motionQuery.removeEventListener('change', motionChange);
       window.removeEventListener('resize', resize);
+      for (const bitmap of bitmaps) bitmap.close();
       for (const surface of surfaces) {
         surface.width = 1;
         surface.height = 1;

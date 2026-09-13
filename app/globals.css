@@ -48,3 +48,13 @@ html[data-motion-test=reduced] .room-master,html[data-motion-test=reduced] .room
 .room-points{animation:none}
 
 .room-hero,.room-hero *{overflow-anchor:none}
+
+.surface-traces{position:absolute;inset:0;pointer-events:none}
+.trace-point{position:absolute;display:flex;align-items:center;gap:8px;transform:translate(-50%,-50%);pointer-events:auto;background:#fffdf7;color:var(--ink);padding:5px 12px 5px 5px;border-radius:24px;box-shadow:0 2px 14px #14285825;font-size:12px;min-height:44px}
+.trace-point b{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--citrus);font-weight:500}
+.trace-point[aria-pressed=true]{background:var(--accent);color:white}
+.trace-card{position:absolute;left:24px;bottom:22px;max-width:410px;padding:18px 22px;background:#fffdf7f5;color:var(--ink);border-left:3px solid var(--accent);pointer-events:auto}
+.trace-card strong{font-size:18px}.trace-card p{font-size:14px;line-height:1.45;margin:6px 0 9px}.trace-card small{font-size:11px;color:#596276}
+@media(max-width:600px){.trace-point{padding:4px;min-width:44px;justify-content:center}.trace-point span{display:none}.trace-card{left:14px;right:14px;bottom:12px;padding:10px 14px;max-width:none}.trace-card strong{font-size:14px}.trace-card p{font-size:12px;margin:4px 0}.trace-card small{font-size:10px}}
+
+@media(max-width:600px){.trace-point:nth-child(3){margin-left:-64px}}

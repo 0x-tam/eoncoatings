@@ -17,3 +17,9 @@ At 390x844 the AC reaches its endpoint, the image area stays at y76 and no horiz
 Production validation: 82 routes and 62 referenced assets passed the route audit; native camera asset loading also completed without an error notice. Homepage axe run reported 0 violations and 26 passing checks for its configured WCAG tags. Reduced-motion QA override resolved AC progress immediately to 1. TypeScript and the production build passed. No public deployment was performed.
 
 The animated WebP at evidence/zoom-v3/camera-paths.webp contains 72 sampled screenshots from the production browser, timed from capture timestamps. It shows AC, fabric and stone entry and return. It is a captured sequence, not a frame-rate benchmark. An interrupted AC entry also returned successfully to overview progress 0.
+
+## Motion refinement
+
+The full 602px room opening now uses the same grille photograph. Viewport source cropping bounds every photographic draw, including the sheared grille. A continuous optical curve replaces the speed discontinuity at progress 0.58. AC entry/return now take 900/650 ms; fabric and stone take 550/450 ms. Native asset resolution and the canvas DPR cap remain unchanged.
+
+Production browser samples at 1440x1000: fabric median 8.3 ms, p95 9.2 ms; stone median 8.3 ms, p95 9.8 ms; AC median 8.3 ms, p95 26.8 ms. None of those three samples had an interval above 34 ms. AC remains less uniform than the other paths. The development baseline AC p95 was 21.9 ms, so these samples do not establish an across-the-board frame-rate improvement. The definite changes are continuous acceleration, shorter transitions and bounded draws. TypeScript and production build passed. Timing datasets report requestAnimationFrame intervals, not GPU presentation times.

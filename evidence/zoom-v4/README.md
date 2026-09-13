@@ -1,0 +1,1 @@
+Actual production browser screenshot sequence. Frame intervals follow capture timestamps; pauses between runs are capped at 300 ms. This capture is not a performance benchmark. The separate unrecorded production AC test measured 187 frame intervals, median 8.3 ms, p95 10.3 ms, with none over 34 ms.
