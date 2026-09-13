@@ -1,0 +1,66 @@
+{
+  "task": "Nested fabric macro tile",
+  "source": "assets/continuous-zoom/fabric-tile-master.png",
+  "sourceDimensions": [
+    1573,
+    1000
+  ],
+  "cropRect": {
+    "x": 600,
+    "y": 320,
+    "width": 500,
+    "height": 400
+  },
+  "cropRectNormalized": {
+    "x": 0.3814367450731087,
+    "y": 0.32,
+    "width": 0.3178639542275906,
+    "height": 0.4
+  },
+  "reference": "fabric-macro-reference.png",
+  "referenceDimensions": [
+    500,
+    400
+  ],
+  "referenceMethod": "Exact lossless unscaled Sharp extraction before image generation.",
+  "generationTool": "Built-in image_gen",
+  "generationCount": 1,
+  "prompt": "fabric-macro-prompt.txt",
+  "output": "exec-80fa0db8-4336-437b-995d-88feb209730b.png",
+  "requestedNative": [
+    2000,
+    1600
+  ],
+  "requestedMinimumWidth": 1500,
+  "actualNative": [
+    1402,
+    1122
+  ],
+  "minimumWidthMet": false,
+  "master": "fabric-macro.png",
+  "serving": "public/images/zoom-v3/fabric-macro.webp",
+  "webpBytes": 529796,
+  "upscaled": false,
+  "registration": {
+    "requestedAspectRatio": 1.25,
+    "actualAspectRatio": 1.249554367201426,
+    "normalizedMapping": "Map complete image into x600,y320,width500,height400 inside original fabric tile. No additional crop.",
+    "visualAssessment": "Inspected source master, exact crop and generated native output. The thin sloping upper seam, lower cushion edge/gap and broad weave landmarks remain in the same relative arrangement. Match is closer than the rejected whole-tile fabric v2. Generated loops are slightly brighter and crisper, so transition/composite should still be reviewed.",
+    "limits": "Visual alignment only; not a guarantee of identical underlying threads or pixel-perfect registration. The 0.036 percent aspect difference comes from native output dimensions. No quantitative microscopic or documentary claims."
+  },
+  "roomRegistrationIfOriginalTileMappingUnchanged": {
+    "sourceRoomRectForFabric": [
+      1160,
+      580,
+      512,
+      325
+    ],
+    "macroRoomRect": [
+      1355.2956134774317,
+      684,
+      162.7463445645264,
+      130
+    ]
+  },
+  "codeChanges": false
+}
