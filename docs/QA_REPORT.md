@@ -1,3 +1,5 @@
+Current follow-up: see [continuous photographic zoom verification](CONTINUOUS_ZOOM.md). Earlier results below remain historical.
+
 # Latest room revision
 
 The bright room follow-up is documented in ROOM_REVISION.md and evidence/room. Its final build and TypeScript check pass. The final production route audit covers 82 routes and 62 referenced assets with zero failures. New hero tested at 1440, 1024, 768, 390 and 360 pixels, with all three selections, microscopy expansion, rapid switching and Back focus restoration. Homepage axe reports zero violations and 25 passing rules; image-backed text contrast requires manual visual assessment. The consultation button contrast was corrected to white on navy. The QA reduced-motion override yields 0s for both room zoom and photo dissolve; actual OS preference emulation remains untested. The optional duct image failure was exercised and retained the service link. Earlier checks below describe the prior still-life version unless explicitly repeated here.

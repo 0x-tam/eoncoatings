@@ -1,0 +1,265 @@
+{
+  "method": "Local normalized cross-correlation of mildly blurred grayscale patches. Generated images resized only in memory for analysis. Estimates, not verified geometric registration.",
+  "points": [
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        15,
+        210
+      ],
+      "generatedPoint": [
+        43,
+        646.2
+      ],
+      "generatedPointInReferenceScale": [
+        14,
+        210
+      ],
+      "deltaInReferenceScale": [
+        -1,
+        0
+      ],
+      "localCorrelation": 0.971
+    },
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        256,
+        236
+      ],
+      "generatedPoint": [
+        786.5,
+        726.2
+      ],
+      "generatedPointInReferenceScale": [
+        256,
+        236
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.994
+    },
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        493,
+        260
+      ],
+      "generatedPoint": [
+        1514.6,
+        800
+      ],
+      "generatedPointInReferenceScale": [
+        493,
+        260
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.981
+    },
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        168,
+        14
+      ],
+      "generatedPoint": [
+        516.1,
+        43.1
+      ],
+      "generatedPointInReferenceScale": [
+        168,
+        14
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.983
+    },
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        280,
+        16
+      ],
+      "generatedPoint": [
+        860.2,
+        49.2
+      ],
+      "generatedPointInReferenceScale": [
+        280,
+        16
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.986
+    },
+    {
+      "asset": "sofa",
+      "referencePoint": [
+        91,
+        72
+      ],
+      "generatedPoint": [
+        279.6,
+        221.5
+      ],
+      "generatedPointInReferenceScale": [
+        91,
+        72
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.997
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        151,
+        23
+      ],
+      "generatedPoint": [
+        604.6,
+        92.1
+      ],
+      "generatedPointInReferenceScale": [
+        151,
+        23
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.99
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        279,
+        24
+      ],
+      "generatedPoint": [
+        1117.1,
+        96.1
+      ],
+      "generatedPointInReferenceScale": [
+        279,
+        24
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.995
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        334,
+        25
+      ],
+      "generatedPoint": [
+        1337.4,
+        100.1
+      ],
+      "generatedPointInReferenceScale": [
+        334,
+        25
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.995
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        370,
+        24
+      ],
+      "generatedPoint": [
+        1481.5,
+        96.1
+      ],
+      "generatedPointInReferenceScale": [
+        370,
+        24
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.997
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        355,
+        63
+      ],
+      "generatedPoint": [
+        1421.4,
+        252.3
+      ],
+      "generatedPointInReferenceScale": [
+        355,
+        63
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.984
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        334,
+        192
+      ],
+      "generatedPoint": [
+        1337.4,
+        769
+      ],
+      "generatedPointInReferenceScale": [
+        334,
+        192
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.945
+    },
+    {
+      "asset": "table",
+      "referencePoint": [
+        25,
+        161
+      ],
+      "generatedPoint": [
+        100.1,
+        644.8
+      ],
+      "generatedPointInReferenceScale": [
+        25,
+        161
+      ],
+      "deltaInReferenceScale": [
+        0,
+        0
+      ],
+      "localCorrelation": 0.988
+    }
+  ]
+}

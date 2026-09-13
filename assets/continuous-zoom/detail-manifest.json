@@ -1,0 +1,67 @@
+{
+  "task": "Continuous 2D camera zoom with fixed registered detail tiles",
+  "tool": "Built-in image_gen",
+  "generationCalls": 2,
+  "sourceRoom": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-dd2a1c0b-165f-42f0-b4a4-cdb5db1c65e6.png",
+  "sourceDimensions": [
+    1672,
+    941
+  ],
+  "sourceInspected": true,
+  "cropMethod": "Sharp extract produced exact unscaled lossless PNG crop references. Only these crops were sent to image_gen. Generated output PNG files were copied unchanged.",
+  "cropScript": "extract-references.cjs",
+  "assets": [
+    {
+      "file": "sofa-detail-generated.png",
+      "reference": "sofa-crop-reference.png",
+      "sourceRect": [
+        1160,
+        580,
+        512,
+        325
+      ],
+      "requestedNativeDimensions": [
+        2048,
+        1300
+      ],
+      "actualNativeDimensions": [
+        1573,
+        1000
+      ],
+      "prompt": "sofa-detail-prompt.txt",
+      "output": "exec-c8f9a346-c83e-45b6-9d9d-7c3561009da6.png",
+      "review": "Same overall chaise perspective, outline, cushion boundaries and clipped pillows. Fine fiber detail increased. Stronger saturation and texture contrast than source. Owner accepted for fixed insertion with feathered margins."
+    },
+    {
+      "file": "table-detail-generated.png",
+      "reference": "table-crop-reference.png",
+      "sourceRect": [
+        610,
+        635,
+        490,
+        200
+      ],
+      "requestedNativeDimensions": [
+        2450,
+        1000
+      ],
+      "actualNativeDimensions": [
+        1962,
+        801
+      ],
+      "prompt": "table-detail-prompt.txt",
+      "output": "exec-bf64eeb6-bea3-4f43-b49f-4c92ad0551bf.png",
+      "review": "Same cropped top objects, perspective, rounded corner, base and carpet strip. Fine pores/mineral detail reconstructed, some pore contrast amplified. No stains or new props."
+    }
+  ],
+  "registration": {
+    "estimatedCorrespondences": "estimated-correspondences.json",
+    "analysisScript": "check-correspondences.cjs",
+    "method": "Generated tiles were resized in memory to exact source crop dimensions, converted to grayscale and mildly blurred. Local normalized cross-correlation matched 13x13 patches within a 12-pixel search radius around selected anchors.",
+    "result": "Sofa: five selected anchors had zero source-pixel displacement, one had minus one pixel horizontally. Local correlations 0.971 to 0.997. Table: seven selected anchors had zero source-pixel displacement, correlations 0.945 to 0.997.",
+    "recommendedMapping": "Map the complete generated image onto its specified source rectangle. No extra crop or rotation correction indicated by these anchors.",
+    "limits": "Selected low-frequency anchors are consistent, but this is not proof of exact registration at every pixel. No homography or final blended composite was produced in this task. Color, texture density and remaining edge seams require integration review. Feather margins and keep tiles fixed at all zoom levels."
+  },
+  "outputPreservation": "Original native generated PNGs retained. No fake upscale, no output resolution claim beyond recorded dimensions.",
+  "scope": "No Site calls, checkout edits, git changes or subagents."
+}
