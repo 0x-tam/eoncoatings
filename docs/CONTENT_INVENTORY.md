@@ -1,13 +1,11 @@
-# Fresh content inventory
+# Current content inventory
 
-Source: https://eoncoatings.com/ retrieved 11 September 2026. The complete source inventory and raw responses are archived in assets/source-2026-09-11/.
+The source was re-audited on 17 September 2026. It contains 20 posts, 10 pages, 7 services, 4 sectors, 5 categories and 31 tags. The full crawl and original assets are preserved locally in `audit/migration-2026-09-17/`.
 
-Verified source contains 20 posts, 10 pages, 7 services, 4 sectors, 5 categories, 31 tags and one author. 82 distinct HTML URLs returned HTTP 200: 41 primary content routes, 37 first-page archives, two archive pagination URLs and two Elementor template artifacts. This is 80 customer-content/archive routes, not the previous 48-route assumption.
+All 20 current article bodies are preserved. Five posts previously contained only their introductions; their missing live-template sections and seven illustrations have now been restored verbatim. Journal search, categories, reading times, related articles, and source archive routes are available. Author pagination uses nine articles per page so the legacy third page resolves.
 
-All 20 full article bodies and their dates, categories and author metadata are retained. The journal supports search, categories and load more. Separate source tag, category, author and pagination URLs remain reachable. Empty source archives have an honest empty state. Elementor header/footer artifacts redirect to the homepage and are omitted from the sitemap. The retired interactive duct URL redirects to AC service information.
+The seven service pages use the current design with restored and appropriately scoped source information. Company mission and vision are restored. HGPP shows authentic historical certificates and the original badge/plaque materials. Four distinct industry pages are linked from a dedicated directory; the legacy hospitality route redirects to its current sector page. Client Stories presents the source quotation once instead of repeating it six times.
 
-All seven service detail pages retain the complete source service text under an expanded-on-request company-information disclosure. Cleaning, sanitisation and coating are distinguished. HGPP retains authentic supporting images and source-qualified company claims. Published source boilerplate and duplicate sector text are identified rather than silently rewritten as verified project results.
+Privacy describes the implemented frontend and contact options. Terms & Conditions has a separate route. The site no longer presents irrelevant WordPress comment/login boilerplate as current functionality. Contact delivery and WhatsApp account verification still require owner configuration.
 
-The existing privacy text contains WordPress suggested language and needs owner legal review. No invented certification, client, rating, treatment outcome or WhatsApp verification was added. Published text normalizes em dash punctuation; immutable raw source remains unchanged.
-
-Exact required routes: lib/eon/required-routes.json. Route decisions: assets/source-2026-09-11/ROUTE_DECISIONS.md. Machine route and local-asset results: evidence/campaign/route-audit.json.
+See `docs/MIGRATION_RESTORATION.md` for the nine-item change log, validation and remaining dependencies. The original audit report is a dated baseline, not a claim about the implementation after restoration.

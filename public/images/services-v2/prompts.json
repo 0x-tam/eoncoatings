@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "ac.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. An installed rectangular white AC return-air grille with closely spaced metal louvers on a real apartment ceiling bulkhead, viewed from normal standing height at a gentle angle. Warm white ceiling, small strip of beige room visible below. All louvers structurally consistent. No technician, no open hole. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "antimicrobial.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. Close documentary view of a professional coating applicator: only blue nitrile-gloved hands and white protective sleeves visible, holding a small correctly assembled metal HVLP spray gun with a white top cup and connected blue air hose, applying a fine subtle spray to a bare light wood reception counter. Tool held 20 cm above surface, credible anatomy and scale. No face or full body. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "upholstery.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. A beautiful clean warm gray woven upholstered two-seat sofa in a real bright apartment, natural fabric texture, believable cushion seams and slight lived-in creases, side table and daylight, simple uncluttered composition. No split screen, no dirt overlay, no before-after. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "marble.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. A bright contemporary kitchen with a beautiful cream-and-gray veined marble island in foreground, polished countertop and visible stone edge, restrained brass fixtures and natural window light. Plausible architectural proportions. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "cleaning.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. Close documentary photograph of one blue nitrile-gloved hand holding a normal magnifying glass a few centimeters over a beige upholstered chair cushion. The lens accurately magnifies the same textile weave and a few lint particles beneath it, rather than invented insects. Sofa edge provides context, realistic optical magnification and equipment scale. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "mattress.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. Close documentary photograph of a real transparent triangular upholstery extraction nozzle connected to a black hose being held flat against a white quilted mattress by one gloved hand. Only hand and forearm enter frame from right. Nozzle physically touches mattress, realistic seams and slight compression, softly lit bedroom, no steam plume. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  },
+  {
+    "asset": "specialty.webp",
+    "prompt": "Use case: photorealistic-natural. Create a new original high-resolution editorial photograph inspired by conventional professional service photography. Realistic architectural photograph of clean photovoltaic solar panels on a low building roof in a dry UAE environment, clear panel cell grid and realistic metal mounting rails, gentle early morning sunlight rather than exaggerated flare, crisp glass texture, simple blue sky and low horizon. Landscape 1536x1024. Natural colors, precise materials, honest lighting, crisp photographic detail. No text, brand logos, watermarks, collage, icons, medical claims, CGI appearance, impossible geometry or staged dramatic action.",
+    "tool": "built-in image_gen",
+    "reference": "https://eoncoatings.com/service/"
+  }
+]

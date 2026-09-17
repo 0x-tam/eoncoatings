@@ -1,0 +1,102 @@
+[
+  {
+    "asset": "concrete.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Exterior pale concrete render wall at a modern UAE villa, visible authentic cement texture, corner and small planter for context. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "metal.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Brushed aluminum exterior facade panels with seams and fasteners, realistic reflected sky, architectural detail. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "glass.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Modern glass exterior facade with clearly visible transparent glazing, frames and soft sky reflections. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "bathroom.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Modern bathroom vanity in warm natural stone, basin and subtle water droplets, realistic daylight. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "wear.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Close view of visibly dull worn patch on a polished cream marble floor, honest fine scuff marks and stone grain. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "rain.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Rainwater droplets and runoff on exterior stone cladding during rain, realistic overcast daylight. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "coast.webp",
+    "prompt": "Use case: photorealistic-natural. Single realistic editorial photograph for a professional property-care questionnaire: Stone terrace balustrade facing the sea at a coastal UAE property, salt-weathered texture in foreground. Clearly readable subject at thumbnail size. Landscape 1536x1024, high detail, natural materials. No people, words, logos, icons, diagrams, collage or before/after.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "linen.webp",
+    "prompt": "Use case: photorealistic-natural. Macro editorial photograph of natural beige linen upholstery with an exposed folded edge showing the irregular flax weave. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "synthetic.webp",
+    "prompt": "Use case: photorealistic-natural. Macro editorial photograph of teal synthetic woven upholstery swatch, precise regular fine weave and crisp folded edge. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "leather.webp",
+    "prompt": "Use case: photorealistic-natural. Close editorial photograph of tan leather armchair armrest with natural leather grain and stitching. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "masonry.webp",
+    "prompt": "Use case: photorealistic-natural. Close editorial photograph of rough limestone masonry blocks and mortar joints on an exterior UAE villa wall. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "soiling.webp",
+    "prompt": "Use case: photorealistic-natural. Close editorial photograph of brown rain runoff streaks on pale exterior plaster beneath a window sill. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "dirt.webp",
+    "prompt": "Use case: photorealistic-natural. Close editorial photograph of dry sandy dirt accumulated along an exterior wall ledge. Professional material-care questionnaire illustration. Clear focus and material identification at thumbnail size, realistic natural light, landscape 1536x1024. No text, people, logos, collage or symbols.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "fabric-dust.webp",
+    "prompt": "Use case: photorealistic-natural. Close photograph of gray upholstered chair fabric with real lint and fine dust trapped along a cushion seam. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "fabric-protection.webp",
+    "prompt": "Use case: photorealistic-natural. Macro photograph of several clear water droplets beading on clean navy woven upholstery, sharp visible textile weave. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "tile.webp",
+    "prompt": "Use case: photorealistic-natural. Photograph of a ceramic tiled kitchen backsplash and laminate worktop, clear grout lines, daylight. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "kitchen.webp",
+    "prompt": "Use case: photorealistic-natural. Photograph of a contemporary family kitchen island with cream stone countertop, sink and understated cabinetry, daylight. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "weathering.webp",
+    "prompt": "Use case: photorealistic-natural. Close photograph of a sun-weathered exterior painted wall showing authentic flaking coating and fine cracks. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "rug.webp",
+    "prompt": "Use case: photorealistic-natural. Photograph of a loose patterned wool rug with clearly visible fringed edges on a wood floor. Professional property-care questionnaire photograph, landscape 1536x1024, realistic texture and scale, recognizable at thumbnail size. No people, text, logos, icons, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "moisture.webp",
+    "prompt": "Use case: photorealistic-natural. A realistic close-up inspection photograph of a white ceiling AC diffuser with visible localized brown moisture staining and small dark patches on surrounding plaster. Clearly visible grille and stained ceiling, honest natural lighting, not exaggerated or catastrophic. Landscape 1536x1024. Professional AC-care questionnaire illustration, no people, words, logos, collage or icons.",
+    "tool": "built-in image_gen"
+  }
+]

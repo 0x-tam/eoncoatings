@@ -1,0 +1,7 @@
+'use client';
+import {useState} from 'react';
+import {Search} from 'lucide-react';
+import Link from './PageLink';
+import {Dialog,DialogTrigger,DialogContent,DialogTitle,DialogDescription} from '@/components/ui/dialog';
+import searchIndex from '@/lib/eon/search-index.json';
+export default function SiteSearch(){const [open,setOpen]=useState(false),[query,setQuery]=useState('');const words=query.trim().toLowerCase().split(/\s+/).filter(Boolean);const results=words.length?searchIndex.filter(x=>words.every(w=>(x.title+' '+x.copy).toLowerCase().includes(w))).slice(0,12):[];return <Dialog open={open} onOpenChange={setOpen}><DialogTrigger className="site-search-trigger" aria-label="Search EON"><Search size={21}/><span className="sr-only">Search</span></DialogTrigger><DialogContent className="site-search-dialog"><DialogTitle>Search EON</DialogTitle><DialogDescription>Find a service, industry, company page or journal article.</DialogDescription><label htmlFor="eon-search" className="sr-only">Search the website</label><input id="eon-search" type="search" placeholder="Try marble, hotels or AC care" value={query} onChange={e=>setQuery(e.target.value)}/><p aria-live="polite">{words.length?`${results.length}${results.length===12?'+':''} results`:'What would you like to find?'}</p><ul>{results.map(x=><li key={x.path}><Link href={x.path} onClick={()=>setOpen(false)}><span className="eyebrow">{x.kind}</span><strong>{x.title}</strong><span>{x.copy}</span></Link></li>)}</ul></DialogContent></Dialog>}

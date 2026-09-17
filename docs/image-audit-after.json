@@ -1,0 +1,487 @@
+{
+  "routes": 17,
+  "placements": 119,
+  "uniquePhotographs": 119,
+  "duplicates": [],
+  "similar": [],
+  "missing": [],
+  "uses": [
+    {
+      "route": "/",
+      "src": "/images/room/room.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/home-air.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-air.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-surface.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-fabric.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-marble.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-cleaning.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-mattress.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/collection-exterior.webp"
+    },
+    {
+      "route": "/",
+      "src": "/images/unique-care/home-spaces.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-air.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-duct.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-fabric.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-cleaning.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-mattress.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-marble.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-surface.webp"
+    },
+    {
+      "route": "/service/",
+      "src": "/images/unique-care/index-exterior.webp"
+    },
+    {
+      "route": "/about-us/",
+      "src": "/images/unique-care/about-team.webp"
+    },
+    {
+      "route": "/industry/",
+      "src": "/images/unique-care/industry-hero.webp"
+    },
+    {
+      "route": "/industry/",
+      "src": "/images/unique-care/industry-office.webp"
+    },
+    {
+      "route": "/industry/",
+      "src": "/images/unique-care/industry-clinic.webp"
+    },
+    {
+      "route": "/industry/",
+      "src": "/images/finder-v3/education.webp"
+    },
+    {
+      "route": "/industry/",
+      "src": "/images/unique-care/industry-hotel.webp"
+    },
+    {
+      "route": "/contact-us/",
+      "src": "/images/contact/private-corporate-v2.webp"
+    },
+    {
+      "route": "/industries/offices/",
+      "src": "/images/unique-care/office-hero.webp"
+    },
+    {
+      "route": "/industries/offices/",
+      "src": "/images/unique-care/office-air.webp"
+    },
+    {
+      "route": "/industries/offices/",
+      "src": "/images/unique-care/office-fabric.webp"
+    },
+    {
+      "route": "/industries/offices/",
+      "src": "/images/unique-care/office-surface.webp"
+    },
+    {
+      "route": "/industries/healthcare/",
+      "src": "/images/unique-care/clinic-hero.webp"
+    },
+    {
+      "route": "/industries/healthcare/",
+      "src": "/images/unique-care/clinic-surface.webp"
+    },
+    {
+      "route": "/industries/healthcare/",
+      "src": "/images/unique-care/clinic-fabric.webp"
+    },
+    {
+      "route": "/industries/healthcare/",
+      "src": "/images/unique-care/clinic-air.webp"
+    },
+    {
+      "route": "/industries/education/",
+      "src": "/images/unique-care/school-hero.webp"
+    },
+    {
+      "route": "/industries/education/",
+      "src": "/images/unique-care/school-surface.webp"
+    },
+    {
+      "route": "/industries/education/",
+      "src": "/images/unique-care/school-fabric.webp"
+    },
+    {
+      "route": "/industries/education/",
+      "src": "/images/unique-care/school-air.webp"
+    },
+    {
+      "route": "/industries/hospitality/",
+      "src": "/images/unique-care/hotel-hero.webp"
+    },
+    {
+      "route": "/industries/hospitality/",
+      "src": "/images/unique-care/hotel-fabric.webp"
+    },
+    {
+      "route": "/industries/hospitality/",
+      "src": "/images/unique-care/hotel-marble.webp"
+    },
+    {
+      "route": "/industries/hospitality/",
+      "src": "/images/unique-care/hotel-mattress.webp"
+    },
+    {
+      "route": "/industries/hospitality/",
+      "src": "/images/unique-care/hotel-air.webp"
+    },
+    {
+      "route": "/services/ac-duct-mold-resistant-coating/",
+      "src": "/images/services-v2/ac.webp"
+    },
+    {
+      "route": "/services/ac-duct-mold-resistant-coating/",
+      "src": "/images/unique-care/story-air.webp"
+    },
+    {
+      "route": "/services/antimicrobial-surface-coating/",
+      "src": "/images/surface-refinement/surface-application.webp"
+    },
+    {
+      "route": "/services/antimicrobial-surface-coating/",
+      "src": "/images/unique-care/story-handle.webp"
+    },
+    {
+      "route": "/services/stain-resistant-furniture-coating/",
+      "src": "/images/services-v2/upholstery.webp"
+    },
+    {
+      "route": "/services/stain-resistant-furniture-coating/",
+      "src": "/images/v2/V204-coffee-spill.webp"
+    },
+    {
+      "route": "/services/marble-protective-coatings/",
+      "src": "/images/services-v2/marble.webp"
+    },
+    {
+      "route": "/services/marble-protective-coatings/",
+      "src": "/images/unique-care/story-marble.webp"
+    },
+    {
+      "route": "/services/deep-cleaning-of-carpets-furniture/",
+      "src": "/images/services-v2/cleaning.webp"
+    },
+    {
+      "route": "/services/deep-cleaning-of-carpets-furniture/",
+      "src": "/images/v2/V206-carpet-extraction.webp"
+    },
+    {
+      "route": "/services/mattress-cleaning-and-sanitization/",
+      "src": "/images/services-v2/mattress.webp"
+    },
+    {
+      "route": "/services/mattress-cleaning-and-sanitization/",
+      "src": "/images/v2/V207-mattress-care.webp"
+    },
+    {
+      "route": "/services/specialty-coatings/",
+      "src": "/images/services-v2/specialty.webp"
+    },
+    {
+      "route": "/services/specialty-coatings/",
+      "src": "/images/unique-care/story-exterior.webp"
+    },
+    {
+      "route": "hero-camera:fabric",
+      "src": "/images/continuous-zoom/fabric-tile.webp"
+    },
+    {
+      "route": "hero-camera:stone",
+      "src": "/images/zoom-v4/stone-traces.webp"
+    },
+    {
+      "route": "hero-camera:macro",
+      "src": "/images/zoom-v3/fabric-macro.webp"
+    },
+    {
+      "route": "hero-camera:grille",
+      "src": "/images/zoom-v3/duct-closed.webp"
+    },
+    {
+      "route": "hero-camera:deep",
+      "src": "/images/continuous-zoom/duct-internal-v2.webp"
+    },
+    {
+      "route": "finder:0|AC & ducts",
+      "src": "/images/campaign/air.webp"
+    },
+    {
+      "route": "finder:0|Furniture & fabric",
+      "src": "/images/A07-woven-upholstery.webp"
+    },
+    {
+      "route": "finder:0|Stone & shared surfaces",
+      "src": "/images/campaign/stone.webp"
+    },
+    {
+      "route": "finder:0|Exterior surfaces",
+      "src": "/images/A11-stone-facade.webp"
+    },
+    {
+      "route": "finder:1|Home or apartment",
+      "src": "/images/A03-residential-room.webp"
+    },
+    {
+      "route": "finder:1|Office or shop",
+      "src": "/images/finder/office.webp"
+    },
+    {
+      "route": "finder:1|Hotel or hospitality",
+      "src": "/images/v2/V203-hospitality-lounge.webp"
+    },
+    {
+      "route": "finder:1|Healthcare or shared facility",
+      "src": "/images/finder/clinic.webp"
+    },
+    {
+      "route": "finder:air|2|Central or ducted AC",
+      "src": "/images/A12-ceiling-diffuser.webp"
+    },
+    {
+      "route": "finder:air|2|Wall-mounted split units",
+      "src": "/images/finder/split-ac.webp"
+    },
+    {
+      "route": "finder:air|3|Dust or debris around vents",
+      "src": "/images/A02-duct-interior.webp"
+    },
+    {
+      "route": "finder:air|3|Visible patches or moisture",
+      "src": "/images/finder/moisture.webp"
+    },
+    {
+      "route": "finder:fabric|2|Sofa, chairs or upholstery",
+      "src": "/images/campaign/fabric.webp"
+    },
+    {
+      "route": "finder:fabric|2|Carpet or rugs",
+      "src": "/images/A09-carpet-interior.webp"
+    },
+    {
+      "route": "finder:fabric|2|Mattress",
+      "src": "/images/A10-mattress-bedroom.webp"
+    },
+    {
+      "route": "finder:fabric|3|An existing spill or stain",
+      "src": "/images/finder/fabric-stain.webp"
+    },
+    {
+      "route": "finder:fabric|3|Dust and general buildup",
+      "src": "/images/finder/fabric-dust.webp"
+    },
+    {
+      "route": "finder:fabric|3|Protection against future spills",
+      "src": "/images/finder/fabric-protection.webp"
+    },
+    {
+      "route": "finder:fabric|4|Natural or delicate textile",
+      "src": "/images/finder/linen.webp"
+    },
+    {
+      "route": "finder:fabric|4|Synthetic or blended fabric",
+      "src": "/images/finder/synthetic.webp"
+    },
+    {
+      "route": "finder:fabric|4|Leather or a coated finish",
+      "src": "/images/finder/leather.webp"
+    },
+    {
+      "route": "finder:fabric|4|Fitted carpet",
+      "src": "/images/campaign/carpet.webp"
+    },
+    {
+      "route": "finder:fabric|4|Loose rugs",
+      "src": "/images/finder/rug.webp"
+    },
+    {
+      "route": "finder:stone|2|Marble",
+      "src": "/images/A08-marble-countertop.webp"
+    },
+    {
+      "route": "finder:stone|2|Other natural stone",
+      "src": "/images/campaign/marble.webp"
+    },
+    {
+      "route": "finder:stone|2|Tile, laminate or a shared counter",
+      "src": "/images/finder/tile.webp"
+    },
+    {
+      "route": "finder:stone|3|Spill marks or staining",
+      "src": "/images/finder/stone-spill.webp"
+    },
+    {
+      "route": "finder:stone|3|Dullness or visible wear",
+      "src": "/images/finder/wear.webp"
+    },
+    {
+      "route": "finder:stone|3|Routine dirt or touch residue",
+      "src": "/images/v2/V205-bronze-touchpoint.webp"
+    },
+    {
+      "route": "finder:stone|3|Protection for a high-touch surface",
+      "src": "/images/A06-metal-handle.webp"
+    },
+    {
+      "route": "finder:stone|3|Protection against future spills",
+      "src": "/images/v2/V202-stone-water-detail.webp"
+    },
+    {
+      "route": "finder:stone|4|Kitchen or dining area",
+      "src": "/images/finder/kitchen.webp"
+    },
+    {
+      "route": "finder:stone|4|Bathroom or wet area",
+      "src": "/images/finder/bathroom.webp"
+    },
+    {
+      "route": "finder:stone|4|Living room or furniture",
+      "src": "/images/v2/V201-residential-hero.webp"
+    },
+    {
+      "route": "finder:stone|4|Reception or shared workspace",
+      "src": "/images/A04-commercial-lounge.webp"
+    },
+    {
+      "route": "finder:exterior|2|Stone or masonry",
+      "src": "/images/finder/masonry.webp"
+    },
+    {
+      "route": "finder:exterior|2|Concrete or render",
+      "src": "/images/finder/concrete.webp"
+    },
+    {
+      "route": "finder:exterior|2|Metal",
+      "src": "/images/finder/metal.webp"
+    },
+    {
+      "route": "finder:exterior|2|Glass or another finish",
+      "src": "/images/finder/glass.webp"
+    },
+    {
+      "route": "finder:exterior|3|Weathering or deterioration",
+      "src": "/images/finder/weathering.webp"
+    },
+    {
+      "route": "finder:exterior|3|Water marks or soiling",
+      "src": "/images/finder/soiling.webp"
+    },
+    {
+      "route": "finder:exterior|3|Dirt buildup",
+      "src": "/images/finder/dirt.webp"
+    },
+    {
+      "route": "finder:exterior|4|Strong direct sun",
+      "src": "/images/campaign/exterior.webp"
+    },
+    {
+      "route": "finder:exterior|4|Rain or frequent moisture",
+      "src": "/images/finder/rain.webp"
+    },
+    {
+      "route": "finder:exterior|4|Coastal exposure",
+      "src": "/images/finder/coast.webp"
+    },
+    {
+      "route": "finder:air|2|A mix of systems",
+      "src": "/images/finder-v3/mixed-ac.webp"
+    },
+    {
+      "route": "finder:air|3|An unusual or musty smell",
+      "src": "/images/finder-v3/ac-odour.webp"
+    },
+    {
+      "route": "finder:air|3|Routine cleaning",
+      "src": "/images/finder-v3/routine-ac.webp"
+    },
+    {
+      "route": "finder:air|3|Advice about protective duct coating",
+      "src": "/images/finder-v3/duct-coating.webp"
+    },
+    {
+      "route": "finder:air|4|Within the last year",
+      "src": "/images/finder-v3/recent-service.webp"
+    },
+    {
+      "route": "finder:air|4|More than a year ago",
+      "src": "/images/finder-v3/older-service.webp"
+    },
+    {
+      "route": "finder:air|4|Never, as far as I know",
+      "src": "/images/finder-v3/never-service.webp"
+    },
+    {
+      "route": "finder:fabric|3|An odour or hygiene concern",
+      "src": "/images/finder-v3/fabric-odour.webp"
+    },
+    {
+      "route": "finder:fabric|4|One mattress",
+      "src": "/images/finder-v3/one-mattress.webp"
+    },
+    {
+      "route": "finder:fabric|4|Two or three mattresses",
+      "src": "/images/finder-v3/few-mattresses.webp"
+    },
+    {
+      "route": "finder:fabric|4|Four or more mattresses",
+      "src": "/images/finder-v3/many-mattresses.webp"
+    },
+    {
+      "route": "finder:fabric|4|Both",
+      "src": "/images/finder-v3/carpet-and-rug.webp"
+    },
+    {
+      "route": "finder:exterior|3|Preventive protection",
+      "src": "/images/finder-v3/exterior-protection.webp"
+    }
+  ],
+  "scope": "Redesigned public pages and every finder answer. Identity logo and HGPP document excluded. Existing journal archive is inventoried separately and its redesign remains deferred."
+}

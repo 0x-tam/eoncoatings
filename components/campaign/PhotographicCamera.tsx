@@ -13,6 +13,8 @@ type Rect = readonly [number, number, number, number];
 type Surface = HTMLCanvasElement | OffscreenCanvas;
 type Asset = HTMLImageElement | Surface | ImageBitmap;
 type Assets = Partial<Record<'room' | 'fabric' | 'stone' | 'macro' | 'grille' | 'deep', Asset>>;
+type Pose = {cx:number;cy:number;z:number};
+type Flight = {from:Pose;to:Pose;started:number;duration:number;wide:number|null};
 type Segment = { from: number; to: number; started: number; duration: number };
 
 const WORLD_WIDTH = 1672;
@@ -29,8 +31,8 @@ const FILES = [
   ['deep', '/images/continuous-zoom/duct-internal-v2.webp', 0],
 ] as const;
 const FOCUS: Record<Material, readonly [number, number]> = {
-  fabric: [0.88 * WORLD_WIDTH, 0.76 * WORLD_HEIGHT],
-  stone: [930, 681],
+  fabric: [1438, 735],
+  stone: [930, 710],
   air: [1163, 81.7],
 };
 const SLOT = [
@@ -138,6 +140,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     let progress = 0;
     let desired = desiredRef.current;
     let segment: Segment | null = null;
+    let flight: Flight | null = null;
+    let livePose: Pose | null = null;
     let requestSerial = 0;
     let settledSerial = -1;
     let lastFrameTime = 0;
@@ -153,38 +157,58 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       || document.documentElement.dataset.motionTest === 'reduced'
       || canvas.closest('[data-motion-test="reduced"]') !== null;
 
-    function draw() {
-      if (disposed || !width || !height || !assets.room) return;
-      const base = Math.max(width / WORLD_WIDTH, height / WORLD_HEIGHT);
-      const overviewLeft = (width - WORLD_WIDTH * base) / 2;
-      let zoom = 1;
-      let pan = 0;
-      if (material === 'air') {
-        const airProgress = assets.deep ? progress : Math.min(progress, 0.58);
-        // One continuous optical acceleration instead of a speed discontinuity at the grille.
-        const approach = Math.min(1, airProgress / 0.58);
-        pan = approach * approach * (3 - 2 * approach);
-        zoom = Math.exp(Math.log(600) * airProgress);
-      } else if (material) {
-        pan = progress;
-        zoom = Math.exp(Math.log(material === 'fabric' ? 3.2 : 3.6) * progress);
-      }
+    function poseAt(subject: Material | null, amount: number): Pose {
+      const base = Math.min(width / WORLD_WIDTH, height / WORLD_HEIGHT);
+      const overviewLeft = width - WORLD_WIDTH * base;
+      const overviewTop = (height - WORLD_HEIGHT * base) / 2;
+      const endZoom = subject === 'air' ? 600 : subject === 'fabric' ? (width <= 600 ? 8 : 4.6) : subject === 'stone' ? (width <= 600 ? 6.5 : 4.7) : 1;
+      const amountAvailable = subject === 'air' && !assets.deep ? Math.min(amount, 0.58) : amount;
+      const zoom = Math.exp(Math.log(endZoom) * amountAvailable);
       const scale = base * zoom;
       let x = overviewLeft;
-      let y = 0;
-      if (material) {
-        const [fx, fy] = FOCUS[material];
-        const targetX = width * (width > 600 ? 0.7 : 0.5);
-        // Interpolate the subject's screen position, then apply the optical scale.
-        // Blending already-scaled translations made the subject race offscreen mid-zoom.
-        x = clamp(mix(overviewLeft + fx * base, targetX, pan) - fx * scale, width - WORLD_WIDTH * scale, 0);
-        y = clamp(mix(fy * base, height * 0.5, pan) - fy * scale, height - WORLD_HEIGHT * scale, 0);
+      let y = overviewTop;
+      if (subject) {
+        const [fx, fy] = FOCUS[subject];
+        const endScale = base * endZoom;
+        const endX = clamp(width * (width > 600 ? 0.7 : 0.5) - fx * endScale, width - WORLD_WIDTH * endScale, 0);
+        const endY = clamp(height * 0.5 - fy * endScale, height - WORLD_HEIGHT * endScale, 0);
+        // A single fixed optical pivot joins the exact overview and final framing.
+        // Do not independently pan or clamp intermediate frames: both made the
+        // room slide sideways before the zoom had caught up.
+        const opticalTravel = (zoom - 1) / (endZoom - 1);
+        x = mix(overviewLeft, endX, opticalTravel);
+        y = mix(overviewTop, endY, opticalTravel);
       }
 
+      return {cx:(width*(width>600?.7:.5)-x)/scale,cy:(height*.5-y)/scale,z:Math.log(zoom)};
+    }
+
+    function flightPose(now:number): Pose {
+      const f=flight!;
+      const t=clamp((now-f.started)/f.duration,0,1);
+      const u=ease(t);
+      const z=f.wide===null?mix(f.from.z,f.to.z,u):
+        (1-u)**3*f.from.z+3*(1-u)**2*u*f.wide+3*(1-u)*u*u*f.wide+u**3*f.to.z;
+      const start=f.from.z>Math.log(40)?.42:0;
+      const end=f.to.z>Math.log(40)?.58:1;
+      const v=clamp((u-start)/(end-start),0,1);
+      const travel=v*v*(3-2*v);
+      return {cx:mix(f.from.cx,f.to.cx,travel),cy:mix(f.from.cy,f.to.cy,travel),z};
+    }
+
+    function draw() {
+      if (disposed || !width || !height || !assets.room) return;
+      const base=Math.min(width/WORLD_WIDTH,height/WORLD_HEIGHT);
+      const pose=flight?flightPose(performance.now()):poseAt(material,progress);
+      livePose=pose;
+      const zoom=Math.exp(pose.z),scale=base*zoom;
+      const x=width*(width>600?.7:.5)-pose.cx*scale;
+      const y=height*.5-pose.cy*scale;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = 'high';
-      ctx.clearRect(0, 0, width, height);
+      ctx.fillStyle = '#eee5d4';
+      ctx.fillRect(0, 0, width, height);
       const drawWorld = (asset: Asset | undefined, rect: Rect) => {
         if (!asset) return;
         const dx = x + rect[0] * scale;
@@ -215,7 +239,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       drawWorld(assets.macro, [1355.2956, 684, 162.7463, 130]);
       drawWorld(assets.grille, GRILLE);
 
-      if (material === 'air' && progress >= 0.20 && assets.deep && assets.grille) {
+      if (zoom >= 3.6 && assets.deep && assets.grille) {
         ctx.save();
         ctx.beginPath();
         SLOT.forEach(([sx, sy], index) => {
@@ -229,7 +253,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         const deep = assets.deep!;
         const nativeWidth = deep instanceof HTMLImageElement ? deep.naturalWidth : deep.width;
         const nativeHeight = deep instanceof HTMLImageElement ? deep.naturalHeight : deep.height;
-        const rearProgress = clamp((progress - 0.20) / 0.80, 0, 1);
+        const rearProgress = clamp((Math.log(zoom)/Math.log(600) - 0.20) / 0.80, 0, 1);
         const rearZoom = mix(1.06, 1, rearProgress);
         const viewLeft = width <= 600 ? 0 : width * (width <= 1100 ? 0.42 : 0.36);
         const viewWidth = width - viewLeft;
@@ -242,6 +266,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
 
       canvas.dataset.cameraProgress = progress.toFixed(5);
       canvas.dataset.cameraMaterial = material ?? 'overview';
+      canvas.dataset.cameraFlight = flight ? 'direct' : 'none';
     }
 
     function sample(now: number) {
@@ -270,7 +295,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       const forward = to > progress;
       const fullDuration = material === 'air'
         ? (forward ? 1550 : 1250)
-        : (forward ? 1050 : 900);
+        : (forward ? 1450 : 1200);
       segment = {
         from: progress,
         to,
@@ -312,6 +337,13 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (disposed) return;
       if (lastFrameTime) frameIntervals.push(now - lastFrameTime);
       lastFrameTime = now;
+      if (flight) {
+        const complete=now-flight.started>=flight.duration;
+        if(complete){flight=null;material=desired;progress=desired?1:0;}
+        draw();
+        if(complete)settled();else frame=requestAnimationFrame(tick);
+        return;
+      }
       const finished = sample(now);
       draw();
       if (finished) plan();
@@ -320,15 +352,27 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
 
     function request(next: Material | null) {
       if (disposed) return;
+      // Capture the rendered camera before changing destinations, including an interrupted flight.
+      sample(performance.now());
+      draw();
+      const from=livePose;
+      const direct=!!flight || (material!==null && next!==null && material!==next);
       desired = next;
       requestSerial += 1;
       lastFrameTime = 0;
       frameIntervals = [];
-      sample(performance.now());
       if (frame) cancelAnimationFrame(frame);
       frame = 0;
       segment = null;
-      plan();
+      flight = null;
+      if (direct && from && loaded && !reduced()) {
+        const to=poseAt(next,next?1:0);
+        const crossesAir=from.z>Math.log(40)||to.z>Math.log(40);
+        flight={from,to,started:performance.now(),duration:crossesAir?1650:1000,wide:crossesAir?Math.log(1.8):null};
+        material=next;
+        progress=next?1:0;
+        frame=requestAnimationFrame(tick);
+      } else plan();
     }
     requestRef.current = request;
 

@@ -17,7 +17,7 @@ export function validateEnquiry(input:Enquiry):string[]{
  if(typeof input.name!=='string'||!input.name.trim()||input.name.length>400)bad.push('name');
  if(input.type!=='Residential'&&input.type!=='Business')bad.push('type');
  if(input.company!==undefined&&(typeof input.company!=='string'||input.company.length>400))bad.push('company');
- if(typeof input.phone!=='string'||input.phone.length<6||input.phone.length>12||!/[0-9]/.test(input.phone)||!/^[+0-9(). -]+$/.test(input.phone))bad.push('phone');
+ if(typeof input.phone!=='string'||input.phone.replace(/\D/g,'').length<7||input.phone.replace(/\D/g,'').length>15||!/[0-9]/.test(input.phone)||!/^[+0-9(). -]+$/.test(input.phone))bad.push('phone');
  if(typeof input.email!=='string'||input.email.length>400||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.email))bad.push('email');
  if(input.message!==undefined&&(typeof input.message!=='string'||input.message.length>2000))bad.push('message');
  return bad;
@@ -37,7 +37,7 @@ export function createCF7ServerAdapter(config:Config,deps:Dependencies){
  return async function submit(input:Enquiry,context:{origin:string;clientKey:string;challengeSessionId:string;challengeAnswer:string}):Promise<Result>{
   if(!configured||!backend||!frontend)return message('unavailable','The online enquiry service requires owner configuration. Phone and email remain available.');
   if(context.origin!==frontend.origin)return message('rejected','This enquiry origin is not allowed.');
-  const fields=validateEnquiry(input);if(fields.length)return {kind:'invalid',fields,message:'Please check the fields. The current form requires a phone number of 6 to 12 characters.'};
+  const fields=validateEnquiry(input);if(fields.length)return {kind:'invalid',fields,message:'Please check the fields. Use a valid phone number with a country code.'};
   if(!context.challengeSessionId||!context.challengeAnswer)return message('invalid','Please complete the live human-verification challenge.');
   try{
    if(!await deps.allowRequest(context.clientKey))return message('rejected','Please wait before trying again. Your details have been preserved.');

@@ -1,0 +1,14 @@
+{
+  "scope": "Existing journal, whose full redesign was deferred by the user",
+  "articleCount": 20,
+  "uniqueFeaturedImages": 17,
+  "crossArticleReuse": {
+    "/images/source/6bad2e2c2d23.jpg": [
+      "weatherguard-coatings-outdoor-surfaces-that-clean-themselves",
+      "choosing-the-right-fabric-protection-for-hospitality",
+      "the-roi-of-duct-cleaning-in-commercial-buildings",
+      "how-antimicrobial-coatings-improve-health-safety-in-offices"
+    ]
+  },
+  "note": "Journal listing cards, category/tag/author archives and article covers also repeat the same article artwork."
+}

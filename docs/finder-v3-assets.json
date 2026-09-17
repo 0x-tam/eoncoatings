@@ -1,0 +1,114 @@
+[
+  {
+    "name": "education",
+    "scene": "A bright contemporary UAE school classroom after lessons, no people. Realistic pale wood shared desks in foreground, teal student chairs, a ceiling AC diffuser clearly visible, windows with daylight, neat learning materials and wipeable surfaces. Architectural photography, calm premium professional school, not university auditorium.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/education.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-742a29db-8c03-465b-8b64-cd7c470611c3.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A bright contemporary UAE school classroom after lessons, no people. Realistic pale wood shared desks in foreground, teal student chairs, a ceiling AC diffuser clearly visible, windows with daylight, neat learning materials and wipeable surfaces. Architectural photography, calm premium professional school, not university auditorium. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "mixed-ac",
+    "scene": "A real commercial office with both a wall-mounted split air conditioner and a separate ceiling ducted grille clearly visible in the same room, no people, correct installation.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/mixed-ac.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-e299626c-d77b-4da0-be71-57db16923e9c.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A real commercial office with both a wall-mounted split air conditioner and a separate ceiling ducted grille clearly visible in the same room, no people, correct installation. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "ac-odour",
+    "scene": "A realistic residential wall AC vent with subtle damp discoloration inside its grille and a homeowner in profile noticing an unpleasant smell, natural restrained expression, no cartoon odour lines.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/ac-odour.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-820dd069-fe25-4ba9-9280-a084361b796c.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A realistic residential wall AC vent with subtle damp discoloration inside its grille and a homeowner in profile noticing an unpleasant smell, natural restrained expression, no cartoon odour lines. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "routine-ac",
+    "scene": "A professional technician's gloved hands vacuuming a ceiling AC grille with a real vacuum brush, tidy office, realistic equipment and safe working posture close crop.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/routine-ac.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-e9bbfc0d-d018-4470-a9be-723b1242c3e1.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A professional technician's gloved hands vacuuming a ceiling AC grille with a real vacuum brush, tidy office, realistic equipment and safe working posture close crop. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "duct-coating",
+    "scene": "Close view of a professional coating spray lance positioned inside a galvanized rectangular ventilation duct, subtle protective film, trained technician's gloved hand at inspection hatch, accurate practical equipment.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/duct-coating.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-5b9a90f5-922e-4e5e-b87c-aa973c52b52d.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Close view of a professional coating spray lance positioned inside a galvanized rectangular ventilation duct, subtle protective film, trained technician's gloved hand at inspection hatch, accurate practical equipment. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "recent-service",
+    "scene": "A clean opened AC return grille with clean filter and a professional technician's inspection clipboard in foreground, recent maintenance concept, blank nonlegible checklist, natural daylight.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/recent-service.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-0a0485a4-4659-4a50-ace4-2b6f5e9cd2a5.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A clean opened AC return grille with clean filter and a professional technician's inspection clipboard in foreground, recent maintenance concept, blank nonlegible checklist, natural daylight. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "older-service",
+    "scene": "An installed AC return grille and removed grey filter with moderate accumulated dust on a dust sheet in a utility room, overdue maintenance concept.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/older-service.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-a9e4d740-019e-4909-bb16-be5c5c635044.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. An installed AC return grille and removed grey filter with moderate accumulated dust on a dust sheet in a utility room, overdue maintenance concept. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "never-service",
+    "scene": "Deep internal rectangular metal ventilation duct with thick years of dust and debris buildup along the floor, inspection photograph, realistic and not exaggerated.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/never-service.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-69b943af-3de1-4047-98df-a28b91e6056a.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Deep internal rectangular metal ventilation duct with thick years of dust and debris buildup along the floor, inspection photograph, realistic and not exaggerated. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "fabric-odour",
+    "scene": "Close view of a lived-in upholstered armchair with slight moisture staining near the seat seam, a technician inspecting the cushion, realistic hands, hygiene assessment concept.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/fabric-odour.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-da3959ab-6cb6-4733-a9a8-02df69875018.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Close view of a lived-in upholstered armchair with slight moisture staining near the seat seam, a technician inspecting the cushion, realistic hands, hygiene assessment concept. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "one-mattress",
+    "scene": "One single bare cream mattress on a simple bed in a tidy sunlit bedroom, no other beds, no text.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/one-mattress.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-15759065-25f0-40a8-9ad3-2ac42bac27bf.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. One single bare cream mattress on a simple bed in a tidy sunlit bedroom, no other beds, no text. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "few-mattresses",
+    "scene": "Exactly two separate neatly aligned single bare mattresses on twin beds in a bright guest bedroom, realistic fabric quilting.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/few-mattresses.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-9720c084-37a2-46cc-803d-3fa7fedc10d2.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Exactly two separate neatly aligned single bare mattresses on twin beds in a bright guest bedroom, realistic fabric quilting. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "many-mattresses",
+    "scene": "Exactly four separate bare single mattresses on beds arranged neatly in a professional accommodation room, clear counting composition, no people.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/many-mattresses.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-c8201d81-8fc1-4412-b0e3-33886c5cd4a0.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Exactly four separate bare single mattresses on beds arranged neatly in a professional accommodation room, clear counting composition, no people. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "carpet-and-rug",
+    "scene": "A fitted wall-to-wall neutral carpet with a distinct patterned loose rug placed on top in a real living room, edges clearly visible to distinguish both materials.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/carpet-and-rug.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-16c56080-11ae-4ac3-9b33-dba514376b9e.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. A fitted wall-to-wall neutral carpet with a distinct patterned loose rug placed on top in a real living room, edges clearly visible to distinguish both materials. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  },
+  {
+    "name": "exterior-protection",
+    "scene": "Professional worker applying clear protective coating with a short roller to an exterior stone wall in a modern UAE building courtyard, correct hands and realistic rigid wall.",
+    "mode": "built-in image generation",
+    "file": "public/images/finder-v3/exterior-protection.webp",
+    "source": "/Users/Tamam/.codex/generated_images/01a08d55-b390-7dd1-af4b-8f3af90059cb/exec-5a329aeb-48fc-44ca-b9c4-daf1c34154e3.png",
+    "prompt": "Photorealistic-natural. Generate one high quality editorial photograph for a professional property-care website answer selector. Professional worker applying clear protective coating with a short roller to an exterior stone wall in a modern UAE building courtyard, correct hands and realistic rigid wall. Landscape 1536x1024. Natural textures, plausible optics, restrained warm daylight, no text, no logos, no watermarks, no collage or diagram. Main subject centrally composed for responsive cropping."
+  }
+]

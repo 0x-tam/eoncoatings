@@ -1,0 +1,260 @@
+[
+  {
+    "file": "about-team.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 168956
+  },
+  {
+    "file": "clinic-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 103362
+  },
+  {
+    "file": "clinic-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 194300
+  },
+  {
+    "file": "clinic-hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 204804
+  },
+  {
+    "file": "clinic-surface.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 126814
+  },
+  {
+    "file": "collection-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 247102
+  },
+  {
+    "file": "collection-cleaning.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 344742
+  },
+  {
+    "file": "collection-exterior.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 278842
+  },
+  {
+    "file": "collection-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 291272
+  },
+  {
+    "file": "collection-marble.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 148400
+  },
+  {
+    "file": "collection-mattress.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 182456
+  },
+  {
+    "file": "collection-surface.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 183918
+  },
+  {
+    "file": "home-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 169570
+  },
+  {
+    "file": "home-spaces.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 197756
+  },
+  {
+    "file": "hotel-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 150098
+  },
+  {
+    "file": "hotel-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 358986
+  },
+  {
+    "file": "hotel-hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 284398
+  },
+  {
+    "file": "hotel-marble.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 179358
+  },
+  {
+    "file": "hotel-mattress.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 274226
+  },
+  {
+    "file": "index-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 56602
+  },
+  {
+    "file": "index-cleaning.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 216292
+  },
+  {
+    "file": "index-duct.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 278298
+  },
+  {
+    "file": "index-exterior.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 362328
+  },
+  {
+    "file": "index-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 293512
+  },
+  {
+    "file": "index-marble.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 232574
+  },
+  {
+    "file": "index-mattress.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 269912
+  },
+  {
+    "file": "index-surface.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 109778
+  },
+  {
+    "file": "industry-clinic.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 133682
+  },
+  {
+    "file": "industry-hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 345558
+  },
+  {
+    "file": "industry-hotel.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 333432
+  },
+  {
+    "file": "industry-office.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 246060
+  },
+  {
+    "file": "office-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 215830
+  },
+  {
+    "file": "office-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 270926
+  },
+  {
+    "file": "office-hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 241618
+  },
+  {
+    "file": "office-surface.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 125278
+  },
+  {
+    "file": "school-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 96956
+  },
+  {
+    "file": "school-fabric.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 264374
+  },
+  {
+    "file": "school-hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 206482
+  },
+  {
+    "file": "school-surface.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 117650
+  },
+  {
+    "file": "story-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 192046
+  },
+  {
+    "file": "story-exterior.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 397292
+  },
+  {
+    "file": "story-handle.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 68276
+  },
+  {
+    "file": "story-marble.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 141944
+  }
+]
