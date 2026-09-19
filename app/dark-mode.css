@@ -1,0 +1,40 @@
+.theme-toggle{display:inline-grid;place-items:center;flex:0 0 42px;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;color:var(--ink)}
+.theme-toggle:hover{background:#26727a14}
+.theme-sun{display:none}
+html[data-theme=dark] .theme-sun{display:block}
+html[data-theme=dark] .theme-moon{display:none}
+html[data-theme=dark]{color-scheme:dark;--paper:#0b2423;--ink:#e6f2ec;--dark:#071b1b;--line:#9fc8ba38;--accent:#8ad2be;--action-blue:#287b68;--citrus:#cae8a6;--night-surface:#123430;--night-raised:#1b423b;background:var(--paper);color:var(--ink)}
+html[data-theme=dark] body{background:var(--paper);color:var(--ink)}
+html[data-theme=dark] :is(.site-header,footer){background:var(--dark);color:var(--ink)}
+html[data-theme=dark] :is(.site-header,footer) img{filter:grayscale(1) invert(1);mix-blend-mode:screen}
+html[data-theme=dark] :is(.care-editorial,.room-hero,.room-hero:not([data-material=overview])){background:var(--paper);color:var(--ink)}
+html[data-theme=dark] :is(.care-editorial .care-air,.care-editorial .care-reasons,.company-hero,.hgpp-feature,.hgpp-hero,.hgpp-example,.company-next,.service-hero-new,.service-story,.service-story:first-child,.service-scenario,.service-next,.clear-service,.clear-service:first-child,.clear-process,.faq-section,.services-section,.mission-grid,.use-case,.hgpp-documents,main>.consultation,main>.care-enquiry,main>.service-choice-help,.finder-inline-launch){background:var(--night-surface);color:var(--ink);border-color:var(--line)}
+html[data-theme=dark] :is(.care-editorial .care-range,.care-proof,.published-performance,.client-story-context){background:#10322e;color:var(--ink)}
+html[data-theme=dark] :is(.care-reasons-grid article,.care-category-choice,.document-card,.document-card>div,.restored-technology aside,.source-note,.archive-note,.form-status,.finder-result,.location-map>div,.client-monogram){background:var(--night-raised);color:var(--ink);border-color:var(--line)}
+html[data-theme=dark] :is(.care-reasons-grid p,.performance-note,.hgpp-materials figcaption,.hgpp-certificate figcaption,.care-air-steps b,.care-option-number,.care-next-details li>span,.service-link-copy small,.trace-kicker,.trace-card small,.finder-auto-hint,.footer-bottom){color:#b3cec3}
+html[data-theme=dark] :is(.room-copy .eyebrow,.room-detail .eyebrow){color:#b3cec3!important}
+html[data-theme=dark] .room-hero .room-copy::before{background:#0b2423ed}
+html[data-theme=dark] .room-hero[data-panel=overview] .room-copy::before{background:#0b2423df}
+html[data-theme=dark] :is(.room-bar,.finder-modal,.trace-card){background:#123430f5!important;color:var(--ink)}
+html[data-theme=dark] :is(.room-instruction,.room-point small,.trace-point,.care-air-layout figcaption,.company-hero figcaption,.service-hero-new figcaption){background:#123430ed;color:var(--ink)}
+html[data-theme=dark] :is(.trace-point b,.finder-controls,.finder-modal [data-slot=dialog-close],.finder-progress-bar){background:var(--night-raised);color:var(--ink)}
+html[data-theme=dark] :is(.question-options button,.service-filters button,.filter-buttons button,.scenario-tabs button){background:var(--night-raised);color:var(--ink);border-color:var(--line)}
+html[data-theme=dark] :is(.question-options button:hover,.question-options button[aria-pressed=true],.room-bar button:hover,.room-bar button[aria-pressed=true],.care-service-options button:hover,.care-range .care-service-options button[aria-pressed=true],.care-service-options button[aria-pressed=true],.space-card:hover,.numbered-services>a:hover){background:#28594c;color:#f1faf5}
+html[data-theme=dark] :is(.spaces-photo-controls>button[aria-pressed=true],.care-category-choice[aria-expanded=true] .care-category-label,.filter-buttons button[aria-pressed=true],.service-filters button[aria-pressed=true],.scenario-tabs button[aria-pressed=true],.finder-options button[aria-pressed=true]){background:#287b68;color:#fff;border-color:#76bfa8}
+html[data-theme=dark] :is(.contact-form input,.contact-form textarea,.archive-tools input,.site-search-dialog input){background:#0b2423;color:var(--ink);border-color:#65998a}
+html[data-theme=dark] input::placeholder,html[data-theme=dark] textarea::placeholder{color:#9fbeb2}
+html[data-theme=dark] :is(.site-search-dialog,.eon-menu,.company-menu-content){background:var(--night-surface)!important;color:var(--ink);border-color:var(--line)}
+html[data-theme=dark] :is(.company-menu-content [role=menuitem]:focus,.company-menu-content [role=menuitem][data-highlighted],.site-search-trigger:hover,.theme-toggle:hover){background:var(--night-raised);color:var(--ink)}
+html[data-theme=dark] .site-header .desktop-nav a.nav-hgpp,html[data-theme=dark] .eon-menu nav a.nav-hgpp{background:#1d4c40;border-color:#568e79;color:#c7efdd}
+html[data-theme=dark] .site-header .desktop-nav a.nav-hgpp:hover,html[data-theme=dark] .site-header .desktop-nav a.nav-hgpp[aria-current=page]{background:#306c55;border-color:#a4d8bd;color:#fff}
+html[data-theme=dark] :is(.button:hover,.site-header .header-cta:hover,.room-cta:hover){background:#33917a!important}
+html[data-theme=dark] .care-proof .button{background:#c8e8da!important;color:#123c32!important}
+html[data-theme=dark] :is(.clear-service nav a>.service-row-action,.trace-point[aria-pressed=true]){background:#287b68;color:white}
+html[data-theme=dark] :is(.service-enquiry-link,.service-next .service-enquiry-link){color:#9fddc8!important;border-color:#76bfa8}
+html[data-theme=dark] .service-enquiry-link:hover{background:#1b423b}
+html[data-theme=dark] :is(.finder-answer-summary>div>button,.care-reason-number,.restoration-cards svg,.restored-technology aside>svg,.industry-directory svg,.client-story svg,.care-link:hover){color:#8ad2be}
+html[data-theme=dark] :is(.hgpp-materials a,.restored-comparison img){background:#173a34}
+html[data-theme=dark] .skip-link{background:#123430;color:#fff}
+html[data-theme=dark] .form-error{color:#ffb5a7}
+html[data-theme=dark] :focus-visible{outline-color:#a5e2cb}
+@media(max-width:480px){.site-header .header-cta{display:none}.theme-toggle{width:40px;height:40px;flex-basis:40px}}

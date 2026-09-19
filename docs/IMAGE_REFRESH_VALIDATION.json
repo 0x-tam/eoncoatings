@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/industry/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/hgpp-certification/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/media/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/industries/offices/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/industries/healthcare/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/industries/education/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/industries/hospitality/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/choosing-the-right-fabric-protection-for-hospitality/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+    "status": 200,
+    "images_valid": true
+  },
+  {
+    "path": "/how-antimicrobial-coatings-improve-health-safety-in-offices/",
+    "status": 200,
+    "images_valid": true
+  }
+]

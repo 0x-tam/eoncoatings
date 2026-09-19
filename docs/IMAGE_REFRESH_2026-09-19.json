@@ -1,0 +1,165 @@
+{
+  "mode": "built-in image_gen",
+  "generated_on": "2026-09-19",
+  "retries": 0,
+  "global_caveat": "AI-generated illustrative reconstructions, not client project evidence. QR motifs and certification art are not authoritative/scannable masters.",
+  "assets": [
+    {
+      "name": "badge",
+      "target": "restored/Multi-surface-sticker-300x295.png",
+      "prompt": "Use case: precise-object-edit. Edit target image 1. Reproduce this exact HealthGuard badge as a crisp high resolution flat illustrative artwork, square 1536x1536. Preserve entire rounded border with small white margin, teal patterned background, original logos, diagonal SAMPLE watermark and exact text: HealthGuard\u2122; nanocoating; ANTI-MICROBIAL SURFACE. Preserve central QR motif faithfully without claiming scannability. No added claims or text. No perspective, wall, frame, shadow or cropping. Faithful upscale/redraw rather than new design.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-f26b5215-3876-4389-ab6b-863b65f23181.png",
+      "qa": "Complete border, crisp text and watermark. QR regenerated, not verified scannable or equivalent. Pattern and typography are illustrative approximations.",
+      "width": 1254,
+      "height": 1254,
+      "installed_path": "public/images/refreshed/hgpp-badge.png",
+      "status": "Rejected by user. Removed from public assets; authentic originals restored."
+    },
+    {
+      "name": "certificate",
+      "target": "restored/healthguard-institute-213x300.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 is edit target. Reproduce this exact sample HealthGuard institution certificate as clean crisp high resolution fully visible flat artwork at 1024x1440. Preserve source layout, teal patterned full border, white panels, diagonal SAMPLE watermark, all existing logos, icons, QR motif and seal. Preserve original content verbatim; no new names, IDs, dates, credentials or claims. Main text: HealthGuard; nanocoating; ANTIMICROBIAL SURFACE COATING CONFORMITY CERTIFICATE; THIS CERTIFICATE ATTESTS THAT; NAME OF INSTITUTION; HAS BEEN NANOCOATED AND CONFORMS TO THE; HEALTHGUARD PROTECTION PROGRAM; WHILE ABIDING BY THE TECHNICAL RECOMMENDATIONS TO MAINTAIN; A HYGIENIC ANTI-MICROBIAL AND AIR PURIFIED INDOOR ENVIRONMENT; APPLIED BY. Keep smaller text as faithful to source as possible, don't invent text. Full uncropped certificate with small white margin, no wall or frame. This is an illustrative sample reproduction.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-e7595a31-6967-4c86-9571-1f654c7bd89c.png",
+      "qa": "Complete crisp sample certificate, but footer has invented/misread wording 'VERIFY CITY COPY', EON subtitle is 'COATING' instead of 'COATINGS'; small logos/seal/QR regenerated and not exact or verified. Main text preserved. Not suitable as authoritative certificate master.",
+      "width": 1058,
+      "height": 1487,
+      "installed_path": "public/images/refreshed/hgpp-institute.png",
+      "status": "Rejected by user. Removed from public assets; authentic originals restored."
+    },
+    {
+      "name": "plaque",
+      "target": "restored/healthguard-protection-225x300.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 is edit target. Create crisp high resolution faithful reproduction of entire HealthGuard shield plaque artwork, portrait 1152x1536, fully visible on plain white background. Preserve exact shield silhouette, layered teal silver edge, original typography, color, logos, virus crossed-circle icon, QR motif, Japanese flag and diagonal SAMPLE watermark. Exact visible text: HealthGuard; nanocoating; PROTECTION; Continuous Active Protection; Against Viruses And Bacteria; Made in Japan. Flat front-facing artwork with no wall or external picture frame. No new claims, names, IDs, dates or text. Illustrative sample reproduction.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-12e3ef85-2b39-4eb5-bd7b-7d3e2b46a29a.png",
+      "qa": "Complete shield and main wording preserved. Added registered trademark symbol differs from source. QR/icon/typography regenerated; not exact or verified.",
+      "width": 1086,
+      "height": 1448,
+      "installed_path": "public/images/refreshed/hgpp-plaque.png",
+      "status": "Rejected by user. Removed from public assets; authentic originals restored."
+    },
+    {
+      "name": "office",
+      "target": "unique-care/office-hero.webp",
+      "prompt": "Use case: compositing. Image 1 is exact interior edit target. Image 2 is EON brand reference only. Preserve this beautiful office conference room, window skyline, furniture, architecture, lighting and camera. Add one adult EON technician extraction-cleaning the upholstered conference chair, using a realistic handheld transparent upholstery extraction nozzle pressed to fabric and hose connected to compact extraction machine nearby. Dark teal polo, small discreet white EON logo from reference on chest or back, dark trousers, nitrile gloves. Natural candid work pose with realistic hands/anatomy and equipment contact. Technician must fit the existing space without blocking most interior. Natural editorial photorealism, original 3:2 landscape 1536x1024 or larger. No other people, captions, customer identification, project proof or new architectural features.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-9e973a02-c75e-4f97-93df-93be11d545a3.png",
+      "qa": "Interior preserved; distinct extraction upholstery cleaning. Gloves, realistic tool/contact and anatomy. Added EON branding on machine as well as polo.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/office-working.webp",
+      "status": "Superseded by distinct-worker v2 images; see IMAGE_REFRESH_DISTINCT_WORKERS.json."
+    },
+    {
+      "name": "clinic",
+      "target": "unique-care/clinic-hero.webp",
+      "prompt": "Use case: compositing. Image 1 exact interior edit target. Image 2 EON brand reference only. Preserve same medical clinic reception architecture, plants, chairs, furnishings, lighting, camera and overall framing. Add one adult EON technician wearing mask and nitrile gloves, dark teal polo with small discreet white EON logo from reference, dark trousers, actively wiping/treating the existing high-touch curved reception countertop with folded microfiber cloth. Realistic hand contact, posture, anatomy, shadows, equipment; modest plain treatment bottle nearby. No patients or other people. Natural editorial photorealism in original 3:2 landscape, 1536x1024 or larger. No new signs, claims, project proof or architectural changes.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-3de95066-81ff-4626-a173-b5ac021a32ed.png",
+      "qa": "Interior preserved; masked/gloved technician wiping reception counter. Natural anatomy and work contact.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/clinic-working.webp",
+      "status": "Superseded by distinct-worker v2 images; see IMAGE_REFRESH_DISTINCT_WORKERS.json."
+    },
+    {
+      "name": "school",
+      "target": "unique-care/school-hero.webp",
+      "prompt": "Use case: compositing. Image 1 exact interior edit target; image 2 EON brand reference only. Preserve exact existing empty classroom architecture, desks, chairs, camera framing, daylight and materials. Add one adult EON technician applying protective surface treatment with a microfiber applicator pad held realistically flat against one classroom desktop. Dark teal polo with small discreet white EON logo from reference, dark trousers, nitrile gloves, suitable safety glasses. Natural work posture and anatomy; a modest plain closed treatment bottle nearby. Photorealistic candid editorial look, same 3:2 landscape 1536x1024 or larger. No pupils, no other people, no new signs, claims, project proof or architectural changes.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-1b2be0ce-4613-4cdf-abd1-51d1bffcbab9.png",
+      "qa": "Interior preserved; gloved technician with safety glasses treating desk using microfiber. No pupils.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/school-working.webp",
+      "status": "Superseded by distinct-worker v2 images; see IMAGE_REFRESH_DISTINCT_WORKERS.json."
+    },
+    {
+      "name": "hotel",
+      "target": "unique-care/hotel-hero.webp",
+      "prompt": "Use case: compositing. Image 1 is edit target; image 2 EON logo branding reference. Preserve same beautiful hotel bedroom, architecture, bed, furniture, lighting, camera and mountain lake view. Add one adult EON technician carefully applying protective treatment with a microfiber applicator pad to an existing stone bedside counter. Dark teal polo, discreet white EON logo on chest/back, dark trousers, nitrile gloves, suitable safety glasses. Natural realistic posture, anatomy, hands and contact with counter. Keep interior spacious and photorealistic. No guests or other people, no invented reception desk or project proof. 3:2 landscape 1536x1024 or larger.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-1f9048d1-112c-43fe-a322-53da71c3fe65.png",
+      "qa": "Interior preserved; gloved technician with safety glasses treating existing stone bedside counter, approved adaptation because source has no reception.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/hotel-working.webp",
+      "status": "Superseded by distinct-worker v2 images; see IMAGE_REFRESH_DISTINCT_WORKERS.json."
+    },
+    {
+      "name": "meeting",
+      "target": "restored/meeting-room.png",
+      "prompt": "Use case: precise-object-edit. Edit target image 1. Recreate same top-down overhead composition of three adult colleagues collaborating around white meeting table with architectural drawings, papers, calculator and devices, office carpet and chairs. Clean high resolution natural editorial photograph with realistic anatomy. Remove old dark gradient overlay and restore balanced natural lighting across entire image. Maintain original wide aspect ratio and composition, at least 1536px wide. No baked-in text, labels, logos, captions, or client/project claims.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-107bdc7c-c210-4e55-8fce-7dde7bff2ff8.png",
+      "qa": "Crisp overhead scene, dark gradient removed, no added typography. Generative reconstruction of original people, not identity-preserving.",
+      "width": 2169,
+      "height": 725,
+      "installed_path": "public/images/refreshed/meeting-room.webp"
+    },
+    {
+      "name": "counter",
+      "target": "restored/counter.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same natural hotel reception photograph, wooden check-in counter, dark wall left, male adult guest in gray shirt holding phone and papers, bright interior to right. Keep composition and proportions faithful. Remove all embedded lettering/sign typography including wall business name and counter CHECK-IN. Remove old dark gradient overlay, evenly expose naturally. Crisp highresolution editorial photorealism, wide landscape at least 1536px wide, realistic hands and face. No invented branding or project-proof text.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-2f768fb0-3be3-4bc6-b6e7-72f629cf8119.png",
+      "qa": "Crisp reception scene, dark gradient and original signage removed. Generative reconstruction of guest, not identity-preserving.",
+      "width": 1800,
+      "height": 873,
+      "installed_path": "public/images/refreshed/reception-counter.webp"
+    },
+    {
+      "name": "access",
+      "target": "restored/elevator.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same close editorial photograph of side-view adult in charcoal knitwear reaching realistically for brushed metal door lever and access-card reader, white door panels and gray green vertical trim. Preserve original composition and subject. Remove old dark bottom gradient and restore clean natural light, realistic hand anatomy and equipment. Highresolution landscape at least 1536px wide. No embedded typography, labels, logos or project proof.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-9f3663ee-33e1-4709-a52e-1031cba14dfe.png",
+      "qa": "Crisp access-door scene and hand, dark gradient removed. Lever is stylized/shortened compared with original.",
+      "width": 1800,
+      "height": 874,
+      "installed_path": "public/images/refreshed/access-door.webp"
+    },
+    {
+      "name": "shared",
+      "target": "restored/shared_img.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same shared office conference table scene with black chairs, open laptops, paper, takeaway cups, stationery, wall presentation monitor and whiteboard, no people. Preserve composition and natural interior materials, devices/screens only abstract diagrams with no legible typography. Remove dark gradient overlay and restore balanced natural lighting. Clean highresolution natural editorial photograph landscape at least 1536px wide. No embedded text or project proof.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-915da44e-3308-4575-af0b-2162aee46e82.png",
+      "qa": "Crisp conference table, dark gradient removed. Abstract charts, no prominent readable claim. Existing Apple-style monitor logo remains.",
+      "width": 1800,
+      "height": 874,
+      "installed_path": "public/images/refreshed/shared-workplace.webp"
+    },
+    {
+      "name": "restrooms",
+      "target": "restored/restrooms.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same elegant commercial restroom photograph: row of three white rectangular washbasins with chrome traditional faucets on wooden counter, large mirrors, dark textured walls, soap bottles. Preserve exact wide composition. Remove dark gradient overlay and restore natural balanced warm light with detail throughout. Clean highresolution natural editorial photograph at least 1536px wide. No embedded typography, logos, people or claims.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-0b9eac6c-c9ff-4fc2-b6ba-372a7ce6f314.png",
+      "qa": "Crisp warm restroom scene, gradient removed. Faucet details generatively reconstructed.",
+      "width": 2169,
+      "height": 725,
+      "installed_path": "public/images/refreshed/restrooms.webp"
+    },
+    {
+      "name": "result01",
+      "target": "restored/result01.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same conceptual microbiology office illustration: monitor at left showing two bright cyan stylized virus models on dark abstract interface, blue twilight through rear windows, plant, desk lamp, headset, keyboard and mouse, office desk receding right. High quality editorial photorealistic illustration with accurate object geometry and same composition. At least 1536px wide landscape. Remove all readable text/data/numbers from screens; only abstract nonlinguistic UI marks allowed. No quantitative results, efficacy claims, certifications or project proof.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-2489d782-463f-4461-9433-7ef87abeeb95.png",
+      "qa": "Crisp illustrative virus-monitor office. Abstract nonlinguistic UI, no quantitative efficacy result.",
+      "width": 1688,
+      "height": 932,
+      "installed_path": "public/images/refreshed/surface-hygiene-concept.webp"
+    },
+    {
+      "name": "result02",
+      "target": "restored/result02.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate same conceptual microbiology office illustration: large monitor left showing glowing yellow stylized microscopic bacteria models on dark abstract interface, suspended metal desk light at center, second monitor right, blue twilight office with desktop computer. Same visual subject, camera and composition, high quality photorealistic illustrative style, landscape at least 1536px wide. Remove readable text/data/numbers from screens; use only abstract nonlinguistic interface marks. No quantitative results, efficacy claims, project proof or extra people.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-c0188e74-9b81-4939-98c1-af8cd3240862.png",
+      "qa": "Crisp illustrative bacteria-monitor office. Abstract UI, no quantitative efficacy result. Decorative glowing dots remain near computer base.",
+      "width": 1689,
+      "height": 931,
+      "installed_path": "public/images/refreshed/microbiology-concept.webp"
+    },
+    {
+      "name": "sofa",
+      "target": "restored/Group-106.png",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target. Recreate a clearly illustrative before/after sofa cleaning diptych in two equally sized horizontal panels stacked vertically. Same room, same beige sofa, same cushions, same camera and light in BOTH panels. Top shows visibly dirty brown stained sofa seats and carpet. Bottom shows the identical sofa and carpet clean. Preserve cozy interior decor and photographic character of reference. Remove all slider UI, handles, arrows, white divider bar and all text. Thin neutral gap only between panels. No rounded clipping, no claims or quantitative results, no project proof. Highresolution portrait 1536x1792 or larger.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-380411be-5aec-4f73-85d6-a24dad9c90ff.png",
+      "qa": "Clean text-free diptych, no slider UI. BEFORE/AFTER composition is illustrative; bottom has added green cushion and slightly different framing, so not exact matched evidence. Generated 1161x1355, below requested 1536 long edge.",
+      "width": 1161,
+      "height": 1355,
+      "installed_path": "public/images/refreshed/sofa-care-comparison.webp"
+    }
+  ]
+}

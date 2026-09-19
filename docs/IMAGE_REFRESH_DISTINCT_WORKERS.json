@@ -1,0 +1,83 @@
+{
+  "mode": "built-in image_gen",
+  "generated_on": "2026-09-19",
+  "asset_count": 4,
+  "generation_count": 8,
+  "revision_reason": "Office chair-cleaning generation was superseded by user-directed AC duct cleaning revision. No optional retries.",
+  "global_caveat": "Final set contains four conceptual AI-generated industry photos, not actual project documentation. User rejected redesigned badge/certificate/plaque: restore authentic originals.",
+  "assets": [
+    {
+      "name": "office",
+      "target": "unique-care/office-hero.webp",
+      "prompt": "Use case: compositing. Image1 exact interior target, image2 EON logo branding reference. Preserve this office conference room architecture, camera, furniture and daylight with changes ONLY required for accessing ceiling AC duct. Add one adult woman EON technician about35 with dark brown skin and tied-back natural curls, dark teal EON polo with small white logo, dark work trousers, gloves, safety goggles and protective mask. She stands safely on a stable wide platform stepladder under an OPEN ceiling air-conditioning duct. A removed grille is safely placed on floor nearby. She is visibly cleaning INSIDE the open duct with realistic vacuum hose and brush inserted into dark duct opening; connected compact vacuum on floor. Not merely wiping outside grille. Realistic natural working posture, plausible ladder placement beside conference table without standing on furniture, anatomy, equipment and perspective. One person only, no other people or text. Photorealistic editorial scene 1536x1024 landscape. Distinct woman identity, not prior male campaign worker.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-339c90f7-e87e-440b-9c82-9b92786fd332.png",
+      "qa": "Distinct dark-skinned woman with tied curls, mask/goggles/gloves, visibly brushing/vacuuming inside open ceiling duct, removed grille on floor and compact vacuum. Interior preserved with opened duct. Ladder geometry/platform is illustrative and not a safety-training reference.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/office-working-v2.webp"
+    },
+    {
+      "name": "clinic",
+      "target": "unique-care/clinic-hero.webp",
+      "prompt": "Use case: compositing. Image 1 exact interior reference. Image 2 EON logo reference only. Preserve room architecture, furniture, camera, framing and existing lighting. One adult worker only, natural working posture, realistic hands and anatomy, dark teal EON polo with discreet small white logo, dark work trousers, appropriate PPE. 1536x1024 landscape. No other people or project-proof text. Add an East Asian man technician about45 with short straight black hair wearing medical mask and nitrile gloves, carefully treating/wiping curved high-touch reception counter with microfiber cloth and plain treatment bottle. Clearly East Asian features above mask, mature face, distinct identity.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-2b3b1e82-3a5d-48ab-b6d2-b95cadfdcd27.png",
+      "qa": "Distinct middle-aged East Asian man, mask/gloves and teal EON uniform, treating reception counter. Interior/light preserved.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/clinic-working-v2.webp"
+    },
+    {
+      "name": "school",
+      "target": "unique-care/school-hero.webp",
+      "prompt": "Use case: compositing. Image 1 exact interior reference. Image 2 EON logo reference only. Preserve room architecture, furniture, camera, framing and existing lighting. One adult worker only, natural working posture, realistic hands and anatomy, dark teal EON polo with discreet small white logo, dark work trousers, appropriate PPE. 1536x1024 landscape. No other people or project-proof text. Add a woman technician about30 wearing a neatly secured beige hijab with dark teal EON uniform polo, nitrile gloves and suitable clear safety glasses. She applies protective treatment using microfiber applicator flat against classroom desk, plain closed treatment bottle nearby. No children. Distinct woman identity, beige hijab clearly visible.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-bfb40913-8b2b-4650-9cb6-197a93269edb.png",
+      "qa": "Distinct woman with beige secured hijab, gloves and goggles, treating classroom desk. No pupils. Interior/light preserved.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/school-working-v2.webp"
+    },
+    {
+      "name": "hotel",
+      "target": "unique-care/hotel-hero.webp",
+      "prompt": "Use case: compositing. Image 1 exact interior reference. Image 2 EON logo reference only. Preserve room architecture, furniture, camera, framing and existing lighting. One adult worker only, natural working posture, realistic hands and anatomy, dark teal EON polo with discreet small white logo, dark work trousers, appropriate PPE. 1536x1024 landscape. No other people or project-proof text. Add older man technician about55 with salt-and-pepper hair and short gray-flecked beard, wearing nitrile gloves and clear safety glasses. He carefully applies protective treatment using microfiber applicator to existing marble bedside counter. Preserve bedroom and lake view, no reception desk. Clearly older mature face and body distinct from all other campaign workers.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-cb16ae86-9d7a-4de3-91c4-8ee45a8b8092.png",
+      "qa": "Distinct older gray-haired bearded man with gloves/goggles treating existing marble bedside counter. Interior/light preserved.",
+      "width": 1536,
+      "height": 1024,
+      "installed_path": "public/images/refreshed/hotel-working-v2.webp"
+    }
+  ],
+  "discarded_assets": [
+    {
+      "name": "badge",
+      "target": "restored/Multi-surface-sticker-300x295.png",
+      "prompt": "NEW DESIGN, not a literal upscale. Premium coherent HealthGuard visual system: rich teal, deep navy, ivory, brushed champagne accents, bold sculptural shapes, clean legible hierarchy. No QR codes, tiny unreadable footers, dates, IDs, signatures, invented awards, government marks, fake verification or extra claims. Entire artifact visible uncropped. Use case: logo-brand. Original image is branding/content reference only. Create an entirely new distinctive rounded-square premium enamel protection badge with a layered shield icon, dimensional metallic edge and rich teal surface, stylish hierarchy. Front-facing, isolated fully visible on clean ivory. Bold legible exact text: 'HealthGuard', 'MULTI-SURFACE PROTECTION', 'ANTI-MICROBIAL'; subtle 'SAMPLE'. No EON branding required on badge. Square about1536px.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-3525b8a4-1055-4576-9b07-5fca6085cd4e.png",
+      "qa": "Distinct premium teal/enamel/champagne design with full edge and readable requested words; SAMPLE visible. Added TM inherited from brand reference and cross inside shield. No QR. Transparent outside silhouette with some faint edge fringe.",
+      "width": 1254,
+      "height": 1254,
+      "status": "rejected by user; do not integrate"
+    },
+    {
+      "name": "certificate",
+      "target": "restored/healthguard-institute-213x300.jpg",
+      "prompt": "NEW DESIGN, not a literal upscale. Premium coherent HealthGuard visual system: rich teal, deep navy, ivory, brushed champagne accents, bold sculptural shapes, clean legible hierarchy. No QR codes, tiny unreadable footers, dates, IDs, signatures, invented awards, government marks, fake verification or extra claims. Entire artifact visible uncropped. Use case: productivity-visual. Original certificate image is branding/content reference only, second image EON logo branding reference. Create an entirely redesigned premium elegant portrait certificate with generous ivory space, restrained deep navy/teal border, fine geometric security pattern and champagne lines. Bold polished HealthGuard branding and accurate EON branding from reference. Exact simple text ONLY: 'HealthGuard', 'SURFACE COATING CONFORMITY CERTIFICATE', 'NAME OF INSTITUTION', 'HEALTHGUARD PROTECTION PROGRAM', 'APPLIED BY', 'EON COATINGS', 'SAMPLE'. No repeated or extra words. Excellent typography and balanced hierarchy. Flat front-facing portrait document about1500px high.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-917c52f6-62a2-4552-833c-d861fe817079.png",
+      "qa": "Redesigned ivory/teal/champagne certificate. All requested main text readable, EON COATINGS correct, SAMPLE prominent. No QR, dates, IDs, signatures or awards. Added TM inherited from brand reference.",
+      "width": 1040,
+      "height": 1513,
+      "status": "rejected by user; do not integrate"
+    },
+    {
+      "name": "plaque",
+      "target": "restored/healthguard-protection-225x300.jpg",
+      "prompt": "NEW DESIGN, not a literal upscale. Premium coherent HealthGuard visual system: rich teal, deep navy, ivory, brushed champagne accents, bold sculptural shapes, clean legible hierarchy. No QR codes, tiny unreadable footers, dates, IDs, signatures, invented awards, government marks, fake verification or extra claims. Entire artifact visible uncropped. Use case: product-mockup. Original is branding/content reference only. Create an entirely redesigned distinctive modern sculptural shield display plaque, layered frosted glass and translucent teal with navy backing and brushed champagne metal edge. Front-facing with slight depth, full object on clean ivory, sophisticated dramatic studio illumination. Bold readable exact text: 'HealthGuard', 'PROTECTION', 'Continuous Active Protection', 'Against Viruses And Bacteria'; subtle 'SAMPLE'. No extra text. Portrait about1500px high.",
+      "path": "/Users/Tamam/.codex/generated_images/01a0b716-e23d-7da3-8303-e9b6ea445a25/exec-13c024dd-e425-4abe-aa37-65e151ea5dd1.png",
+      "qa": "Distinct dimensional glass/teal/navy/champagne shield; requested main words accurate and readable, full silhouette, SAMPLE visible. Added registered trademark symbol unlike explicit text request. No QR or small clutter.",
+      "width": 1024,
+      "height": 1536,
+      "status": "rejected by user; do not integrate"
+    }
+  ],
+  "status": "Superseded by v3 realism revision; see IMAGE_REVISION_REALISM.json."
+}

@@ -6,7 +6,7 @@ export function parseCF7(body:unknown):DeliveryResult{
  const r=body as {status?:string;message?:string;invalid_fields?:{field:string}[]};
  if(r?.status==='mail_sent')return {kind:'sent',message:r.message||'Message sent.'};
  if(r?.status==='validation_failed')return {kind:'invalid',message:r.message||'Please check the fields.',fields:r.invalid_fields?.map(f=>f.field)};
- if(r?.status==='spam')return {kind:'spam',message:'The enquiry could not be verified. Please use the original form or contact EON directly.'};
+ if(r?.status==='spam')return {kind:'spam',message:'The enquiry could not be verified. Please use the original form or contact us directly.'};
  return {kind:'failed',message:'The enquiry was not confirmed. Your details have been preserved.'};
 }
 export async function submitCF7(enquiry:Enquiry,config:{backendOrigin:string;frontendOrigin:string;verifiedChallenge:Record<string,string>;fetcher?:typeof fetch;timeoutMs?:number}):Promise<DeliveryResult>{

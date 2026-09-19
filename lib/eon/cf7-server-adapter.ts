@@ -27,7 +27,7 @@ export function parseResponse(body:unknown):Result{
  const r=body as {status?:unknown;invalid_fields?:unknown};
  if(r.status==='mail_sent')return message('sent','Your enquiry was accepted by the mail service.');
  if(r.status==='validation_failed'){const fields=Array.isArray(r.invalid_fields)?r.invalid_fields.flatMap(f=>f&&typeof f.field==='string'?[f.field]:[]):[];return {kind:'invalid',message:'Please check the highlighted fields. Your details have been preserved.',fields};}
- if(r.status==='spam'||r.status==='aborted')return message('rejected','The enquiry could not be verified. Please retry or contact EON directly.');
+ if(r.status==='spam'||r.status==='aborted')return message('rejected','The enquiry could not be verified. Please retry or contact us directly.');
  return message('failed','Delivery was not confirmed. Your details have been preserved.');
 }
 export function createCF7ServerAdapter(config:Config,deps:Dependencies){

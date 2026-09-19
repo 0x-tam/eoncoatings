@@ -1,0 +1,42 @@
+{
+  "mode": "built-in image_gen",
+  "note": "Worker photos and empty display backgrounds are generated illustrations. Original badge and plaque artwork is layered unchanged in HTML, not regenerated.",
+  "assets": [
+    {
+      "name": "school",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-f3fbdd4a-6960-404d-b374-1b6de89c6166.png",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target. Preserve this exact interior, furniture, architecture, overall framing and lighting. Revise ONLY the worker and necessary contact equipment. Replace the woman completely with a different person: a male technician about 38, short dark slightly thinning hair, medium brown skin, ordinary unretouched face, long-sleeved teal Eon work shirt and dark work trousers. He is seen in candid three-quarter side profile looking down, wiping a classroom desktop with a microfiber applicator. No hijab, no pupils. Relaxed believable posture with weight supported by his feet. Do not copy any person from other images. Photographic treatment: unposed documentary interior photography, ordinary person absorbed in actual work, physically accurate anatomy and hands, natural skin pores and small imperfections, fabric weave and believable creases, correct ambient light color and contact shadows matching this room. Small existing white Eon logo on shirt only, no other words. No beauty retouch, waxy skin, overly sculpted face, fashion styling, cinematic glow, HDR halos, plastic textures, symmetrical mannequin posture or cutout edges. Keep different people across scenes. Output one landscape 1536x1024 photo.",
+      "dest": "public/images/refreshed/school-working-v3.webp"
+    },
+    {
+      "name": "office",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-8dc3fbbd-c303-4777-a55c-b8394e6e3529.png",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target. Preserve this exact interior, furniture, architecture, overall framing and lighting. Revise ONLY the worker and necessary contact equipment. Revise the existing woman technician into a believable candid documentary photograph of an ordinary woman with tied-back curls, natural skin detail, long-sleeved teal work shirt, goggles, fitted dust mask and gloves. Show her from a rear three-quarter angle concentrating on vacuum-cleaning INSIDE the open ceiling AC duct. Correct the ladder: a real platform stepladder with four stable feet and a platform below her boots, not intersecting chair or table; move nearby chair if needed. Continuous hose attached to the vacuum on floor. Keep the removed grille. Photographic treatment: unposed documentary interior photography, ordinary person absorbed in actual work, physically accurate anatomy and hands, natural skin pores and small imperfections, fabric weave and believable creases, correct ambient light color and contact shadows matching this room. Small existing white Eon logo on shirt only, no other words. No beauty retouch, waxy skin, overly sculpted face, fashion styling, cinematic glow, HDR halos, plastic textures, symmetrical mannequin posture or cutout edges. Keep different people across scenes. Output one landscape 1536x1024 photo.",
+      "dest": "public/images/refreshed/office-working-v3.webp"
+    },
+    {
+      "name": "clinic",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-736a777d-8269-431a-9061-356328758419.png",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target. Preserve this exact interior, furniture, architecture, overall framing and lighting. Revise ONLY the worker and necessary contact equipment. Revise the clinic technician to look like an ordinary middle-aged East Asian man with natural hair, subtle facial lines and realistic skin above a medical mask. Long-sleeved teal work shirt. Candid side-on posture looking toward his hand wiping the counter, leaning naturally from his hips, not posing. Keep gloves, plain bottle and cloth with realistic grip. Different identity from the other technicians. Photographic treatment: unposed documentary interior photography, ordinary person absorbed in actual work, physically accurate anatomy and hands, natural skin pores and small imperfections, fabric weave and believable creases, correct ambient light color and contact shadows matching this room. Small existing white Eon logo on shirt only, no other words. No beauty retouch, waxy skin, overly sculpted face, fashion styling, cinematic glow, HDR halos, plastic textures, symmetrical mannequin posture or cutout edges. Keep different people across scenes. Output one landscape 1536x1024 photo.",
+      "dest": "public/images/refreshed/clinic-working-v3.webp"
+    },
+    {
+      "name": "hotel",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-d9de0da2-c638-4ceb-92d3-9733a8132add.png",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target. Preserve this exact interior, furniture, architecture, overall framing and lighting. Revise ONLY the worker and necessary contact equipment. Replace the overly groomed model-like man with an ordinary older man with receding grey hair, slight stubble, natural facial lines, realistic body proportions, long-sleeved teal work shirt and dark work trousers. Candid side profile concentrating on applying treatment to bedside stone using a cloth, natural comfortable crouching posture and plausible hands. Keep gloves and glasses. Not a stock-photo model. Photographic treatment: unposed documentary interior photography, ordinary person absorbed in actual work, physically accurate anatomy and hands, natural skin pores and small imperfections, fabric weave and believable creases, correct ambient light color and contact shadows matching this room. Small existing white Eon logo on shirt only, no other words. No beauty retouch, waxy skin, overly sculpted face, fashion styling, cinematic glow, HDR halos, plastic textures, symmetrical mannequin posture or cutout edges. Keep different people across scenes. Output one landscape 1536x1024 photo.",
+      "dest": "public/images/refreshed/hotel-working-v3.webp"
+    },
+    {
+      "name": "badgeScene",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-33c11fa9-4c87-4298-8752-b2c96aab5646.png",
+      "prompt": "Photorealistic ordinary product installation background, square 1024x1024. Close straight-on view of a warm off-white lightly textured painted office wall. Entire central 65 percent is blank uninterrupted wall, front parallel to camera, evenly lit. At far right edge only a narrow sliver of an anodized aluminum door jamb and softly out of focus office doorway. Quiet natural side daylight and restrained real photographic grain. No signage, no sticker, no logo, no text, no artwork. This is a BACKGROUND plate for compositing an existing actual certification sticker at the center, so leave central wall completely blank. Not CGI or luxury advertisement.",
+      "dest": "public/images/hgpp/badgeScene.webp"
+    },
+    {
+      "name": "plaqueScene",
+      "path": "/Users/Tamam/.codex/generated_images/01a0afc7-2499-7af0-bd37-2c7318446ea7/exec-ad359d2a-7242-4dc7-b8eb-1074ba861154.png",
+      "prompt": "Photorealistic product display background, square 1024x1024. Ordinary reception countertop in pale warm stone with a small practical clear acrylic display easel centered. Front-on camera, blank warm light grey wall softly blurred behind. The easel is meant to hold an existing portrait shield plaque: two discrete transparent acrylic support prongs at x42 and58 percent and y78 percent of image, a low polished rectangular clear base spanning x29 to71 percent at y84 percent. Slender clear rear support largely hidden behind where plaque will be. Leave rectangular space from x28 to72 percent and y15 to79 percent EMPTY, evenly lit pale grey background, to composite existing plaque artwork. No plaque, no sign, no paper, no text, no logo. Real subtle contact shadows, realistic acrylic reflections, modest tabletop product photograph, no dramatic glamour lighting, not CGI.",
+      "dest": "public/images/hgpp/plaqueScene.webp"
+    }
+  ]
+}

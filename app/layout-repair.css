@@ -167,7 +167,8 @@ main>.service-choice-help{display:flex;align-items:center;justify-content:center
 .care-reasons-grid h3{margin:0 0 10px}
 .care-reasons-grid p{color:#456269}
 @media(max-width:650px){.care-reasons-grid article{padding:20px}.care-range .care-service-options button{padding-inline:10px;gap:10px}.care-editorial .care-range,.care-editorial .care-air,.care-editorial .care-reasons{padding-block:40px}}
-.spaces-rotation-toggle{display:block;margin:12px 0 0 auto;min-height:44px;padding:10px 16px;border:1px solid #244d5633;border-radius:999px;font-size:15px;color:#244d56}
+.spaces-photo-gallery{position:relative}
+.spaces-rotation-toggle{position:absolute;top:16px;right:16px;z-index:2;display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid #ffffffa0;border-radius:999px;background:#fffdf3ed;color:#244d56}
 .spaces-rotation-toggle:hover{background:#e8f0ed}
 .footer-top{display:flex;justify-content:space-between;align-items:center;gap:24px}
 /* Consistent anchored detail cards for all three photographic scenes. */
@@ -190,3 +191,18 @@ main>.service-choice-help{display:flex;align-items:center;justify-content:center
 .room-point:hover>span::before,.room-point:hover>span::after,.room-point:focus-visible>span::before,.room-point:focus-visible>span::after{animation:none}
 @media(prefers-reduced-motion:reduce){.room-point>span::before,.room-point>span::after{animation:none}}
 .finder-auto-hint{font-size:14px;color:#526b70;text-align:right;line-height:1.5}
+.hgpp-materials a.hgpp-product-photo{display:block;padding:0;min-height:0;aspect-ratio:1;overflow:hidden;background:#e9e9e4}
+.hgpp-materials .hgpp-product-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.company-menu-trigger{display:inline-flex;align-items:center;gap:6px;padding:10px 0;font:inherit;white-space:nowrap}
+.company-menu-trigger[data-current=true]{color:var(--accent);text-decoration:underline;text-underline-offset:7px}
+.company-menu-trigger[data-state=open] svg{transform:rotate(180deg)}
+.company-menu-content{z-index:100;min-width:220px;padding:8px;background:var(--paper);color:var(--ink);border:1px solid var(--line);box-shadow:0 10px 30px #183e491a;border-radius:12px}
+.company-menu-content [role=menuitem]{min-height:44px;padding:12px 16px;font-size:15px;cursor:pointer;border-radius:6px}
+.company-menu-content [role=menuitem]:focus,.company-menu-content [role=menuitem][data-highlighted]{background:#e8efef;color:var(--ink)}
+.company-menu-content [aria-current=page]{color:var(--accent)}
+.site-header .desktop-nav a.nav-hgpp{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:10px 14px;border:1px solid #9fc8bf;border-radius:999px;background:#e7f2ee;color:#1a554d;font-weight:600;line-height:1.2;text-decoration:none;transition:background .18s,border-color .18s}
+.site-header .desktop-nav a.nav-hgpp:hover,.site-header .desktop-nav a.nav-hgpp:focus-visible{background:#d6eae3;border-color:#548c80}
+.site-header .desktop-nav a.nav-hgpp[aria-current=page]{background:#205b51;border-color:#205b51;color:white}
+.nav-hgpp svg{flex-shrink:0}
+.eon-menu nav a.nav-hgpp{padding:18px 14px;margin:8px 0;background:#e7f2ee;color:#1a554d;border:1px solid #9fc8bf;border-radius:12px}
+.eon-menu nav a.nav-hgpp[aria-current=page]{border-color:#205b51;background:#d6eae3}
