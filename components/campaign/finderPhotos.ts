@@ -62,5 +62,21 @@ export const finderPhotos:Record<string,string>={
 };
 export function finderPhoto(option:string,area:string,step:number){
  const photo=finderPhotos[`${step<2?'':area+'|'}${step}|${option}`];
- return photo?'/images/'+photo:undefined;
+ return photo?'/images/finder-thumbnails/'+photo:undefined;
+}
+
+// Reuse browser-cached requests across steps and repeated questionnaire visits.
+const warmedPhotos = new Set<string>();
+export function warmFinderPhotos(options:string[], area:string, step:number) {
+ if (typeof window === 'undefined') return;
+ for (const option of options) {
+  const src = finderPhoto(option, area, step);
+  if (!src || warmedPhotos.has(src)) continue;
+  warmedPhotos.add(src);
+  const image = new Image();
+  image.decoding = 'async';
+  image.fetchPriority = 'low';
+  image.onerror = () => warmedPhotos.delete(src);
+  image.src = src;
+ }
 }
