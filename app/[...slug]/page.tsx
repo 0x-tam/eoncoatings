@@ -6,6 +6,7 @@ import PrivacyPage from '@/components/eon/PrivacyPage';
 import {AboutPage,HGPPPage} from '@/components/eon/CompanyPages';
 import Link from '@/components/eon/PageLink';
 import type {Metadata} from 'next';
+import {pageMetadata,pageCopy,defaultDescription} from '@/lib/eon/metadata';
 import {notFound,redirect} from 'next/navigation';
 import {posts,pages,services,sourceServices,industries,categories,cleanText,dateLabel,recordPath} from '@/lib/eon/content';
 import {PageHeading,Consultation,Faqs} from '@/components/eon/Editorial';
@@ -19,7 +20,20 @@ import ArchivePage from '@/components/campaign/ArchivePage';
 import archiveData from '@/lib/eon/archive-data.json';
 const titleMap:Record<string,string>={'about-us':'About Eon Coatings','service':'AC Cleaning, Furniture & Surface Protection','media':'Media & Company Updates','contact-us':'Contact us','hgpp-certification':'HealthGuard Protection Program','industry':'Industries','privacy-policy':'Privacy Policy','terms-and-conditions':'Terms & Conditions'};
 function lookup(path:string){return [...posts,...pages,...sourceServices,...industries].find(r=>recordPath(r).replace(/^\/+|\/+$/g,'')===path);}
-export async function generateMetadata({params}:{params:Promise<{slug:string[]}>}):Promise<Metadata>{const {slug}=await params;const path=slug.join('/'),r=lookup(path);const [archiveKind,archiveSlug]=path.split('/');const archiveName=archiveKind==='tag'?archiveData.tags.find(t=>t.slug===archiveSlug)?.name:archiveKind==='category'?categories.find(c=>c.slug===archiveSlug)?.name:archiveKind==='author'?archiveData.authors.find(a=>a.slug===archiveSlug)?.name:undefined;const currentService=services.find(s=>path===`services/${s.slug}`);const title=titleMap[path]||currentService?.title||archiveName||cleanText(r?.title||'Page not found');return {title,description:r?cleanText(r.excerptHtml||r.contentText).slice(0,160):'Explore Eon Coatings services in Abu Dhabi and the UAE.',alternates:{canonical:`https://eoncoatings.com/${path}/`},openGraph:{title,description:r?cleanText(r.contentText).slice(0,160):'Eon Coatings'}};}
+export async function generateMetadata({params}:{params:Promise<{slug:string[]}>}):Promise<Metadata>{
+ const {slug}=await params;
+ const path=slug.join('/'),record=lookup(path);
+ const [kind,archiveSlug,,pageNumber]=slug;
+ const archiveName=kind==='tag'?archiveData.tags.find(t=>t.slug===archiveSlug)?.name:kind==='category'?categories.find(c=>c.slug===archiveSlug)?.name:kind==='author'?archiveData.authors.find(a=>a.slug===archiveSlug)?.name:undefined;
+ const service=services.find(s=>path===`services/${s.slug}`);
+ const article=posts.find(p=>recordPath(p).replace(/^\/+|\/+$/g,'')===path);
+ const sector=path.startsWith('industries/')?industries.find(i=>i.slug===slug[1]):undefined;
+ const sectorName=sector?slug[1][0].toUpperCase()+slug[1].slice(1):'';
+ const copy=pageCopy[path];
+ const title=copy?.[0]||service?.title||(sector?`${sectorName} Cleaning & Surface Protection`:undefined)||(archiveName?`${cleanText(archiveName)} Articles${pageNumber?` — Page ${pageNumber}`:''}`:undefined)||cleanText(record?.title||'Page Not Found');
+ const description=copy?.[1]||service?.short||(sector?`AC cleaning, fabric care and protective coatings for ${sectorName.toLowerCase()} facilities in Abu Dhabi and the UAE. Discuss access, materials and service planning.`:undefined)||(archiveName?`Browse Eon Coatings articles about ${cleanText(archiveName)}${pageNumber?`, page ${pageNumber}`:''}. Practical guidance on cleaning and protective coatings.`:undefined)||(record?cleanText(record.excerptHtml||record.contentText):defaultDescription);
+ return pageMetadata({title,description,path:`/${path}/`,article:article?{publishedTime:article.date,modifiedTime:article.modified}:undefined,noindex:(!copy&&!service&&!record&&!archiveName)||kind==='tag'||kind==='author'});
+}
 export default async function ContentPage({params,searchParams}:{params:Promise<{slug:string[]}>;searchParams:Promise<{q?:string;category?:string;limit?:string;space?:string}>}){
  const {slug}=await params;const search=await searchParams;const path=slug.join('/');
  if(path==='contact-us-1')redirect('/contact-us/');
