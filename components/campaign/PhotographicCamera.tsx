@@ -161,7 +161,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       const base = Math.min(width / WORLD_WIDTH, height / WORLD_HEIGHT);
       const overviewLeft = width - WORLD_WIDTH * base;
       const overviewTop = (height - WORLD_HEIGHT * base) / 2;
-      const endZoom = subject === 'air' ? 600 : subject === 'fabric' ? (width <= 600 ? 8 : 4.6) : subject === 'stone' ? (width <= 600 ? 6.5 : 4.7) : 1;
+      const endZoom = subject === 'air' ? 600 : subject === 'fabric' ? (width <= 900 ? 8 : 4.6) : subject === 'stone' ? (width <= 900 ? 6.5 : 4.7) : 1;
       const amountAvailable = subject === 'air' && !assets.deep ? Math.min(amount, 0.58) : amount;
       const zoom = Math.exp(Math.log(endZoom) * amountAvailable);
       const scale = base * zoom;
@@ -170,7 +170,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (subject) {
         const [fx, fy] = FOCUS[subject];
         const endScale = base * endZoom;
-        const endX = clamp(width * (width > 600 ? 0.7 : 0.5) - fx * endScale, width - WORLD_WIDTH * endScale, 0);
+        const endX = clamp(width * (width > 900 ? 0.7 : 0.5) - fx * endScale, width - WORLD_WIDTH * endScale, 0);
         const endY = clamp(height * 0.5 - fy * endScale, height - WORLD_HEIGHT * endScale, 0);
         // A single fixed optical pivot joins the exact overview and final framing.
         // Do not independently pan or clamp intermediate frames: both made the
@@ -180,7 +180,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         y = mix(overviewTop, endY, opticalTravel);
       }
 
-      return {cx:(width*(width>600?.7:.5)-x)/scale,cy:(height*.5-y)/scale,z:Math.log(zoom)};
+      return {cx:(width*(width>900?.7:.5)-x)/scale,cy:(height*.5-y)/scale,z:Math.log(zoom)};
     }
 
     function flightPose(now:number): Pose {
@@ -202,7 +202,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       const pose=flight?flightPose(performance.now()):poseAt(material,progress);
       livePose=pose;
       const zoom=Math.exp(pose.z),scale=base*zoom;
-      const x=width*(width>600?.7:.5)-pose.cx*scale;
+      const x=width*(width>900?.7:.5)-pose.cx*scale;
       const y=height*.5-pose.cy*scale;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.imageSmoothingEnabled = true;
@@ -255,7 +255,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         const nativeHeight = deep instanceof HTMLImageElement ? deep.naturalHeight : deep.height;
         const rearProgress = clamp((Math.log(zoom)/Math.log(600) - 0.20) / 0.80, 0, 1);
         const rearZoom = mix(1.06, 1, rearProgress);
-        const viewLeft = width <= 600 ? 0 : width * (width <= 1100 ? 0.42 : 0.36);
+        const viewLeft = width <= 900 ? 0 : width * (width <= 1100 ? 0.42 : 0.36);
         const viewWidth = width - viewLeft;
         const deepScale = Math.max(viewWidth / nativeWidth, height / nativeHeight) * rearZoom;
         const deepWidth = nativeWidth * deepScale;
@@ -300,7 +300,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         from: progress,
         to,
         started: performance.now(),
-        duration: Math.max(1, fullDuration * Math.abs(to - progress)),
+        duration: Math.max(1, fullDuration * (width <= 900 ? .7 : 1) * Math.abs(to - progress)),
       };
       draw();
       frame = requestAnimationFrame(tick);
@@ -368,7 +368,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (direct && from && loaded && !reduced()) {
         const to=poseAt(next,next?1:0);
         const crossesAir=from.z>Math.log(40)||to.z>Math.log(40);
-        flight={from,to,started:performance.now(),duration:crossesAir?1650:1000,wide:crossesAir?Math.log(1.8):null};
+        flight={from,to,started:performance.now(),duration:(crossesAir?1650:1000)*(width<=900?.7:1),wide:crossesAir?Math.log(1.8):null};
         material=next;
         progress=next?1:0;
         frame=requestAnimationFrame(tick);

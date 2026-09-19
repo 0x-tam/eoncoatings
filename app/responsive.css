@@ -1,0 +1,68 @@
+/* On touch-sized layouts, the photograph and its note have separate space. */
+.mobile-scene-back,.trace-pagination{display:none}
+@media(max-width:900px){
+ .room-hero,.room-hero[data-material=overview],.room-hero:not([data-material=overview]){display:flex;flex-direction:column;height:auto;min-height:0;max-height:none}
+ .room-hero .room-image-field{position:relative;inset:auto;order:0;width:100%;container-type:normal;flex:none}
+ .room-hero[data-material=overview] .room-image-field{height:auto!important;aspect-ratio:1672/941}
+ .room-hero:not([data-material=overview]) .room-image-field{--scene-height:clamp(290px,48svh,440px);height:auto!important;aspect-ratio:auto;padding-top:var(--scene-height);min-height:var(--scene-height);overflow:hidden}
+ .room-hero:not([data-material=overview]) :is(.photographic-camera,.camera-fallback){height:var(--scene-height)!important;bottom:auto!important}
+ .room-hero .room-overlays,.room-hero .surface-traces{position:static;inset:auto;width:100%;height:auto;transform:none;animation:none}
+ .room-hero .material-observation{top:16px;left:16px;max-width:calc(100% - 165px);font-size:10px;line-height:1.4;padding:9px 10px}
+ .room-hero .mobile-scene-back{display:inline-flex;position:absolute;right:12px;top:10px;z-index:3;pointer-events:auto;align-items:center;min-height:44px;padding:10px 13px;background:var(--paper);color:var(--ink);border:1px solid var(--line);font-size:14px;box-shadow:0 2px 10px #0002}
+ .room-hero .trace-card,.room-hero[data-material=stone] .trace-card{position:relative;inset:auto!important;transform:none;width:100%;max-width:none;min-height:280px;margin:0;padding:20px 24px!important;border-radius:0;border:0!important;border-bottom:1px solid var(--line)!important;box-shadow:none;backdrop-filter:none;background:var(--paper)!important;transition:none;color:var(--ink)}
+ .room-hero .trace-card strong{font-size:22px!important}
+ .room-hero .trace-card p,.room-hero[data-material=stone] .trace-card p{font-size:16px!important;line-height:1.6!important}
+ .room-hero .trace-card small{font-size:13px}
+ .room-hero .trace-point{z-index:2;min-width:48px!important;min-height:48px!important;width:48px;height:48px;padding:5px!important;justify-content:center}
+ .room-hero .trace-point span{display:none}
+ .room-hero .trace-point b{width:36px;height:36px}
+ .trace-pagination{display:flex;justify-content:space-between;gap:12px;margin:8px 0 12px}
+ .trace-pagination button{min-height:44px;padding:8px 14px;border:1px solid var(--line);font-size:14px;color:var(--ink)}
+ .trace-micro-toggle{min-height:44px;font-size:15px;padding-block:10px}
+ .room-hero .trace-micro{top:70px;right:16px;width:140px;height:140px;z-index:1}
+ .room-hero .room-copy,.room-hero[data-material=overview] .room-copy,.room-hero:not([data-material=overview]) .room-copy{order:1;position:relative;display:block!important;width:100%;height:auto;overflow:visible;padding:28px 24px!important}
+ .room-copy .scene-panel-incoming h1{font-size:clamp(32px,8.8vw,52px);line-height:1.14}
+ .room-detail h2{font-size:clamp(29px,6vw,40px);max-width:24ch}
+ .room-hero .room-bar{order:2;position:relative;inset:auto;display:block;min-height:0;padding:10px 16px 16px}
+ .room-bar nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+ .room-bar button{justify-content:center;min-height:48px;font-size:16px;gap:6px;padding:8px 4px}
+ .room-bar button>span{display:none}
+ .room-bar button small{font-size:11px}
+ .room-bar>a{max-width:none;justify-content:space-between;min-height:44px;margin-top:6px;font-size:13px}
+ .room-point small{display:none}
+ .room-point-air{transform:translate(-50%,-50%)}
+ .room-hero .inspection-caption{top:calc(var(--scene-height) - 80px);bottom:auto;font-size:13px!important}
+ .scene-panel-outgoing{display:none}
+ .scene-panel-incoming,.trace-card-content{animation-duration:.25s}
+ .company-hero{grid-template-columns:1fr}
+ .company-hero figure{min-height:0}
+ .company-hero figure img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+}
+@media(max-width:600px){
+ :root{--page-gutter:20px}
+ main>.page-heading h1{font-size:clamp(32px,9vw,46px);line-height:1.15}
+ .section h2{font-size:clamp(28px,8vw,36px);line-height:1.2}
+ .section-title,.care-range-heading,.company-next,.service-next{min-width:0}
+ .company-next,.service-next{flex-direction:column;align-items:flex-start}
+ .care-service-options button{min-height:56px}
+ .care-option-number,.care-countdown{flex-shrink:0}
+ .contact-form input,.contact-form textarea,.archive-tools input,.site-search-dialog input{font-size:16px;max-width:100%;min-width:0}
+ .contact-layout dl{grid-template-columns:1fr;gap:6px}
+ .contact-layout dd{margin:0 0 16px}
+ .footer-grid nav{gap:4px 16px}
+ .footer-grid nav a{min-height:44px;display:flex;align-items:center;overflow-wrap:anywhere}
+ .eon-menu,.finder-modal,.site-search-dialog{max-width:calc(100vw - 24px)!important;max-height:calc(100dvh - 24px)!important;overflow-y:auto;overscroll-behavior:contain;padding:24px 18px!important}
+ .eon-menu nav a{font-size:20px;min-height:52px;gap:12px}
+ .eon-menu nav a>span{flex-shrink:0}
+ .finder-controls{position:static;padding-bottom:max(12px,env(safe-area-inset-bottom))}
+ .question-options button{font-size:16px;min-height:76px}
+ .finder-controls .button{font-size:14px;min-height:44px}
+ .hgpp-feature,.care-proof-inner{min-width:0}
+ .hgpp-certificate{max-width:100%;margin-inline:0}
+ .prose table{display:block;max-width:100%;overflow-x:auto}
+ .spaces-photo-link{max-width:100%;white-space:normal}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
