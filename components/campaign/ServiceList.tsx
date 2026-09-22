@@ -16,7 +16,7 @@ export default function ServiceList(){
   <span className="care-category-label"><strong>{category.title}</strong><span aria-hidden="true">{active?'−':'+'}</span></span>
  </button>
  <div hidden={!active} className="care-category-detail" id={`category-services-${category.id}`} role="region" aria-labelledby={`category-${category.id}`} style={{'--category-order':index*2+1} as CSSProperties}>
-  <div className="care-category-service-list">{category.items.map(i=>{const s=services[i];return <Link href={`/services/${s.slug}/`} key={s.slug} className="care-category-service"><div><h2>{s.title}</h2><p>{s.short}</p></div><span className="care-category-action">View service <span aria-hidden="true">›</span></span></Link>})}</div>
+  <div className="care-category-service-list">{category.items.map(i=>{const s=services[i];return <Link href={`/services/${s.slug}/`} key={s.slug} className="care-category-service"><div><h2>{s.title}</h2><p>{s.short}</p></div><span className="care-category-action">View service <span aria-hidden="true">›</span></span></Link>})}{category.id==='air'&&<Link href="/services/office-ac-duct-care/" className="care-category-service"><div><h2>Office AC Care</h2><p>Duct cleaning and optional treatment planned around office access, occupied areas and building management.</p></div><span className="care-category-action">View service ›</span></Link>}</div>
  </div>
  </Fragment>})}</div>
 }

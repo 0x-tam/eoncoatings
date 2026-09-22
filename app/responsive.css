@@ -66,3 +66,33 @@
  html{scroll-behavior:auto}
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
 }
+
+/* Fluid editorial scale: preserve readable body text and reduce oversized display areas. */
+.life-home .care-section{padding-block:clamp(36px,5vw,64px)}
+.life-home .care-editorial h2{font-size:clamp(28px,3vw,44px)}
+.life-home .care-editorial h3{font-size:clamp(22px,2vw,29px)}
+.life-home .care-proof{padding-block:clamp(36px,5vw,64px)}
+.life-home .care-spaces-image img{height:clamp(260px,35vw,430px)}
+.life-home .care-service-options button{padding-block:16px;font-size:16px}
+.life-home .care-section-intro,.life-home .care-range-heading{margin-bottom:clamp(22px,3vw,36px)}
+
+@media(max-width:650px){
+ .life-home .care-section,.life-home .care-proof{padding-block:28px}
+ .life-home .care-editorial h2{font-size:28px;line-height:1.15}
+ .life-home .care-editorial h3{font-size:21px}
+ .life-home .care-editorial p{font-size:15px;line-height:1.55}
+ .life-home .care-section-intro,.life-home .care-range-heading{margin-bottom:18px}
+ .life-home .care-range-heading>p{margin-top:12px}
+ .life-home .care-selector,.life-home .care-next,.life-home .care-proof-inner{gap:24px}
+ .life-home .care-service-options button{min-height:52px;padding-block:10px;font-size:14px;gap:10px}
+ .life-home .care-service-photo{height:220px}
+ .life-home .care-reasons-grid{gap:14px}
+ .life-home .care-reasons-grid article{padding:16px}
+ .life-home .care-reasons-grid h3{margin:0 0 8px}
+ .life-home .care-spaces-image img{height:260px}
+ .life-home .care-next-details li{gap:16px;padding-bottom:18px}
+ .life-home .care-next h2{margin-bottom:14px}
+}
+
+/* Preserve the full working setup, including the ladder and its floor contact. */
+.service-scenario-air>img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}

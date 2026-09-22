@@ -1,5 +1,5 @@
 export const services=[
- {slug:'ac-duct-mold-resistant-coating',title:'AC Duct Mold-Resistant Coating',short:'Professional duct cleaning for fresher air, with mold-resistant coating to help protect suitable internal surfaces.',image:'services-v2/ac.webp',label:'Air systems'},
+ {slug:'ac-duct-mold-resistant-coating',title:'Home/Villa AC Care',short:'AC duct cleaning for villas and homes, with sanitisation and optional mold-resistant treatment for suitable ductwork.',image:'unique-care/home-air.webp',label:'Home & villa AC care'},
  {slug:'antimicrobial-surface-coating',title:'Anti-microbial Surface Coating',short:'Helps protect shared surfaces against germs and mold, alongside regular cleaning.',image:'surface-refinement/surface-application.webp',label:'High-touch surfaces'},
  {slug:'stain-resistant-furniture-coating',title:'Stain-Resistant Furniture Coating',short:'Protection against spills and stains for sofas, chairs and upholstery.',image:'services-v2/upholstery.webp',label:'Fabric & upholstery'},
  {slug:'marble-protective-coatings',title:'Marble Protective Coatings',short:'Help protect marble from heat, acid and stains while preserving its natural beauty. Protection depends on the stone and coating selected.',image:'services-v2/marble.webp',label:'Stone surfaces'},

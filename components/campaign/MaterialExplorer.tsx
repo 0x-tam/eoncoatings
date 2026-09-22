@@ -1,92 +1,100 @@
 'use client';
-import {useRef,useState,useEffect,type CSSProperties} from 'react';
+
+import {useEffect, useRef, useState} from 'react';
 import Link from '@/components/eon/PageLink';
-import ScenePanel from './ScenePanel';
 import PhotographicCamera from './PhotographicCamera';
 import {materialTraces} from './materialTraces';
-type Material='air'|'fabric'|'stone';
-const order:Material[]=['air','fabric','stone'];
-const details={
- air:{title:'AC duct cleaning and treatment.',label:'AC duct cleaning',copy:'Remove built-up dust and dirt, with sanitisation and mold-resistant coating where needed.',image:'duct',caption:'Illustrative dust, moisture and mold-like growth. Actual conditions require inspection.',links:[['AC duct cleaning & sanitisation','ac-duct-mold-resistant-coating']]},
- fabric:{title:'Furniture, carpet and mattress cleaning.',label:'Furniture & fabrics',copy:'Deep cleaning for sofas, carpets and mattresses. Added protection against future spills.',image:'fabric',caption:'Magnification is illustrative, not a sample from this room.',links:[['Furniture & carpet cleaning','deep-cleaning-of-carpets-furniture'],['Fabric stain protection','stain-resistant-furniture-coating'],['Mattress cleaning','mattress-cleaning-and-sanitization']]},
- stone:{title:'Marble and surface protection.',label:'Surfaces & stone',copy:'Help protect marble from stains and shared surfaces from germs.',image:'stone',caption:'Illustrative surface detail. Treatment depends on the material.',links:[['Marble protection','marble-protective-coatings'],['Protection against germs','antimicrobial-surface-coating']]}
-};
-const points:Record<Material,[number,number]>={air:[.674,.095],fabric:[.88,.76],stone:[.515,.79]};
+import './material-explorer.css';
+
+type Material = 'air' | 'fabric' | 'stone';
+const order: Material[] = ['air','stone','fabric'];
+const scenes = {
+ air:{label:'AC care',title:'AC duct cleaning and treatment.',copy:'Cleaning, sanitisation and mold-resistant protection for suitable ductwork.',image:'/images/continuous-zoom/duct-internal-v2.webp',alt:'Interior of an air conditioning duct',origin:'70% 12%',points:[[23,30],[39,66],[73,36],[79,70]]},
+ fabric:{label:'Fabrics',title:'Care for furniture and fabrics.',copy:'Deep cleaning and stain protection for furniture, carpets and mattresses.',image:'/images/continuous-zoom/fabric-green.webp',alt:'Close view of teal-green upholstery fabric',origin:'88% 76%',points:[[25,38],[64,28],[73,69]]},
+ stone:{label:'Surfaces',title:'Marble and surface protection.',copy:'Protective treatments selected for your stone, finish and everyday use.',image:'/images/zoom-v4/stone-traces.webp',alt:'Close view of a natural stone surface',origin:'52% 79%',points:[[24,30],[38,70],[72,28],[78,66]]},
+} as const;
+const roomPoints={air:[69,12],fabric:[88,76],stone:[52,79]} as const;
+
 export default function MaterialExplorer(){
- const [target,setTarget]=useState<Material|null>(null),[active,setActive]=useState<Material|null>(null),[ready,setReady]=useState(false),[failed,setFailed]=useState(false),[micro,setMicro]=useState(false),[settled,setSettled]=useState(false);
- const field=useRef<HTMLDivElement>(null),backButton=useRef<HTMLButtonElement>(null),lastTrigger=useRef<string>('nav-air'),triggers=useRef<Record<string,HTMLButtonElement|null>>({});
- const restoreFocus=useRef(false);
+ const [active,setActive]=useState<Material|null>(null);
  const [trace,setTrace]=useState(0);
- const traceCard=useRef<HTMLDivElement>(null);
- const [cardSize,setCardSize]=useState({w:350,h:255});
- useEffect(()=>{const el=traceCard.current;if(!el)return;const observer=new ResizeObserver(()=>setCardSize({w:el.offsetWidth,h:el.offsetHeight}));observer.observe(el);return()=>observer.disconnect()},[active,settled]);
- const [box,setBox]=useState({w:1440,h:810});
- useEffect(()=>{const el=field.current;if(!el)return;const update=()=>{const camera=el.querySelector('canvas');setBox({w:el.clientWidth,h:camera?.clientHeight||el.clientHeight})};const observer=new ResizeObserver(update);observer.observe(el);update();return()=>observer.disconnect()},[]);
- useEffect(()=>{setMicro(false);setTrace(0)},[active]);
- const scale=Math.min(box.w/1672,box.h/941),imageW=1672*scale,imageH=941*scale,left=box.w-imageW,top=(box.h-imageH)/2;
- const sourcePoint=(m:Material)=>({x:left+points[m][0]*imageW,y:top+points[m][1]*imageH});
- const position=(m:Material)=>{const p=sourcePoint(m);return{x:Math.max(44,Math.min(box.w-56,p.x)),y:Math.max(44,Math.min(box.h-64,p.y))}};
- function select(m:Material,trigger:HTMLButtonElement){if(target===m)return;restoreFocus.current=false;setSettled(false);lastTrigger.current=trigger.dataset.roomTrigger||`nav-${m}`;setActive(m);setTarget(m);requestAnimationFrame(()=>backButton.current?.focus({preventScroll:true}));}
- function back(){restoreFocus.current=true;setSettled(false);setTarget(null);}
- const d=active?details[active]:null;
- const traceItems=active?materialTraces[active]:[];
- const currentTrace=traceItems[Math.min(trace,traceItems.length-1)];
- const tracePosition=(point:number[])=>{
-  const overlayLeft=box.w<=900?0:box.w*(box.w<=1100?.42:.38);
-  if(active==='stone'){
-   const z=scale*(box.w<=900?6.5:4.7);
-   const x=Math.max(box.w-1672*z,Math.min(0,box.w*(box.w>900?.7:.5)-930*z));
-   const y=Math.max(box.h-941*z,Math.min(0,box.h*.5-710*z));
-   const offset=box.w<=900?0:box.w*(box.w<=1100?.42:.38);
-   return {left:Math.max(28,Math.min(box.w-offset-28,x+point[0]*z-offset)),top:Math.max(80,Math.min(box.h-35,y+point[1]*z))};
+ const [settled,setSettled]=useState(false);
+ const [ready,setReady]=useState(false);
+ const triggers=useRef<Partial<Record<Material,HTMLButtonElement|null>>>({});
+ const backRef=useRef<HTMLButtonElement>(null);
+ const visualRef=useRef<HTMLDivElement>(null);
+ const [size,setSize]=useState({w:900,h:490});
+ const noteRef=useRef<HTMLDivElement>(null);
+ const [noteHeight,setNoteHeight]=useState(200);
+ useEffect(()=>{const el=noteRef.current;if(!el)return;const observer=new ResizeObserver(()=>{if(el.offsetHeight)setNoteHeight(el.offsetHeight)});observer.observe(el);return()=>observer.disconnect()},[active]);
+ useEffect(()=>{const el=visualRef.current;if(!el)return;const observer=new ResizeObserver(()=>setSize({w:el.clientWidth,h:el.clientHeight}));observer.observe(el);return()=>observer.disconnect()},[]);
+ function point(m:Material){const scale=Math.max(size.w/1672,size.h/941);return {left:Math.max(24,Math.min(size.w-24,size.w-1672*scale+roomPoints[m][0]/100*1672*scale)),top:Math.max(24,Math.min(size.h-24,roomPoints[m][1]/100*941*scale))};}
+ const last=useRef<Material>('air');
+ const scene=active?scenes[active]:null;
+ const items=active?materialTraces[active]:[];
+ const note=items[trace]||items[0];
+ // Keep annotations on the scene; place the card in the nearest clear space.
+ const anchors=scene?scene.points.map(([x,y])=>({x:size.w*x/100,y:size.h*y/100})):[];
+ const target=anchors[trace]||{x:0,y:0};
+ const cardWidth=Math.min(280,size.w*.48);
+ const clamp=(v:number,min:number,max:number)=>Math.max(min,Math.min(max,v));
+ let card={x:12,y:12,score:Infinity};
+ if(scene){
+  const maxX=Math.max(12,size.w-cardWidth-12),maxY=Math.max(12,size.h-noteHeight-12);
+  for(let col=0;col<=12;col++)for(let row=0;row<=8;row++){
+   const x=12+(maxX-12)*col/12,y=12+(maxY-12)*row/8;
+   const overlaps=anchors.filter(a=>a.x>x-34&&a.x<x+cardWidth+34&&a.y>y-34&&a.y<y+noteHeight+34).length;
+   const distance=Math.hypot(target.x-clamp(target.x,x,x+cardWidth),target.y-clamp(target.y,y,y+noteHeight));
+   const score=overlaps*100000+distance;
+   if(score<card.score)card={x,y,score};
   }
-  if(active==='air')return {left:(box.w-overlayLeft)*point[0],top:Math.max(65,Math.min(box.h-180,box.h*point[1]))};
-  const zoom=scale*(active==='fabric'?(box.w<=900?8:4.6):14);
-  const fx=active==='fabric'?1438:945,fy=active==='fabric'?735:728;
-  const x=Math.max(box.w-1672*zoom,Math.min(0,box.w*(box.w>900?.7:.5)-fx*zoom));
-  const y=Math.max(box.h-941*zoom,Math.min(0,box.h*.5-fy*zoom));
-  return {left:Math.max(28,Math.min(box.w-overlayLeft-55,x+point[0]*zoom-overlayLeft)),top:Math.max(65,Math.min(box.h-160,y+point[1]*zoom))};
- };
- const selectedPoint=currentTrace?tracePosition(currentTrace.point):{left:0,top:0};
- const overlayWidth=box.w*(box.w<=900?1:box.w<=1100?.58:.62);
- const clampCard=(x:number,y:number)=>({x:Math.max(12,Math.min(overlayWidth-cardSize.w-12,x)),y:Math.max(12,Math.min(box.h-cardSize.h-12,y))});
- const candidates=[
-  clampCard(selectedPoint.left-cardSize.w/2,selectedPoint.top+46),
-  clampCard(selectedPoint.left-cardSize.w/2,selectedPoint.top-cardSize.h-46),
-  clampCard(selectedPoint.left+(box.w<=1100||box.h<=650?46:135),selectedPoint.top-cardSize.h/2),
-  clampCard(selectedPoint.left-cardSize.w-(box.w<=1100||box.h<=650?46:135),selectedPoint.top-cardSize.h/2),
-  clampCard(selectedPoint.left-cardSize.w/2,12),
-  clampCard(selectedPoint.left-cardSize.w/2,box.h-cardSize.h-12),
-  ...Array.from({length:25},(_,i)=>clampCard(12+(overlayWidth-cardSize.w-24)*(i%5)/4,12+(box.h-cardSize.h-24)*Math.floor(i/5)/4))
- ];
- const scoreCard=(c:{x:number;y:number})=>{
-  const collisions=traceItems.reduce((n,item)=>{const p=tracePosition(item.point),half=box.w<=1100||box.h<=650?28:120;return n+(c.x<p.left+half&&c.x+cardSize.w>p.left-half&&c.y<p.top+28&&c.y+cardSize.h>p.top-28?1:0)},0);
-  const distance=Math.hypot(Math.max(c.x-selectedPoint.left,0,selectedPoint.left-c.x-cardSize.w),Math.max(c.y-selectedPoint.top,0,selectedPoint.top-c.y-cardSize.h));
-  return collisions*10000+distance;
- };
- const cardPosition=candidates.sort((a,b)=>scoreCard(a)-scoreCard(b))[0];
- return <section className="room-hero" data-material={active||'overview'} data-panel={target||'overview'} data-settled={settled} aria-label="Explore our care in a real room">
-  <div className="room-image-field" ref={field}>
-   <img className="camera-fallback" src="/images/room/room.webp" width="1672" height="941" fetchPriority="high" alt="" aria-hidden="true"/>
-   <PhotographicCamera active={target} onReady={()=>{setReady(true);if(!active)setSettled(true)}} onSettled={()=>{setSettled(true);if(!target)setActive(null);if(!target&&restoreFocus.current){restoreFocus.current=false;requestAnimationFrame(()=>triggers.current[lastTrigger.current]?.focus({preventScroll:true}))}}} onError={()=>{setFailed(true);setReady(true);setSettled(true)}}/>
-   {active&&<div className="room-overlays"><button type="button" className="mobile-scene-back" onClick={back}>← Back to room</button>
-    {settled&&<div className="material-observation">{active==='air'?'INSIDE YOUR AC':active==='fabric'?'YOUR FABRIC, UP CLOSE':'YOUR TABLE, UP CLOSE'}</div>}
-    {settled&&currentTrace&&<div className="surface-traces" aria-label={`Explore ${active==='air'?'duct':active==='fabric'?'fabric':'surface'} details`}>
-     {traceItems.map((item,i)=><button key={item.title} className="trace-point" aria-label={`${String(i+1).padStart(2,'0')} ${item.title}`} style={active==='stone'?{'--stone-x':`${tracePosition(item.point).left}px`,'--stone-y':`${tracePosition(item.point).top}px`} as CSSProperties:{...tracePosition(item.point),'--trace-x':`${tracePosition(item.point).left}px`,'--trace-y':`${tracePosition(item.point).top}px`} as CSSProperties} aria-pressed={trace===i} onClick={()=>{setTrace(i);setMicro(false)}}><b>0{i+1}</b><span>{item.title}</span></button>)}
-     {active==='fabric'&&micro&&<img className="trace-micro" src="/images/room/microbes.webp" alt="Illustrative microorganisms among textile fibers, not a sample from this sofa"/>}
-     <div id="room-detail-note" ref={traceCard} className="trace-card" style={{left:cardPosition.x,top:cardPosition.y}} aria-live="polite"><div className="trace-card-content" key={`${active}-${trace}`}><span className="trace-kicker">Detail {String(trace+1).padStart(2,'0')} / {String(traceItems.length).padStart(2,'0')}</span><strong>{currentTrace.title}</strong><p>{currentTrace.copy}</p>
-      <Link className="trace-service" href={`/services/${currentTrace.slug}/`}>{currentTrace.service} <span>›</span></Link>
-      {active==='fabric'&&currentTrace.title==='Beyond visible dirt'&&<button className="trace-micro-toggle" aria-expanded={micro} onClick={()=>setMicro(!micro)}>{micro?'Close magnified view':'See a magnified view'}</button>}
-      <nav className="trace-pagination" aria-label="Browse detail notes"><button type="button" aria-controls="room-detail-note" onClick={()=>{setTrace((trace+traceItems.length-1)%traceItems.length);setMicro(false)}}>← Previous</button><button type="button" aria-controls="room-detail-note" onClick={()=>{setTrace((trace+1)%traceItems.length);setMicro(false)}}>Next →</button></nav><small>{active==='air'?'Illustration. Actual conditions need inspection.':'Illustration, not a test of this material.'}</small></div>
+ }
+ const endpoint={x:clamp(target.x,card.x,card.x+cardWidth),y:clamp(target.y,card.y+10,card.y+noteHeight-10)};
+ const lineLength=Math.hypot(endpoint.x-target.x,endpoint.y-target.y)||1;
+ const lineStart={x:target.x+(endpoint.x-target.x)*22/lineLength,y:target.y+(endpoint.y-target.y)*22/lineLength};
+
+ function select(material:Material){
+  if(active===material)return;
+  last.current=material;setSettled(false);setTrace(0);setActive(material);
+  requestAnimationFrame(()=>backRef.current?.focus({preventScroll:true}));
+ }
+ function back(){setSettled(false);setActive(null);setTrace(0);requestAnimationFrame(()=>triggers.current[last.current]?.focus({preventScroll:true}));}
+ return <section className="eon-explorer" data-scene={active||'overview'} aria-label="Explore our care in a real room">
+  <div className="eon-explorer-main">
+   <div className="eon-explorer-copy">
+    <div className="eon-explorer-intro" hidden={!!active}>
+     <p className="eon-explorer-eyebrow">Eon Coatings / Abu Dhabi, UAE</p>
+     <h1>Cleaner air.<br/>Fresher fabrics.<br/>Protected surfaces.</h1>
+     <p className="eon-explorer-description">AC cleaning, fabric care and protective coatings for villas, homes and workplaces.</p>
+     <Link className="eon-explorer-cta" href="/service-finder/">Find my service <span aria-hidden="true">›</span></Link>
+    </div>
+    {scene&&note&&<div className="eon-explorer-detail">
+     <button className="eon-explorer-back" ref={backRef} onClick={back}>← Back to the room</button>
+     <p className="eon-explorer-eyebrow">{scene.label}</p>
+     <h2>{scene.title}</h2>
+     <p className="eon-explorer-description">{scene.copy}</p>
+     <Link className="eon-explorer-cta" href="/service-finder/">Find my service <span aria-hidden="true">›</span></Link>
+    </div>}
+   </div>
+   <div className="eon-explorer-visual">
+    <div className="eon-explorer-stage" ref={visualRef}>
+    <div className="eon-explorer-images">
+     <img className="eon-explorer-room" src="/images/room/room-green.webp" alt="" aria-hidden="true" width={1672} height={941} fetchPriority="high"/>
+     <PhotographicCamera active={active} onReady={()=>setReady(true)} onSettled={()=>setSettled(true)} onError={()=>{setReady(true);setSettled(true)}}/>
+    </div>
+    {!active?<div className="eon-explorer-hotspots" style={{visibility:ready&&settled?'visible':'hidden'}}>{order.map(m=><button key={m} data-material={m} ref={el=>{triggers.current[m]=el}} style={point(m)} onClick={()=>select(m)} aria-label={`Explore ${scenes[m].label}`}><span aria-hidden="true">+</span></button>)}</div>:
+     <div className="eon-explorer-markers" style={{visibility:settled?'visible':'hidden'}} key={active} aria-label={`${scene!.label} details`}>{items.map((item,i)=><button key={item.title} style={{left:anchors[i].x,top:anchors[i].y}} aria-controls="eon-active-note" aria-label={`Show ${item.title}`} aria-pressed={trace===i} onClick={()=>setTrace(i)}>{String(i+1).padStart(2,'0')}</button>)}</div>}
+    {active&&settled&&<svg className="eon-explorer-connector" width={size.w} height={size.h} aria-hidden="true"><line x1={lineStart.x} y1={lineStart.y} x2={endpoint.x} y2={endpoint.y}/><circle cx={endpoint.x} cy={endpoint.y} r="3"/></svg>}
+    </div>
+    {active&&note&&<div id="eon-active-note" ref={noteRef} className="eon-explorer-note eon-explorer-floating-note" data-visible={settled} style={{left:card.x,top:card.y,width:cardWidth}} aria-live="polite" aria-atomic="true">
+     <div className="eon-explorer-note-text" key={`${active}-${trace}`}>
+      <span className="eon-explorer-counter">{String(trace+1).padStart(2,'0')} / {String(items.length).padStart(2,'0')}</span>
+      <h3>{note.title}</h3><p>{note.copy}</p>
+      <Link href={`/services/${note.slug}/`}>{note.service} <span aria-hidden="true">↗</span></Link>
      </div>
     </div>}
-    {!settled&&<p className="inspection-caption">{d!.caption}</p>}
-   </div>}
-   {failed&&<p className="room-image-error">Some fine detail could not load. The room and service information remain available.</p>}
-   {!active&&<div className="room-points" style={{visibility:settled?'visible':'hidden'}}>{order.map(m=><button key={m} disabled={!ready} data-room-trigger={`point-${m}`} ref={el=>{triggers.current[`point-${m}`]=el}} style={{left:position(m).x,top:position(m).y}} className={`room-point room-point-${m}`} onClick={e=>select(m,e.currentTarget)} aria-label={`Explore ${m==='air'?'AC duct cleaning':m==='fabric'?'fabrics':'stone surfaces'}`}><span>+</span><small>{m==='air'?'Inside your AC':m==='fabric'?'Your fabrics':'Your surfaces'}</small></button>)}</div>}
+   </div>
   </div>
-  <div className="room-copy"><ScenePanel scene={target||'overview'}>{!target?<><p className="eyebrow">Eon Coatings / Abu Dhabi, UAE</p><h1>Cleaner air.<br/><em>Fresher fabrics.<br/>Protected surfaces.</em></h1><p className="room-description">AC cleaning, fabric care and protective coatings for homes and workplaces.</p><div className="hero-actions"><Link href="/service-finder/" className="room-cta">Find my service <span>›</span></Link></div></>:<div className="room-detail"><h1 className="sr-only">AC cleaning, fabric care and surface protection.</h1><button ref={backButton} className="back-overview" onClick={back}>← Back to the room</button><p className="eyebrow">{d!.label}</p><h2>{d!.title}</h2><p>{d!.copy}</p><nav aria-label={`${active} services`}>{d!.links.map(([label,slug])=><Link key={slug} href={`/services/${slug}/`}>{label}<span>›</span></Link>)}</nav><Link className="room-cta" href="/service-finder/">Find my service <span>›</span></Link></div>}</ScenePanel></div>
-  <div className="room-bar"><nav aria-label="Explore by material">{order.map((m,i)=><button key={m} disabled={!ready} data-room-trigger={`nav-${m}`} ref={el=>{triggers.current[`nav-${m}`]=el}} aria-pressed={active===m} onClick={e=>select(m,e.currentTarget)}><small>0{i+1}</small>{m==='air'?'AC care':m==='fabric'?'Fabrics':'Surfaces'}<span>›</span></button>)}</nav><a href="#services">Scroll to discover our services <span>↓</span></a></div>
-  <span className="sr-only" role="status">{active?`${d!.label} selected. Service information is available.`:'Room overview'}</span>
- </section>
+  <div className="eon-explorer-controls"><nav aria-label="Explore by material">{order.map((m,i)=><button key={m} onClick={()=>select(m)} aria-pressed={active===m}><span>0{i+1}</span>{scenes[m].label}<span aria-hidden="true">›</span></button>)}</nav></div>
+ </section>;
 }

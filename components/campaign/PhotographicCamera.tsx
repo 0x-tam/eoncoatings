@@ -23,10 +23,10 @@ const WORLD_HEIGHT = 941;
 const GRILLE: Rect = [787.742, 73.61, 738.795, 105];
 const GRILLE_SHEAR = -78.54;
 const FILES = [
-  ['room', '/images/room/room.webp', 0],
-  ['fabric', '/images/continuous-zoom/fabric-tile.webp', 0.06],
+  ['room', '/images/room/room-green.webp', 0],
+  ['fabric', '/images/continuous-zoom/fabric-green.webp', 0.06],
   ['stone', '/images/zoom-v4/stone-traces.webp', 0.20],
-  ['macro', '/images/zoom-v3/fabric-macro.webp', 0.18],
+  ['macro', '/images/zoom-v3/fabric-macro-green.webp', 0.18],
   ['grille', '/images/zoom-v3/duct-closed.webp', 0.02],
   ['deep', '/images/continuous-zoom/duct-internal-v2.webp', 0],
 ] as const;
@@ -153,15 +153,16 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         callbacks.current.onError();
       }
     };
+    const mobile = () => window.matchMedia('(max-width: 900px)').matches;
     const reduced = () => motionQuery.matches
       || document.documentElement.dataset.motionTest === 'reduced'
       || canvas.closest('[data-motion-test="reduced"]') !== null;
 
     function poseAt(subject: Material | null, amount: number): Pose {
-      const base = Math.min(width / WORLD_WIDTH, height / WORLD_HEIGHT);
+      const base = Math.max(width / WORLD_WIDTH, height / WORLD_HEIGHT);
       const overviewLeft = width - WORLD_WIDTH * base;
-      const overviewTop = (height - WORLD_HEIGHT * base) / 2;
-      const endZoom = subject === 'air' ? 600 : subject === 'fabric' ? (width <= 900 ? 8 : 4.6) : subject === 'stone' ? (width <= 900 ? 6.5 : 4.7) : 1;
+      const overviewTop = 0;
+      const endZoom = subject === 'air' ? 600 : subject === 'fabric' ? (mobile() ? 8 : 4.6) : subject === 'stone' ? (mobile() ? 6.5 : 4.7) : 1;
       const amountAvailable = subject === 'air' && !assets.deep ? Math.min(amount, 0.58) : amount;
       const zoom = Math.exp(Math.log(endZoom) * amountAvailable);
       const scale = base * zoom;
@@ -170,7 +171,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (subject) {
         const [fx, fy] = FOCUS[subject];
         const endScale = base * endZoom;
-        const endX = clamp(width * (width > 900 ? 0.7 : 0.5) - fx * endScale, width - WORLD_WIDTH * endScale, 0);
+        const endX = clamp(width * (0.5) - fx * endScale, width - WORLD_WIDTH * endScale, 0);
         const endY = clamp(height * 0.5 - fy * endScale, height - WORLD_HEIGHT * endScale, 0);
         // A single fixed optical pivot joins the exact overview and final framing.
         // Do not independently pan or clamp intermediate frames: both made the
@@ -180,7 +181,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         y = mix(overviewTop, endY, opticalTravel);
       }
 
-      return {cx:(width*(width>900?.7:.5)-x)/scale,cy:(height*.5-y)/scale,z:Math.log(zoom)};
+      return {cx:(width*(.5)-x)/scale,cy:(height*.5-y)/scale,z:Math.log(zoom)};
     }
 
     function flightPose(now:number): Pose {
@@ -198,15 +199,15 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
 
     function draw() {
       if (disposed || !width || !height || !assets.room) return;
-      const base=Math.min(width/WORLD_WIDTH,height/WORLD_HEIGHT);
+      const base=Math.max(width/WORLD_WIDTH,height/WORLD_HEIGHT);
       const pose=flight?flightPose(performance.now()):poseAt(material,progress);
       livePose=pose;
       const zoom=Math.exp(pose.z),scale=base*zoom;
-      const x=width*(width>900?.7:.5)-pose.cx*scale;
+      const x=width*(.5)-pose.cx*scale;
       const y=height*.5-pose.cy*scale;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.imageSmoothingEnabled = true;
-      ctx.imageSmoothingQuality = 'high';
+      ctx.imageSmoothingQuality = segment || flight ? 'medium' : 'high';
       ctx.fillStyle = '#eee5d4';
       ctx.fillRect(0, 0, width, height);
       const drawWorld = (asset: Asset | undefined, rect: Rect) => {
@@ -255,7 +256,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         const nativeHeight = deep instanceof HTMLImageElement ? deep.naturalHeight : deep.height;
         const rearProgress = clamp((Math.log(zoom)/Math.log(600) - 0.20) / 0.80, 0, 1);
         const rearZoom = mix(1.06, 1, rearProgress);
-        const viewLeft = width <= 900 ? 0 : width * (width <= 1100 ? 0.42 : 0.36);
+        const viewLeft = 0; // The canvas now occupies only the image column.
         const viewWidth = width - viewLeft;
         const deepScale = Math.max(viewWidth / nativeWidth, height / nativeHeight) * rearZoom;
         const deepWidth = nativeWidth * deepScale;
@@ -300,7 +301,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         from: progress,
         to,
         started: performance.now(),
-        duration: Math.max(1, fullDuration * (width <= 900 ? .7 : 1) * Math.abs(to - progress)),
+        duration: Math.max(1, fullDuration * (mobile() ? .85 : 1) * Math.abs(to - progress)),
       };
       draw();
       frame = requestAnimationFrame(tick);
@@ -368,7 +369,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       if (direct && from && loaded && !reduced()) {
         const to=poseAt(next,next?1:0);
         const crossesAir=from.z>Math.log(40)||to.z>Math.log(40);
-        flight={from,to,started:performance.now(),duration:(crossesAir?1650:1000)*(width<=900?.7:1),wide:crossesAir?Math.log(1.8):null};
+        flight={from,to,started:performance.now(),duration:(crossesAir?1650:1200)*(mobile()?.85:1),wide:crossesAir?Math.log(1.8):null};
         material=next;
         progress=next?1:0;
         frame=requestAnimationFrame(tick);
@@ -381,7 +382,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       const rect = canvas.getBoundingClientRect();
       width = rect.width;
       height = rect.height;
-      dpr = Math.min(2, window.devicePixelRatio || 1);
+      // Bound raster work to the visible hero instead of a full-screen Retina surface.
+      dpr = Math.min(1.5, window.devicePixelRatio || 1, Math.sqrt(1800000 / Math.max(1, width * height)));
       const nextWidth = Math.max(1, Math.round(width * dpr));
       const nextHeight = Math.max(1, Math.round(height * dpr));
       if (canvas.width !== nextWidth || canvas.height !== nextHeight) {
@@ -456,7 +458,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       ref={canvasRef}
       className="photographic-camera"
       role="img"
-      aria-label={active==='air'?'Photographic camera through a grille slot into an illustrative duct inspection':active==='fabric'?'Close view of the same blue sofa weave':active==='stone'?'Close view of the same stone table':'Sunlit room with a closed AC grille, blue sofa and stone table'}
+      aria-label={active==='air'?'Photographic camera through a grille slot into an illustrative duct inspection':active==='fabric'?'Close view of the same teal-green sofa weave':active==='stone'?'Close view of the same stone table':'Sunlit room with a closed AC grille, teal-green sofa and stone table'}
       data-camera-progress="0"
       data-camera-material="overview"
       style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', pointerEvents: 'none', visibility: 'hidden' }}

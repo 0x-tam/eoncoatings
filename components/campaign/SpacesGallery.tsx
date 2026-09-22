@@ -4,7 +4,7 @@ import {Play,Pause} from 'lucide-react';
 import Link from '@/components/eon/PageLink';
 import {spaces} from '@/lib/eon/spaces';
 const gallery=[
- {id:'homes',label:'Homes',image:'unique-care/home-spaces.webp',alt:'A warm living room opening onto a home workspace',href:'/service/',action:'Explore care for homes'},
+ {id:'homes',label:'Home/Villa',image:'unique-care/home-spaces.webp',alt:'A warm living room opening onto a home workspace',href:'/service/',action:'Explore villa care'},
  ...spaces.map(s=>({id:s.slug,label:s.slug==='healthcare'?'Healthcare':s.slug==='education'?'Schools':s.slug==='hospitality'?'Hotels':s.title,image:s.image,alt:`${s.title} interior`,href:`/industries/${s.slug}/`,action:`Explore care for ${s.slug==='healthcare'?'healthcare spaces':s.slug==='education'?'schools':s.slug==='hospitality'?'hotels':'offices'}`}))
 ];
 export default function SpacesGallery(){

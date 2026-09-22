@@ -1,0 +1,157 @@
+/* Self-contained hero: no shared room-* selectors or collision-driven positioning. */
+.eon-explorer{background:var(--paper);color:var(--ink);isolation:isolate}
+.eon-explorer-main{display:grid;grid-template-columns:minmax(310px,36%) minmax(0,1fr);min-height:460px}
+.eon-explorer-copy{padding:26px clamp(22px,3vw,46px) 24px var(--pad);min-width:0;display:flex;align-items:center;background:var(--paper)}
+.eon-explorer-intro[hidden]{display:none}
+.eon-explorer-intro,.eon-explorer-detail{width:100%;max-width:440px}
+.eon-explorer-eyebrow{font-size:10px!important;line-height:1.5!important;letter-spacing:.09em;text-transform:uppercase;margin:0 0 14px!important;color:var(--ink);opacity:.7}
+.eon-explorer h1{font-size:clamp(30px,3vw,46px);line-height:1.12;letter-spacing:-.045em;font-weight:500;margin:0 0 20px}
+.eon-explorer h2{font-size:clamp(23px,2.05vw,30px);line-height:1.18;letter-spacing:-.035em;font-weight:500;margin:0 0 10px}
+.eon-explorer-description{font-size:14px!important;line-height:1.55!important;margin:0 0 18px!important;max-width:40ch}
+.eon-explorer-cta{display:inline-flex;gap:24px;align-items:center;min-height:44px;padding:10px 18px;border-radius:99px;background:var(--action-blue,var(--accent));color:#fff;font-size:14px}
+.eon-explorer-back{display:block;min-height:40px;margin:0 0 10px;font-size:13px;color:var(--ink);border:0;background:none;padding:0;cursor:pointer}
+.eon-explorer-detail>.eon-explorer-eyebrow{margin-bottom:8px!important}
+.eon-explorer-note{border-top:1px solid var(--line);padding-top:12px}
+.eon-explorer-note-text{min-height:147px;animation:eon-note-in .35s ease both}
+.eon-explorer-counter{font-size:10px;letter-spacing:.08em;opacity:.65;display:block;margin-bottom:6px}
+.eon-explorer-note h3{font-size:17px;line-height:1.25;font-weight:600;margin:0 0 8px}
+.eon-explorer-note p{font-size:13px!important;line-height:1.55!important;margin:0 0 10px!important}
+.eon-explorer-note a{font-size:13px;display:flex;justify-content:space-between;align-items:center;min-height:36px;text-decoration:underline;text-underline-offset:4px}
+.eon-explorer-detail-nav{display:flex;gap:7px;margin-top:8px}
+.eon-explorer-detail-nav button{height:36px;min-width:36px;border:1px solid var(--line);border-radius:50%;font-size:11px;color:var(--ink)}
+.eon-explorer-detail-nav button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.eon-explorer-visual{position:relative;min-width:0;min-height:460px;overflow:hidden;background:#eee5d4;contain:paint}
+.eon-explorer-images{position:absolute;inset:0;overflow:hidden}
+.eon-explorer-images img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;max-width:none}
+.eon-explorer-images .eon-explorer-room{object-fit:cover;object-position:right top;transform-origin:var(--scene-origin);transition:transform 1.25s cubic-bezier(.22,.61,.36,1),opacity .9s ease;opacity:1}
+.eon-explorer:not([data-scene=overview]) .eon-explorer-room{transform:scale(1.18)}
+.eon-explorer-images .eon-explorer-closeup{opacity:0;transform:scale(1.04);transition:opacity 1.05s ease,transform 1.4s cubic-bezier(.22,.61,.36,1);pointer-events:none}
+.eon-explorer-images .eon-explorer-closeup.is-visible{opacity:1;transform:scale(1)}
+.eon-explorer-hotspots,.eon-explorer-markers{position:absolute;inset:0;pointer-events:none}
+.eon-explorer-hotspots button,.eon-explorer-markers button{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;width:42px;height:42px;min-width:42px;border-radius:50%;border:1px solid #ffffffaa;background:var(--paper);color:var(--ink);box-shadow:0 3px 12px #0002;cursor:pointer;transition:background .2s,color .2s}
+.eon-explorer-hotspots button{background:var(--action-blue,var(--accent));color:#fff;font-size:25px}
+.eon-explorer-markers button{font-size:12px}
+.eon-explorer-markers button[aria-pressed=true]{background:var(--action-blue,var(--accent));color:#fff}
+.eon-explorer-markers{animation:eon-markers-in 1.2s ease both}
+.eon-explorer-controls{display:flex;justify-content:center;padding:10px 16px 14px;background:var(--paper);border-bottom:1px solid var(--line)}
+.eon-explorer-controls nav{display:flex;gap:8px;padding:4px 8px;border-radius:99px;border:1px solid var(--line);box-shadow:0 3px 12px #173a4410;background:var(--paper)}
+.eon-explorer-controls button{display:flex;align-items:center;gap:10px;min-height:40px;border-radius:99px;padding:8px 18px;font-size:13px;color:var(--ink);cursor:pointer;transition:background .25s}
+.eon-explorer-controls button>span:first-child{font-size:10px;opacity:.6}
+.eon-explorer-controls button[aria-pressed=true]{background:color-mix(in srgb,var(--ink) 9%,var(--paper))}
+.eon-explorer :focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+@keyframes eon-note-in{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+@keyframes eon-markers-in{0%,65%{opacity:0}100%{opacity:1}}
+@media(min-width:901px){.eon-explorer-main{height:490px}.eon-explorer-copy{padding-top:18px;padding-bottom:18px}.eon-explorer-visual{min-height:0}}
+@media(min-width:901px) and (max-width:1100px){.eon-explorer-main{grid-template-columns:40% 60%;height:510px}.eon-explorer-copy{padding-left:24px;padding-right:22px}}
+@media(min-width:1600px){.eon-explorer-main{height:520px}}
+@media(max-width:900px){
+ .eon-explorer-main{display:flex;flex-direction:column;min-height:0}
+ .eon-explorer-visual{order:0;min-height:0;height:clamp(220px,48vw,380px);flex:none}
+ .eon-explorer-copy{order:1;padding:22px 24px;min-height:0;display:block}
+ .eon-explorer-intro,.eon-explorer-detail{max-width:600px;margin-inline:auto}
+ .eon-explorer h1{font-size:clamp(28px,5vw,38px)}
+ .eon-explorer-detail-nav button{min-width:44px;height:44px}
+ .eon-explorer-note-text{min-height:0}
+ .eon-explorer-controls{padding-top:0}
+ .eon-explorer-controls nav{width:min(100%,440px);justify-content:space-between;gap:0;padding:4px}
+ .eon-explorer-controls button{gap:6px;padding:8px 12px;min-height:44px}
+ .eon-explorer-controls button>span:first-child{display:none}
+}
+@media(prefers-reduced-motion:reduce){.eon-explorer *{animation:none!important;transition:none!important}}
+
+/* Canvas handles the continuous optical zoom; its viewport never changes on selection. */
+.eon-explorer .eon-explorer-room{transform:none!important;transition:none!important}
+.eon-explorer .eon-explorer-markers{animation:none;transition:opacity .3s ease}
+.eon-explorer .photographic-camera{z-index:1}
+.eon-explorer .eon-explorer-hotspots,.eon-explorer .eon-explorer-markers{z-index:2}
+
+/* Keep the service row in the first desktop view without changing the camera during navigation. */
+@media(min-width:1101px){
+ .eon-explorer-main{height:clamp(380px,calc(100svh - 420px),450px);min-height:0}
+ .eon-explorer-copy{padding-top:12px;padding-bottom:12px}
+ .eon-explorer h1{font-size:clamp(30px,2.8vw,43px)}
+ .eon-explorer h2{font-size:clamp(22px,1.9vw,28px)}
+ .eon-explorer-back{min-height:36px;margin-bottom:6px}
+ .eon-explorer-description{margin-bottom:12px!important}
+ .eon-explorer-note-text{min-height:132px}
+ .eon-explorer-detail-nav{margin-top:4px}
+ .eon-explorer-controls{padding-block:6px 8px}
+}
+@media(min-width:901px) and (max-width:1100px){
+ .eon-explorer-main{height:450px;min-height:0}
+ .eon-explorer-copy{padding-block:12px}
+ .eon-explorer-back{margin-bottom:4px;min-height:36px}
+ .eon-explorer-note-text{min-height:132px}
+}
+
+/* Distinct room targets, with a quiet invitation to explore. */
+.eon-explorer-hotspots button[data-material=air]{--hotspot:#3f59ae}
+.eon-explorer-hotspots button[data-material=fabric]{--hotspot:#a14d38}
+.eon-explorer-hotspots button[data-material=stone]{--hotspot:#267568}
+.eon-explorer-hotspots button{background:var(--hotspot);isolation:isolate}
+.eon-explorer-hotspots button::before{content:"";position:absolute;inset:-1px;border:2px solid var(--hotspot);border-radius:50%;animation:eon-target-pulse 2.8s ease-out infinite;pointer-events:none}
+.eon-explorer-hotspots button:nth-child(2)::before{animation-delay:.6s}
+.eon-explorer-hotspots button:nth-child(3)::before{animation-delay:1.2s}
+.eon-explorer-hotspots button:hover{filter:brightness(1.12)}
+@keyframes eon-target-pulse{0%{transform:scale(1);opacity:.7}70%,100%{transform:scale(1.65);opacity:0}}
+.eon-explorer-stage{position:relative;width:100%;height:100%;min-height:0}
+.eon-explorer-floating-note{position:absolute;z-index:3;left:24%;width:min(300px,70%);padding:18px;border:1px solid #ffffff80;border-radius:18px;background:var(--paper);color:var(--ink);box-shadow:0 8px 28px #0002;pointer-events:auto;opacity:0;visibility:hidden;transition:top .45s cubic-bezier(.22,.61,.36,1),opacity .3s ease,visibility .3s}
+.eon-explorer-floating-note[data-visible=true]{opacity:1;visibility:visible}
+.eon-explorer-floating-note .eon-explorer-note-text{min-height:0}
+.eon-explorer-floating-note h3{font-size:17px}
+.eon-explorer-floating-note p{font-size:13px!important;line-height:1.5!important}
+.eon-explorer-floating-note a{font-size:12px}
+.eon-explorer-markers button[aria-pressed=true]::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,48px);height:1px;background:#ffffffb0;pointer-events:none}
+@media(max-width:900px){
+ .eon-explorer-visual{height:auto;overflow:visible;contain:none}
+ .eon-explorer-stage{height:clamp(220px,48vw,380px);overflow:hidden}
+ .eon-explorer-floating-note{position:relative;left:auto;top:auto!important;width:auto;margin:0;padding:18px 24px;border-radius:0;border:0;border-bottom:1px solid var(--line);box-shadow:none;display:none}
+ .eon-explorer-floating-note[data-visible=true]{display:block}
+ .eon-explorer-markers button[aria-pressed=true]::after{display:none}
+}
+@media(prefers-reduced-motion:reduce){.eon-explorer-hotspots button::before{animation:none}}
+
+/* Color stays tied to its material throughout the interaction. */
+.eon-explorer-hotspots button[data-material=air],.eon-explorer[data-scene=air]{--hotspot:#5566ed;--target-gradient:linear-gradient(135deg,#55c6ff 0%,#4968ec 55%,#7541cf 100%)}
+.eon-explorer-hotspots button[data-material=fabric],.eon-explorer[data-scene=fabric]{--hotspot:#ee654c;--target-gradient:linear-gradient(135deg,#ffbe68 0%,#f16a50 50%,#c93d73 100%)}
+.eon-explorer-hotspots button[data-material=stone],.eon-explorer[data-scene=stone]{--hotspot:#10ad8b;--target-gradient:linear-gradient(135deg,#74e5a1 0%,#10ac99 50%,#087b99 100%)}
+.eon-explorer-hotspots button,.eon-explorer-markers button[aria-pressed=true]{background:var(--target-gradient);box-shadow:0 4px 15px color-mix(in srgb,var(--hotspot) 45%,transparent),inset 0 1px 1px #ffffff80;color:white;border-color:#ffffffb0}
+.eon-explorer-hotspots button span{display:block;text-shadow:0 1px 3px #0005;font-weight:500}
+.eon-explorer-floating-note{border-top:3px solid var(--hotspot)}
+
+/* The connector shares the marker and measured card coordinates. */
+.eon-explorer-markers button[aria-pressed=true]::after{display:none}
+.eon-explorer-connector{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:visible}
+.eon-explorer-connector line{stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 1px 2px #0008)}
+.eon-explorer-connector circle{fill:#fff}
+.eon-explorer-floating-note{transition:opacity .3s ease,visibility .3s}
+@media(max-width:900px){
+ .eon-explorer-connector{display:none}
+ .eon-explorer-floating-note{left:auto!important;width:auto!important}
+}
+
+@media(min-width:901px) and (max-width:1100px){
+ .eon-explorer-main{height:clamp(340px,calc(100svh - 420px),420px)}
+ .eon-explorer h1{font-size:clamp(28px,3vw,33px)}
+}
+/* Smaller visible targets retain a 44px hit area. */
+.eon-explorer-hotspots button{width:34px;height:34px;min-width:34px;font-size:21px}
+.eon-explorer-hotspots button::after{content:"";position:absolute;inset:-5px;border-radius:50%}
+@media(max-width:900px){
+ .eon-explorer-copy{padding:18px 22px}
+ .eon-explorer h1{margin-bottom:14px}
+ .eon-explorer-eyebrow{margin-bottom:10px!important}
+ .eon-explorer-description{margin-bottom:14px!important}
+}
+
+/* Keep the selected-service copy compact at every viewport size. */
+.eon-explorer-detail .eon-explorer-back{min-height:32px;margin-bottom:2px;line-height:1.3}
+.eon-explorer-detail>.eon-explorer-eyebrow{margin-bottom:5px!important}
+.eon-explorer-detail h2{margin-bottom:7px;line-height:1.14}
+.eon-explorer-detail>.eon-explorer-description{margin-bottom:10px!important;line-height:1.45!important}
+.eon-explorer-detail>.eon-explorer-cta{min-height:40px;padding:8px 16px}
+@media(max-width:900px){
+ .eon-explorer:not([data-scene=overview]) .eon-explorer-copy{padding-block:14px 16px}
+ .eon-explorer-detail .eon-explorer-back{min-height:44px;margin-bottom:0}
+ .eon-explorer-detail>.eon-explorer-cta{min-height:44px}
+}
