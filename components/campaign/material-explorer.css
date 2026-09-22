@@ -155,3 +155,23 @@
  .eon-explorer-detail .eon-explorer-back{min-height:44px;margin-bottom:0}
  .eon-explorer-detail>.eon-explorer-cta{min-height:44px}
 }
+
+/* Scale the complete composition, not a fixed-height crop of a wider room. */
+@media(min-width:901px){
+ .eon-explorer-main{
+  width:min(100%,1800px,calc(clamp(340px,100svh - 390px,650px) * 2.7763));
+  margin-inline:auto;
+  grid-template-columns:36% minmax(0,64%);
+  height:auto;
+  min-height:0;
+  aspect-ratio:2612.5 / 941;
+ }
+ .eon-explorer-visual{min-height:0}
+ .eon-explorer-copy{padding:20px clamp(20px,2.5vw,40px);container-type:inline-size}
+ .eon-explorer-intro,.eon-explorer-detail{max-width:none}
+ .eon-explorer h1{font-size:clamp(28px,10cqw,43px)}
+ .eon-explorer h2{font-size:clamp(22px,7cqw,28px)}
+}
+@media(max-width:900px){
+ .eon-explorer-stage{height:auto;aspect-ratio:1672 / 941}
+}

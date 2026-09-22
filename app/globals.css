@@ -399,7 +399,7 @@ body .button,.site-header .header-cta,.room-cta,.finder-inline-launch strong{bac
 @media(max-width:600px){.room-hero[data-material=stone] .room-image-field{height:680px!important}}
 
 /* Readable supporting copy and more generous material controls. */
-main p:not(.eyebrow):not(.trace-kicker):not(.service-story-caption):not(:where(.eon-explorer p, .life-home .care-editorial p, .service-overview-swipe)),footer p{font-size:18px!important;line-height:1.65!important}
+main p:not(.eyebrow):not(.trace-kicker):not(.service-story-caption):not(:where(.eon-explorer p, :is(.life-home,.life-services) .care-editorial p, .service-overview-swipe)),footer p{font-size:18px!important;line-height:1.65!important}
 main .room-description{font-size:20px!important}
 main .trace-card p{font-size:16px!important;line-height:1.55!important}
 main .trace-card small,main figcaption{font-size:14px!important;line-height:1.5}
@@ -413,7 +413,7 @@ main .trace-service{font-size:16px!important}
 .service-link-copy small{font-size:16px!important;line-height:1.6;color:#476167}
 main label,main input,main textarea,main select{font-size:16px}
 @media(max-width:1100px){.trace-point{padding:6px!important;min-width:50px!important}.trace-point b{width:36px;height:36px}}
-@media(max-width:600px){main p:not(.eyebrow):not(.trace-kicker):not(.service-story-caption):not(:where(.eon-explorer p, .life-home .care-editorial p, .service-overview-swipe)),footer p{font-size:17px!important}.room-hero[data-material=stone] .room-image-field{height:760px!important}.room-hero[data-material=stone] .trace-card p{font-size:16px!important}.room-hero[data-material=stone] .trace-card{padding:16px!important}.service-view-switch button{font-size:15px!important}.service-link-copy strong{font-size:17px}}
+@media(max-width:600px){main p:not(.eyebrow):not(.trace-kicker):not(.service-story-caption):not(:where(.eon-explorer p, :is(.life-home,.life-services) .care-editorial p, .service-overview-swipe)),footer p{font-size:17px!important}.room-hero[data-material=stone] .room-image-field{height:760px!important}.room-hero[data-material=stone] .trace-card p{font-size:16px!important}.room-hero[data-material=stone] .trace-card{padding:16px!important}.service-view-switch button{font-size:15px!important}.service-link-copy strong{font-size:17px}}
 
 /* Editorial care journey: photographic sections with an open, readable hierarchy. */
 .care-editorial{background:#fcfaf5;color:#244d56;--care-seam:clamp(72px,8vw,116px)}

@@ -68,31 +68,38 @@
 }
 
 /* Fluid editorial scale: preserve readable body text and reduce oversized display areas. */
-.life-home .care-section{padding-block:clamp(36px,5vw,64px)}
-.life-home .care-editorial h2{font-size:clamp(28px,3vw,44px)}
-.life-home .care-editorial h3{font-size:clamp(22px,2vw,29px)}
-.life-home .care-proof{padding-block:clamp(36px,5vw,64px)}
-.life-home .care-spaces-image img{height:clamp(260px,35vw,430px)}
-.life-home .care-service-options button{padding-block:16px;font-size:16px}
-.life-home .care-section-intro,.life-home .care-range-heading{margin-bottom:clamp(22px,3vw,36px)}
+:is(.life-home,.life-services) .care-section{padding-block:clamp(36px,5vw,64px)}
+:is(.life-home,.life-services) .care-editorial h2{font-size:clamp(28px,3vw,44px)}
+:is(.life-home,.life-services) .care-editorial h3{font-size:clamp(22px,2vw,29px)}
+:is(.life-home,.life-services) .care-proof{padding-block:clamp(36px,5vw,64px)}
+:is(.life-home,.life-services) .care-spaces-image img{height:clamp(260px,35vw,430px)}
+:is(.life-home,.life-services) .care-service-options button{padding-block:16px;font-size:16px}
+:is(.life-home,.life-services) .care-section-intro,:is(.life-home,.life-services) .care-range-heading{margin-bottom:clamp(22px,3vw,36px)}
 
 @media(max-width:650px){
- .life-home .care-section,.life-home .care-proof{padding-block:28px}
- .life-home .care-editorial h2{font-size:28px;line-height:1.15}
- .life-home .care-editorial h3{font-size:21px}
- .life-home .care-editorial p{font-size:15px;line-height:1.55}
- .life-home .care-section-intro,.life-home .care-range-heading{margin-bottom:18px}
- .life-home .care-range-heading>p{margin-top:12px}
- .life-home .care-selector,.life-home .care-next,.life-home .care-proof-inner{gap:24px}
- .life-home .care-service-options button{min-height:52px;padding-block:10px;font-size:14px;gap:10px}
- .life-home .care-service-photo{height:220px}
- .life-home .care-reasons-grid{gap:14px}
- .life-home .care-reasons-grid article{padding:16px}
- .life-home .care-reasons-grid h3{margin:0 0 8px}
- .life-home .care-spaces-image img{height:260px}
- .life-home .care-next-details li{gap:16px;padding-bottom:18px}
- .life-home .care-next h2{margin-bottom:14px}
+ :is(.life-home,.life-services) .care-section,:is(.life-home,.life-services) .care-proof{padding-block:28px}
+ :is(.life-home,.life-services) .care-editorial h2{font-size:28px;line-height:1.15}
+ :is(.life-home,.life-services) .care-editorial h3{font-size:21px}
+ :is(.life-home,.life-services) .care-editorial p{font-size:15px;line-height:1.55}
+ :is(.life-home,.life-services) .care-section-intro,:is(.life-home,.life-services) .care-range-heading{margin-bottom:18px}
+ :is(.life-home,.life-services) .care-range-heading>p{margin-top:12px}
+ :is(.life-home,.life-services) .care-selector,:is(.life-home,.life-services) .care-next,:is(.life-home,.life-services) .care-proof-inner{gap:24px}
+ :is(.life-home,.life-services) .care-service-options button{min-height:52px;padding-block:10px;font-size:14px;gap:10px}
+ :is(.life-home,.life-services) .care-service-photo{height:220px}
+ :is(.life-home,.life-services) .care-reasons-grid{gap:14px}
+ :is(.life-home,.life-services) .care-reasons-grid article{padding:16px}
+ :is(.life-home,.life-services) .care-reasons-grid h3{margin:0 0 8px}
+ :is(.life-home,.life-services) .care-spaces-image img{height:260px}
+ :is(.life-home,.life-services) .care-next-details li{gap:16px;padding-bottom:18px}
+ :is(.life-home,.life-services) .care-next h2{margin-bottom:14px}
 }
 
 /* Preserve the full working setup, including the ladder and its floor contact. */
 .service-scenario-air>img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+
+.finder-notes{margin:20px 0 24px}
+.finder-notes label{display:block;font-size:16px;font-weight:500;margin-bottom:9px;color:var(--ink)}
+.finder-notes label span{font-size:13px;font-weight:400;opacity:.7}
+.finder-notes textarea{display:block;box-sizing:border-box;width:100%;min-height:104px;resize:vertical;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;font-size:16px;line-height:1.5}
+.finder-notes textarea:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.finder-notes p{font-size:12px!important;line-height:1.5!important;margin:8px 0 0!important;opacity:.75}
