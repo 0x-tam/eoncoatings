@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/service/",
+    "headers": {},
+    "status": 308,
+    "location": "/services/",
+    "robots": null
+  },
+  {
+    "path": "/industry/",
+    "headers": {},
+    "status": 308,
+    "location": "/industries/",
+    "robots": null
+  },
+  {
+    "path": "/services/ac-duct-mold-resistant-coating/",
+    "headers": {},
+    "status": 308,
+    "location": "/services/home-villa-ac-duct-cleaning/",
+    "robots": null
+  },
+  {
+    "path": "/inside-the-air/",
+    "headers": {},
+    "status": 308,
+    "location": "/services/home-villa-ac-duct-cleaning/",
+    "robots": null
+  },
+  {
+    "path": "/",
+    "headers": {
+      "Host": "eoncoatings.com",
+      "X-Forwarded-Proto": "http"
+    },
+    "status": 308,
+    "location": "https://eoncoatings.com",
+    "robots": null
+  },
+  {
+    "path": "/",
+    "headers": {
+      "Host": "www.eoncoatings.com",
+      "X-Forwarded-Proto": "https"
+    },
+    "status": 308,
+    "location": "https://eoncoatings.com",
+    "robots": null
+  },
+  {
+    "path": "/missing-seo-test/",
+    "headers": {},
+    "status": 404,
+    "location": null,
+    "robots": "noindex, follow"
+  }
+]

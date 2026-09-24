@@ -1,11 +1,12 @@
 import type {Metadata} from 'next';
+import {canonicalPath} from './urls';
 import {cleanText} from './public-format';
 
 export const siteUrl = 'https://eoncoatings.com';
-export const isPreview = process.env.VERCEL_ENV === 'preview' || process.env.NODE_ENV === 'development';
-export const defaultTitle = 'AC Duct Cleaning & Surface Protection';
+export const isPreview = process.env.SITE_INDEXABLE !== 'true' || process.env.VERCEL_ENV === 'preview' || process.env.NODE_ENV === 'development';
+export const defaultTitle = 'AC Cleaning & Surface Protection in Abu Dhabi';
 export const defaultDescription = 'AC duct cleaning, furniture cleaning and protective coatings in Abu Dhabi and across the UAE. Find the right service for your home or workplace.';
-const shareImage = {url:'/images/room/room.webp',alt:'Eon Coatings — AC cleaning, fabric care and surface protection'};
+export const shareImage = {url:'/images/og/eon-coatings.jpg',width:1200,height:630,alt:'Eon Coatings — AC cleaning, fabric care and surface protection'};
 
 export function metadataText(value:string, limit=160) {
  const text=cleanText(value).replace(/\s+/g,' ').trim();
@@ -13,6 +14,7 @@ export function metadataText(value:string, limit=160) {
  return text.slice(0,limit-1).replace(/\s+\S*$/,'').replace(/[ ,;:–-]+$/,'')+'…';
 }
 export function pageMetadata({title,description,path='/',article,noindex=false}:{title:string;description:string;path?:string;article?:{publishedTime:string;modifiedTime:string};noindex?:boolean}):Metadata {
+ path=canonicalPath(path);
  const cleanTitle=cleanText(title).replace(/\s*[-|–—]\s*Eon Coatings\s*$/i,'').trim();
  const summary=metadataText(description)||defaultDescription;
  const fullTitle=/\bEon Coatings\b/i.test(cleanTitle)?cleanTitle:`${cleanTitle} | Eon Coatings`;

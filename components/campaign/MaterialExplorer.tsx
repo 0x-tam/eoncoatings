@@ -79,7 +79,7 @@ export default function MaterialExplorer(){
    <div className="eon-explorer-visual">
     <div className="eon-explorer-stage" ref={visualRef}>
     <div className="eon-explorer-images">
-     <img className="eon-explorer-room" src="/images/room/room-green.webp" alt="" aria-hidden="true" width={1672} height={941} fetchPriority="high"/>
+     <img className="eon-explorer-room" src="/images/room/room-green.webp" alt="Sunlit villa living room with a ceiling AC grille, green sofa and stone table" width={1672} height={941} fetchPriority="high"/>
      <PhotographicCamera active={active} onReady={()=>setReady(true)} onSettled={()=>setSettled(true)} onError={()=>{setReady(true);setSettled(true)}}/>
     </div>
     {!active?<div className="eon-explorer-hotspots" style={{visibility:ready&&settled?'visible':'hidden'}}>{order.map(m=><button key={m} data-material={m} ref={el=>{triggers.current[m]=el}} style={point(m)} onClick={()=>select(m)} aria-label={`Explore ${scenes[m].label}`}><span aria-hidden="true">+</span></button>)}</div>:

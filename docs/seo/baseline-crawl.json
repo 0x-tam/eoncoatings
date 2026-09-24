@@ -1,0 +1,5042 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/",
+    "title": "AC Duct Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC duct cleaning, furniture cleaning and protective coatings in Abu Dhabi and across the UAE. Find the right service for your home or workplace.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "class": "eon-explorer-room",
+        "src": "/images/room/room-green.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "1672",
+        "height": "941",
+        "fetchpriority": "high"
+      },
+      {
+        "src": "/images/service-icons-3d/ac-home.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "3D home interior with a wall-mounted AC",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/ac-office-v3.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "3D office with a flush ceiling air vent",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/surface.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Clean countertop with a folded teal cloth",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/fabric.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Teal armchair with an ivory cushion",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/marble.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Cream marble with natural veining",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/cleaning.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Upholstery extraction nozzle on a sofa",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/mattress.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Quilted mattress with a sage throw",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/specialty.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Roller applying protective coating to a wall sample",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/hgpp/certificate-example-clean.svg",
+        "alt": "HealthGuard conformity certificate example",
+        "width": "1200",
+        "height": "1694",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/home-spaces.webp",
+        "alt": "A warm living room opening onto a home workspace",
+        "aria-hidden": "false",
+        "class": "is-selected",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-office.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-clinic.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/finder-v3/education.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-hotel-empty.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/service-finder/",
+      "/service/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/services/office-ac-duct-care/",
+      "/services/antimicrobial-surface-coating/",
+      "/services/stain-resistant-furniture-coating/",
+      "/services/marble-protective-coatings/",
+      "/services/deep-cleaning-of-carpets-furniture/",
+      "/services/mattress-cleaning-and-sanitization/",
+      "/services/specialty-coatings/",
+      "/hgpp-certification/",
+      "/service/",
+      "/contact-us/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "home-spaces-title",
+      "service-overview-title",
+      "why-eon",
+      "main",
+      "spaces-photo-stage",
+      "services",
+      "_R_",
+      "radix-_R_2kddb_",
+      "care-reasons-title",
+      "spaces-we-care-for"
+    ]
+  },
+  {
+    "path": "/about-us/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/about-us/",
+    "title": "About Eon Coatings",
+    "description": "Meet Eon Coatings in Abu Dhabi. Explore our AC cleaning, fabric care and surface protection services for homes and commercial properties.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/about-us/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/unique-care/about-team.webp",
+        "alt": "About Eon Coatings setting, illustrative care photograph",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/hgpp-certification/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+    "title": "AC Duct Cleaning vs Mold-Resistant Coating: Which One Do You Need? | Eon Coatings",
+    "description": "In the UAE\u2019s hot and humid climate, air conditioning systems work almost all year round. While they keep indoor spaces comfortable, they can also become a\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/32ba4cea545d.png",
+        "alt": "AC Duct Cleaning vs Mold-Resistant Coating Which One Do You Need Eon Coatings UAE",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "/contact-us/",
+      "/about-us/",
+      "/",
+      "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/antimicrobial-coatings-for-schools-educational-institutions/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/antimicrobial-coatings-for-schools-educational-institutions/",
+    "title": "Antimicrobial Coatings for Schools & Educational Institutions | Eon Coatings",
+    "description": "Schools and educational institutions are high-activity environments where students, teachers, and staff interact closely every day. In Abu Dhabi and across\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/antimicrobial-coatings-for-schools-educational-institutions/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/1719c09ec44a.png",
+        "alt": "Antimicrobial Coatings for Schools & Educational Institutions Eon Coatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/",
+    "title": "Are Antimicrobial Coatings Safe for Homes, Offices and Hospitals? | Eon Coatings",
+    "description": "With growing awareness about hygiene and health, many homes, offices, and hospitals in Abu Dhabi and across the UAE are adopting antimicrobial surface\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/are-antimicrobial-coatings-safe-for-homes-offices-and-hospitals/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/a5531267b197.png",
+        "alt": "Are Antimicrobial Coatings Safe for Homes, Offices, and Hospitals",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "/contact-us/",
+      "/",
+      "/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+    "title": "Best AC Sanitisation Service in UAE for Clean and Healthy Air | Eon Coatings",
+    "description": "In the UAE, air conditioning is not just about comfort, it\u2019s a necessity. With high temperatures, humidity, and dust, AC systems run almost all year round.\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/2a22e05ae581.png",
+        "alt": "Best AC Sanitisation Service in UAE for Clean and Healthy Air",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "#article-section-5",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-5",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/choosing-the-right-fabric-protection-for-hospitality/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/choosing-the-right-fabric-protection-for-hospitality/",
+    "title": "Choosing the Right Fabric Protection for Hospitality | Eon Coatings",
+    "description": "In today\u2019s post-pandemic world, the conversation around workplace hygiene has evolved from a routine concern to a strategic priority. As organizations bring\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/choosing-the-right-fabric-protection-for-hospitality/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "Choosing the Right Fabric Protection for Hospitality",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/refreshed/meeting-room.webp",
+        "loading": "lazy",
+        "alt": "Meeting room surfaces"
+      },
+      {
+        "src": "/images/refreshed/reception-counter.webp",
+        "loading": "lazy",
+        "alt": "Shared reception counter"
+      },
+      {
+        "src": "/images/refreshed/access-door.webp",
+        "loading": "lazy",
+        "alt": "Door handle and access controls"
+      },
+      {
+        "src": "/images/refreshed/shared-workplace.webp",
+        "loading": "lazy",
+        "alt": "Shared workplace touchpoints"
+      },
+      {
+        "src": "/images/refreshed/restrooms.webp",
+        "loading": "lazy",
+        "alt": "Washroom surfaces"
+      },
+      {
+        "src": "/images/refreshed/microbiology-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/refreshed/surface-hygiene-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/complete-guide-to-ac-sanitisation-service-in-uae/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/complete-guide-to-ac-sanitisation-service-in-uae/",
+    "title": "Complete Guide to AC Sanitisation Service in UAE | Eon Coatings",
+    "description": "In the UAE, air conditioning systems are an essential part of everyday life. Due to high temperatures, humidity, and frequent dust exposure, AC systems run\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/complete-guide-to-ac-sanitisation-service-in-uae/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/1e2b6bfb50fb.png",
+        "alt": "Complete Guide to AC Sanitisation Service in UAE Eon Coatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "/contact-us/",
+      "/",
+      "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "/service/",
+      "/media/",
+      "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/contact-us/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/contact-us/",
+    "title": "Contact Eon Coatings in Abu Dhabi",
+    "description": "Contact Eon Coatings for a free consultation on AC cleaning, furniture care and protective coatings. Visit us in Mussafah, Abu Dhabi, or send an enquiry.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/contact-us/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/contact/private-corporate-v2.webp",
+        "alt": "Diagonal split between a warm private living room and a cool corporate office with workstations, ergonomic chairs and commercial air vents",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "https://www.google.com/maps/search/?api=1&query=M17%20Mussafah%20Abu%20Dhabi",
+      "/",
+      "/service/",
+      "/service/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/hgpp-certification/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/hgpp-certification/",
+    "title": "HGPP Certification & HealthGuard Program | Eon Coatings",
+    "description": "Explore the HealthGuard Protection Program: treatment scope, conformity certificates and display materials for qualifying premises with Eon Coatings.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/hgpp-certification/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/hgpp/certificate-example-clean.svg",
+        "alt": "HealthGuard conformity certificate example",
+        "width": "1200",
+        "height": "1694",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/hgpp/badge-realistic-v4.webp",
+        "alt": "Multi-surface protection badge",
+        "loading": "lazy",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "src": "/images/hgpp/certificate-example-clean.svg",
+        "alt": "Certificate example",
+        "loading": "lazy",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "src": "/images/hgpp/plaque-realistic-v4.webp",
+        "alt": "HealthGuard Protection display plaque",
+        "loading": "lazy",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/contact-us/?service=hgpp-certification",
+      "#hgpp-included",
+      "/images/authentic/5846-health-certificate.jpg",
+      "/images/hgpp/badge-realistic-v4.webp",
+      "/images/hgpp/certificate-example-clean.svg",
+      "/images/hgpp/plaque-realistic-v4.webp",
+      "/images/authentic/6067-health-certificate.png",
+      "/contact-us/?service=hgpp-certification",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "hgpp-included",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+    "title": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi | Eon Coatings",
+    "description": "Indoor air quality is important for homes, offices, schools, healthcare facilities, and commercial buildings. In Abu Dhabi, air conditioning systems operate\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/2154f7bcafc9.png",
+        "alt": "Top Benefits of Professional AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "#article-section-5",
+      "/contact-us/",
+      "/",
+      "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "/service/",
+      "/media/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-5",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/how-antimicrobial-coatings-improve-health-safety-in-offices/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/how-antimicrobial-coatings-improve-health-safety-in-offices/",
+    "title": "How Antimicrobial Coatings Improve Health Safety in Offices | Eon Coatings",
+    "description": "In today\u2019s post-pandemic world, the conversation around workplace hygiene has evolved from a routine concern to a strategic priority. As organizations bring\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/how-antimicrobial-coatings-improve-health-safety-in-offices/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "How Antimicrobial Coatings Improve Health Safety in Offices",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/refreshed/meeting-room.webp",
+        "loading": "lazy",
+        "alt": "Meeting room surfaces"
+      },
+      {
+        "src": "/images/refreshed/reception-counter.webp",
+        "loading": "lazy",
+        "alt": "Shared reception counter"
+      },
+      {
+        "src": "/images/refreshed/access-door.webp",
+        "loading": "lazy",
+        "alt": "Door handle and access controls"
+      },
+      {
+        "src": "/images/refreshed/shared-workplace.webp",
+        "loading": "lazy",
+        "alt": "Shared workplace touchpoints"
+      },
+      {
+        "src": "/images/refreshed/restrooms.webp",
+        "loading": "lazy",
+        "alt": "Washroom surfaces"
+      },
+      {
+        "src": "/images/refreshed/microbiology-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/refreshed/surface-hygiene-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/source/07e0366536ae.png",
+        "alt": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "Choosing the Right Fabric Protection for Hospitality",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/media/",
+      "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "/choosing-the-right-fabric-protection-for-hospitality/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+    "title": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings | Eon Coatings",
+    "description": "In today\u2019s post-pandemic world, the conversation around workplace hygiene has evolved from a routine concern to a strategic priority. As organizations bring\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/07e0366536ae.png",
+        "alt": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/refreshed/meeting-room.webp",
+        "loading": "lazy",
+        "alt": "Meeting room surfaces"
+      },
+      {
+        "src": "/images/refreshed/reception-counter.webp",
+        "loading": "lazy",
+        "alt": "Shared reception counter"
+      },
+      {
+        "src": "/images/refreshed/access-door.webp",
+        "loading": "lazy",
+        "alt": "Door handle and access controls"
+      },
+      {
+        "src": "/images/refreshed/shared-workplace.webp",
+        "loading": "lazy",
+        "alt": "Shared workplace touchpoints"
+      },
+      {
+        "src": "/images/refreshed/restrooms.webp",
+        "loading": "lazy",
+        "alt": "Washroom surfaces"
+      },
+      {
+        "src": "/images/refreshed/microbiology-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/refreshed/surface-hygiene-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "Choosing the Right Fabric Protection for Hospitality",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "The ROI of Duct Cleaning in Commercial Buildings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/media/",
+      "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "/choosing-the-right-fabric-protection-for-hospitality/",
+      "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+    "title": "How Regular AC Sanitisation Improves Indoor Air Quality in UAE | Eon Coatings",
+    "description": "Indoor air quality has become a growing concern for homeowners and businesses across the UAE. With air conditioning systems running almost throughout the\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/2154f7bcafc9.png",
+        "alt": "Top Benefits of Professional AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "#article-section-5",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-5",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/",
+    "title": "How Surface Protection Coatings Help Hotels Maintain Hygiene Standards | Eon Coatings",
+    "description": "In today\u2019s hospitality industry, maintaining high hygiene standards is no longer optional, it\u2019s a necessity. Hotels in Abu Dhabi and across the UAE welcome\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/how-surface-protection-coatings-help-hotels-maintain-hygiene-standards/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/d8edb1672f4a.png",
+        "alt": "How Surface Protection Coatings Help Hotels Maintain Hygiene Standards",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/industries/education/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/industries/education/",
+    "title": "Education Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC cleaning, fabric care and protective coatings for education facilities in Abu Dhabi and the UAE. Discuss access, materials and service planning.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/industries/education/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/refreshed/school-working-v3.webp",
+        "alt": "EON technician applying surface care to classroom desks; illustrative scene",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/unique-care/school-surface.webp",
+        "alt": "Shared classroom desks with school supplies; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/school-fabric.webp",
+        "alt": "Upholstered reading benches in a school library; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/school-air.webp",
+        "alt": "Air conditioner in a classroom; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service-finder/",
+      "/service/",
+      "/services/antimicrobial-surface-coating/",
+      "/services/deep-cleaning-of-carpets-furniture/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/hgpp-certification/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/industries/healthcare/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/industries/healthcare/",
+    "title": "Healthcare Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC cleaning, fabric care and protective coatings for healthcare facilities in Abu Dhabi and the UAE. Discuss access, materials and service planning.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/industries/healthcare/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/refreshed/clinic-working-v3.webp",
+        "alt": "EON technician treating a clinic reception counter; illustrative scene",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/unique-care/clinic-surface.webp",
+        "alt": "Clinic reception counter and shared payment terminal; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/clinic-fabric.webp",
+        "alt": "Upholstered waiting chairs in a clinic; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/clinic-air.webp",
+        "alt": "Air grille above a healthcare consultation room; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service-finder/",
+      "/service/",
+      "/services/antimicrobial-surface-coating/",
+      "/services/deep-cleaning-of-carpets-furniture/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/hgpp-certification/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/industries/hospitality/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/industries/hospitality/",
+    "title": "Hospitality Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC cleaning, fabric care and protective coatings for hospitality facilities in Abu Dhabi and the UAE. Discuss access, materials and service planning.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/industries/hospitality/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/refreshed/hotel-working-v3.webp",
+        "alt": "EON technician applying protective treatment to hotel bedside marble; illustrative scene",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/unique-care/hotel-fabric.webp",
+        "alt": "Upholstered armchairs in a hotel lounge; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/hotel-marble.webp",
+        "alt": "Marble hotel reception counter; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/hotel-mattress.webp",
+        "alt": "Guest-room mattress with housekeeping linen trolley; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/hotel-air.webp",
+        "alt": "Linear AC vent in a hotel guest room; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/refreshed/sofa-care-comparison.webp",
+        "alt": "Our published furniture protection comparison",
+        "loading": "lazy",
+        "width": "1161",
+        "height": "1355"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service-finder/",
+      "/service/",
+      "/services/stain-resistant-furniture-coating/",
+      "/services/marble-protective-coatings/",
+      "/services/mattress-cleaning-and-sanitization/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/hgpp-certification/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/industries/offices/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/industries/offices/",
+    "title": "Offices Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC cleaning, fabric care and protective coatings for offices facilities in Abu Dhabi and the UAE. Discuss access, materials and service planning.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/industries/offices/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/refreshed/office-working-v3.webp",
+        "alt": "Eon Coatings technician cleaning inside an open ceiling AC duct; illustrative scene",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/unique-care/office-air.webp",
+        "alt": "Ceiling AC in a corporate office; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/office-fabric.webp",
+        "alt": "Upholstered conference chairs in a meeting room; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/office-surface.webp",
+        "alt": "Shared office desk with keyboard and telephone; illustrative photograph",
+        "width": "768",
+        "height": "512",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service-finder/",
+      "/service/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/services/deep-cleaning-of-carpets-furniture/",
+      "/services/antimicrobial-surface-coating/",
+      "/hgpp-certification/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/industry/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/industry/",
+    "title": "Cleaning & Protection by Industry | Eon Coatings",
+    "description": "Explore cleaning and protective coating services for offices, healthcare facilities, schools and hotels in Abu Dhabi and across the UAE.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/industry/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/refreshed/office-working-v3.webp",
+        "alt": "Eon Coatings technician cleaning inside an open ceiling AC duct; illustrative scene",
+        "width": "900",
+        "height": "600",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/refreshed/clinic-working-v3.webp",
+        "alt": "EON technician treating a clinic reception counter; illustrative scene",
+        "width": "900",
+        "height": "600",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/refreshed/school-working-v3.webp",
+        "alt": "EON technician applying surface care to classroom desks; illustrative scene",
+        "width": "900",
+        "height": "600",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/refreshed/hotel-working-v3.webp",
+        "alt": "EON technician applying protective treatment to hotel bedside marble; illustrative scene",
+        "width": "900",
+        "height": "600",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/industries/offices/",
+      "/industries/healthcare/",
+      "/industries/education/",
+      "/industries/hospitality/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/media/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/media/",
+    "title": "Media & Company Updates | Eon Coatings",
+    "description": "Read Eon Coatings news and practical guidance on AC cleaning, fabric care, protective coatings and property maintenance in the UAE.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/media/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/2154f7bcafc9.png",
+        "alt": "Top Benefits of Professional AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/1e2b6bfb50fb.png",
+        "alt": "Complete Guide to AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/32ba4cea545d.png",
+        "alt": "AC Duct Cleaning vs Mold-Resistant Coating Which One Do You Need Eon Coatings UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/2a22e05ae581.png",
+        "alt": "Best AC Sanitisation Service in UAE for Clean and Healthy Air",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f0af3fdb4cc.png",
+        "alt": "What Are Antimicrobial Surface Coatings and Why Are They Important",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/9956587f9c23.png",
+        "alt": "Signs Your Facility Needs Professional Antimicrobial Coating Services",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "/complete-guide-to-ac-sanitisation-service-in-uae/",
+      "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "/best-ac-sanitisation-service-in-uae-for-clean-and-healthy-air/",
+      "/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+      "/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/privacy-policy/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/privacy-policy/",
+    "title": "Privacy Policy | Eon Coatings",
+    "description": "Read how Eon Coatings handles personal information, website enquiries and your privacy rights.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/privacy-policy/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "mailto:info@eoncoatings.com",
+      "tel:+97125639468",
+      "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/service/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/service/",
+    "title": "Cleaning & Protective Coating Services | Eon Coatings",
+    "description": "Explore AC duct cleaning, furniture and mattress cleaning, marble protection and specialist coatings for homes and businesses in Abu Dhabi and the UAE.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/service/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/unique-care/home-air.webp",
+        "alt": "Home/Villa AC Care",
+        "aria-hidden": "false",
+        "class": "is-current",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/office-air.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-surface.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-fabric.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-marble.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-cleaning.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-mattress.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/collection-exterior.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1100",
+        "height": "800",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/service-finder/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "care-selected-service",
+      "main",
+      "_R_",
+      "radix-_R_2kddb_",
+      "care-range-title"
+    ]
+  },
+  {
+    "path": "/services/ac-duct-mold-resistant-coating/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/ac-duct-mold-resistant-coating/",
+    "title": "Home/Villa AC Care | Eon Coatings",
+    "description": "AC duct cleaning for villas and homes, with sanitisation and optional mold-resistant treatment for suitable ductwork.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/ac-duct-mold-resistant-coating/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/unique-care/home-air.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Ceiling air grille in a residential interior"
+      },
+      {
+        "src": "/images/campaign/ac-care-ladder.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "A technician on a platform ladder inspecting ceiling AC access in a villa illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=ac-duct-mold-resistant-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Home%2FVilla%20AC%20Care.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/services/office-ac-duct-care/",
+      "/service-finder/",
+      "/contact-us/?service=ac-duct-mold-resistant-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Home%2FVilla%20AC%20Care.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/antimicrobial-surface-coating/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/antimicrobial-surface-coating/",
+    "title": "Anti-microbial Surface Coating | Eon Coatings",
+    "description": "Helps protect shared surfaces against germs and mold, alongside regular cleaning.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/antimicrobial-surface-coating/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/surface-refinement/surface-application.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Anti-microbial Surface Coating illustrative photograph"
+      },
+      {
+        "src": "/images/unique-care/story-handle.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "A busy doorway illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=antimicrobial-surface-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Anti-microbial%20Surface%20Coating.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=antimicrobial-surface-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Anti-microbial%20Surface%20Coating.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/deep-cleaning-of-carpets-furniture/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/deep-cleaning-of-carpets-furniture/",
+    "title": "Deep cleaning of carpets & furniture | Eon Coatings",
+    "description": "Lift embedded dirt and refresh the look and feel of carpets, rugs, sofas and upholstered chairs.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/deep-cleaning-of-carpets-furniture/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/services-v2/cleaning.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Deep cleaning of carpets & furniture illustrative photograph"
+      },
+      {
+        "src": "/images/v2/V206-carpet-extraction.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "High-traffic interiors illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=deep-cleaning-of-carpets-furniture&enquiry=I%20would%20like%20to%20enquire%20about%20Deep%20cleaning%20of%20carpets%20%26%20furniture.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=deep-cleaning-of-carpets-furniture&enquiry=I%20would%20like%20to%20enquire%20about%20Deep%20cleaning%20of%20carpets%20%26%20furniture.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/marble-protective-coatings/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/marble-protective-coatings/",
+    "title": "Marble Protective Coatings | Eon Coatings",
+    "description": "Help protect marble from heat, acid and stains while preserving its natural beauty. Protection depends on the stone and coating selected.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/marble-protective-coatings/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/services-v2/marble.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Marble Protective Coatings illustrative photograph"
+      },
+      {
+        "src": "/images/unique-care/story-marble.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "Marble in kitchens and reception areas illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=marble-protective-coatings&enquiry=I%20would%20like%20to%20enquire%20about%20Marble%20Protective%20Coatings.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=marble-protective-coatings&enquiry=I%20would%20like%20to%20enquire%20about%20Marble%20Protective%20Coatings.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/mattress-cleaning-and-sanitization/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/mattress-cleaning-and-sanitization/",
+    "title": "Mattress Cleaning and Sanitization | Eon Coatings",
+    "description": "Deep cleaning and sanitisation to reduce dust, allergens and bacteria for a fresher sleep space.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/mattress-cleaning-and-sanitization/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/services-v2/mattress.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Mattress Cleaning and Sanitization illustrative photograph"
+      },
+      {
+        "src": "/images/v2/V207-mattress-care.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "Preparing the bedroom illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=mattress-cleaning-and-sanitization&enquiry=I%20would%20like%20to%20enquire%20about%20Mattress%20Cleaning%20and%20Sanitization.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=mattress-cleaning-and-sanitization&enquiry=I%20would%20like%20to%20enquire%20about%20Mattress%20Cleaning%20and%20Sanitization.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/office-ac-duct-care/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/office-ac-duct-care/",
+    "title": "Office AC Duct Care | Eon Coatings",
+    "description": "AC duct cleaning and optional treatment for offices in Abu Dhabi. Plan access, work areas and building coordination with Eon Coatings.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/office-ac-duct-care/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/unique-care/office-air.webp",
+        "alt": "Ceiling AC and exposed ductwork above office workstations",
+        "width": "1536",
+        "height": "1024"
+      },
+      {
+        "src": "/images/refreshed/office-working-v3.webp",
+        "alt": "Technician on a stepladder working at a ceiling vent in an office meeting room; illustrative scene",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/contact-us/?service=office-ac-duct-care&enquiry=I%20would%20like%20to%20enquire%20about%20Office%20AC%20care.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/contact-us/?service=office-ac-duct-care&enquiry=I%20would%20like%20to%20enquire%20about%20Office%20AC%20care.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/specialty-coatings/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/specialty-coatings/",
+    "title": "Specialty Coatings | Eon Coatings",
+    "description": "Exterior surface protection against weathering and deterioration.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/specialty-coatings/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/services-v2/specialty.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Specialty Coatings illustrative photograph"
+      },
+      {
+        "src": "/images/unique-care/story-exterior.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "Out in the elements illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=specialty-coatings&enquiry=I%20would%20like%20to%20enquire%20about%20Specialty%20Coatings.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=specialty-coatings&enquiry=I%20would%20like%20to%20enquire%20about%20Specialty%20Coatings.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/services/stain-resistant-furniture-coating/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/services/stain-resistant-furniture-coating/",
+    "title": "Stain-Resistant Furniture Coating | Eon Coatings",
+    "description": "Protection against spills and stains for sofas, chairs and upholstery.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/services/stain-resistant-furniture-coating/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/services-v2/upholstery.webp",
+        "width": "1536",
+        "height": "1024",
+        "alt": "Stain-Resistant Furniture Coating illustrative photograph"
+      },
+      {
+        "src": "/images/v2/V204-coffee-spill.webp",
+        "width": "1000",
+        "height": "700",
+        "alt": "An everyday spill illustrative photograph",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/service/",
+      "/service-finder/",
+      "/contact-us/?service=stain-resistant-furniture-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Stain-Resistant%20Furniture%20Coating.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/contact-us/?service=stain-resistant-furniture-coating&enquiry=I%20would%20like%20to%20enquire%20about%20Stain-Resistant%20Furniture%20Coating.%0A%0ALocation%3A%0AProperty%20type%3A%0AWhat%20needs%20attention%3A",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/signs-your-facility-needs-professional-antimicrobial-coating-services/",
+    "title": "Signs Your Facility Needs Professional Antimicrobial Coating Services | Eon Coatings",
+    "description": "Maintaining a clean and safe environment is a top priority for businesses across the UAE. From offices and hospitals to hotels and commercial spaces, hygiene\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/signs-your-facility-needs-professional-antimicrobial-coating-services/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/9956587f9c23.png",
+        "alt": "Signs Your Facility Needs Professional Antimicrobial Coating Services",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/success-stories-client-results/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/success-stories-client-results/",
+    "title": "Client Stories & Results | Eon Coatings",
+    "description": "Explore Eon Coatings client stories covering AC care, fabric cleaning and surface protection for homes and commercial premises.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/success-stories-client-results/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/contact-us/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/terms-and-conditions/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/terms-and-conditions/",
+    "title": "Terms & Conditions | Eon Coatings",
+    "description": "Read the terms for using the Eon Coatings website and enquiring about cleaning and protective coating services.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/terms-and-conditions/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/privacy-policy/",
+      "mailto:info@eoncoatings.com",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "main"
+    ]
+  },
+  {
+    "path": "/the-roi-of-duct-cleaning-in-commercial-buildings/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/the-roi-of-duct-cleaning-in-commercial-buildings/",
+    "title": "The ROI of Duct Cleaning in Commercial Buildings | Eon Coatings",
+    "description": "In today\u2019s post-pandemic world, the conversation around workplace hygiene has evolved from a routine concern to a strategic priority. As organizations bring\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/the-roi-of-duct-cleaning-in-commercial-buildings/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "The ROI of Duct Cleaning in Commercial Buildings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/refreshed/meeting-room.webp",
+        "loading": "lazy",
+        "alt": "Meeting room surfaces"
+      },
+      {
+        "src": "/images/refreshed/reception-counter.webp",
+        "loading": "lazy",
+        "alt": "Shared reception counter"
+      },
+      {
+        "src": "/images/refreshed/access-door.webp",
+        "loading": "lazy",
+        "alt": "Door handle and access controls"
+      },
+      {
+        "src": "/images/refreshed/shared-workplace.webp",
+        "loading": "lazy",
+        "alt": "Shared workplace touchpoints"
+      },
+      {
+        "src": "/images/refreshed/restrooms.webp",
+        "loading": "lazy",
+        "alt": "Washroom surfaces"
+      },
+      {
+        "src": "/images/refreshed/microbiology-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/refreshed/surface-hygiene-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/source/07e0366536ae.png",
+        "alt": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "Choosing the Right Fabric Protection for Hospitality",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/media/",
+      "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+      "/choosing-the-right-fabric-protection-for-hospitality/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+    "title": "Top Benefits of Professional AC Sanitisation Service in UAE | Eon Coatings",
+    "description": "In the UAE, air conditioning systems are used almost throughout the year due to high temperatures and humidity. While AC units help keep homes, offices, and\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/top-benefits-of-professional-ac-sanitisation-service-in-uae/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/2154f7bcafc9.png",
+        "alt": "Top Benefits of Professional AC Sanitisation Service in UAE Eon Coatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/ac-duct-cleaning-vs-mold-resistant-coating-which-one-do-you-need/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/",
+    "title": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves | Eon Coatings",
+    "description": "In today\u2019s post-pandemic world, the conversation around workplace hygiene has evolved from a routine concern to a strategic priority. As organizations bring\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/weatherguard-coatings-outdoor-surfaces-that-clean-themselves/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "WeatherGuard Coatings: Outdoor Surfaces That Clean Themselves",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/refreshed/meeting-room.webp",
+        "loading": "lazy",
+        "alt": "Meeting room surfaces"
+      },
+      {
+        "src": "/images/refreshed/reception-counter.webp",
+        "loading": "lazy",
+        "alt": "Shared reception counter"
+      },
+      {
+        "src": "/images/refreshed/access-door.webp",
+        "loading": "lazy",
+        "alt": "Door handle and access controls"
+      },
+      {
+        "src": "/images/refreshed/shared-workplace.webp",
+        "loading": "lazy",
+        "alt": "Shared workplace touchpoints"
+      },
+      {
+        "src": "/images/refreshed/restrooms.webp",
+        "loading": "lazy",
+        "alt": "Washroom surfaces"
+      },
+      {
+        "src": "/images/refreshed/microbiology-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/refreshed/surface-hygiene-concept.webp",
+        "loading": "lazy",
+        "alt": "Conceptual illustration of workplace surface hygiene"
+      },
+      {
+        "src": "/images/source/1e2b6bfb50fb.png",
+        "alt": "Complete Guide to AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/07e0366536ae.png",
+        "alt": "How Hospitals Benefit from Long-Lasting Antimicrobial Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/6bad2e2c2d23.jpg",
+        "alt": "Choosing the Right Fabric Protection for Hospitality",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/media/",
+      "/complete-guide-to-ac-sanitisation-service-in-uae/",
+      "/how-hospitals-benefit-from-long-lasting-antimicrobial-coatings/",
+      "/choosing-the-right-fabric-protection-for-hospitality/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/what-are-antimicrobial-surface-coatings-and-why-are-they-important/",
+    "title": "What Are Antimicrobial Surface Coatings and Why Are They Important? | Eon Coatings",
+    "description": "In today\u2019s world, maintaining clean and hygienic environments is more important than ever, especially in fast-growing regions like the UAE. From homes and\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/what-are-antimicrobial-surface-coatings-and-why-are-they-important/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/7f0af3fdb4cc.png",
+        "alt": "What Are Antimicrobial Surface Coatings and Why Are They Important",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "radix-_R_2kddb_"
+    ]
+  },
+  {
+    "path": "/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/what-is-stain-resistant-furniture-coating-and-how-does-it-work/",
+    "title": "What Is Stain-Resistant Furniture Coating and How Does It Work? | Eon Coatings",
+    "description": "In modern homes, offices, hotels, and commercial spaces across Abu Dhabi and the UAE, furniture is a major investment. From luxury sofas to office desks and\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/what-is-stain-resistant-furniture-coating-and-how-does-it-work/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/fcd0e83ab9b4.png",
+        "alt": "What Is Stain-Resistant Furniture Coating and How Does It Work EonCoatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "/contact-us/",
+      "/",
+      "/service/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "radix-_R_2kddb_"
+    ]
+  },
+  {
+    "path": "/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/",
+    "title": "Why AC Duct Mold-Resistant Coating Is Essential in the UAE Climate | Eon Coatings",
+    "description": "In the UAE, air conditioning systems are not a luxury, they are a necessity. With extreme heat, high humidity levels, and frequent dust, AC systems work\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/why-ac-duct-mold-resistant-coating-is-essential-in-the-uae-climate/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/986e83a033bb.png",
+        "alt": "Why AC Duct Mold-Resistant Coating Is Essential in the UAE Climate",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "/contact-us/",
+      "/",
+      "/antimicrobial-coatings-for-schools-educational-institutions/",
+      "/service/",
+      "/contact-us/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "radix-_R_2kddb_"
+    ]
+  },
+  {
+    "path": "/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/",
+    "title": "Why Hospitals and Clinics Need Antimicrobial Surface Coatings | Eon Coatings",
+    "description": "Hospitals and clinics are places where cleanliness is not just important, it is critical. In Abu Dhabi and across the UAE, healthcare facilities handle a high\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/why-hospitals-and-clinics-need-antimicrobial-surface-coatings/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/7af43f40715d.png",
+        "alt": "Why Hospitals and Clinics Need Antimicrobial Surface Coatings eoncoatings",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "/contact-us/",
+      "/",
+      "https://docs.google.com/document/d/1ysAdzeMBwh-uWo8L4fMALkGSquS6V93MUB_LAh_Zh0A/edit?tab=t.0",
+      "/service/",
+      "/hgpp-certification/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "radix-_R_2kddb_",
+      "_R_",
+      "care-enquiry-title",
+      "main"
+    ]
+  },
+  {
+    "path": "/why-is-regular-ac-sanitisation-important-in-the-uae/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/why-is-regular-ac-sanitisation-important-in-the-uae/",
+    "title": "Why is Regular AC Sanitisation Important in the UAE? | Eon Coatings",
+    "description": "In the UAE, air conditioning systems operate almost every day due to the region\u2019s hot climate. While they keep homes and offices cool, they also collect dust\u2026",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/why-is-regular-ac-sanitisation-important-in-the-uae/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "src": "/images/source/7f4f4922bae2.png",
+        "alt": "Why is Regular AC Sanitisation Important in the UAE",
+        "width": "1400",
+        "height": "780"
+      },
+      {
+        "src": "/images/source/4ef19166b3dc.png",
+        "alt": "How Antimicrobial AC Duct Coatings Improve Indoor Air Quality in Abu Dhabi",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/c4bd9137fb75.png",
+        "alt": "AC Sanitisation",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/source/2154f7bcafc9.png",
+        "alt": "Top Benefits of Professional AC Sanitisation Service in UAE Eon Coatings",
+        "width": "800",
+        "height": "540",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/media/",
+      "#article-section-0",
+      "#article-section-1",
+      "#article-section-2",
+      "#article-section-3",
+      "#article-section-4",
+      "/contact-us/",
+      "/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/service/",
+      "/media/",
+      "/how-antimicrobial-ac-duct-coatings-improve-indoor-air-quality-in-abu-dhabi/",
+      "/how-regular-ac-sanitisation-improves-indoor-air-quality-in-uae/",
+      "/top-benefits-of-professional-ac-sanitisation-service-in-uae/",
+      "/service-finder/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "article-section-0",
+      "article-section-4",
+      "care-enquiry-title",
+      "main",
+      "_R_",
+      "article-section-2",
+      "radix-_R_2kddb_",
+      "article-section-3",
+      "article-section-1"
+    ]
+  },
+  {
+    "path": "/service-finder/",
+    "status": 200,
+    "url": "http://127.0.0.1:5177/?finder=open",
+    "title": "AC Duct Cleaning & Surface Protection | Eon Coatings",
+    "description": "AC duct cleaning, furniture cleaning and protective coatings in Abu Dhabi and across the UAE. Find the right service for your home or workplace.",
+    "robots": "index, follow",
+    "canonical": [
+      "https://eoncoatings.com/"
+    ],
+    "og": "https://eoncoatings.com/images/room/room.webp",
+    "headings": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "images": [
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      },
+      {
+        "class": "eon-explorer-room",
+        "src": "/images/room/room-green.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "1672",
+        "height": "941",
+        "fetchpriority": "high"
+      },
+      {
+        "src": "/images/service-icons-3d/ac-home.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "3D home interior with a wall-mounted AC",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/ac-office-v3.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "3D office with a flush ceiling air vent",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/surface.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Clean countertop with a folded teal cloth",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/fabric.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Teal armchair with an ivory cushion",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/marble.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Cream marble with natural veining",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/cleaning.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Upholstery extraction nozzle on a sofa",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/mattress.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Quilted mattress with a sage throw",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/service-icons-3d/specialty.webp",
+        "width": "480",
+        "height": "480",
+        "alt": "Roller applying protective coating to a wall sample",
+        "decoding": "async"
+      },
+      {
+        "src": "/images/hgpp/certificate-example-clean.svg",
+        "alt": "HealthGuard conformity certificate example",
+        "width": "1200",
+        "height": "1694",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/home-spaces.webp",
+        "alt": "A warm living room opening onto a home workspace",
+        "aria-hidden": "false",
+        "class": "is-selected",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-office.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-clinic.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/finder-v3/education.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/unique-care/industry-hotel-empty.webp",
+        "alt": "",
+        "aria-hidden": "true",
+        "class": "",
+        "width": "1536",
+        "height": "1024",
+        "loading": "lazy"
+      },
+      {
+        "src": "/images/eon-logo.png",
+        "alt": "Eon Coatings",
+        "width": "130",
+        "height": "60"
+      }
+    ],
+    "links": [
+      "#main",
+      "/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/service-finder/",
+      "/service-finder/",
+      "/service/",
+      "/services/ac-duct-mold-resistant-coating/",
+      "/services/office-ac-duct-care/",
+      "/services/antimicrobial-surface-coating/",
+      "/services/stain-resistant-furniture-coating/",
+      "/services/marble-protective-coatings/",
+      "/services/deep-cleaning-of-carpets-furniture/",
+      "/services/mattress-cleaning-and-sanitization/",
+      "/services/specialty-coatings/",
+      "/hgpp-certification/",
+      "/service/",
+      "/contact-us/",
+      "/",
+      "/contact-us/",
+      "tel:+97125639468",
+      "mailto:info@eoncoatings.com",
+      "/service-finder/",
+      "/",
+      "/service/",
+      "/industry/",
+      "/hgpp-certification/",
+      "/about-us/",
+      "/contact-us/",
+      "/media/",
+      "/success-stories-client-results/",
+      "https://www.linkedin.com/company/eon-coatings/",
+      "https://www.instagram.com/eoncoatings/",
+      "https://www.facebook.com/share/1DGkKVpxqV/?mibextid=wwXIfr",
+      "/privacy-policy/",
+      "/terms-and-conditions/"
+    ],
+    "ids": [
+      "home-spaces-title",
+      "service-overview-title",
+      "why-eon",
+      "main",
+      "spaces-photo-stage",
+      "services",
+      "_R_",
+      "radix-_R_2kddb_",
+      "care-reasons-title",
+      "spaces-we-care-for"
+    ]
+  }
+]

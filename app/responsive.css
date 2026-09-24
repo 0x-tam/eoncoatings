@@ -103,3 +103,16 @@
 .finder-notes textarea{display:block;box-sizing:border-box;width:100%;min-height:104px;resize:vertical;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;font-size:16px;line-height:1.5}
 .finder-notes textarea:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .finder-notes p{font-size:12px!important;line-height:1.5!important;margin:8px 0 0!important;opacity:.75}
+
+/* Keep long editorial text, links and form rows within small viewports. */
+.prose,.article-byline,.page-description,.service-guide-grid>article{overflow-wrap:anywhere}
+.article-services nav{display:flex;flex-wrap:wrap;gap:16px 32px;margin-top:20px}
+@media(max-width:600px){
+ .archive-tools{min-width:0;grid-template-columns:minmax(0,1fr)}
+ .archive-tools input{max-width:100%;font-size:16px}
+ .filter-buttons{flex-wrap:wrap}
+ .reading-layout>article,.reading-layout>aside,.contact-layout>*{min-width:0}
+ .prose img{max-width:100%;height:auto}
+ .prose table{display:block;max-width:100%;overflow-x:auto}
+ .journey-nav{flex-wrap:wrap;row-gap:10px}
+}

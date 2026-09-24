@@ -3,7 +3,7 @@ import Link from '@/components/eon/PageLink';
 import { useState } from 'react';
 import {cleanText,dateLabel,recordPath} from '@/lib/eon/public-format';
 import type {ContentRecord} from '@/lib/eon/content-types';
-export default function MediaIndex({articles,initialQuery="",initialCategory="All",initialLimit=9}:{articles:ContentRecord[];initialQuery?:string;initialCategory?:string;initialLimit?:number}){
+export default function MediaIndex({articles,initialQuery="",initialCategory="All",initialLimit=9}:{articles:Pick<ContentRecord,'id'|'title'|'date'|'url'|'categories'|'contentText'|'featuredMedia'>[];initialQuery?:string;initialCategory?:string;initialLimit?:number}){
  const [query,setQuery]=useState(initialQuery),[category,setCategory]=useState(initialCategory),[limit,setLimit]=useState(initialLimit);
  const cats=['All',...Array.from(new Set(articles.flatMap(a=>a.categories.map(c=>c.name))))];
  function change(q:string,c:string,n=9){setQuery(q);setCategory(c);setLimit(n);const params=new URLSearchParams();if(q)params.set('q',q);if(c!=='All')params.set('category',c);if(n!==9)params.set('limit',String(n));history.replaceState(null,'',`/media/${params.size?'?'+params:''}`);}

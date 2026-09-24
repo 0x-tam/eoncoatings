@@ -46,6 +46,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
     const image = new Image();
     image.decoding = 'async';
+    image.fetchPriority = src.includes('/room/') ? 'high' : 'low';
     image.onload = () => {
       image.onload = null;
       image.onerror = null;

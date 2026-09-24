@@ -1,0 +1,51 @@
+{
+  "stage": "After moving static HomeCare out of the client bundle",
+  "chunks": [
+    {
+      "url": "/_next/static/chunks/c7879cf7-89704ad83f4659cd.js",
+      "bytes": 199863,
+      "gzipBytes": 62745
+    },
+    {
+      "url": "/_next/static/chunks/158-8a58aa55f35b2312.js",
+      "bytes": 222252,
+      "gzipBytes": 60219
+    },
+    {
+      "url": "/_next/static/chunks/282-a955b7eac11759c1.js",
+      "bytes": 55124,
+      "gzipBytes": 17271
+    },
+    {
+      "url": "/_next/static/chunks/main-app-70f54871b89caa56.js",
+      "bytes": 514,
+      "gzipBytes": 223
+    },
+    {
+      "url": "/_next/static/chunks/app/layout-bd463b976f9aabfc.js",
+      "bytes": 44313,
+      "gzipBytes": 13736
+    },
+    {
+      "url": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "gzipBytes": 39373
+    },
+    {
+      "url": "/_next/static/chunks/585-f1f65060ec6c5d93.js",
+      "bytes": 76767,
+      "gzipBytes": 26579
+    },
+    {
+      "url": "/_next/static/chunks/webpack-f6241a9eb81879fb.js",
+      "bytes": 3358,
+      "gzipBytes": 1687
+    },
+    {
+      "url": "/_next/static/chunks/app/page-e05e71bed1f53770.js",
+      "bytes": 23261,
+      "gzipBytes": 8852
+    }
+  ],
+  "totalGzipBytes": 230685
+}

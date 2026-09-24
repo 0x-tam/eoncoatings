@@ -1,0 +1,1207 @@
+[
+  {
+    "file": "public/images/A01-duct-hero.webp",
+    "before": 99740,
+    "after": 82304
+  },
+  {
+    "file": "public/images/A02-duct-interior.webp",
+    "before": 272322,
+    "after": 236604
+  },
+  {
+    "file": "public/images/A03-residential-room.webp",
+    "before": 227758,
+    "after": 183500
+  },
+  {
+    "file": "public/images/A04-commercial-lounge.webp",
+    "before": 222250,
+    "after": 172146
+  },
+  {
+    "file": "public/images/A06-metal-handle.webp",
+    "before": 111386,
+    "after": 87472
+  },
+  {
+    "file": "public/images/A07-woven-upholstery.webp",
+    "before": 307178,
+    "after": 255766
+  },
+  {
+    "file": "public/images/A08-marble-countertop.webp",
+    "before": 118018,
+    "after": 94210
+  },
+  {
+    "file": "public/images/A09-carpet-interior.webp",
+    "before": 282596,
+    "after": 244354
+  },
+  {
+    "file": "public/images/A10-mattress-bedroom.webp",
+    "before": 195448,
+    "after": 148602
+  },
+  {
+    "file": "public/images/A11-stone-facade.webp",
+    "before": 212608,
+    "after": 162650
+  },
+  {
+    "file": "public/images/A12-ceiling-diffuser.webp",
+    "before": 87506,
+    "after": 65186
+  },
+  {
+    "file": "public/images/T01-desktop-target.webp",
+    "before": 130130,
+    "after": 107756
+  },
+  {
+    "file": "public/images/T02-mobile-target.webp",
+    "before": 120714,
+    "after": 101264
+  },
+  {
+    "file": "public/images/T03-exploded-duct-target.webp",
+    "before": 141374,
+    "after": 114958
+  },
+  {
+    "file": "public/images/authentic/6067-health-certificate.png",
+    "before": 2013173,
+    "after": 651549
+  },
+  {
+    "file": "public/images/authentic/healthguard-badge-original.png",
+    "before": 212917,
+    "after": 79324
+  },
+  {
+    "file": "public/images/campaign/ac-care-action.webp",
+    "before": 112080,
+    "after": 91770
+  },
+  {
+    "file": "public/images/campaign/ac-care-ladder.webp",
+    "before": 179002,
+    "after": 144596
+  },
+  {
+    "file": "public/images/campaign/air-1280.webp",
+    "before": 49466,
+    "after": 43818
+  },
+  {
+    "file": "public/images/campaign/air.webp",
+    "before": 66990,
+    "after": 58040
+  },
+  {
+    "file": "public/images/campaign/fabric.webp",
+    "before": 90308,
+    "after": 61234
+  },
+  {
+    "file": "public/images/campaign/marble-1280.webp",
+    "before": 56572,
+    "after": 49814
+  },
+  {
+    "file": "public/images/campaign/marble.webp",
+    "before": 74042,
+    "after": 65372
+  },
+  {
+    "file": "public/images/campaign/stone.webp",
+    "before": 161368,
+    "after": 88038
+  },
+  {
+    "file": "public/images/campaign/surface-1280.webp",
+    "before": 57218,
+    "after": 50558
+  },
+  {
+    "file": "public/images/campaign/surface.webp",
+    "before": 75200,
+    "after": 67568
+  },
+  {
+    "file": "public/images/contact/private-corporate-v2.webp",
+    "before": 433310,
+    "after": 285806
+  },
+  {
+    "file": "public/images/contact/private-corporate.webp",
+    "before": 448892,
+    "after": 289396
+  },
+  {
+    "file": "public/images/contact/whole-space.webp",
+    "before": 484608,
+    "after": 318960
+  },
+  {
+    "file": "public/images/continuous-zoom/air-tile.webp",
+    "before": 316506,
+    "after": 127300
+  },
+  {
+    "file": "public/images/continuous-zoom/duct-internal-v2.webp",
+    "before": 510004,
+    "after": 250286
+  },
+  {
+    "file": "public/images/continuous-zoom/fabric-detail-v2.webp",
+    "before": 965208,
+    "after": 544524
+  },
+  {
+    "file": "public/images/continuous-zoom/fabric-green.webp",
+    "before": 612766,
+    "after": 489462
+  },
+  {
+    "file": "public/images/continuous-zoom/fabric-tile.webp",
+    "before": 965208,
+    "after": 544524
+  },
+  {
+    "file": "public/images/continuous-zoom/room.webp",
+    "before": 443112,
+    "after": 194802
+  },
+  {
+    "file": "public/images/continuous-zoom/stone-detail-v2.webp",
+    "before": 561418,
+    "after": 347364
+  },
+  {
+    "file": "public/images/continuous-zoom/stone-tile.webp",
+    "before": 661218,
+    "after": 282854
+  },
+  {
+    "file": "public/images/finder-v3/ac-odour.webp",
+    "before": 231694,
+    "after": 116136
+  },
+  {
+    "file": "public/images/finder-v3/carpet-and-rug.webp",
+    "before": 116838,
+    "after": 96094
+  },
+  {
+    "file": "public/images/finder-v3/duct-coating.webp",
+    "before": 74944,
+    "after": 62634
+  },
+  {
+    "file": "public/images/finder-v3/education.webp",
+    "before": 165096,
+    "after": 133782
+  },
+  {
+    "file": "public/images/finder-v3/exterior-protection.webp",
+    "before": 355456,
+    "after": 171664
+  },
+  {
+    "file": "public/images/finder-v3/fabric-odour.webp",
+    "before": 394266,
+    "after": 200218
+  },
+  {
+    "file": "public/images/finder-v3/few-mattresses.webp",
+    "before": 96596,
+    "after": 75566
+  },
+  {
+    "file": "public/images/finder-v3/many-mattresses.webp",
+    "before": 86846,
+    "after": 72182
+  },
+  {
+    "file": "public/images/finder-v3/mixed-ac.webp",
+    "before": 55310,
+    "after": 45236
+  },
+  {
+    "file": "public/images/finder-v3/never-service.webp",
+    "before": 120154,
+    "after": 96932
+  },
+  {
+    "file": "public/images/finder-v3/older-service.webp",
+    "before": 85194,
+    "after": 69980
+  },
+  {
+    "file": "public/images/finder-v3/one-mattress.webp",
+    "before": 80938,
+    "after": 64004
+  },
+  {
+    "file": "public/images/finder-v3/recent-service.webp",
+    "before": 224804,
+    "after": 110632
+  },
+  {
+    "file": "public/images/finder-v3/routine-ac.webp",
+    "before": 258822,
+    "after": 135540
+  },
+  {
+    "file": "public/images/finder/bathroom.webp",
+    "before": 77280,
+    "after": 62300
+  },
+  {
+    "file": "public/images/finder/clinic.webp",
+    "before": 47140,
+    "after": 36860
+  },
+  {
+    "file": "public/images/finder/coast.webp",
+    "before": 124764,
+    "after": 103688
+  },
+  {
+    "file": "public/images/finder/concrete.webp",
+    "before": 78438,
+    "after": 53794
+  },
+  {
+    "file": "public/images/finder/dirt.webp",
+    "before": 107702,
+    "after": 89728
+  },
+  {
+    "file": "public/images/finder/fabric-dust.webp",
+    "before": 103368,
+    "after": 89280
+  },
+  {
+    "file": "public/images/finder/fabric-protection.webp",
+    "before": 92800,
+    "after": 77684
+  },
+  {
+    "file": "public/images/finder/fabric-stain.webp",
+    "before": 124714,
+    "after": 106044
+  },
+  {
+    "file": "public/images/finder/glass.webp",
+    "before": 94502,
+    "after": 78464
+  },
+  {
+    "file": "public/images/finder/kitchen.webp",
+    "before": 62860,
+    "after": 50582
+  },
+  {
+    "file": "public/images/finder/leather.webp",
+    "before": 62602,
+    "after": 50174
+  },
+  {
+    "file": "public/images/finder/linen.webp",
+    "before": 100622,
+    "after": 83572
+  },
+  {
+    "file": "public/images/finder/masonry.webp",
+    "before": 133224,
+    "after": 112264
+  },
+  {
+    "file": "public/images/finder/metal.webp",
+    "before": 51896,
+    "after": 40188
+  },
+  {
+    "file": "public/images/finder/moisture.webp",
+    "before": 23420,
+    "after": 17680
+  },
+  {
+    "file": "public/images/finder/office.webp",
+    "before": 85480,
+    "after": 71160
+  },
+  {
+    "file": "public/images/finder/rain.webp",
+    "before": 103150,
+    "after": 86866
+  },
+  {
+    "file": "public/images/finder/rug.webp",
+    "before": 135026,
+    "after": 110220
+  },
+  {
+    "file": "public/images/finder/soiling.webp",
+    "before": 99082,
+    "after": 82344
+  },
+  {
+    "file": "public/images/finder/split-ac.webp",
+    "before": 32402,
+    "after": 25676
+  },
+  {
+    "file": "public/images/finder/stone-spill.webp",
+    "before": 57530,
+    "after": 47244
+  },
+  {
+    "file": "public/images/finder/synthetic.webp",
+    "before": 154636,
+    "after": 131660
+  },
+  {
+    "file": "public/images/finder/tile.webp",
+    "before": 41732,
+    "after": 32838
+  },
+  {
+    "file": "public/images/finder/wear.webp",
+    "before": 50536,
+    "after": 38354
+  },
+  {
+    "file": "public/images/finder/weathering.webp",
+    "before": 97614,
+    "after": 83516
+  },
+  {
+    "file": "public/images/hgpp/badge-realistic-v4.webp",
+    "before": 412454,
+    "after": 144276
+  },
+  {
+    "file": "public/images/hgpp/certificate-flat.png",
+    "before": 1616778,
+    "after": 765834
+  },
+  {
+    "file": "public/images/hgpp/plaque-realistic-v4.webp",
+    "before": 246174,
+    "after": 91016
+  },
+  {
+    "file": "public/images/refreshed/access-door.webp",
+    "before": 1379896,
+    "after": 129902
+  },
+  {
+    "file": "public/images/refreshed/clinic-working-v3.webp",
+    "before": 291260,
+    "after": 130584
+  },
+  {
+    "file": "public/images/refreshed/hotel-working-v3.webp",
+    "before": 378158,
+    "after": 165596
+  },
+  {
+    "file": "public/images/refreshed/meeting-room.webp",
+    "before": 1895306,
+    "after": 196620
+  },
+  {
+    "file": "public/images/refreshed/microbiology-concept.webp",
+    "before": 1260778,
+    "after": 86672
+  },
+  {
+    "file": "public/images/refreshed/office-working-v3.webp",
+    "before": 416774,
+    "after": 213356
+  },
+  {
+    "file": "public/images/refreshed/reception-counter.webp",
+    "before": 1452302,
+    "after": 112238
+  },
+  {
+    "file": "public/images/refreshed/restrooms.webp",
+    "before": 1471874,
+    "after": 104368
+  },
+  {
+    "file": "public/images/refreshed/school-working-v3.webp",
+    "before": 288144,
+    "after": 136894
+  },
+  {
+    "file": "public/images/refreshed/shared-workplace.webp",
+    "before": 1299856,
+    "after": 107904
+  },
+  {
+    "file": "public/images/refreshed/sofa-care-comparison.webp",
+    "before": 1821170,
+    "after": 242924
+  },
+  {
+    "file": "public/images/refreshed/surface-hygiene-concept.webp",
+    "before": 1405674,
+    "after": 127440
+  },
+  {
+    "file": "public/images/responsive/ac-480.webp",
+    "before": 12540,
+    "after": 10574
+  },
+  {
+    "file": "public/images/responsive/ac-800.webp",
+    "before": 26630,
+    "after": 21752
+  },
+  {
+    "file": "public/images/responsive/antimicrobial-480.webp",
+    "before": 16762,
+    "after": 13518
+  },
+  {
+    "file": "public/images/responsive/antimicrobial-800.webp",
+    "before": 35208,
+    "after": 26856
+  },
+  {
+    "file": "public/images/responsive/cleaning-480.webp",
+    "before": 37844,
+    "after": 31212
+  },
+  {
+    "file": "public/images/responsive/cleaning-800.webp",
+    "before": 86792,
+    "after": 72864
+  },
+  {
+    "file": "public/images/responsive/marble-480.webp",
+    "before": 34482,
+    "after": 28966
+  },
+  {
+    "file": "public/images/responsive/marble-800.webp",
+    "before": 80274,
+    "after": 66804
+  },
+  {
+    "file": "public/images/responsive/mattress-480.webp",
+    "before": 23890,
+    "after": 19444
+  },
+  {
+    "file": "public/images/responsive/mattress-800.webp",
+    "before": 52106,
+    "after": 42026
+  },
+  {
+    "file": "public/images/responsive/specialty-480.webp",
+    "before": 26186,
+    "after": 21916
+  },
+  {
+    "file": "public/images/responsive/specialty-800.webp",
+    "before": 61888,
+    "after": 52888
+  },
+  {
+    "file": "public/images/responsive/upholstery-480.webp",
+    "before": 33348,
+    "after": 27272
+  },
+  {
+    "file": "public/images/responsive/upholstery-800.webp",
+    "before": 84762,
+    "after": 70360
+  },
+  {
+    "file": "public/images/restored/Group-106.png",
+    "dest": "public/images/restored/Group-106.webp",
+    "before": 565401,
+    "after": 51984,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/Multi-surface-sticker-300x295.png",
+    "before": 65767,
+    "after": 57743
+  },
+  {
+    "file": "public/images/restored/counter.png",
+    "dest": "public/images/restored/counter.webp",
+    "before": 124303,
+    "after": 11344,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/elevator.png",
+    "dest": "public/images/restored/elevator.webp",
+    "before": 100072,
+    "after": 6798,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/healthguard-institute-213x300.jpg",
+    "before": 21114,
+    "after": 15583
+  },
+  {
+    "file": "public/images/restored/healthguard-protection-225x300.jpg",
+    "before": 15814,
+    "after": 11748
+  },
+  {
+    "file": "public/images/restored/meeting-room.png",
+    "dest": "public/images/restored/meeting-room.webp",
+    "before": 199780,
+    "after": 21190,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/restrooms.png",
+    "dest": "public/images/restored/restrooms.webp",
+    "before": 148010,
+    "after": 9756,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/result01.png",
+    "dest": "public/images/restored/result01.webp",
+    "before": 341570,
+    "after": 30096,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/result02.png",
+    "dest": "public/images/restored/result02.webp",
+    "before": 312827,
+    "after": 22884,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/shared_img.png",
+    "dest": "public/images/restored/shared_img.webp",
+    "before": 117728,
+    "after": 10882,
+    "converted": true
+  },
+  {
+    "file": "public/images/restored/userimg.png",
+    "before": 14772,
+    "after": 5876
+  },
+  {
+    "file": "public/images/room/duct.webp",
+    "before": 423716,
+    "after": 216696
+  },
+  {
+    "file": "public/images/room/fabric.webp",
+    "before": 670848,
+    "after": 383498
+  },
+  {
+    "file": "public/images/room/microbes.webp",
+    "before": 546688,
+    "after": 295624
+  },
+  {
+    "file": "public/images/room/room-green.webp",
+    "before": 260944,
+    "after": 210866
+  },
+  {
+    "file": "public/images/room/room.webp",
+    "before": 400726,
+    "after": 209252
+  },
+  {
+    "file": "public/images/room/stone.webp",
+    "before": 369086,
+    "after": 174028
+  },
+  {
+    "file": "public/images/service-icons-3d/specialty.webp",
+    "before": 17724,
+    "after": 15576
+  },
+  {
+    "file": "public/images/services-v2/ac-480.webp",
+    "before": 12540,
+    "after": 10574
+  },
+  {
+    "file": "public/images/services-v2/ac-768.webp",
+    "before": 24826,
+    "after": 20548
+  },
+  {
+    "file": "public/images/services-v2/ac-800.webp",
+    "before": 26630,
+    "after": 21752
+  },
+  {
+    "file": "public/images/services-v2/ac.webp",
+    "before": 124102,
+    "after": 60412
+  },
+  {
+    "file": "public/images/services-v2/antimicrobial-480.webp",
+    "before": 16762,
+    "after": 13518
+  },
+  {
+    "file": "public/images/services-v2/antimicrobial-768.webp",
+    "before": 32998,
+    "after": 25998
+  },
+  {
+    "file": "public/images/services-v2/antimicrobial-800.webp",
+    "before": 35208,
+    "after": 26856
+  },
+  {
+    "file": "public/images/services-v2/antimicrobial.webp",
+    "before": 143754,
+    "after": 74148
+  },
+  {
+    "file": "public/images/services-v2/cleaning-480.webp",
+    "before": 37844,
+    "after": 31212
+  },
+  {
+    "file": "public/images/services-v2/cleaning-768.webp",
+    "before": 80722,
+    "after": 68654
+  },
+  {
+    "file": "public/images/services-v2/cleaning-800.webp",
+    "before": 86792,
+    "after": 72864
+  },
+  {
+    "file": "public/images/services-v2/cleaning.webp",
+    "before": 282924,
+    "after": 172730
+  },
+  {
+    "file": "public/images/services-v2/marble-480.webp",
+    "before": 34482,
+    "after": 28966
+  },
+  {
+    "file": "public/images/services-v2/marble-768.webp",
+    "before": 74602,
+    "after": 62914
+  },
+  {
+    "file": "public/images/services-v2/marble-800.webp",
+    "before": 80274,
+    "after": 66804
+  },
+  {
+    "file": "public/images/services-v2/marble.webp",
+    "before": 294156,
+    "after": 186978
+  },
+  {
+    "file": "public/images/services-v2/mattress-480.webp",
+    "before": 23890,
+    "after": 19444
+  },
+  {
+    "file": "public/images/services-v2/mattress-768.webp",
+    "before": 48644,
+    "after": 40876
+  },
+  {
+    "file": "public/images/services-v2/mattress-800.webp",
+    "before": 52106,
+    "after": 42026
+  },
+  {
+    "file": "public/images/services-v2/mattress.webp",
+    "before": 196250,
+    "after": 107050
+  },
+  {
+    "file": "public/images/services-v2/specialty-480.webp",
+    "before": 26186,
+    "after": 21916
+  },
+  {
+    "file": "public/images/services-v2/specialty-768.webp",
+    "before": 58356,
+    "after": 48490
+  },
+  {
+    "file": "public/images/services-v2/specialty-800.webp",
+    "before": 61888,
+    "after": 52888
+  },
+  {
+    "file": "public/images/services-v2/specialty.webp",
+    "before": 242306,
+    "after": 147734
+  },
+  {
+    "file": "public/images/services-v2/upholstery-480.webp",
+    "before": 33348,
+    "after": 27272
+  },
+  {
+    "file": "public/images/services-v2/upholstery-768.webp",
+    "before": 79976,
+    "after": 65024
+  },
+  {
+    "file": "public/images/services-v2/upholstery-800.webp",
+    "before": 84762,
+    "after": 70360
+  },
+  {
+    "file": "public/images/services-v2/upholstery.webp",
+    "before": 352726,
+    "after": 214672
+  },
+  {
+    "file": "public/images/source/07e0366536ae.png",
+    "dest": "public/images/source/07e0366536ae.webp",
+    "before": 669592,
+    "after": 118056,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/1719c09ec44a.png",
+    "dest": "public/images/source/1719c09ec44a.webp",
+    "before": 1788745,
+    "after": 127998,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/1e2b6bfb50fb.png",
+    "dest": "public/images/source/1e2b6bfb50fb.webp",
+    "before": 478816,
+    "after": 191950,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/2154f7bcafc9.png",
+    "dest": "public/images/source/2154f7bcafc9.webp",
+    "before": 383054,
+    "after": 113574,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/224e4ebbec70.jpg",
+    "before": 15814,
+    "after": 11748
+  },
+  {
+    "file": "public/images/source/2a22e05ae581.png",
+    "dest": "public/images/source/2a22e05ae581.webp",
+    "before": 1779989,
+    "after": 140912,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/32ba4cea545d.png",
+    "dest": "public/images/source/32ba4cea545d.webp",
+    "before": 578939,
+    "after": 225452,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/4ef19166b3dc.png",
+    "dest": "public/images/source/4ef19166b3dc.webp",
+    "before": 467422,
+    "after": 104766,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/6bad2e2c2d23.jpg",
+    "before": 85854,
+    "after": 75565
+  },
+  {
+    "file": "public/images/source/7af43f40715d.png",
+    "dest": "public/images/source/7af43f40715d.webp",
+    "before": 1860413,
+    "after": 142954,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/7f0af3fdb4cc.png",
+    "dest": "public/images/source/7f0af3fdb4cc.webp",
+    "before": 597469,
+    "after": 168100,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/7f4f4922bae2.png",
+    "dest": "public/images/source/7f4f4922bae2.webp",
+    "before": 442320,
+    "after": 149336,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/9146284f416c.jpg",
+    "before": 21114,
+    "after": 15583
+  },
+  {
+    "file": "public/images/source/986e83a033bb.png",
+    "dest": "public/images/source/986e83a033bb.webp",
+    "before": 760101,
+    "after": 175428,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/9956587f9c23.png",
+    "dest": "public/images/source/9956587f9c23.webp",
+    "before": 642406,
+    "after": 189368,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/a5531267b197.png",
+    "dest": "public/images/source/a5531267b197.webp",
+    "before": 582017,
+    "after": 127274,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/c4bd9137fb75.png",
+    "dest": "public/images/source/c4bd9137fb75.webp",
+    "before": 974495,
+    "after": 170874,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/c6d8e0be4eda.png",
+    "before": 65767,
+    "after": 57743
+  },
+  {
+    "file": "public/images/source/d536b373d74c.png",
+    "dest": "public/images/source/d536b373d74c.webp",
+    "before": 347706,
+    "after": 85336,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/d8edb1672f4a.png",
+    "dest": "public/images/source/d8edb1672f4a.webp",
+    "before": 1834008,
+    "after": 90786,
+    "converted": true
+  },
+  {
+    "file": "public/images/source/fcd0e83ab9b4.png",
+    "dest": "public/images/source/fcd0e83ab9b4.webp",
+    "before": 555394,
+    "after": 171332,
+    "converted": true
+  },
+  {
+    "file": "public/images/surface-refinement/stone-micro.webp",
+    "before": 730930,
+    "after": 314748
+  },
+  {
+    "file": "public/images/surface-refinement/surface-application.webp",
+    "before": 229542,
+    "after": 113508
+  },
+  {
+    "file": "public/images/unique-care/about-team.webp",
+    "before": 307828,
+    "after": 160396
+  },
+  {
+    "file": "public/images/unique-care/clinic-air.webp",
+    "before": 103362,
+    "after": 81110
+  },
+  {
+    "file": "public/images/unique-care/clinic-fabric.webp",
+    "before": 194300,
+    "after": 154190
+  },
+  {
+    "file": "public/images/unique-care/clinic-hero.webp",
+    "before": 204804,
+    "after": 153308
+  },
+  {
+    "file": "public/images/unique-care/clinic-surface.webp",
+    "before": 126814,
+    "after": 84228
+  },
+  {
+    "file": "public/images/unique-care/collection-air.webp",
+    "before": 247102,
+    "after": 192026
+  },
+  {
+    "file": "public/images/unique-care/collection-cleaning.webp",
+    "before": 344742,
+    "after": 269754
+  },
+  {
+    "file": "public/images/unique-care/collection-exterior.webp",
+    "before": 322646,
+    "after": 150354
+  },
+  {
+    "file": "public/images/unique-care/collection-fabric.webp",
+    "before": 291272,
+    "after": 242076
+  },
+  {
+    "file": "public/images/unique-care/collection-marble.webp",
+    "before": 148400,
+    "after": 113988
+  },
+  {
+    "file": "public/images/unique-care/collection-mattress.webp",
+    "before": 182456,
+    "after": 144252
+  },
+  {
+    "file": "public/images/unique-care/collection-surface.webp",
+    "before": 299440,
+    "after": 140390
+  },
+  {
+    "file": "public/images/unique-care/home-air.webp",
+    "before": 169570,
+    "after": 135446
+  },
+  {
+    "file": "public/images/unique-care/home-spaces.webp",
+    "before": 197756,
+    "after": 150800
+  },
+  {
+    "file": "public/images/unique-care/hotel-air.webp",
+    "before": 150098,
+    "after": 103980
+  },
+  {
+    "file": "public/images/unique-care/hotel-fabric.webp",
+    "before": 358986,
+    "after": 286278
+  },
+  {
+    "file": "public/images/unique-care/hotel-hero.webp",
+    "before": 284398,
+    "after": 210742
+  },
+  {
+    "file": "public/images/unique-care/hotel-marble.webp",
+    "before": 179358,
+    "after": 139052
+  },
+  {
+    "file": "public/images/unique-care/hotel-mattress.webp",
+    "before": 274226,
+    "after": 216246
+  },
+  {
+    "file": "public/images/unique-care/index-air.webp",
+    "before": 56602,
+    "after": 45560
+  },
+  {
+    "file": "public/images/unique-care/index-cleaning.webp",
+    "before": 216292,
+    "after": 173638
+  },
+  {
+    "file": "public/images/unique-care/index-duct.webp",
+    "before": 278298,
+    "after": 230084
+  },
+  {
+    "file": "public/images/unique-care/index-exterior.webp",
+    "before": 362328,
+    "after": 298248
+  },
+  {
+    "file": "public/images/unique-care/index-fabric.webp",
+    "before": 293512,
+    "after": 239588
+  },
+  {
+    "file": "public/images/unique-care/index-marble.webp",
+    "before": 232574,
+    "after": 192680
+  },
+  {
+    "file": "public/images/unique-care/index-mattress.webp",
+    "before": 269912,
+    "after": 209714
+  },
+  {
+    "file": "public/images/unique-care/index-surface.webp",
+    "before": 248490,
+    "after": 111698
+  },
+  {
+    "file": "public/images/unique-care/industry-clinic.webp",
+    "before": 133682,
+    "after": 97814
+  },
+  {
+    "file": "public/images/unique-care/industry-hero.webp",
+    "before": 345558,
+    "after": 269560
+  },
+  {
+    "file": "public/images/unique-care/industry-hotel-empty.webp",
+    "before": 349962,
+    "after": 234218
+  },
+  {
+    "file": "public/images/unique-care/industry-hotel.webp",
+    "before": 349962,
+    "after": 234218
+  },
+  {
+    "file": "public/images/unique-care/industry-office.webp",
+    "before": 246060,
+    "after": 205008
+  },
+  {
+    "file": "public/images/unique-care/office-air.webp",
+    "before": 215830,
+    "after": 177458
+  },
+  {
+    "file": "public/images/unique-care/office-fabric.webp",
+    "before": 270926,
+    "after": 226582
+  },
+  {
+    "file": "public/images/unique-care/office-hero.webp",
+    "before": 241618,
+    "after": 185988
+  },
+  {
+    "file": "public/images/unique-care/office-surface.webp",
+    "before": 125278,
+    "after": 98510
+  },
+  {
+    "file": "public/images/unique-care/school-air.webp",
+    "before": 96956,
+    "after": 68058
+  },
+  {
+    "file": "public/images/unique-care/school-fabric.webp",
+    "before": 264374,
+    "after": 208256
+  },
+  {
+    "file": "public/images/unique-care/school-hero.webp",
+    "before": 206482,
+    "after": 163980
+  },
+  {
+    "file": "public/images/unique-care/school-surface.webp",
+    "before": 117650,
+    "after": 92780
+  },
+  {
+    "file": "public/images/unique-care/story-air.webp",
+    "before": 192046,
+    "after": 147080
+  },
+  {
+    "file": "public/images/unique-care/story-exterior.webp",
+    "before": 397292,
+    "after": 329284
+  },
+  {
+    "file": "public/images/unique-care/story-handle.webp",
+    "before": 68276,
+    "after": 53540
+  },
+  {
+    "file": "public/images/unique-care/story-marble.webp",
+    "before": 141944,
+    "after": 112448
+  },
+  {
+    "file": "public/images/v2/V201-residential-hero.webp",
+    "before": 309312,
+    "after": 215576
+  },
+  {
+    "file": "public/images/v2/V202-stone-water-detail.webp",
+    "before": 228832,
+    "after": 170946
+  },
+  {
+    "file": "public/images/v2/V203-hospitality-lounge.webp",
+    "before": 322146,
+    "after": 234692
+  },
+  {
+    "file": "public/images/v2/V204-coffee-spill.webp",
+    "before": 331736,
+    "after": 247426
+  },
+  {
+    "file": "public/images/v2/V205-bronze-touchpoint.webp",
+    "before": 184708,
+    "after": 121828
+  },
+  {
+    "file": "public/images/v2/V206-carpet-extraction.webp",
+    "before": 255060,
+    "after": 193724
+  },
+  {
+    "file": "public/images/v2/V207-mattress-care.webp",
+    "before": 275798,
+    "after": 180162
+  },
+  {
+    "file": "public/images/zoom-v3/duct-closed.webp",
+    "before": 172858,
+    "after": 85860
+  },
+  {
+    "file": "public/images/zoom-v3/duct-open.webp",
+    "before": 280564,
+    "after": 117712
+  },
+  {
+    "file": "public/images/zoom-v3/fabric-macro-green.webp",
+    "before": 376330,
+    "after": 326142
+  },
+  {
+    "file": "public/images/zoom-v3/fabric-macro.webp",
+    "before": 529796,
+    "after": 376094
+  },
+  {
+    "file": "public/images/zoom-v4/stone-traces.webp",
+    "before": 562070,
+    "after": 258844
+  }
+]
