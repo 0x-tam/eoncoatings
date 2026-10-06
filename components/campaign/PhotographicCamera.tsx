@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import {createDuctMotion} from './duct-motion';
 
 type Material = 'air' | 'fabric' | 'stone';
 type Props = {
@@ -126,6 +127,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       return;
     }
     const ctx = context;
+    const duct=createDuctMotion(ctx);
+    let ductFrame=0,ductAge=0,ductLast=0,ductPaint=0;
     const assets: Assets = {};
     const surfaces: Surface[] = [];
     const bitmaps: ImageBitmap[] = [];
@@ -262,10 +265,13 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         const deepScale = Math.max(viewWidth / nativeWidth, height / nativeHeight) * rearZoom;
         const deepWidth = nativeWidth * deepScale;
         const deepHeight = nativeHeight * deepScale;
-        ctx.drawImage(deep, viewLeft + (viewWidth - deepWidth) / 2, (height - deepHeight) / 2, deepWidth, deepHeight);
+        const deepLeft=viewLeft+(viewWidth-deepWidth)/2,deepTop=(height-deepHeight)/2;
+        ctx.drawImage(deep,deepLeft,deepTop,deepWidth,deepHeight);
+        duct.draw(reduced()?6:ductAge,deepLeft,deepTop,deepWidth,deepHeight);
         ctx.restore();
       }
 
+      canvas.dataset.ductEffectAge=ductAge.toFixed(3);
       canvas.dataset.cameraProgress = progress.toFixed(5);
       canvas.dataset.cameraMaterial = material ?? 'overview';
       canvas.dataset.cameraFlight = flight ? 'direct' : 'none';
@@ -352,6 +358,16 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       else if (segment) frame = requestAnimationFrame(tick);
     }
 
+    // Animate only the duct, using the original camera and card layout.
+    function ductTick(now:number){
+      ductFrame=0;
+      if(disposed||document.hidden||reduced()||desired!=='air'){ductLast=0;return}
+      if(ductLast&&material==='air'&&progress>=.95&&!flight)ductAge+=Math.min((now-ductLast)/1000,.1);
+      ductLast=now;
+      if(!frame&&now-ductPaint>45){draw();ductPaint=now}
+      ductFrame=requestAnimationFrame(ductTick);
+    }
+    function wakeDuct(){if(loaded&&!ductFrame&&!document.hidden&&!reduced()&&desired==='air'){ductLast=0;ductFrame=requestAnimationFrame(ductTick)}}
     function request(next: Material | null) {
       if (disposed) return;
       // Capture the rendered camera before changing destinations, including an interrupted flight.
@@ -360,6 +376,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
       const from=livePose;
       const direct=!!flight || (material!==null && next!==null && material!==next);
       desired = next;
+      wakeDuct();
       requestSerial += 1;
       lastFrameTime = 0;
       frameIntervals = [];
@@ -396,6 +413,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     const observer = new ResizeObserver(resize);
     observer.observe(canvas.parentElement ?? canvas);
     window.addEventListener('resize', resize);
+    const ductVisibility=()=>{if(document.hidden){cancelAnimationFrame(ductFrame);ductFrame=0;ductLast=0}else wakeDuct()};
+    document.addEventListener('visibilitychange',ductVisibility);
     const motionChange = () => request(desired);
     motionQuery.addEventListener('change', motionChange);
     const motionObserver = new MutationObserver(motionChange);
@@ -405,7 +424,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     });
     resize();
 
-    void Promise.allSettled(FILES.map(async ([key, src, edge]) => {
+    void Promise.allSettled([...FILES.map(async ([key, src, edge]) => {
       const image = await loadImage(src);
       if (disposed) return;
       let source: Asset = image;
@@ -424,11 +443,12 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
         } catch { /* Keep the decoded image fallback on unsupported browsers. */ }
       }
       assets[key] = source;
-    })).then(results => {
+    }),duct.ready]).then(results => {
       if (disposed) return;
       if (results.some(result => result.status === 'rejected')) reportError();
       if (!assets.room) return;
       loaded = true;
+      wakeDuct();
       resize();
       canvas.style.visibility = 'visible';
       callbacks.current.onReady();
@@ -438,6 +458,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     return () => {
       disposed = true;
       if (frame) cancelAnimationFrame(frame);
+      cancelAnimationFrame(ductFrame);duct.dispose();
+      document.removeEventListener('visibilitychange',ductVisibility);
       segment = null;
       requestRef.current = null;
       observer.disconnect();
