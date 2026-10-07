@@ -128,7 +128,8 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     }
     const ctx = context;
     const duct=createDuctMotion(ctx);
-    let ductFrame=0,ductAge=0,ductLast=0,ductPaint=0;
+    // Begin with established contamination so it is visible as the duct is revealed.
+    let ductFrame=0,ductAge=6,ductLast=0,ductPaint=0;
     const assets: Assets = {};
     const surfaces: Surface[] = [];
     const bitmaps: ImageBitmap[] = [];
@@ -362,7 +363,7 @@ export default function PhotographicCamera({ active, onReady, onSettled, onError
     function ductTick(now:number){
       ductFrame=0;
       if(disposed||document.hidden||reduced()||desired!=='air'){ductLast=0;return}
-      if(ductLast&&material==='air'&&progress>=.95&&!flight)ductAge+=Math.min((now-ductLast)/1000,.1);
+      if(ductLast&&material==='air')ductAge+=Math.min((now-ductLast)/1000,.1);
       ductLast=now;
       if(!frame&&now-ductPaint>45){draw();ductPaint=now}
       ductFrame=requestAnimationFrame(ductTick);
