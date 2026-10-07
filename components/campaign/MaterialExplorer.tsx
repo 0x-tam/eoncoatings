@@ -64,7 +64,7 @@ export default function MaterialExplorer(){
    <div className="eon-explorer-copy">
     <div className="eon-explorer-intro" hidden={!!active}>
      <p className="eon-explorer-eyebrow">Eon Coatings / Abu Dhabi, UAE</p>
-     <h1>Cleaner air.<br/>Fresher fabrics.<br/>Protected surfaces.</h1>
+     <h1><span>Cleaner air.</span><span>Fresher fabrics.</span><span>Protected surfaces.</span></h1>
      <p className="eon-explorer-description">AC cleaning, fabric care and protective coatings for villas, homes and workplaces.</p>
      <Link className="eon-explorer-cta" href="/service-finder/">Find my service <span aria-hidden="true">›</span></Link>
     </div>
