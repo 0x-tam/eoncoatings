@@ -14,7 +14,6 @@ export const materialTraces:Record<'stone'|'fabric'|'air',Trace[]> = {
  air:[
   {title:'Moisture & mold',point:[.16,.27],copy:'Damp ducts can encourage mold and bacteria. We check the condition before recommending treatment.',service:'Explore AC sanitisation',slug:'ac-duct-mold-resistant-coating'},
   {title:'Dust & debris',point:[.33,.64],copy:'Dust builds up deep inside the ducts. Professional cleaning reaches beyond the grille.',service:'AC duct cleaning & care',slug:'ac-duct-mold-resistant-coating'},
-  {title:'Fine dust & allergens',point:[.72,.32],copy:'Fine dust can carry allergens through the system. Duct cleaning removes accumulated dirt at its source.',service:'Explore AC care',slug:'ac-duct-mold-resistant-coating'},
-  {title:'Mold-resistant coating',point:[.77,.64],copy:'After cleaning, suitable ducts can receive a coating that helps resist mold growth.',service:'Mold-resistant duct coating',slug:'ac-duct-mold-resistant-coating'}
+  {title:'Fine dust & allergens',point:[.72,.32],copy:'Fine dust can carry allergens through the system. Duct cleaning removes accumulated dirt at its source.',service:'Explore AC care',slug:'ac-duct-mold-resistant-coating'}
  ]
 };
