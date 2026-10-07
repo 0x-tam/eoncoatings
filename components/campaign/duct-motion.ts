@@ -35,10 +35,10 @@ function motes(time:number,count:number,spanX:number,spanY:number){
   }ctx.restore();
  }
 }
-function moisture(time:number){
+function moisture(time:number,buildAge:number){
  // Condensation stays registered to the solid near wall, with slow gravity-driven drips.
  ctx.save();ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(455,0);ctx.lineTo(455,705);ctx.lineTo(0,1024);ctx.closePath();ctx.clip();
- const reveal=smooth(time/3.5);
+ const reveal=smooth(buildAge/3.5);
  for(let i=0;i<38;i++){
   const baseX=42+rand(i+1300)*370,baseY=80+rand(i+1400)*630;
   const drift=Math.max(0,time-2.5),period=16+rand(i+1500)*18,phase=fract(drift/period+rand(i+1600));
@@ -54,11 +54,11 @@ function moisture(time:number){
  }
  ctx.restore();
 }
-function animateDuct(time:number,left:number,top:number,w:number,h:number){
+function animateDuct(time:number,left:number,top:number,w:number,h:number,buildAge:number){
  if(!fxImages.mold)return;
  ctx.save();ctx.translate(left,top);ctx.scale(w/1536,h/1024);
- moisture(time);
- const growth=growingTexture(fxImages.mold,Math.min(time,6));
+ moisture(time,buildAge);
+ const growth=growingTexture(fxImages.mold,Math.min(buildAge,6));
  // Clip all growth to identified solid metal planes, excluding the open right branch.
  ctx.save();ctx.beginPath();
  const planes=[[[0,0],[455,0],[455,705],[0,1024]],[[455,670],[1460,665],[1536,1024],[0,1024]],[[520,215],[850,215],[850,480],[520,480]],[[900,210],[1010,265],[1010,555],[900,605]]];
