@@ -206,3 +206,6 @@
  0%,100%{box-shadow:0 4px 15px color-mix(in srgb,var(--hotspot) 45%,transparent),0 0 0 2px color-mix(in srgb,var(--hotspot) 20%,transparent),inset 0 1px 1px #ffffff80}
  50%{box-shadow:0 4px 22px color-mix(in srgb,var(--hotspot) 70%,transparent),0 0 0 5px color-mix(in srgb,var(--hotspot) 30%,transparent),inset 0 1px 1px #ffffff80}
 }
+@media(prefers-reduced-motion:reduce){
+ .eon-explorer-hotspots button::before{animation:none!important}
+}
